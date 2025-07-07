@@ -14,36 +14,33 @@ from model_forest import HybridProjectSuccessModel
 app = Flask(__name__)
 app.secret_key = 'unified_api_secret_key_2024'
 
-# Modelo global
 model = None
 users_df = None
 
 def load_models():
     global model, users_df
     try:
-        # Modelo híbrido
         model = HybridProjectSuccessModel()
         model_path = os.path.join('..', '..', 'ML', 'ml_model', 'trained_model.joblib')
         if os.path.exists(model_path):
             model.model = joblib.load(model_path)
             model.is_trained = True
-            print("✅ Modelo híbrido carregado")
+            print("Modelo carregado")
         else:
-            print(f"❌ Modelo não encontrado: {model_path}")
+            print(f"Modelo não encontrado: {model_path}")
             return False
         
-        # Dados de usuários
         users_path = os.path.join('..', '..', 'ML', 'datas', 'usuarios_dataset.csv')
         if os.path.exists(users_path):
             users_df = pd.read_csv(users_path)
-            print(f"✅ Dados de usuários carregados: {len(users_df)} usuários")
+            print(f"Usuários carregados: {len(users_df)}")
         else:
-            print(f"❌ Dados de usuários não encontrados: {users_path}")
+            print(f"Dados não encontrados: {users_path}")
             return False
         
         return True
     except Exception as e:
-        print(f"❌ Erro ao carregar modelos: {e}")
+        print(f"Erro ao carregar: {e}")
         return False
 
 @app.route('/', methods=['GET'])
@@ -52,30 +49,29 @@ def home():
         'message': 'API de Predição de Projetos',
         'status': 'ativa',
         'endpoints': {
-            '/predict': 'Predição básica de projeto',
-            '/predict-with-user': 'Predição com usuário específico',
+            '/predict': 'Predição básica',
+            '/predict-with-user': 'Predição personalizada',
             '/users': 'Listar usuários',
-            '/users/cargo/<cargo>': 'Usuários por cargo',
-            '/recommend': 'Recomendar usuários para projeto'
+            '/users/cargo/<cargo>': 'Por cargo',
+            '/recommend': 'Recomendações'
         },
-        'modelo_carregado': model is not None and model.is_trained
+        'modelo_ok': model is not None and model.is_trained
     })
 
-# Endpoint básico (mantém compatibilidade)
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        if model is None or not model.is_trained:
+        if not model or not model.is_trained:
             return jsonify({'erro': 'Modelo não carregado'}), 500
         
         data = request.get_json()
         if not data:
             return jsonify({'erro': 'Dados não fornecidos'}), 400
         
-        required_fields = ['duracao', 'orcamento', 'equipe', 'recursos', 'cargo']
-        missing = [f for f in required_fields if f not in data]
+        required = ['duracao', 'orcamento', 'equipe', 'recursos', 'cargo']
+        missing = [f for f in required if f not in data]
         if missing:
-            return jsonify({'erro': f'Campos obrigatórios: {missing}'}), 400
+            return jsonify({'erro': f'Faltando: {missing}'}), 400
         
         project_data = {
             'Duracao_meses': float(data['duracao']),
@@ -88,8 +84,8 @@ def predict():
         
         if 'error' not in result:
             return jsonify({
-                'tipo': 'predicao_basica',
-                'probabilidade_sucesso': f"{result['success_probability']}%",
+                'tipo': 'basica',
+                'probabilidade': f"{result['success_probability']}%",
                 'predicao': result['prediction'],
                 'confianca': result['confidence_level']
             })
@@ -99,21 +95,19 @@ def predict():
     except Exception as e:
         return jsonify({'erro': str(e)}), 500
 
-# Endpoint com usuário específico
 @app.route('/predict-with-user', methods=['POST'])
 def predict_with_user():
     try:
-        if model is None or not model.is_trained:
+        if not model or not model.is_trained:
             return jsonify({'erro': 'Modelo não carregado'}), 500
         
         data = request.get_json()
-        required_fields = ['duracao', 'orcamento', 'tamanho_equipe', 'recursos', 'user_id']
+        required = ['duracao', 'orcamento', 'tamanho_equipe', 'recursos', 'user_id']
         
-        for field in required_fields:
+        for field in required:
             if field not in data:
-                return jsonify({'erro': f'Campo obrigatório ausente: {field}'}), 400
+                return jsonify({'erro': f'Faltando: {field}'}), 400
         
-        # Buscar usuário
         user = users_df[users_df['Usuario_ID'] == data['user_id']]
         if user.empty:
             return jsonify({'erro': f'Usuário {data["user_id"]} não encontrado'}), 404
@@ -131,30 +125,24 @@ def predict_with_user():
         
         if 'error' not in result:
             return jsonify({
-                'tipo': 'predicao_personalizada',
-                'sucesso': True,
+                'tipo': 'personalizada',
+                'ok': True,
                 'usuario': {
                     'id': user_data['Usuario_ID'],
                     'nome': user_data['Nome'],
                     'cargo': user_data['Cargo']
                 },
                 'resultado': {
-                    'probabilidade_sucesso': result['success_probability'],
+                    'probabilidade': result['success_probability'],
                     'predicao': result['prediction'],
                     'confianca': result['confidence_level']
                 }
             })
         else:
-            return jsonify({
-                'sucesso': False,
-                'erro': result['error']
-            }), 500
+            return jsonify({'ok': False, 'erro': result['error']}), 500
             
     except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': f'Erro interno: {str(e)}'
-        }), 500
+        return jsonify({'ok': False, 'erro': str(e)}), 500
 
 @app.route('/users', methods=['GET'])
 def get_users():
@@ -162,20 +150,14 @@ def get_users():
         if users_df is not None:
             users = users_df.to_dict('records')
             return jsonify({
-                'sucesso': True,
+                'ok': True,
                 'total': len(users),
                 'usuarios': users
             })
         else:
-            return jsonify({
-                'sucesso': False,
-                'erro': 'Base de usuários não disponível'
-            }), 500
+            return jsonify({'ok': False, 'erro': 'Dados não disponíveis'}), 500
     except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': str(e)
-        }), 500
+        return jsonify({'ok': False, 'erro': str(e)}), 500
 
 @app.route('/users/cargo/<cargo>', methods=['GET'])
 def get_users_by_cargo(cargo):
@@ -183,26 +165,20 @@ def get_users_by_cargo(cargo):
         if users_df is not None:
             users = users_df[users_df['Cargo'] == cargo]
             return jsonify({
-                'sucesso': True,
+                'ok': True,
                 'cargo': cargo,
                 'total': len(users),
                 'usuarios': users.to_dict('records')
             })
         else:
-            return jsonify({
-                'sucesso': False,
-                'erro': 'Base de usuários não disponível'
-            }), 500
+            return jsonify({'ok': False, 'erro': 'Dados não disponíveis'}), 500
     except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': str(e)
-        }), 500
+        return jsonify({'ok': False, 'erro': str(e)}), 500
 
 @app.route('/recommend', methods=['POST'])
 def recommend_users():
     try:
-        if model is None or not model.is_trained:
+        if not model or not model.is_trained:
             return jsonify({'erro': 'Modelo não carregado'}), 500
             
         data = request.get_json()
@@ -214,56 +190,44 @@ def recommend_users():
             'RecursosDisponiveis': data['recursos'].lower()
         }
         
-        recommendations = []
+        recs = []
         
         for _, user in users_df.iterrows():
             result = model.predict_single_project(project_data, user['Cargo'])
             
             if 'error' not in result:
-                recommendations.append({
-                    'usuario_id': user['Usuario_ID'],
+                recs.append({
+                    'id': user['Usuario_ID'],
                     'nome': user['Nome'],
                     'cargo': user['Cargo'],
-                    'experiencia': user['Experiencia(anos)'],
-                    'sucesso_historico': user['Sucesso_Medio(percentual)'],
-                    'probabilidade_sucesso_projeto': result['success_probability']
+                    'exp': user['Experiencia(anos)'],
+                    'sucesso_hist': user['Sucesso_Medio(percentual)'],
+                    'prob_projeto': result['success_probability']
                 })
         
-        recommendations.sort(key=lambda x: x['probabilidade_sucesso_projeto'], reverse=True)
+        recs.sort(key=lambda x: x['prob_projeto'], reverse=True)
         
         top_n = data.get('top_n', 10)
         return jsonify({
-            'sucesso': True,
-            'total_recomendacoes': len(recommendations),
-            'recomendacoes': recommendations[:top_n]
+            'ok': True,
+            'total': len(recs),
+            'recomendacoes': recs[:top_n]
         })
         
     except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': str(e)
-        }), 500
+        return jsonify({'ok': False, 'erro': str(e)}), 500
 
 @app.route('/health', methods=['GET'])
 def health():
     return jsonify({
         'status': 'ok',
-        'modelo_carregado': model is not None and model.is_trained,
-        'usuarios_carregados': users_df is not None,
-        'total_usuarios': len(users_df) if users_df is not None else 0
+        'modelo': model is not None and model.is_trained,
+        'usuarios': users_df is not None
     })
 
 if __name__ == '__main__':
     if load_models():
-        print("🚀 Iniciando API Unificada (porta 5000)")
-        print("📊 Endpoints disponíveis:")
-        print("   - GET  /              : Informações da API")
-        print("   - POST /predict       : Predição básica")
-        print("   - POST /predict-with-user : Predição personalizada")
-        print("   - GET  /users         : Listar usuários")
-        print("   - GET  /users/cargo/<cargo> : Usuários por cargo")
-        print("   - POST /recommend     : Recomendar usuários")
-        print("   - GET  /health        : Status da API")
+        print("API iniciada na porta 5000")
         app.run(debug=True, host='0.0.0.0', port=5000)
     else:
-        print("❌ Erro: Não foi possível carregar os modelos")
+        print("Erro: não foi possível carregar os modelos")
