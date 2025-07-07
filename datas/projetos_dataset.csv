@@ -1,0 +1,1001 @@
+projeto_id,nome,duracao_meses,orcamento,tamanho_equipe,recursos_disponiveis,cargo_responsavel,sucesso
+PROJ_0001,Projeto 1,13.6,1527254.87,5,médio,Tech Lead,0
+PROJ_0002,Projeto 2,1.8,1399674.76,7,médio,Arquiteto de Software,1
+PROJ_0003,Projeto 3,9.5,783547.68,3,médio,Desenvolvedor Senior,1
+PROJ_0004,Projeto 4,12.4,1201906.18,2,médio,Desenvolvedor Senior,0
+PROJ_0005,Projeto 5,9.0,1164011.63,2,alto,Scrum Master,1
+PROJ_0006,Projeto 6,10.4,1859220.76,2,médio,Arquiteto de Software,1
+PROJ_0007,Projeto 7,10.4,809939.86,7,baixo,Arquiteto de Software,1
+PROJ_0008,Projeto 8,11.7,383430.59,2,alto,Tech Lead,1
+PROJ_0009,Projeto 9,5.3,1651401.73,5,baixo,Product Owner,1
+PROJ_0010,Projeto 10,3.7,1223992.9,6,médio,Gerente de Projetos,1
+PROJ_0011,Projeto 11,17.2,988778.98,5,baixo,Desenvolvedor Senior,0
+PROJ_0012,Projeto 12,9.2,1205238.86,6,médio,Tech Lead,1
+PROJ_0013,Projeto 13,10.0,1363564.13,5,médio,Desenvolvedor Senior,1
+PROJ_0014,Projeto 14,15.8,882800.57,4,baixo,Gerente de Projetos,0
+PROJ_0015,Projeto 15,15.9,822257.16,6,médio,Tech Lead,0
+PROJ_0016,Projeto 16,17.8,1170286.74,3,alto,Gerente de Projetos,1
+PROJ_0017,Projeto 17,6.5,1894061.49,8,alto,Arquiteto de Software,1
+PROJ_0018,Projeto 18,11.7,1671403.21,5,médio,Desenvolvedor Senior,1
+PROJ_0019,Projeto 19,12.4,857553.4,5,médio,Scrum Master,0
+PROJ_0020,Projeto 20,5.6,930527.06,2,alto,Product Owner,0
+PROJ_0021,Projeto 21,14.7,1422532.42,4,médio,Gerente de Projetos,0
+PROJ_0022,Projeto 22,17.9,1158037.34,6,médio,Arquiteto de Software,1
+PROJ_0023,Projeto 23,16.7,1644627.85,7,alto,Arquiteto de Software,1
+PROJ_0024,Projeto 24,15.3,1035942.83,2,baixo,Desenvolvedor Senior,0
+PROJ_0025,Projeto 25,2.5,1974468.12,6,alto,Tech Lead,1
+PROJ_0026,Projeto 26,1.8,945517.89,6,médio,Desenvolvedor Senior,1
+PROJ_0027,Projeto 27,4.5,1293486.44,3,médio,Desenvolvedor Senior,0
+PROJ_0028,Projeto 28,14.4,1795441.7,3,baixo,Desenvolvedor Senior,0
+PROJ_0029,Projeto 29,13.4,914311.68,2,médio,Tech Lead,1
+PROJ_0030,Projeto 30,9.6,1813696.43,2,médio,Product Owner,1
+PROJ_0031,Projeto 31,2.6,174436.43,2,baixo,Product Owner,1
+PROJ_0032,Projeto 32,5.0,1195177.01,2,baixo,Desenvolvedor Senior,1
+PROJ_0033,Projeto 33,11.6,732070.41,8,médio,Gerente de Projetos,0
+PROJ_0034,Projeto 34,13.6,1151731.96,8,médio,Scrum Master,1
+PROJ_0035,Projeto 35,6.5,1934955.83,5,baixo,Product Owner,1
+PROJ_0036,Projeto 36,1.5,1788458.24,8,baixo,Scrum Master,0
+PROJ_0037,Projeto 37,6.3,708197.49,2,alto,Tech Lead,1
+PROJ_0038,Projeto 38,9.4,1616424.36,5,baixo,Product Owner,1
+PROJ_0039,Projeto 39,3.0,1586479.48,6,médio,Arquiteto de Software,1
+PROJ_0040,Projeto 40,6.4,1799592.61,6,médio,Arquiteto de Software,1
+PROJ_0041,Projeto 41,17.4,358666.19,2,baixo,Desenvolvedor Senior,0
+PROJ_0042,Projeto 42,7.5,1501474.26,6,médio,Scrum Master,1
+PROJ_0043,Projeto 43,11.5,1950319.41,3,alto,Desenvolvedor Senior,1
+PROJ_0044,Projeto 44,4.6,1128693.48,8,médio,Desenvolvedor Senior,1
+PROJ_0045,Projeto 45,6.2,1111046.1,4,médio,Tech Lead,1
+PROJ_0046,Projeto 46,3.5,965132.31,3,médio,Product Owner,1
+PROJ_0047,Projeto 47,10.7,1515403.38,3,baixo,Product Owner,0
+PROJ_0048,Projeto 48,13.5,1911530.99,8,médio,Arquiteto de Software,1
+PROJ_0049,Projeto 49,7.9,1704801.7,4,médio,Arquiteto de Software,1
+PROJ_0050,Projeto 50,3.9,1285065.18,5,baixo,Desenvolvedor Senior,0
+PROJ_0051,Projeto 51,13.7,444125.42,2,médio,Arquiteto de Software,0
+PROJ_0052,Projeto 52,3.1,1001667.15,7,médio,Tech Lead,1
+PROJ_0053,Projeto 53,11.1,925094.13,8,baixo,Desenvolvedor Senior,1
+PROJ_0054,Projeto 54,10.2,293713.35,6,médio,Tech Lead,0
+PROJ_0055,Projeto 55,9.2,941742.95,5,médio,Arquiteto de Software,1
+PROJ_0056,Projeto 56,4.1,519071.0,6,alto,Arquiteto de Software,1
+PROJ_0057,Projeto 57,16.3,1565644.87,3,baixo,Product Owner,0
+PROJ_0058,Projeto 58,7.7,407673.87,4,médio,Product Owner,1
+PROJ_0059,Projeto 59,3.4,1993085.54,5,alto,Desenvolvedor Senior,1
+PROJ_0060,Projeto 60,8.6,398835.85,2,baixo,Scrum Master,0
+PROJ_0061,Projeto 61,6.9,412038.6,8,baixo,Gerente de Projetos,1
+PROJ_0062,Projeto 62,1.9,1622519.85,8,médio,Product Owner,1
+PROJ_0063,Projeto 63,8.3,587669.23,8,médio,Arquiteto de Software,0
+PROJ_0064,Projeto 64,1.6,568092.19,5,baixo,Desenvolvedor Senior,1
+PROJ_0065,Projeto 65,4.6,704317.26,8,médio,Desenvolvedor Senior,1
+PROJ_0066,Projeto 66,3.2,261439.97,5,médio,Tech Lead,1
+PROJ_0067,Projeto 67,4.0,1084513.99,2,baixo,Desenvolvedor Senior,0
+PROJ_0068,Projeto 68,15.3,1525447.23,6,alto,Desenvolvedor Senior,1
+PROJ_0069,Projeto 69,12.9,427872.75,6,alto,Arquiteto de Software,1
+PROJ_0070,Projeto 70,9.1,923344.86,4,médio,Desenvolvedor Senior,1
+PROJ_0071,Projeto 71,8.4,1741735.46,4,alto,Scrum Master,0
+PROJ_0072,Projeto 72,3.8,106415.17,2,médio,Scrum Master,1
+PROJ_0073,Projeto 73,2.8,243831.02,5,alto,Tech Lead,1
+PROJ_0074,Projeto 74,17.1,843752.22,8,alto,Desenvolvedor Senior,1
+PROJ_0075,Projeto 75,15.1,1257325.42,6,médio,Product Owner,0
+PROJ_0076,Projeto 76,10.7,1361035.44,5,alto,Tech Lead,1
+PROJ_0077,Projeto 77,16.6,1486468.19,6,alto,Product Owner,1
+PROJ_0078,Projeto 78,12.2,1748060.64,4,médio,Product Owner,1
+PROJ_0079,Projeto 79,5.9,572602.37,5,médio,Gerente de Projetos,1
+PROJ_0080,Projeto 80,12.4,1161028.87,4,baixo,Arquiteto de Software,1
+PROJ_0081,Projeto 81,9.2,855387.18,6,alto,Gerente de Projetos,1
+PROJ_0082,Projeto 82,17.0,506669.45,2,médio,Gerente de Projetos,1
+PROJ_0083,Projeto 83,10.0,1026762.88,2,alto,Tech Lead,1
+PROJ_0084,Projeto 84,4.3,110208.85,3,médio,Arquiteto de Software,1
+PROJ_0085,Projeto 85,16.0,672465.42,4,alto,Gerente de Projetos,1
+PROJ_0086,Projeto 86,16.0,401772.94,6,alto,Desenvolvedor Senior,1
+PROJ_0087,Projeto 87,8.5,456266.31,4,médio,Product Owner,1
+PROJ_0088,Projeto 88,13.5,1295705.51,6,médio,Scrum Master,1
+PROJ_0089,Projeto 89,1.8,289320.22,2,médio,Scrum Master,1
+PROJ_0090,Projeto 90,1.8,1772962.67,6,médio,Product Owner,1
+PROJ_0091,Projeto 91,5.8,1040259.43,7,baixo,Desenvolvedor Senior,0
+PROJ_0092,Projeto 92,10.7,1700633.27,5,alto,Tech Lead,1
+PROJ_0093,Projeto 93,5.4,312544.33,2,baixo,Desenvolvedor Senior,1
+PROJ_0094,Projeto 94,6.9,174863.63,4,baixo,Desenvolvedor Senior,1
+PROJ_0095,Projeto 95,1.9,1882099.72,4,médio,Desenvolvedor Senior,1
+PROJ_0096,Projeto 96,7.9,1274770.64,8,alto,Desenvolvedor Senior,1
+PROJ_0097,Projeto 97,14.6,515934.36,8,alto,Scrum Master,0
+PROJ_0098,Projeto 98,5.2,1364932.13,4,médio,Arquiteto de Software,1
+PROJ_0099,Projeto 99,10.3,1715498.86,8,alto,Desenvolvedor Senior,1
+PROJ_0100,Projeto 100,4.1,1757145.75,8,alto,Arquiteto de Software,1
+PROJ_0101,Projeto 101,1.1,991003.29,6,médio,Scrum Master,1
+PROJ_0102,Projeto 102,2.4,178787.66,2,alto,Desenvolvedor Senior,1
+PROJ_0103,Projeto 103,6.5,1001156.43,8,médio,Arquiteto de Software,0
+PROJ_0104,Projeto 104,2.0,1983601.05,7,baixo,Product Owner,1
+PROJ_0105,Projeto 105,10.5,1636755.2,3,alto,Gerente de Projetos,1
+PROJ_0106,Projeto 106,2.8,279704.3,2,médio,Scrum Master,1
+PROJ_0107,Projeto 107,12.7,1959024.97,2,alto,Gerente de Projetos,1
+PROJ_0108,Projeto 108,10.9,723840.72,2,baixo,Scrum Master,0
+PROJ_0109,Projeto 109,10.1,310278.29,7,médio,Tech Lead,0
+PROJ_0110,Projeto 110,17.5,502003.77,5,baixo,Tech Lead,1
+PROJ_0111,Projeto 111,16.5,1566419.82,6,médio,Desenvolvedor Senior,1
+PROJ_0112,Projeto 112,15.7,1979165.21,8,médio,Arquiteto de Software,1
+PROJ_0113,Projeto 113,16.0,851616.6,2,baixo,Product Owner,0
+PROJ_0114,Projeto 114,1.1,1005935.98,3,alto,Scrum Master,1
+PROJ_0115,Projeto 115,15.2,1875490.79,7,médio,Gerente de Projetos,1
+PROJ_0116,Projeto 116,15.9,1333111.6,6,médio,Product Owner,1
+PROJ_0117,Projeto 117,15.0,1513949.24,8,médio,Product Owner,0
+PROJ_0118,Projeto 118,12.8,633907.67,5,baixo,Gerente de Projetos,0
+PROJ_0119,Projeto 119,6.8,1750312.47,6,médio,Scrum Master,1
+PROJ_0120,Projeto 120,16.7,502350.31,4,alto,Tech Lead,1
+PROJ_0121,Projeto 121,15.1,608638.97,4,médio,Arquiteto de Software,0
+PROJ_0122,Projeto 122,13.9,1079385.02,3,médio,Product Owner,1
+PROJ_0123,Projeto 123,2.2,1314778.35,3,alto,Arquiteto de Software,0
+PROJ_0124,Projeto 124,17.2,465329.51,5,alto,Product Owner,0
+PROJ_0125,Projeto 125,16.9,338700.75,8,médio,Desenvolvedor Senior,0
+PROJ_0126,Projeto 126,17.5,400718.97,8,médio,Product Owner,0
+PROJ_0127,Projeto 127,15.1,428911.41,5,médio,Scrum Master,1
+PROJ_0128,Projeto 128,13.5,1535729.57,7,baixo,Product Owner,0
+PROJ_0129,Projeto 129,16.4,528592.67,6,médio,Arquiteto de Software,0
+PROJ_0130,Projeto 130,8.5,1595271.84,3,alto,Arquiteto de Software,1
+PROJ_0131,Projeto 131,8.7,1115838.19,3,médio,Desenvolvedor Senior,1
+PROJ_0132,Projeto 132,7.6,179907.52,6,baixo,Product Owner,0
+PROJ_0133,Projeto 133,16.3,952554.0,3,baixo,Tech Lead,0
+PROJ_0134,Projeto 134,11.5,1981692.96,5,médio,Product Owner,1
+PROJ_0135,Projeto 135,6.1,381791.9,7,médio,Tech Lead,1
+PROJ_0136,Projeto 136,13.1,1405802.09,3,baixo,Product Owner,0
+PROJ_0137,Projeto 137,10.2,635930.62,2,médio,Tech Lead,1
+PROJ_0138,Projeto 138,13.7,945005.85,6,baixo,Desenvolvedor Senior,0
+PROJ_0139,Projeto 139,14.9,1540144.31,4,baixo,Gerente de Projetos,1
+PROJ_0140,Projeto 140,10.1,1591781.7,3,médio,Desenvolvedor Senior,1
+PROJ_0141,Projeto 141,15.8,1044140.68,2,baixo,Tech Lead,0
+PROJ_0142,Projeto 142,3.1,606215.74,5,alto,Scrum Master,1
+PROJ_0143,Projeto 143,2.3,739858.48,2,médio,Arquiteto de Software,1
+PROJ_0144,Projeto 144,10.3,1519572.34,2,alto,Gerente de Projetos,0
+PROJ_0145,Projeto 145,4.5,1698831.05,2,alto,Scrum Master,1
+PROJ_0146,Projeto 146,17.6,1440011.7,2,alto,Scrum Master,0
+PROJ_0147,Projeto 147,10.1,1445471.27,4,alto,Arquiteto de Software,1
+PROJ_0148,Projeto 148,12.1,1981944.31,3,médio,Tech Lead,1
+PROJ_0149,Projeto 149,4.2,573429.24,8,médio,Scrum Master,1
+PROJ_0150,Projeto 150,7.2,1145423.45,4,médio,Gerente de Projetos,1
+PROJ_0151,Projeto 151,17.0,393292.01,8,alto,Desenvolvedor Senior,1
+PROJ_0152,Projeto 152,9.3,1648242.58,2,baixo,Desenvolvedor Senior,0
+PROJ_0153,Projeto 153,4.2,1404933.15,7,baixo,Tech Lead,1
+PROJ_0154,Projeto 154,17.4,1032001.69,5,alto,Gerente de Projetos,1
+PROJ_0155,Projeto 155,9.5,185336.41,8,baixo,Tech Lead,0
+PROJ_0156,Projeto 156,11.4,701067.22,4,médio,Tech Lead,1
+PROJ_0157,Projeto 157,16.1,413826.12,2,baixo,Tech Lead,0
+PROJ_0158,Projeto 158,15.8,1005733.13,3,baixo,Tech Lead,1
+PROJ_0159,Projeto 159,13.5,717395.86,2,alto,Tech Lead,1
+PROJ_0160,Projeto 160,4.8,936884.32,3,alto,Arquiteto de Software,1
+PROJ_0161,Projeto 161,5.8,1160816.67,7,médio,Desenvolvedor Senior,1
+PROJ_0162,Projeto 162,10.3,723742.95,4,alto,Desenvolvedor Senior,1
+PROJ_0163,Projeto 163,9.4,1159073.82,4,baixo,Tech Lead,0
+PROJ_0164,Projeto 164,16.6,614310.49,2,alto,Scrum Master,0
+PROJ_0165,Projeto 165,6.5,1454444.82,2,alto,Product Owner,1
+PROJ_0166,Projeto 166,3.7,389704.39,2,baixo,Product Owner,0
+PROJ_0167,Projeto 167,17.1,1244851.43,6,médio,Gerente de Projetos,1
+PROJ_0168,Projeto 168,13.4,1754344.41,2,baixo,Gerente de Projetos,0
+PROJ_0169,Projeto 169,4.5,1234376.92,4,baixo,Desenvolvedor Senior,0
+PROJ_0170,Projeto 170,17.2,180306.15,6,médio,Product Owner,0
+PROJ_0171,Projeto 171,11.1,1340810.44,2,baixo,Gerente de Projetos,0
+PROJ_0172,Projeto 172,1.8,192214.48,6,médio,Arquiteto de Software,1
+PROJ_0173,Projeto 173,8.5,1853189.44,7,alto,Gerente de Projetos,1
+PROJ_0174,Projeto 174,15.1,1918521.21,8,médio,Gerente de Projetos,0
+PROJ_0175,Projeto 175,15.3,412858.18,5,alto,Scrum Master,1
+PROJ_0176,Projeto 176,6.7,1134110.8,4,alto,Gerente de Projetos,1
+PROJ_0177,Projeto 177,9.5,1995500.09,5,médio,Scrum Master,1
+PROJ_0178,Projeto 178,3.2,258659.52,6,baixo,Desenvolvedor Senior,0
+PROJ_0179,Projeto 179,17.8,55887.17,3,baixo,Product Owner,1
+PROJ_0180,Projeto 180,15.2,1902292.41,4,médio,Tech Lead,0
+PROJ_0181,Projeto 181,8.7,1916104.41,6,médio,Product Owner,1
+PROJ_0182,Projeto 182,16.5,491947.6,8,alto,Scrum Master,1
+PROJ_0183,Projeto 183,2.4,1247168.21,3,médio,Gerente de Projetos,1
+PROJ_0184,Projeto 184,9.6,1756559.46,5,médio,Gerente de Projetos,1
+PROJ_0185,Projeto 185,5.0,82705.29,5,médio,Scrum Master,1
+PROJ_0186,Projeto 186,13.2,1452818.94,4,alto,Tech Lead,0
+PROJ_0187,Projeto 187,3.1,480826.86,7,baixo,Arquiteto de Software,0
+PROJ_0188,Projeto 188,16.4,183706.52,5,baixo,Arquiteto de Software,0
+PROJ_0189,Projeto 189,14.0,256902.65,4,alto,Tech Lead,0
+PROJ_0190,Projeto 190,15.4,1151465.25,6,baixo,Tech Lead,0
+PROJ_0191,Projeto 191,2.4,1621652.8,2,alto,Desenvolvedor Senior,1
+PROJ_0192,Projeto 192,15.8,1805428.36,5,médio,Scrum Master,0
+PROJ_0193,Projeto 193,5.5,657558.15,2,alto,Arquiteto de Software,1
+PROJ_0194,Projeto 194,14.4,1627760.7,6,alto,Tech Lead,0
+PROJ_0195,Projeto 195,17.6,609139.34,2,baixo,Scrum Master,0
+PROJ_0196,Projeto 196,4.0,1953606.94,7,médio,Product Owner,1
+PROJ_0197,Projeto 197,10.3,636189.27,7,baixo,Arquiteto de Software,0
+PROJ_0198,Projeto 198,15.2,789664.38,5,alto,Arquiteto de Software,1
+PROJ_0199,Projeto 199,3.1,924442.27,7,alto,Tech Lead,1
+PROJ_0200,Projeto 200,5.0,1025974.98,5,baixo,Product Owner,1
+PROJ_0201,Projeto 201,3.7,537179.89,2,alto,Tech Lead,0
+PROJ_0202,Projeto 202,17.3,987137.29,3,médio,Scrum Master,0
+PROJ_0203,Projeto 203,14.8,1277704.7,6,baixo,Tech Lead,1
+PROJ_0204,Projeto 204,7.2,724076.4,8,alto,Gerente de Projetos,1
+PROJ_0205,Projeto 205,8.5,167730.8,8,alto,Tech Lead,1
+PROJ_0206,Projeto 206,12.6,1155972.12,7,médio,Tech Lead,1
+PROJ_0207,Projeto 207,16.5,636930.94,5,baixo,Desenvolvedor Senior,0
+PROJ_0208,Projeto 208,5.4,1721232.01,5,médio,Scrum Master,1
+PROJ_0209,Projeto 209,6.5,1026412.83,3,médio,Gerente de Projetos,0
+PROJ_0210,Projeto 210,4.6,286949.13,5,alto,Gerente de Projetos,1
+PROJ_0211,Projeto 211,10.2,835521.35,2,médio,Scrum Master,0
+PROJ_0212,Projeto 212,9.3,1393394.78,7,alto,Desenvolvedor Senior,1
+PROJ_0213,Projeto 213,9.6,432874.8,2,alto,Arquiteto de Software,0
+PROJ_0214,Projeto 214,12.1,1100374.93,8,médio,Gerente de Projetos,1
+PROJ_0215,Projeto 215,13.6,108296.95,5,médio,Scrum Master,0
+PROJ_0216,Projeto 216,6.4,1348170.33,6,médio,Tech Lead,1
+PROJ_0217,Projeto 217,2.3,869740.21,5,baixo,Tech Lead,1
+PROJ_0218,Projeto 218,3.4,1346355.66,7,baixo,Tech Lead,0
+PROJ_0219,Projeto 219,9.0,1376933.05,7,baixo,Desenvolvedor Senior,0
+PROJ_0220,Projeto 220,13.4,447921.93,2,baixo,Desenvolvedor Senior,0
+PROJ_0221,Projeto 221,16.4,1826432.76,8,médio,Desenvolvedor Senior,1
+PROJ_0222,Projeto 222,17.3,762447.33,5,médio,Gerente de Projetos,1
+PROJ_0223,Projeto 223,3.7,1929109.66,7,médio,Gerente de Projetos,1
+PROJ_0224,Projeto 224,6.8,386862.25,2,alto,Product Owner,1
+PROJ_0225,Projeto 225,7.3,1829876.68,7,alto,Gerente de Projetos,1
+PROJ_0226,Projeto 226,16.1,643362.17,3,baixo,Arquiteto de Software,0
+PROJ_0227,Projeto 227,8.0,1349260.75,8,baixo,Product Owner,1
+PROJ_0228,Projeto 228,5.2,146769.06,6,alto,Arquiteto de Software,1
+PROJ_0229,Projeto 229,13.4,584954.86,6,alto,Tech Lead,1
+PROJ_0230,Projeto 230,7.6,181614.15,8,médio,Scrum Master,1
+PROJ_0231,Projeto 231,8.4,1880756.53,7,médio,Arquiteto de Software,1
+PROJ_0232,Projeto 232,6.1,1910043.98,2,baixo,Product Owner,0
+PROJ_0233,Projeto 233,3.4,1472994.27,2,alto,Tech Lead,1
+PROJ_0234,Projeto 234,8.8,981873.35,8,médio,Tech Lead,1
+PROJ_0235,Projeto 235,5.3,400599.84,6,baixo,Arquiteto de Software,0
+PROJ_0236,Projeto 236,10.2,1205898.67,4,médio,Product Owner,1
+PROJ_0237,Projeto 237,18.0,1878967.59,4,médio,Tech Lead,0
+PROJ_0238,Projeto 238,14.7,416719.99,8,baixo,Scrum Master,0
+PROJ_0239,Projeto 239,15.7,1516034.84,7,baixo,Tech Lead,0
+PROJ_0240,Projeto 240,8.4,787228.33,3,médio,Arquiteto de Software,1
+PROJ_0241,Projeto 241,1.7,1809853.42,2,médio,Arquiteto de Software,0
+PROJ_0242,Projeto 242,11.0,383175.98,7,alto,Gerente de Projetos,1
+PROJ_0243,Projeto 243,15.6,744288.87,2,médio,Tech Lead,0
+PROJ_0244,Projeto 244,5.0,681152.85,4,baixo,Product Owner,0
+PROJ_0245,Projeto 245,3.5,1638701.19,5,médio,Product Owner,1
+PROJ_0246,Projeto 246,1.2,434940.29,5,alto,Desenvolvedor Senior,1
+PROJ_0247,Projeto 247,6.8,1061411.71,4,baixo,Scrum Master,1
+PROJ_0248,Projeto 248,5.9,787558.95,5,baixo,Arquiteto de Software,1
+PROJ_0249,Projeto 249,15.9,1134934.69,7,médio,Product Owner,0
+PROJ_0250,Projeto 250,13.0,1863011.67,4,baixo,Gerente de Projetos,0
+PROJ_0251,Projeto 251,17.4,231776.41,6,alto,Tech Lead,1
+PROJ_0252,Projeto 252,8.7,303649.19,3,médio,Product Owner,0
+PROJ_0253,Projeto 253,1.4,276890.12,5,médio,Tech Lead,1
+PROJ_0254,Projeto 254,6.7,846216.15,8,médio,Gerente de Projetos,1
+PROJ_0255,Projeto 255,2.7,568734.65,5,alto,Scrum Master,1
+PROJ_0256,Projeto 256,7.2,70387.77,8,médio,Arquiteto de Software,0
+PROJ_0257,Projeto 257,14.5,340510.19,8,baixo,Gerente de Projetos,0
+PROJ_0258,Projeto 258,7.5,451813.83,4,baixo,Gerente de Projetos,0
+PROJ_0259,Projeto 259,8.7,967554.16,4,médio,Arquiteto de Software,1
+PROJ_0260,Projeto 260,15.6,981671.37,3,alto,Tech Lead,1
+PROJ_0261,Projeto 261,17.0,536833.35,6,alto,Tech Lead,1
+PROJ_0262,Projeto 262,11.7,618871.39,4,médio,Gerente de Projetos,0
+PROJ_0263,Projeto 263,15.8,1271851.87,7,médio,Desenvolvedor Senior,1
+PROJ_0264,Projeto 264,7.9,863868.78,6,alto,Product Owner,1
+PROJ_0265,Projeto 265,17.0,266308.73,6,baixo,Tech Lead,0
+PROJ_0266,Projeto 266,8.5,1677951.16,6,alto,Product Owner,1
+PROJ_0267,Projeto 267,8.2,1849914.91,3,médio,Gerente de Projetos,1
+PROJ_0268,Projeto 268,13.2,397786.63,7,baixo,Tech Lead,0
+PROJ_0269,Projeto 269,9.2,183970.59,5,médio,Desenvolvedor Senior,0
+PROJ_0270,Projeto 270,13.4,54537.43,2,alto,Tech Lead,1
+PROJ_0271,Projeto 271,8.8,380658.86,6,médio,Scrum Master,1
+PROJ_0272,Projeto 272,3.6,1410003.84,2,baixo,Tech Lead,0
+PROJ_0273,Projeto 273,17.7,1345493.7,5,alto,Product Owner,1
+PROJ_0274,Projeto 274,13.2,625680.94,2,alto,Scrum Master,0
+PROJ_0275,Projeto 275,15.5,1389960.63,8,baixo,Product Owner,0
+PROJ_0276,Projeto 276,17.1,1271182.09,3,médio,Product Owner,0
+PROJ_0277,Projeto 277,13.1,1023221.89,5,médio,Scrum Master,1
+PROJ_0278,Projeto 278,6.3,1315045.45,6,alto,Scrum Master,1
+PROJ_0279,Projeto 279,2.1,103578.69,5,alto,Arquiteto de Software,1
+PROJ_0280,Projeto 280,4.5,1001441.28,4,médio,Gerente de Projetos,0
+PROJ_0281,Projeto 281,2.2,1738789.71,5,alto,Gerente de Projetos,1
+PROJ_0282,Projeto 282,6.8,331236.91,5,baixo,Gerente de Projetos,1
+PROJ_0283,Projeto 283,17.6,927699.54,8,alto,Desenvolvedor Senior,0
+PROJ_0284,Projeto 284,7.2,1757820.1,6,alto,Arquiteto de Software,1
+PROJ_0285,Projeto 285,13.0,862934.94,6,baixo,Scrum Master,0
+PROJ_0286,Projeto 286,14.8,1972152.66,3,médio,Desenvolvedor Senior,0
+PROJ_0287,Projeto 287,3.4,75178.46,7,médio,Arquiteto de Software,1
+PROJ_0288,Projeto 288,9.5,91597.41,3,médio,Tech Lead,1
+PROJ_0289,Projeto 289,9.6,1066773.26,7,alto,Scrum Master,1
+PROJ_0290,Projeto 290,13.6,511132.29,4,baixo,Tech Lead,0
+PROJ_0291,Projeto 291,11.3,404776.65,7,baixo,Desenvolvedor Senior,1
+PROJ_0292,Projeto 292,8.8,1536322.71,5,médio,Scrum Master,1
+PROJ_0293,Projeto 293,15.4,1747316.94,8,baixo,Product Owner,1
+PROJ_0294,Projeto 294,15.1,450405.45,6,médio,Arquiteto de Software,1
+PROJ_0295,Projeto 295,5.8,1842427.8,5,médio,Desenvolvedor Senior,1
+PROJ_0296,Projeto 296,3.2,1560300.11,5,baixo,Desenvolvedor Senior,0
+PROJ_0297,Projeto 297,14.6,804596.19,2,alto,Tech Lead,0
+PROJ_0298,Projeto 298,12.2,739099.89,6,médio,Tech Lead,0
+PROJ_0299,Projeto 299,11.9,1343087.32,5,baixo,Arquiteto de Software,1
+PROJ_0300,Projeto 300,3.6,1977466.28,2,baixo,Arquiteto de Software,0
+PROJ_0301,Projeto 301,7.2,812244.79,2,baixo,Tech Lead,0
+PROJ_0302,Projeto 302,13.7,964320.25,5,médio,Scrum Master,0
+PROJ_0303,Projeto 303,5.4,1479931.5,5,alto,Gerente de Projetos,1
+PROJ_0304,Projeto 304,10.3,1027264.49,3,alto,Desenvolvedor Senior,1
+PROJ_0305,Projeto 305,11.0,1230770.62,4,médio,Desenvolvedor Senior,1
+PROJ_0306,Projeto 306,9.1,1524989.0,5,médio,Tech Lead,1
+PROJ_0307,Projeto 307,15.7,1777372.02,6,baixo,Product Owner,1
+PROJ_0308,Projeto 308,17.0,788440.9,7,alto,Tech Lead,1
+PROJ_0309,Projeto 309,14.4,276450.45,4,alto,Tech Lead,1
+PROJ_0310,Projeto 310,16.3,504336.48,7,baixo,Arquiteto de Software,0
+PROJ_0311,Projeto 311,7.2,908587.57,6,alto,Tech Lead,1
+PROJ_0312,Projeto 312,17.5,1946744.31,3,médio,Arquiteto de Software,1
+PROJ_0313,Projeto 313,11.8,784128.39,7,médio,Desenvolvedor Senior,0
+PROJ_0314,Projeto 314,17.7,1211785.32,8,baixo,Gerente de Projetos,1
+PROJ_0315,Projeto 315,1.7,670927.83,7,médio,Product Owner,1
+PROJ_0316,Projeto 316,7.8,1077279.19,8,médio,Desenvolvedor Senior,1
+PROJ_0317,Projeto 317,7.1,522208.9,4,médio,Product Owner,1
+PROJ_0318,Projeto 318,9.6,540608.29,2,baixo,Scrum Master,1
+PROJ_0319,Projeto 319,10.8,138611.25,2,médio,Gerente de Projetos,1
+PROJ_0320,Projeto 320,8.5,481012.95,4,alto,Gerente de Projetos,1
+PROJ_0321,Projeto 321,16.8,77890.93,7,baixo,Product Owner,0
+PROJ_0322,Projeto 322,2.8,754323.66,2,baixo,Tech Lead,1
+PROJ_0323,Projeto 323,10.1,1011724.27,6,médio,Arquiteto de Software,1
+PROJ_0324,Projeto 324,8.3,725506.59,5,alto,Gerente de Projetos,1
+PROJ_0325,Projeto 325,9.5,744740.32,7,baixo,Desenvolvedor Senior,1
+PROJ_0326,Projeto 326,15.2,523750.31,4,alto,Desenvolvedor Senior,1
+PROJ_0327,Projeto 327,10.2,1759080.09,3,alto,Product Owner,1
+PROJ_0328,Projeto 328,16.6,481089.66,8,alto,Desenvolvedor Senior,1
+PROJ_0329,Projeto 329,7.5,199524.2,5,alto,Arquiteto de Software,1
+PROJ_0330,Projeto 330,15.4,1408508.84,7,baixo,Gerente de Projetos,0
+PROJ_0331,Projeto 331,7.4,980623.37,3,médio,Gerente de Projetos,1
+PROJ_0332,Projeto 332,15.0,1697068.93,4,alto,Arquiteto de Software,1
+PROJ_0333,Projeto 333,14.4,272094.42,5,médio,Scrum Master,1
+PROJ_0334,Projeto 334,7.8,1088667.55,7,médio,Gerente de Projetos,1
+PROJ_0335,Projeto 335,7.5,1197605.8,2,baixo,Tech Lead,0
+PROJ_0336,Projeto 336,11.6,621481.28,4,alto,Arquiteto de Software,1
+PROJ_0337,Projeto 337,5.4,230548.12,2,médio,Gerente de Projetos,1
+PROJ_0338,Projeto 338,11.2,428462.97,7,médio,Arquiteto de Software,1
+PROJ_0339,Projeto 339,12.9,1180036.01,4,médio,Desenvolvedor Senior,0
+PROJ_0340,Projeto 340,15.3,1539609.27,6,médio,Product Owner,1
+PROJ_0341,Projeto 341,12.5,1324871.11,8,alto,Gerente de Projetos,1
+PROJ_0342,Projeto 342,5.5,1746494.3,8,médio,Desenvolvedor Senior,1
+PROJ_0343,Projeto 343,14.5,766367.07,3,médio,Scrum Master,0
+PROJ_0344,Projeto 344,9.1,1638946.22,2,médio,Gerente de Projetos,0
+PROJ_0345,Projeto 345,11.6,1099110.72,8,baixo,Product Owner,1
+PROJ_0346,Projeto 346,9.7,154693.36,5,baixo,Tech Lead,0
+PROJ_0347,Projeto 347,7.6,948332.43,7,médio,Arquiteto de Software,1
+PROJ_0348,Projeto 348,4.3,651928.34,3,alto,Desenvolvedor Senior,1
+PROJ_0349,Projeto 349,16.4,229534.61,3,alto,Gerente de Projetos,1
+PROJ_0350,Projeto 350,14.4,1441893.15,3,baixo,Arquiteto de Software,0
+PROJ_0351,Projeto 351,10.0,539966.9,7,médio,Scrum Master,0
+PROJ_0352,Projeto 352,8.8,296266.89,2,baixo,Scrum Master,0
+PROJ_0353,Projeto 353,14.8,1349136.95,3,baixo,Arquiteto de Software,1
+PROJ_0354,Projeto 354,4.4,1738196.88,8,alto,Gerente de Projetos,1
+PROJ_0355,Projeto 355,7.6,1157984.77,2,alto,Desenvolvedor Senior,1
+PROJ_0356,Projeto 356,2.1,678753.08,4,baixo,Product Owner,0
+PROJ_0357,Projeto 357,15.6,1425725.88,8,alto,Arquiteto de Software,1
+PROJ_0358,Projeto 358,8.7,1484320.8,8,médio,Scrum Master,1
+PROJ_0359,Projeto 359,9.2,1706337.69,5,médio,Tech Lead,1
+PROJ_0360,Projeto 360,10.9,642944.0,5,médio,Arquiteto de Software,1
+PROJ_0361,Projeto 361,2.9,240738.29,3,alto,Scrum Master,1
+PROJ_0362,Projeto 362,16.6,1891612.34,6,médio,Gerente de Projetos,1
+PROJ_0363,Projeto 363,16.2,508722.61,8,médio,Arquiteto de Software,1
+PROJ_0364,Projeto 364,3.2,552822.11,8,alto,Tech Lead,1
+PROJ_0365,Projeto 365,3.1,1164722.66,7,médio,Arquiteto de Software,1
+PROJ_0366,Projeto 366,5.9,198708.94,8,baixo,Product Owner,0
+PROJ_0367,Projeto 367,13.6,366387.98,4,médio,Product Owner,0
+PROJ_0368,Projeto 368,14.9,919494.7,3,alto,Desenvolvedor Senior,0
+PROJ_0369,Projeto 369,8.0,779331.48,2,baixo,Gerente de Projetos,0
+PROJ_0370,Projeto 370,11.6,1617915.37,3,alto,Arquiteto de Software,1
+PROJ_0371,Projeto 371,12.4,1044416.15,5,médio,Tech Lead,0
+PROJ_0372,Projeto 372,1.2,531033.47,5,baixo,Desenvolvedor Senior,0
+PROJ_0373,Projeto 373,10.5,1768497.77,4,baixo,Gerente de Projetos,1
+PROJ_0374,Projeto 374,10.9,1202381.54,7,médio,Tech Lead,1
+PROJ_0375,Projeto 375,12.5,682916.74,2,alto,Tech Lead,0
+PROJ_0376,Projeto 376,17.6,583103.93,2,médio,Tech Lead,1
+PROJ_0377,Projeto 377,8.8,479748.51,2,médio,Desenvolvedor Senior,0
+PROJ_0378,Projeto 378,13.4,456635.52,4,alto,Scrum Master,1
+PROJ_0379,Projeto 379,1.4,262148.28,3,médio,Desenvolvedor Senior,1
+PROJ_0380,Projeto 380,1.8,1042621.25,6,médio,Gerente de Projetos,1
+PROJ_0381,Projeto 381,7.9,1229879.12,8,baixo,Scrum Master,1
+PROJ_0382,Projeto 382,5.0,1018913.85,7,baixo,Tech Lead,1
+PROJ_0383,Projeto 383,5.6,1140069.2,5,baixo,Arquiteto de Software,0
+PROJ_0384,Projeto 384,3.6,425086.7,2,médio,Tech Lead,1
+PROJ_0385,Projeto 385,12.0,510374.67,2,médio,Desenvolvedor Senior,1
+PROJ_0386,Projeto 386,13.8,812776.46,6,alto,Scrum Master,1
+PROJ_0387,Projeto 387,3.5,1630390.33,6,médio,Product Owner,0
+PROJ_0388,Projeto 388,10.8,383557.03,7,alto,Scrum Master,1
+PROJ_0389,Projeto 389,12.6,1096319.7,3,baixo,Tech Lead,1
+PROJ_0390,Projeto 390,14.6,793455.31,4,alto,Desenvolvedor Senior,0
+PROJ_0391,Projeto 391,5.7,566262.83,2,alto,Arquiteto de Software,1
+PROJ_0392,Projeto 392,9.2,634811.17,8,baixo,Scrum Master,1
+PROJ_0393,Projeto 393,2.6,1192661.58,3,alto,Gerente de Projetos,0
+PROJ_0394,Projeto 394,10.1,228384.67,6,médio,Tech Lead,1
+PROJ_0395,Projeto 395,8.2,1709767.62,7,médio,Tech Lead,1
+PROJ_0396,Projeto 396,12.4,459157.16,3,alto,Tech Lead,0
+PROJ_0397,Projeto 397,7.0,1924341.26,8,alto,Product Owner,1
+PROJ_0398,Projeto 398,10.6,108044.97,3,alto,Arquiteto de Software,0
+PROJ_0399,Projeto 399,4.1,205389.57,5,médio,Product Owner,1
+PROJ_0400,Projeto 400,4.3,1158791.3,2,médio,Arquiteto de Software,1
+PROJ_0401,Projeto 401,4.0,1814054.52,4,médio,Desenvolvedor Senior,1
+PROJ_0402,Projeto 402,12.3,357012.45,4,alto,Tech Lead,1
+PROJ_0403,Projeto 403,11.6,1218731.59,2,baixo,Arquiteto de Software,0
+PROJ_0404,Projeto 404,16.4,771866.52,6,médio,Desenvolvedor Senior,0
+PROJ_0405,Projeto 405,13.5,109974.78,2,alto,Product Owner,0
+PROJ_0406,Projeto 406,15.2,1167720.61,7,baixo,Scrum Master,0
+PROJ_0407,Projeto 407,6.4,801570.72,6,médio,Product Owner,1
+PROJ_0408,Projeto 408,6.2,1559039.66,7,alto,Gerente de Projetos,1
+PROJ_0409,Projeto 409,3.6,1097201.61,7,alto,Product Owner,1
+PROJ_0410,Projeto 410,6.2,1211831.94,4,médio,Gerente de Projetos,1
+PROJ_0411,Projeto 411,1.4,1623292.8,2,baixo,Gerente de Projetos,0
+PROJ_0412,Projeto 412,13.6,1196184.94,7,médio,Tech Lead,1
+PROJ_0413,Projeto 413,6.2,1025978.1,6,médio,Desenvolvedor Senior,1
+PROJ_0414,Projeto 414,5.8,1016008.58,2,médio,Tech Lead,1
+PROJ_0415,Projeto 415,8.0,1882308.61,3,baixo,Arquiteto de Software,1
+PROJ_0416,Projeto 416,2.6,1529217.77,6,baixo,Gerente de Projetos,0
+PROJ_0417,Projeto 417,10.5,872751.53,5,alto,Tech Lead,1
+PROJ_0418,Projeto 418,9.2,963281.0,4,baixo,Tech Lead,1
+PROJ_0419,Projeto 419,7.6,818060.92,8,alto,Product Owner,1
+PROJ_0420,Projeto 420,12.7,348235.28,5,baixo,Tech Lead,0
+PROJ_0421,Projeto 421,3.3,1031175.84,2,baixo,Gerente de Projetos,1
+PROJ_0422,Projeto 422,2.3,1518706.44,5,baixo,Arquiteto de Software,1
+PROJ_0423,Projeto 423,5.7,302606.77,6,alto,Product Owner,1
+PROJ_0424,Projeto 424,12.7,244267.13,7,alto,Scrum Master,1
+PROJ_0425,Projeto 425,2.1,1523478.18,4,baixo,Tech Lead,1
+PROJ_0426,Projeto 426,6.4,760593.96,2,baixo,Product Owner,1
+PROJ_0427,Projeto 427,4.7,860569.3,8,baixo,Arquiteto de Software,1
+PROJ_0428,Projeto 428,1.8,1387240.13,7,médio,Tech Lead,1
+PROJ_0429,Projeto 429,4.0,789114.75,7,alto,Product Owner,1
+PROJ_0430,Projeto 430,17.9,1378837.14,6,baixo,Product Owner,0
+PROJ_0431,Projeto 431,8.2,1186820.08,7,médio,Tech Lead,1
+PROJ_0432,Projeto 432,7.7,633920.56,2,médio,Arquiteto de Software,1
+PROJ_0433,Projeto 433,2.4,435067.09,5,alto,Gerente de Projetos,1
+PROJ_0434,Projeto 434,6.1,1672144.92,8,baixo,Scrum Master,0
+PROJ_0435,Projeto 435,16.6,470520.37,8,baixo,Product Owner,1
+PROJ_0436,Projeto 436,6.5,1398924.06,8,médio,Scrum Master,1
+PROJ_0437,Projeto 437,11.0,936982.87,4,baixo,Gerente de Projetos,0
+PROJ_0438,Projeto 438,9.5,722581.06,5,alto,Arquiteto de Software,1
+PROJ_0439,Projeto 439,1.0,714721.74,2,alto,Arquiteto de Software,0
+PROJ_0440,Projeto 440,16.0,1212513.3,6,baixo,Tech Lead,0
+PROJ_0441,Projeto 441,2.2,1067451.74,3,alto,Arquiteto de Software,1
+PROJ_0442,Projeto 442,7.5,1359654.33,2,médio,Tech Lead,1
+PROJ_0443,Projeto 443,15.8,1660449.38,4,baixo,Desenvolvedor Senior,0
+PROJ_0444,Projeto 444,4.4,343400.37,2,baixo,Scrum Master,1
+PROJ_0445,Projeto 445,14.1,1092408.34,2,alto,Scrum Master,0
+PROJ_0446,Projeto 446,7.1,1076797.61,6,baixo,Desenvolvedor Senior,1
+PROJ_0447,Projeto 447,9.3,1829447.66,7,médio,Scrum Master,1
+PROJ_0448,Projeto 448,3.5,1013389.64,8,alto,Gerente de Projetos,1
+PROJ_0449,Projeto 449,9.3,398034.14,5,alto,Product Owner,1
+PROJ_0450,Projeto 450,4.5,167109.51,5,médio,Desenvolvedor Senior,1
+PROJ_0451,Projeto 451,11.6,1250492.75,3,médio,Product Owner,1
+PROJ_0452,Projeto 452,1.5,926141.58,6,baixo,Tech Lead,1
+PROJ_0453,Projeto 453,13.4,1605447.11,7,médio,Arquiteto de Software,0
+PROJ_0454,Projeto 454,16.0,1478535.4,4,alto,Scrum Master,1
+PROJ_0455,Projeto 455,8.2,739512.3,3,baixo,Tech Lead,0
+PROJ_0456,Projeto 456,12.9,372352.67,6,médio,Arquiteto de Software,1
+PROJ_0457,Projeto 457,8.9,1049092.48,8,alto,Scrum Master,1
+PROJ_0458,Projeto 458,9.8,1271836.84,2,médio,Desenvolvedor Senior,0
+PROJ_0459,Projeto 459,4.3,1578824.9,3,alto,Arquiteto de Software,1
+PROJ_0460,Projeto 460,2.0,515391.8,6,baixo,Tech Lead,0
+PROJ_0461,Projeto 461,8.3,529779.41,5,alto,Tech Lead,1
+PROJ_0462,Projeto 462,17.0,1066486.5,4,baixo,Tech Lead,0
+PROJ_0463,Projeto 463,13.4,1438044.37,2,alto,Tech Lead,0
+PROJ_0464,Projeto 464,9.0,967051.15,3,médio,Gerente de Projetos,1
+PROJ_0465,Projeto 465,4.0,77103.67,4,baixo,Arquiteto de Software,0
+PROJ_0466,Projeto 466,6.1,1784381.36,3,médio,Tech Lead,1
+PROJ_0467,Projeto 467,15.2,1020881.75,3,baixo,Tech Lead,0
+PROJ_0468,Projeto 468,5.2,368601.4,6,alto,Desenvolvedor Senior,1
+PROJ_0469,Projeto 469,13.5,1623688.97,2,médio,Scrum Master,0
+PROJ_0470,Projeto 470,7.3,269703.56,7,alto,Scrum Master,1
+PROJ_0471,Projeto 471,2.3,1027237.86,2,alto,Arquiteto de Software,1
+PROJ_0472,Projeto 472,12.6,52322.39,6,médio,Scrum Master,0
+PROJ_0473,Projeto 473,8.0,391063.98,6,baixo,Tech Lead,1
+PROJ_0474,Projeto 474,2.8,370144.1,8,alto,Tech Lead,1
+PROJ_0475,Projeto 475,10.8,1638770.09,5,médio,Desenvolvedor Senior,1
+PROJ_0476,Projeto 476,12.8,724461.93,6,alto,Scrum Master,0
+PROJ_0477,Projeto 477,8.3,980723.9,4,médio,Tech Lead,1
+PROJ_0478,Projeto 478,4.3,1218104.52,4,médio,Product Owner,1
+PROJ_0479,Projeto 479,1.1,494234.02,7,baixo,Arquiteto de Software,0
+PROJ_0480,Projeto 480,8.7,1053258.37,8,alto,Tech Lead,1
+PROJ_0481,Projeto 481,6.4,678716.31,5,baixo,Tech Lead,1
+PROJ_0482,Projeto 482,4.4,700040.7,2,alto,Tech Lead,0
+PROJ_0483,Projeto 483,9.6,164137.36,4,alto,Product Owner,0
+PROJ_0484,Projeto 484,11.3,1393065.87,2,alto,Scrum Master,0
+PROJ_0485,Projeto 485,6.0,1025044.18,8,alto,Arquiteto de Software,1
+PROJ_0486,Projeto 486,5.3,1339426.05,5,baixo,Scrum Master,1
+PROJ_0487,Projeto 487,9.0,1004756.41,5,alto,Gerente de Projetos,0
+PROJ_0488,Projeto 488,16.8,946630.47,5,alto,Product Owner,0
+PROJ_0489,Projeto 489,14.3,1220588.44,6,médio,Gerente de Projetos,1
+PROJ_0490,Projeto 490,8.4,269501.19,2,alto,Tech Lead,0
+PROJ_0491,Projeto 491,6.4,306140.82,2,baixo,Arquiteto de Software,0
+PROJ_0492,Projeto 492,17.6,1629397.05,4,alto,Desenvolvedor Senior,1
+PROJ_0493,Projeto 493,5.9,1296831.33,5,médio,Desenvolvedor Senior,1
+PROJ_0494,Projeto 494,3.7,741689.58,6,médio,Product Owner,1
+PROJ_0495,Projeto 495,1.8,425696.07,8,médio,Scrum Master,1
+PROJ_0496,Projeto 496,1.4,1398450.75,3,alto,Product Owner,1
+PROJ_0497,Projeto 497,13.4,1018500.13,5,alto,Desenvolvedor Senior,0
+PROJ_0498,Projeto 498,2.2,1579083.01,7,baixo,Scrum Master,1
+PROJ_0499,Projeto 499,13.4,1858102.77,8,alto,Product Owner,1
+PROJ_0500,Projeto 500,9.1,787943.52,6,baixo,Desenvolvedor Senior,0
+PROJ_0501,Projeto 501,4.8,1724540.12,8,baixo,Tech Lead,0
+PROJ_0502,Projeto 502,9.4,1844842.08,8,alto,Product Owner,1
+PROJ_0503,Projeto 503,7.7,211828.75,7,médio,Product Owner,1
+PROJ_0504,Projeto 504,16.9,958210.75,8,alto,Desenvolvedor Senior,1
+PROJ_0505,Projeto 505,4.7,1915916.67,6,alto,Gerente de Projetos,1
+PROJ_0506,Projeto 506,9.3,221416.8,2,médio,Product Owner,0
+PROJ_0507,Projeto 507,3.6,1784980.02,3,alto,Product Owner,1
+PROJ_0508,Projeto 508,9.9,1710741.21,4,médio,Scrum Master,1
+PROJ_0509,Projeto 509,6.9,1411645.88,2,baixo,Desenvolvedor Senior,0
+PROJ_0510,Projeto 510,5.5,1452109.54,5,baixo,Gerente de Projetos,0
+PROJ_0511,Projeto 511,3.2,807992.46,2,alto,Gerente de Projetos,1
+PROJ_0512,Projeto 512,11.7,151617.28,8,baixo,Product Owner,0
+PROJ_0513,Projeto 513,1.0,403230.48,3,médio,Product Owner,1
+PROJ_0514,Projeto 514,4.8,1146477.4,8,alto,Scrum Master,1
+PROJ_0515,Projeto 515,6.1,205193.71,5,médio,Tech Lead,1
+PROJ_0516,Projeto 516,14.4,1294720.27,2,médio,Arquiteto de Software,0
+PROJ_0517,Projeto 517,1.3,657831.09,3,baixo,Scrum Master,0
+PROJ_0518,Projeto 518,2.0,894598.86,5,médio,Product Owner,1
+PROJ_0519,Projeto 519,13.5,849335.36,6,médio,Tech Lead,1
+PROJ_0520,Projeto 520,9.2,1788857.7,6,baixo,Scrum Master,0
+PROJ_0521,Projeto 521,7.0,1094295.56,3,médio,Product Owner,1
+PROJ_0522,Projeto 522,1.7,735095.45,5,baixo,Gerente de Projetos,1
+PROJ_0523,Projeto 523,1.8,527186.29,3,médio,Gerente de Projetos,0
+PROJ_0524,Projeto 524,15.1,1665409.45,2,baixo,Desenvolvedor Senior,0
+PROJ_0525,Projeto 525,6.2,1351258.45,7,médio,Scrum Master,1
+PROJ_0526,Projeto 526,16.5,85133.94,3,médio,Arquiteto de Software,1
+PROJ_0527,Projeto 527,11.3,1596917.63,6,alto,Product Owner,1
+PROJ_0528,Projeto 528,16.9,1290164.1,5,alto,Product Owner,0
+PROJ_0529,Projeto 529,14.1,575059.99,7,alto,Desenvolvedor Senior,0
+PROJ_0530,Projeto 530,10.1,1398741.93,2,alto,Gerente de Projetos,0
+PROJ_0531,Projeto 531,13.1,127552.09,6,baixo,Tech Lead,0
+PROJ_0532,Projeto 532,3.7,1945039.59,5,alto,Tech Lead,1
+PROJ_0533,Projeto 533,14.1,883254.76,3,alto,Scrum Master,1
+PROJ_0534,Projeto 534,15.8,959431.32,5,alto,Gerente de Projetos,1
+PROJ_0535,Projeto 535,4.4,675341.91,7,médio,Tech Lead,1
+PROJ_0536,Projeto 536,11.7,546806.66,7,alto,Product Owner,1
+PROJ_0537,Projeto 537,9.7,636927.86,6,alto,Product Owner,1
+PROJ_0538,Projeto 538,6.1,1049369.78,2,baixo,Product Owner,0
+PROJ_0539,Projeto 539,7.9,1654022.5,5,alto,Arquiteto de Software,1
+PROJ_0540,Projeto 540,10.8,1503616.26,8,baixo,Tech Lead,0
+PROJ_0541,Projeto 541,10.2,1040629.95,2,médio,Tech Lead,1
+PROJ_0542,Projeto 542,15.7,925102.4,6,médio,Arquiteto de Software,1
+PROJ_0543,Projeto 543,6.7,1412812.26,6,alto,Product Owner,1
+PROJ_0544,Projeto 544,1.9,909577.41,6,baixo,Product Owner,1
+PROJ_0545,Projeto 545,9.2,966255.93,3,alto,Tech Lead,0
+PROJ_0546,Projeto 546,6.1,1471230.18,7,baixo,Scrum Master,0
+PROJ_0547,Projeto 547,11.0,134225.91,2,alto,Gerente de Projetos,0
+PROJ_0548,Projeto 548,3.1,1505062.23,8,baixo,Gerente de Projetos,1
+PROJ_0549,Projeto 549,4.9,734080.93,3,alto,Scrum Master,1
+PROJ_0550,Projeto 550,4.6,1433332.47,4,médio,Scrum Master,1
+PROJ_0551,Projeto 551,13.7,263815.84,6,alto,Tech Lead,1
+PROJ_0552,Projeto 552,7.4,1507393.51,7,alto,Tech Lead,1
+PROJ_0553,Projeto 553,10.9,1722213.61,5,baixo,Scrum Master,0
+PROJ_0554,Projeto 554,9.9,1124601.17,4,baixo,Scrum Master,1
+PROJ_0555,Projeto 555,11.8,841370.28,4,baixo,Scrum Master,0
+PROJ_0556,Projeto 556,16.9,1261480.12,4,baixo,Arquiteto de Software,0
+PROJ_0557,Projeto 557,10.1,685208.19,7,baixo,Scrum Master,1
+PROJ_0558,Projeto 558,4.7,1455746.85,7,médio,Tech Lead,1
+PROJ_0559,Projeto 559,4.6,1739204.98,6,médio,Tech Lead,1
+PROJ_0560,Projeto 560,16.2,1693893.28,3,médio,Arquiteto de Software,0
+PROJ_0561,Projeto 561,1.7,178100.98,4,médio,Desenvolvedor Senior,1
+PROJ_0562,Projeto 562,2.0,724362.55,6,alto,Tech Lead,1
+PROJ_0563,Projeto 563,7.0,1313318.21,5,baixo,Product Owner,0
+PROJ_0564,Projeto 564,15.9,1887523.22,2,baixo,Desenvolvedor Senior,0
+PROJ_0565,Projeto 565,4.2,1209175.4,4,médio,Tech Lead,0
+PROJ_0566,Projeto 566,12.1,854069.17,7,alto,Tech Lead,1
+PROJ_0567,Projeto 567,17.9,945994.48,2,baixo,Product Owner,0
+PROJ_0568,Projeto 568,2.0,569633.85,3,médio,Product Owner,1
+PROJ_0569,Projeto 569,14.4,1757429.06,4,alto,Tech Lead,0
+PROJ_0570,Projeto 570,16.4,318584.33,7,baixo,Arquiteto de Software,0
+PROJ_0571,Projeto 571,8.4,1524485.31,4,baixo,Tech Lead,1
+PROJ_0572,Projeto 572,7.3,66932.08,8,médio,Scrum Master,1
+PROJ_0573,Projeto 573,3.3,1140956.98,4,médio,Gerente de Projetos,1
+PROJ_0574,Projeto 574,3.6,712158.01,6,médio,Desenvolvedor Senior,1
+PROJ_0575,Projeto 575,7.7,1728746.22,6,baixo,Desenvolvedor Senior,0
+PROJ_0576,Projeto 576,6.7,684445.27,6,médio,Gerente de Projetos,1
+PROJ_0577,Projeto 577,16.4,1257077.15,7,médio,Arquiteto de Software,0
+PROJ_0578,Projeto 578,11.9,246441.49,2,baixo,Desenvolvedor Senior,0
+PROJ_0579,Projeto 579,1.7,1492434.16,4,baixo,Gerente de Projetos,1
+PROJ_0580,Projeto 580,9.5,625244.49,8,baixo,Scrum Master,1
+PROJ_0581,Projeto 581,18.0,595611.97,6,médio,Product Owner,1
+PROJ_0582,Projeto 582,3.7,564680.69,6,alto,Product Owner,1
+PROJ_0583,Projeto 583,13.7,1840773.95,6,alto,Product Owner,0
+PROJ_0584,Projeto 584,10.7,1461485.19,5,baixo,Gerente de Projetos,1
+PROJ_0585,Projeto 585,1.3,311371.27,5,médio,Product Owner,1
+PROJ_0586,Projeto 586,8.1,690609.25,7,médio,Scrum Master,1
+PROJ_0587,Projeto 587,4.1,845833.47,7,alto,Scrum Master,1
+PROJ_0588,Projeto 588,17.1,963868.44,8,baixo,Desenvolvedor Senior,0
+PROJ_0589,Projeto 589,9.6,1813239.15,5,médio,Tech Lead,1
+PROJ_0590,Projeto 590,6.5,1190905.26,4,alto,Gerente de Projetos,1
+PROJ_0591,Projeto 591,17.1,1752898.4,3,baixo,Desenvolvedor Senior,0
+PROJ_0592,Projeto 592,1.8,102376.23,5,médio,Product Owner,1
+PROJ_0593,Projeto 593,6.4,1769305.55,7,alto,Product Owner,1
+PROJ_0594,Projeto 594,17.1,1674271.07,7,médio,Arquiteto de Software,0
+PROJ_0595,Projeto 595,14.7,743849.89,3,alto,Scrum Master,0
+PROJ_0596,Projeto 596,14.4,617236.03,8,alto,Arquiteto de Software,0
+PROJ_0597,Projeto 597,3.8,1499098.71,7,baixo,Scrum Master,1
+PROJ_0598,Projeto 598,16.5,177972.44,8,baixo,Tech Lead,0
+PROJ_0599,Projeto 599,1.1,457420.45,2,médio,Product Owner,0
+PROJ_0600,Projeto 600,17.8,641854.5,4,baixo,Scrum Master,0
+PROJ_0601,Projeto 601,12.6,87651.35,4,baixo,Scrum Master,0
+PROJ_0602,Projeto 602,4.4,1796945.95,5,médio,Scrum Master,1
+PROJ_0603,Projeto 603,11.2,1338405.27,3,alto,Tech Lead,0
+PROJ_0604,Projeto 604,3.2,879362.85,4,médio,Product Owner,1
+PROJ_0605,Projeto 605,15.1,816501.33,2,baixo,Arquiteto de Software,1
+PROJ_0606,Projeto 606,1.5,1602183.58,4,baixo,Scrum Master,0
+PROJ_0607,Projeto 607,1.3,964256.42,5,alto,Tech Lead,1
+PROJ_0608,Projeto 608,17.1,1128926.07,2,médio,Product Owner,1
+PROJ_0609,Projeto 609,2.8,375044.33,6,alto,Desenvolvedor Senior,1
+PROJ_0610,Projeto 610,8.1,586007.8,5,baixo,Arquiteto de Software,0
+PROJ_0611,Projeto 611,2.2,1389663.04,3,alto,Gerente de Projetos,0
+PROJ_0612,Projeto 612,13.2,308992.9,3,alto,Gerente de Projetos,1
+PROJ_0613,Projeto 613,16.5,854938.62,4,médio,Product Owner,1
+PROJ_0614,Projeto 614,15.5,614122.83,2,baixo,Desenvolvedor Senior,0
+PROJ_0615,Projeto 615,16.0,1053667.45,5,baixo,Desenvolvedor Senior,0
+PROJ_0616,Projeto 616,11.8,1147070.19,8,médio,Arquiteto de Software,1
+PROJ_0617,Projeto 617,6.7,1194146.21,4,baixo,Tech Lead,0
+PROJ_0618,Projeto 618,2.6,1564011.1,3,médio,Product Owner,1
+PROJ_0619,Projeto 619,4.3,1745946.92,3,médio,Tech Lead,1
+PROJ_0620,Projeto 620,2.7,180536.78,8,médio,Tech Lead,1
+PROJ_0621,Projeto 621,9.2,786000.98,6,médio,Tech Lead,1
+PROJ_0622,Projeto 622,16.4,1979178.38,6,médio,Scrum Master,1
+PROJ_0623,Projeto 623,13.8,111044.84,8,médio,Arquiteto de Software,1
+PROJ_0624,Projeto 624,8.8,1018526.17,7,baixo,Desenvolvedor Senior,1
+PROJ_0625,Projeto 625,14.2,549448.73,2,baixo,Tech Lead,0
+PROJ_0626,Projeto 626,17.1,1731003.67,7,médio,Gerente de Projetos,1
+PROJ_0627,Projeto 627,4.8,277220.18,3,alto,Desenvolvedor Senior,1
+PROJ_0628,Projeto 628,1.3,1714399.04,2,alto,Arquiteto de Software,1
+PROJ_0629,Projeto 629,15.8,1787626.71,5,médio,Arquiteto de Software,0
+PROJ_0630,Projeto 630,8.0,1063126.61,3,médio,Gerente de Projetos,1
+PROJ_0631,Projeto 631,10.0,1468780.47,5,baixo,Scrum Master,0
+PROJ_0632,Projeto 632,15.7,314073.9,4,médio,Gerente de Projetos,0
+PROJ_0633,Projeto 633,16.4,1481323.68,3,baixo,Product Owner,1
+PROJ_0634,Projeto 634,2.1,1826996.54,6,baixo,Desenvolvedor Senior,1
+PROJ_0635,Projeto 635,17.5,734147.64,7,alto,Scrum Master,1
+PROJ_0636,Projeto 636,7.2,769454.02,8,médio,Scrum Master,0
+PROJ_0637,Projeto 637,4.3,826663.8,3,médio,Desenvolvedor Senior,1
+PROJ_0638,Projeto 638,3.6,630033.61,3,médio,Desenvolvedor Senior,1
+PROJ_0639,Projeto 639,15.7,1491800.1,6,médio,Scrum Master,0
+PROJ_0640,Projeto 640,6.5,607505.81,4,alto,Tech Lead,1
+PROJ_0641,Projeto 641,6.2,1081111.31,6,alto,Gerente de Projetos,1
+PROJ_0642,Projeto 642,7.5,676399.97,3,alto,Scrum Master,1
+PROJ_0643,Projeto 643,11.6,210311.67,2,baixo,Scrum Master,1
+PROJ_0644,Projeto 644,8.9,1190944.57,8,baixo,Product Owner,0
+PROJ_0645,Projeto 645,10.0,1090300.44,4,alto,Product Owner,1
+PROJ_0646,Projeto 646,6.6,1154598.51,7,alto,Scrum Master,1
+PROJ_0647,Projeto 647,16.8,195797.98,2,baixo,Product Owner,0
+PROJ_0648,Projeto 648,14.7,398051.33,6,médio,Arquiteto de Software,0
+PROJ_0649,Projeto 649,11.5,1769511.23,3,alto,Arquiteto de Software,1
+PROJ_0650,Projeto 650,5.5,1375831.77,7,alto,Product Owner,1
+PROJ_0651,Projeto 651,2.1,915583.49,5,alto,Desenvolvedor Senior,1
+PROJ_0652,Projeto 652,12.7,641320.44,4,alto,Desenvolvedor Senior,1
+PROJ_0653,Projeto 653,4.2,787647.52,6,baixo,Desenvolvedor Senior,1
+PROJ_0654,Projeto 654,8.2,371704.17,8,médio,Product Owner,1
+PROJ_0655,Projeto 655,3.1,1532208.46,5,alto,Desenvolvedor Senior,1
+PROJ_0656,Projeto 656,3.1,1216867.9,7,médio,Arquiteto de Software,1
+PROJ_0657,Projeto 657,14.4,589627.94,8,baixo,Product Owner,0
+PROJ_0658,Projeto 658,11.9,738748.01,6,médio,Tech Lead,1
+PROJ_0659,Projeto 659,1.6,1525961.59,7,médio,Gerente de Projetos,1
+PROJ_0660,Projeto 660,16.9,1914086.0,6,alto,Product Owner,0
+PROJ_0661,Projeto 661,7.3,1960896.37,2,médio,Scrum Master,1
+PROJ_0662,Projeto 662,15.8,849177.26,5,médio,Desenvolvedor Senior,0
+PROJ_0663,Projeto 663,15.0,351334.66,7,médio,Scrum Master,1
+PROJ_0664,Projeto 664,2.4,1674249.26,5,alto,Desenvolvedor Senior,1
+PROJ_0665,Projeto 665,2.2,691588.28,4,baixo,Tech Lead,1
+PROJ_0666,Projeto 666,10.1,1402878.75,3,baixo,Scrum Master,0
+PROJ_0667,Projeto 667,4.7,1432474.11,6,alto,Tech Lead,1
+PROJ_0668,Projeto 668,13.4,250365.85,2,médio,Tech Lead,0
+PROJ_0669,Projeto 669,3.9,1664921.18,6,baixo,Arquiteto de Software,0
+PROJ_0670,Projeto 670,14.6,1622385.01,3,médio,Gerente de Projetos,1
+PROJ_0671,Projeto 671,14.2,634756.39,6,alto,Tech Lead,0
+PROJ_0672,Projeto 672,14.0,1991070.68,3,baixo,Desenvolvedor Senior,0
+PROJ_0673,Projeto 673,3.3,552373.68,4,baixo,Tech Lead,0
+PROJ_0674,Projeto 674,7.1,1246059.67,3,médio,Desenvolvedor Senior,1
+PROJ_0675,Projeto 675,7.1,1970793.21,4,baixo,Scrum Master,1
+PROJ_0676,Projeto 676,15.4,636753.67,7,alto,Desenvolvedor Senior,1
+PROJ_0677,Projeto 677,10.3,1884060.2,8,baixo,Scrum Master,0
+PROJ_0678,Projeto 678,4.0,898628.98,4,alto,Product Owner,0
+PROJ_0679,Projeto 679,11.1,1885856.38,8,baixo,Product Owner,1
+PROJ_0680,Projeto 680,9.0,1036247.26,3,alto,Gerente de Projetos,1
+PROJ_0681,Projeto 681,12.4,746183.77,2,médio,Desenvolvedor Senior,1
+PROJ_0682,Projeto 682,3.0,1036423.45,5,alto,Gerente de Projetos,1
+PROJ_0683,Projeto 683,12.8,469594.0,2,alto,Product Owner,1
+PROJ_0684,Projeto 684,7.7,739570.78,2,médio,Desenvolvedor Senior,1
+PROJ_0685,Projeto 685,4.8,1233657.43,5,médio,Product Owner,1
+PROJ_0686,Projeto 686,15.4,310089.76,3,baixo,Desenvolvedor Senior,0
+PROJ_0687,Projeto 687,1.6,1777215.76,8,alto,Tech Lead,1
+PROJ_0688,Projeto 688,13.8,626196.05,6,médio,Tech Lead,1
+PROJ_0689,Projeto 689,16.5,700620.42,8,baixo,Gerente de Projetos,0
+PROJ_0690,Projeto 690,7.9,1518561.92,8,baixo,Tech Lead,1
+PROJ_0691,Projeto 691,3.9,1764748.19,4,baixo,Desenvolvedor Senior,1
+PROJ_0692,Projeto 692,2.0,683280.56,6,baixo,Tech Lead,1
+PROJ_0693,Projeto 693,14.2,1511593.22,7,alto,Tech Lead,0
+PROJ_0694,Projeto 694,7.2,1540427.49,2,alto,Desenvolvedor Senior,1
+PROJ_0695,Projeto 695,5.8,757227.14,4,baixo,Product Owner,1
+PROJ_0696,Projeto 696,17.8,238798.46,4,médio,Arquiteto de Software,0
+PROJ_0697,Projeto 697,4.9,574208.19,2,médio,Scrum Master,0
+PROJ_0698,Projeto 698,11.3,279710.13,3,baixo,Product Owner,1
+PROJ_0699,Projeto 699,8.6,50131.36,3,médio,Desenvolvedor Senior,1
+PROJ_0700,Projeto 700,7.3,52097.09,3,médio,Gerente de Projetos,0
+PROJ_0701,Projeto 701,11.5,1207194.8,2,baixo,Scrum Master,0
+PROJ_0702,Projeto 702,14.1,1454390.91,2,médio,Desenvolvedor Senior,1
+PROJ_0703,Projeto 703,16.8,1430070.26,7,baixo,Gerente de Projetos,0
+PROJ_0704,Projeto 704,3.7,1650648.54,6,baixo,Product Owner,1
+PROJ_0705,Projeto 705,13.0,378307.47,3,médio,Arquiteto de Software,1
+PROJ_0706,Projeto 706,4.9,504317.96,7,baixo,Desenvolvedor Senior,1
+PROJ_0707,Projeto 707,11.9,173404.94,7,médio,Product Owner,1
+PROJ_0708,Projeto 708,15.8,1452164.4,8,médio,Tech Lead,1
+PROJ_0709,Projeto 709,6.3,224337.43,7,médio,Scrum Master,1
+PROJ_0710,Projeto 710,5.9,761235.42,6,baixo,Arquiteto de Software,0
+PROJ_0711,Projeto 711,4.8,679998.62,4,baixo,Gerente de Projetos,1
+PROJ_0712,Projeto 712,3.9,1842460.48,6,baixo,Tech Lead,0
+PROJ_0713,Projeto 713,17.9,477494.07,3,baixo,Arquiteto de Software,0
+PROJ_0714,Projeto 714,15.8,663191.19,3,baixo,Product Owner,0
+PROJ_0715,Projeto 715,4.3,1479462.48,5,médio,Arquiteto de Software,1
+PROJ_0716,Projeto 716,17.5,743268.25,8,baixo,Tech Lead,0
+PROJ_0717,Projeto 717,16.1,1462803.39,4,médio,Product Owner,0
+PROJ_0718,Projeto 718,16.5,1980999.26,3,baixo,Tech Lead,0
+PROJ_0719,Projeto 719,7.4,1672516.83,3,médio,Scrum Master,1
+PROJ_0720,Projeto 720,12.8,1903039.41,8,alto,Desenvolvedor Senior,0
+PROJ_0721,Projeto 721,3.7,784940.89,5,baixo,Scrum Master,1
+PROJ_0722,Projeto 722,16.8,1745724.75,4,baixo,Gerente de Projetos,0
+PROJ_0723,Projeto 723,14.1,1121413.84,8,médio,Product Owner,1
+PROJ_0724,Projeto 724,9.8,1335992.49,4,alto,Gerente de Projetos,1
+PROJ_0725,Projeto 725,5.9,1212146.66,6,alto,Scrum Master,1
+PROJ_0726,Projeto 726,6.2,1795452.58,8,baixo,Tech Lead,0
+PROJ_0727,Projeto 727,1.9,1592554.33,5,baixo,Product Owner,1
+PROJ_0728,Projeto 728,16.1,97084.58,2,alto,Gerente de Projetos,0
+PROJ_0729,Projeto 729,13.8,1629807.83,2,médio,Gerente de Projetos,0
+PROJ_0730,Projeto 730,11.1,506238.36,4,baixo,Arquiteto de Software,0
+PROJ_0731,Projeto 731,4.9,949696.33,4,médio,Scrum Master,1
+PROJ_0732,Projeto 732,8.1,1286978.53,8,baixo,Gerente de Projetos,0
+PROJ_0733,Projeto 733,16.0,1232275.21,6,médio,Desenvolvedor Senior,1
+PROJ_0734,Projeto 734,6.9,493198.92,3,baixo,Tech Lead,0
+PROJ_0735,Projeto 735,14.2,1974717.18,6,baixo,Arquiteto de Software,0
+PROJ_0736,Projeto 736,15.7,757931.88,6,baixo,Arquiteto de Software,1
+PROJ_0737,Projeto 737,3.5,1905279.68,6,baixo,Desenvolvedor Senior,0
+PROJ_0738,Projeto 738,14.3,62158.42,5,médio,Desenvolvedor Senior,0
+PROJ_0739,Projeto 739,9.3,1905606.82,8,alto,Desenvolvedor Senior,1
+PROJ_0740,Projeto 740,4.9,892467.09,7,médio,Arquiteto de Software,1
+PROJ_0741,Projeto 741,11.1,1149621.85,7,médio,Gerente de Projetos,1
+PROJ_0742,Projeto 742,3.3,839449.46,6,médio,Product Owner,1
+PROJ_0743,Projeto 743,1.0,246248.05,4,médio,Desenvolvedor Senior,1
+PROJ_0744,Projeto 744,9.9,456335.88,5,médio,Desenvolvedor Senior,0
+PROJ_0745,Projeto 745,12.7,1979206.38,8,médio,Arquiteto de Software,1
+PROJ_0746,Projeto 746,13.7,852346.21,6,alto,Scrum Master,1
+PROJ_0747,Projeto 747,2.3,676415.12,7,alto,Product Owner,1
+PROJ_0748,Projeto 748,1.3,1126681.88,8,baixo,Desenvolvedor Senior,1
+PROJ_0749,Projeto 749,9.8,456562.66,7,alto,Gerente de Projetos,1
+PROJ_0750,Projeto 750,6.0,1993645.58,8,médio,Scrum Master,1
+PROJ_0751,Projeto 751,4.1,199798.27,2,alto,Scrum Master,0
+PROJ_0752,Projeto 752,12.8,230775.31,8,baixo,Gerente de Projetos,0
+PROJ_0753,Projeto 753,13.7,926388.2,7,baixo,Arquiteto de Software,0
+PROJ_0754,Projeto 754,10.6,442812.61,8,alto,Product Owner,1
+PROJ_0755,Projeto 755,8.0,1393954.59,3,médio,Gerente de Projetos,1
+PROJ_0756,Projeto 756,15.8,607757.73,8,baixo,Desenvolvedor Senior,1
+PROJ_0757,Projeto 757,11.4,317683.52,3,alto,Gerente de Projetos,1
+PROJ_0758,Projeto 758,14.0,1166914.17,4,alto,Desenvolvedor Senior,1
+PROJ_0759,Projeto 759,6.3,720121.41,7,alto,Scrum Master,1
+PROJ_0760,Projeto 760,13.0,943743.53,7,baixo,Arquiteto de Software,0
+PROJ_0761,Projeto 761,16.9,294859.73,7,médio,Tech Lead,1
+PROJ_0762,Projeto 762,10.8,694231.78,3,médio,Scrum Master,0
+PROJ_0763,Projeto 763,15.1,193700.65,7,médio,Gerente de Projetos,0
+PROJ_0764,Projeto 764,12.3,655326.82,7,baixo,Product Owner,0
+PROJ_0765,Projeto 765,2.8,1283077.45,5,alto,Arquiteto de Software,1
+PROJ_0766,Projeto 766,12.7,840617.32,4,médio,Product Owner,0
+PROJ_0767,Projeto 767,11.7,917981.11,8,baixo,Scrum Master,0
+PROJ_0768,Projeto 768,16.6,399002.38,4,alto,Product Owner,1
+PROJ_0769,Projeto 769,16.6,456939.1,2,médio,Product Owner,0
+PROJ_0770,Projeto 770,3.5,582359.86,6,alto,Product Owner,1
+PROJ_0771,Projeto 771,17.3,1728875.11,6,médio,Arquiteto de Software,0
+PROJ_0772,Projeto 772,12.0,1707255.15,7,baixo,Product Owner,0
+PROJ_0773,Projeto 773,11.5,1277465.22,2,alto,Desenvolvedor Senior,0
+PROJ_0774,Projeto 774,13.2,586244.46,4,alto,Scrum Master,1
+PROJ_0775,Projeto 775,11.2,1941020.49,7,baixo,Tech Lead,0
+PROJ_0776,Projeto 776,11.0,1996845.89,6,médio,Gerente de Projetos,1
+PROJ_0777,Projeto 777,15.9,1695909.83,4,baixo,Tech Lead,1
+PROJ_0778,Projeto 778,1.9,339008.15,6,baixo,Gerente de Projetos,1
+PROJ_0779,Projeto 779,16.6,773178.91,7,baixo,Arquiteto de Software,0
+PROJ_0780,Projeto 780,10.5,1020464.11,3,médio,Desenvolvedor Senior,1
+PROJ_0781,Projeto 781,15.3,1093970.27,2,alto,Arquiteto de Software,0
+PROJ_0782,Projeto 782,15.2,1679172.99,3,médio,Desenvolvedor Senior,0
+PROJ_0783,Projeto 783,9.8,393405.47,6,médio,Arquiteto de Software,1
+PROJ_0784,Projeto 784,10.9,1612491.31,7,alto,Desenvolvedor Senior,1
+PROJ_0785,Projeto 785,15.0,687987.78,6,alto,Product Owner,1
+PROJ_0786,Projeto 786,13.6,1712318.61,5,médio,Tech Lead,0
+PROJ_0787,Projeto 787,6.7,614789.91,5,baixo,Product Owner,1
+PROJ_0788,Projeto 788,14.8,1454158.47,2,alto,Arquiteto de Software,1
+PROJ_0789,Projeto 789,2.9,1439314.58,3,médio,Arquiteto de Software,1
+PROJ_0790,Projeto 790,4.2,854090.24,5,baixo,Gerente de Projetos,0
+PROJ_0791,Projeto 791,2.9,1744689.9,4,alto,Desenvolvedor Senior,1
+PROJ_0792,Projeto 792,16.7,1747821.28,4,baixo,Desenvolvedor Senior,0
+PROJ_0793,Projeto 793,5.7,1724997.37,5,médio,Desenvolvedor Senior,1
+PROJ_0794,Projeto 794,10.1,1119323.0,7,baixo,Arquiteto de Software,0
+PROJ_0795,Projeto 795,1.5,1093096.1,2,alto,Scrum Master,1
+PROJ_0796,Projeto 796,14.3,1319427.07,3,alto,Scrum Master,1
+PROJ_0797,Projeto 797,12.3,1407460.61,3,médio,Scrum Master,1
+PROJ_0798,Projeto 798,15.2,1219137.77,7,alto,Arquiteto de Software,0
+PROJ_0799,Projeto 799,17.1,1129819.39,2,baixo,Scrum Master,0
+PROJ_0800,Projeto 800,11.0,1273762.87,7,alto,Scrum Master,1
+PROJ_0801,Projeto 801,14.4,493719.58,7,baixo,Arquiteto de Software,1
+PROJ_0802,Projeto 802,10.3,1745228.67,7,baixo,Tech Lead,0
+PROJ_0803,Projeto 803,1.7,1533772.78,3,médio,Arquiteto de Software,1
+PROJ_0804,Projeto 804,6.6,1017188.41,6,médio,Desenvolvedor Senior,0
+PROJ_0805,Projeto 805,12.9,1003486.77,2,médio,Gerente de Projetos,1
+PROJ_0806,Projeto 806,11.9,208068.9,2,baixo,Arquiteto de Software,0
+PROJ_0807,Projeto 807,15.0,1505439.92,5,alto,Scrum Master,1
+PROJ_0808,Projeto 808,7.1,1880524.08,3,alto,Desenvolvedor Senior,0
+PROJ_0809,Projeto 809,1.0,359618.83,6,médio,Scrum Master,1
+PROJ_0810,Projeto 810,8.6,274310.32,6,baixo,Gerente de Projetos,0
+PROJ_0811,Projeto 811,2.0,362615.12,3,médio,Arquiteto de Software,1
+PROJ_0812,Projeto 812,4.2,141198.17,7,alto,Gerente de Projetos,1
+PROJ_0813,Projeto 813,4.7,295988.56,5,baixo,Arquiteto de Software,1
+PROJ_0814,Projeto 814,16.2,878429.98,8,baixo,Desenvolvedor Senior,0
+PROJ_0815,Projeto 815,4.4,1199690.8,4,baixo,Product Owner,0
+PROJ_0816,Projeto 816,14.7,383478.24,5,médio,Gerente de Projetos,1
+PROJ_0817,Projeto 817,17.2,732721.04,6,alto,Product Owner,1
+PROJ_0818,Projeto 818,1.2,844133.45,8,baixo,Product Owner,1
+PROJ_0819,Projeto 819,12.9,211060.64,6,baixo,Gerente de Projetos,0
+PROJ_0820,Projeto 820,2.8,1583996.1,4,alto,Desenvolvedor Senior,1
+PROJ_0821,Projeto 821,6.2,1654937.58,5,baixo,Scrum Master,1
+PROJ_0822,Projeto 822,13.7,1722077.72,8,baixo,Product Owner,1
+PROJ_0823,Projeto 823,3.2,340735.51,7,médio,Arquiteto de Software,0
+PROJ_0824,Projeto 824,5.8,1488332.01,7,médio,Desenvolvedor Senior,0
+PROJ_0825,Projeto 825,12.2,65988.87,2,baixo,Scrum Master,0
+PROJ_0826,Projeto 826,9.5,1363670.33,8,baixo,Gerente de Projetos,0
+PROJ_0827,Projeto 827,16.9,1905771.88,6,alto,Product Owner,1
+PROJ_0828,Projeto 828,13.9,1494695.31,2,baixo,Desenvolvedor Senior,0
+PROJ_0829,Projeto 829,4.7,1834283.66,3,alto,Arquiteto de Software,1
+PROJ_0830,Projeto 830,17.3,442549.17,5,baixo,Arquiteto de Software,1
+PROJ_0831,Projeto 831,6.6,216712.8,8,baixo,Scrum Master,0
+PROJ_0832,Projeto 832,2.6,907046.24,5,médio,Desenvolvedor Senior,1
+PROJ_0833,Projeto 833,3.4,1896345.9,2,baixo,Arquiteto de Software,0
+PROJ_0834,Projeto 834,2.3,1731752.91,3,baixo,Desenvolvedor Senior,1
+PROJ_0835,Projeto 835,16.7,1056835.68,5,médio,Arquiteto de Software,0
+PROJ_0836,Projeto 836,14.2,1117769.1,7,baixo,Product Owner,0
+PROJ_0837,Projeto 837,12.5,760471.76,5,médio,Desenvolvedor Senior,0
+PROJ_0838,Projeto 838,4.3,418764.61,5,baixo,Desenvolvedor Senior,0
+PROJ_0839,Projeto 839,14.4,380862.92,2,baixo,Scrum Master,1
+PROJ_0840,Projeto 840,5.7,1191873.09,5,alto,Arquiteto de Software,1
+PROJ_0841,Projeto 841,3.7,417086.59,8,alto,Scrum Master,1
+PROJ_0842,Projeto 842,12.9,824505.76,7,médio,Desenvolvedor Senior,1
+PROJ_0843,Projeto 843,11.4,1572777.74,5,alto,Arquiteto de Software,1
+PROJ_0844,Projeto 844,17.5,70345.97,5,médio,Desenvolvedor Senior,0
+PROJ_0845,Projeto 845,10.9,268311.47,5,baixo,Scrum Master,1
+PROJ_0846,Projeto 846,13.4,280278.31,7,alto,Tech Lead,1
+PROJ_0847,Projeto 847,15.6,1220715.35,5,baixo,Tech Lead,0
+PROJ_0848,Projeto 848,17.5,1006173.55,2,médio,Desenvolvedor Senior,1
+PROJ_0849,Projeto 849,13.6,1888766.34,2,médio,Gerente de Projetos,0
+PROJ_0850,Projeto 850,12.8,737753.95,3,alto,Gerente de Projetos,0
+PROJ_0851,Projeto 851,10.0,515880.47,6,baixo,Scrum Master,0
+PROJ_0852,Projeto 852,2.9,1064729.82,5,baixo,Desenvolvedor Senior,1
+PROJ_0853,Projeto 853,6.3,1967621.6,3,baixo,Product Owner,1
+PROJ_0854,Projeto 854,14.5,1479309.09,5,baixo,Tech Lead,1
+PROJ_0855,Projeto 855,11.1,1259619.47,6,médio,Arquiteto de Software,1
+PROJ_0856,Projeto 856,5.0,429180.19,3,baixo,Arquiteto de Software,1
+PROJ_0857,Projeto 857,13.2,239541.47,2,médio,Tech Lead,0
+PROJ_0858,Projeto 858,7.3,1970131.98,5,médio,Gerente de Projetos,1
+PROJ_0859,Projeto 859,10.7,896967.3,8,médio,Scrum Master,1
+PROJ_0860,Projeto 860,4.7,748174.76,5,baixo,Desenvolvedor Senior,0
+PROJ_0861,Projeto 861,11.0,1014811.42,7,médio,Arquiteto de Software,1
+PROJ_0862,Projeto 862,15.0,697213.14,4,médio,Desenvolvedor Senior,0
+PROJ_0863,Projeto 863,2.5,896412.53,2,baixo,Tech Lead,0
+PROJ_0864,Projeto 864,9.0,1462637.81,7,alto,Tech Lead,1
+PROJ_0865,Projeto 865,6.1,955812.37,7,médio,Scrum Master,1
+PROJ_0866,Projeto 866,12.7,969540.76,4,médio,Product Owner,1
+PROJ_0867,Projeto 867,10.8,1196980.67,4,baixo,Tech Lead,1
+PROJ_0868,Projeto 868,2.9,1381195.19,8,médio,Tech Lead,0
+PROJ_0869,Projeto 869,9.9,1065690.54,5,médio,Arquiteto de Software,1
+PROJ_0870,Projeto 870,5.7,1060146.79,3,médio,Desenvolvedor Senior,1
+PROJ_0871,Projeto 871,9.0,1618553.91,8,alto,Gerente de Projetos,1
+PROJ_0872,Projeto 872,4.7,62928.39,8,baixo,Gerente de Projetos,0
+PROJ_0873,Projeto 873,15.2,1367716.27,5,alto,Desenvolvedor Senior,0
+PROJ_0874,Projeto 874,12.6,1571297.95,7,baixo,Desenvolvedor Senior,0
+PROJ_0875,Projeto 875,12.6,301061.39,4,alto,Desenvolvedor Senior,1
+PROJ_0876,Projeto 876,9.2,1590663.98,8,baixo,Scrum Master,1
+PROJ_0877,Projeto 877,17.4,795702.63,5,alto,Tech Lead,1
+PROJ_0878,Projeto 878,14.2,490892.52,7,médio,Desenvolvedor Senior,1
+PROJ_0879,Projeto 879,12.9,1490890.25,4,baixo,Scrum Master,0
+PROJ_0880,Projeto 880,3.0,796788.68,7,médio,Product Owner,1
+PROJ_0881,Projeto 881,1.6,1038162.25,8,médio,Desenvolvedor Senior,1
+PROJ_0882,Projeto 882,6.3,294923.73,3,médio,Arquiteto de Software,1
+PROJ_0883,Projeto 883,17.9,1299940.35,3,baixo,Arquiteto de Software,1
+PROJ_0884,Projeto 884,15.9,611657.93,2,baixo,Arquiteto de Software,0
+PROJ_0885,Projeto 885,7.5,1536987.39,2,alto,Scrum Master,1
+PROJ_0886,Projeto 886,8.6,187057.98,4,baixo,Desenvolvedor Senior,0
+PROJ_0887,Projeto 887,5.6,1791551.46,2,baixo,Scrum Master,0
+PROJ_0888,Projeto 888,17.7,142798.51,3,médio,Gerente de Projetos,0
+PROJ_0889,Projeto 889,16.4,1239599.31,6,médio,Product Owner,0
+PROJ_0890,Projeto 890,9.2,437224.13,3,alto,Product Owner,0
+PROJ_0891,Projeto 891,11.4,221129.11,2,baixo,Product Owner,0
+PROJ_0892,Projeto 892,13.4,822846.38,6,alto,Arquiteto de Software,1
+PROJ_0893,Projeto 893,17.0,1993866.21,6,médio,Tech Lead,1
+PROJ_0894,Projeto 894,11.6,71375.3,5,baixo,Gerente de Projetos,0
+PROJ_0895,Projeto 895,14.6,1312954.63,4,alto,Gerente de Projetos,1
+PROJ_0896,Projeto 896,4.5,815848.72,2,médio,Desenvolvedor Senior,1
+PROJ_0897,Projeto 897,7.7,1636042.07,7,médio,Desenvolvedor Senior,1
+PROJ_0898,Projeto 898,17.5,272121.75,7,médio,Arquiteto de Software,1
+PROJ_0899,Projeto 899,4.3,1828864.97,6,alto,Tech Lead,1
+PROJ_0900,Projeto 900,5.2,610351.22,4,baixo,Gerente de Projetos,0
+PROJ_0901,Projeto 901,14.0,335538.07,8,baixo,Arquiteto de Software,0
+PROJ_0902,Projeto 902,13.3,1341907.91,2,alto,Tech Lead,0
+PROJ_0903,Projeto 903,16.3,1576286.57,8,baixo,Gerente de Projetos,0
+PROJ_0904,Projeto 904,16.3,216060.97,2,alto,Gerente de Projetos,1
+PROJ_0905,Projeto 905,1.1,1233553.02,2,baixo,Desenvolvedor Senior,0
+PROJ_0906,Projeto 906,14.2,491288.84,7,médio,Scrum Master,0
+PROJ_0907,Projeto 907,12.6,661439.64,4,baixo,Arquiteto de Software,0
+PROJ_0908,Projeto 908,13.5,294115.79,6,médio,Arquiteto de Software,1
+PROJ_0909,Projeto 909,7.2,992754.23,5,médio,Arquiteto de Software,1
+PROJ_0910,Projeto 910,5.2,253842.85,3,baixo,Gerente de Projetos,1
+PROJ_0911,Projeto 911,15.5,782991.22,2,baixo,Arquiteto de Software,0
+PROJ_0912,Projeto 912,3.7,1606443.08,4,baixo,Product Owner,0
+PROJ_0913,Projeto 913,8.8,897500.19,3,médio,Desenvolvedor Senior,1
+PROJ_0914,Projeto 914,8.1,1574041.17,5,médio,Product Owner,0
+PROJ_0915,Projeto 915,2.8,1015664.78,6,alto,Product Owner,1
+PROJ_0916,Projeto 916,5.9,1324390.95,3,alto,Arquiteto de Software,1
+PROJ_0917,Projeto 917,11.5,1219766.99,2,baixo,Gerente de Projetos,0
+PROJ_0918,Projeto 918,1.4,950285.24,6,baixo,Desenvolvedor Senior,1
+PROJ_0919,Projeto 919,1.1,948442.92,8,alto,Tech Lead,1
+PROJ_0920,Projeto 920,15.2,781026.8,6,alto,Product Owner,1
+PROJ_0921,Projeto 921,12.1,585067.57,2,médio,Desenvolvedor Senior,1
+PROJ_0922,Projeto 922,7.8,958918.24,4,alto,Scrum Master,1
+PROJ_0923,Projeto 923,5.1,1955451.14,2,médio,Scrum Master,0
+PROJ_0924,Projeto 924,9.9,411004.99,3,alto,Arquiteto de Software,1
+PROJ_0925,Projeto 925,1.2,959834.16,8,médio,Tech Lead,1
+PROJ_0926,Projeto 926,9.3,100699.77,7,médio,Gerente de Projetos,1
+PROJ_0927,Projeto 927,11.8,1708744.86,5,alto,Gerente de Projetos,1
+PROJ_0928,Projeto 928,8.7,973104.82,2,alto,Tech Lead,0
+PROJ_0929,Projeto 929,16.6,1349521.14,8,médio,Desenvolvedor Senior,0
+PROJ_0930,Projeto 930,12.4,215160.03,3,baixo,Scrum Master,1
+PROJ_0931,Projeto 931,10.1,1255615.26,5,baixo,Scrum Master,1
+PROJ_0932,Projeto 932,9.3,1728063.05,3,alto,Tech Lead,1
+PROJ_0933,Projeto 933,5.1,1307169.69,7,alto,Arquiteto de Software,1
+PROJ_0934,Projeto 934,3.3,1572345.18,2,médio,Desenvolvedor Senior,1
+PROJ_0935,Projeto 935,2.1,615713.97,8,alto,Gerente de Projetos,1
+PROJ_0936,Projeto 936,3.0,1672182.64,6,alto,Tech Lead,1
+PROJ_0937,Projeto 937,16.4,722428.19,5,médio,Arquiteto de Software,1
+PROJ_0938,Projeto 938,1.6,1794583.05,3,baixo,Gerente de Projetos,1
+PROJ_0939,Projeto 939,9.2,656623.32,5,alto,Product Owner,1
+PROJ_0940,Projeto 940,10.7,1285560.47,3,baixo,Desenvolvedor Senior,0
+PROJ_0941,Projeto 941,3.9,243668.6,2,médio,Tech Lead,1
+PROJ_0942,Projeto 942,14.0,1902463.77,3,médio,Gerente de Projetos,0
+PROJ_0943,Projeto 943,3.8,1038677.08,2,alto,Desenvolvedor Senior,1
+PROJ_0944,Projeto 944,9.9,369385.14,7,alto,Scrum Master,1
+PROJ_0945,Projeto 945,6.5,226800.28,8,alto,Gerente de Projetos,1
+PROJ_0946,Projeto 946,3.6,642028.97,2,alto,Gerente de Projetos,1
+PROJ_0947,Projeto 947,8.7,1789673.89,8,médio,Desenvolvedor Senior,1
+PROJ_0948,Projeto 948,14.9,306580.1,3,médio,Scrum Master,1
+PROJ_0949,Projeto 949,15.5,1848433.04,5,alto,Scrum Master,1
+PROJ_0950,Projeto 950,8.0,384087.63,6,baixo,Arquiteto de Software,0
+PROJ_0951,Projeto 951,14.3,862128.35,2,alto,Scrum Master,1
+PROJ_0952,Projeto 952,16.5,751313.16,7,médio,Gerente de Projetos,0
+PROJ_0953,Projeto 953,17.0,502890.95,3,baixo,Product Owner,0
+PROJ_0954,Projeto 954,13.7,1976295.54,4,alto,Arquiteto de Software,0
+PROJ_0955,Projeto 955,10.0,830374.11,4,alto,Desenvolvedor Senior,0
+PROJ_0956,Projeto 956,13.3,79467.24,3,médio,Product Owner,0
+PROJ_0957,Projeto 957,7.3,1336381.31,3,baixo,Product Owner,1
+PROJ_0958,Projeto 958,16.8,1460636.03,3,baixo,Product Owner,0
+PROJ_0959,Projeto 959,12.8,1169855.52,8,médio,Arquiteto de Software,1
+PROJ_0960,Projeto 960,14.0,1557265.57,7,alto,Desenvolvedor Senior,1
+PROJ_0961,Projeto 961,2.2,561406.01,5,alto,Arquiteto de Software,1
+PROJ_0962,Projeto 962,7.5,389372.4,3,médio,Tech Lead,1
+PROJ_0963,Projeto 963,14.4,485741.25,3,alto,Arquiteto de Software,1
+PROJ_0964,Projeto 964,12.4,1297944.74,7,alto,Tech Lead,1
+PROJ_0965,Projeto 965,12.7,160550.24,4,alto,Gerente de Projetos,0
+PROJ_0966,Projeto 966,5.6,1431892.21,2,médio,Tech Lead,1
+PROJ_0967,Projeto 967,8.3,1350715.32,8,médio,Scrum Master,1
+PROJ_0968,Projeto 968,9.1,969454.59,5,alto,Product Owner,1
+PROJ_0969,Projeto 969,10.1,1442725.91,3,baixo,Desenvolvedor Senior,1
+PROJ_0970,Projeto 970,12.8,795589.43,7,médio,Product Owner,1
+PROJ_0971,Projeto 971,1.1,473898.76,5,alto,Arquiteto de Software,1
+PROJ_0972,Projeto 972,12.5,1219200.55,7,médio,Product Owner,1
+PROJ_0973,Projeto 973,15.6,526919.86,8,baixo,Gerente de Projetos,0
+PROJ_0974,Projeto 974,17.1,691183.9,7,médio,Tech Lead,1
+PROJ_0975,Projeto 975,6.1,1829413.74,8,alto,Scrum Master,1
+PROJ_0976,Projeto 976,14.1,1228705.28,8,médio,Product Owner,1
+PROJ_0977,Projeto 977,8.8,985840.22,7,baixo,Product Owner,1
+PROJ_0978,Projeto 978,5.9,1974381.85,4,alto,Scrum Master,1
+PROJ_0979,Projeto 979,14.1,1156960.78,4,baixo,Tech Lead,0
+PROJ_0980,Projeto 980,6.9,1711489.07,8,baixo,Scrum Master,1
+PROJ_0981,Projeto 981,16.4,1592265.08,7,alto,Product Owner,0
+PROJ_0982,Projeto 982,5.3,744795.17,7,médio,Scrum Master,0
+PROJ_0983,Projeto 983,3.2,140739.41,2,baixo,Gerente de Projetos,0
+PROJ_0984,Projeto 984,10.5,273907.45,7,médio,Arquiteto de Software,1
+PROJ_0985,Projeto 985,12.8,1457727.92,8,médio,Desenvolvedor Senior,0
+PROJ_0986,Projeto 986,17.9,968065.57,8,alto,Tech Lead,1
+PROJ_0987,Projeto 987,5.2,1255669.53,6,alto,Gerente de Projetos,1
+PROJ_0988,Projeto 988,9.1,304497.48,2,alto,Scrum Master,0
+PROJ_0989,Projeto 989,9.1,554366.91,8,baixo,Desenvolvedor Senior,1
+PROJ_0990,Projeto 990,8.0,597616.44,3,baixo,Desenvolvedor Senior,1
+PROJ_0991,Projeto 991,17.7,1800882.28,6,baixo,Scrum Master,1
+PROJ_0992,Projeto 992,17.7,1598889.63,7,médio,Arquiteto de Software,0
+PROJ_0993,Projeto 993,6.0,1491621.47,8,médio,Product Owner,1
+PROJ_0994,Projeto 994,2.2,1816240.65,6,alto,Gerente de Projetos,1
+PROJ_0995,Projeto 995,2.2,1874979.43,2,alto,Arquiteto de Software,1
+PROJ_0996,Projeto 996,17.0,1231496.08,4,médio,Scrum Master,1
+PROJ_0997,Projeto 997,1.9,1590366.49,6,médio,Desenvolvedor Senior,1
+PROJ_0998,Projeto 998,12.5,1430018.92,8,baixo,Tech Lead,0
+PROJ_0999,Projeto 999,11.4,1315961.2,3,alto,Tech Lead,0
+PROJ_1000,Projeto 1000,5.0,613309.89,2,médio,Tech Lead,1

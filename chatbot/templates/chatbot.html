@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Predição de Projetos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            padding: 2rem;
+        }
+        
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #ecf0f1;
+            margin-bottom: 2rem;
+        }
+        
+        .tab {
+            padding: 1rem 2rem;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            color: #7f8c8d;
+        }
+        
+        .tab:hover {
+            color: #3498db;
+            background: #f8f9fa;
+        }
+        
+        .tab.active {
+            border-bottom-color: #3498db;
+            color: #3498db;
+            background: #f8f9fa;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .form-section {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .form-section h3 {
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+        }
+        
+        .user-selection {
+            background: white;
+            border: 2px solid #ecf0f1;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .user-list {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ecf0f1;
+            border-radius: 6px;
+            margin-top: 1rem;
+        }
+        
+        .user-item {
+            padding: 1rem;
+            border-bottom: 1px solid #ecf0f1;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .user-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .user-item.selected {
+            background: #e3f2fd;
+            border-left: 4px solid #3498db;
+        }
+        
+        .user-item:last-child {
+            border-bottom: none;
+        }
+        
+        .user-name {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.25rem;
+        }
+        
+        .user-details {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+        
+        .result-container {
+            background: white;
+            border: 2px solid #ecf0f1;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .result-success {
+            border-left: 6px solid #27ae60;
+            background: #f8fff9;
+        }
+        
+        .result-warning {
+            border-left: 6px solid #f39c12;
+            background: #fffbf0;
+        }
+        
+        .result-danger {
+            border-left: 6px solid #e74c3c;
+            background: #fdf2f2;
+        }
+        
+        .result-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .result-status {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-left: 1rem;
+        }
+        
+        .result-percentage {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin: 1rem 0;
+        }
+        
+        .result-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .detail-card {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .detail-card h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .spinner {
+            border: 4px solid #ecf0f1;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .status-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+        .status-success { background: #27ae60; }
+        .status-warning { background: #f39c12; }
+        .status-danger { background: #e74c3c; }
+        
+        .history-item {
+            background: #f8f9fa;
+            border: 1px solid #ecf0f1;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .history-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        .history-timestamp {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sistema de Predição de Projetos</h1>
+            <p>Análise inteligente de probabilidade de sucesso</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="tabs">
+                <div class="tab active" onclick="showTab('predict')">Analisar Projeto</div>
+                <div class="tab" onclick="showTab('users')">Gerenciar Usuários</div>
+                <div class="tab" onclick="showTab('history')">Histórico</div>
+            </div>
+            
+            <div id="predict-tab" class="tab-content active">
+                <div class="form-section">
+                    <h3>Dados do Projeto</h3>
+                    <form id="project-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="duracao">Duração (meses)</label>
+                                <input type="number" id="duracao" name="duracao" min="1" max="60" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="orcamento">Orçamento (R$)</label>
+                                <input type="number" id="orcamento" name="orcamento" min="1000" step="1000" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="tamanho_equipe">Tamanho da Equipe</label>
+                                <input type="number" id="tamanho_equipe" name="tamanho_equipe" min="1" max="50" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="recursos">Recursos Disponíveis</label>
+                                <select id="recursos" name="recursos" required>
+                                    <option value="">Selecione...</option>
+                                    <option value="baixo">Baixo</option>
+                                    <option value="médio">Médio</option>
+                                    <option value="alto">Alto</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div style="margin-top: 1.5rem;">
+                            <button type="button" class="btn" onclick="loadUsers()">Selecionar Usuário</button>
+                            <button type="button" class="btn btn-secondary" onclick="getRecommendations()">Recomendar Usuário</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div id="user-selection" class="user-selection hidden">
+                    <h3>Selecione o Usuário Responsável</h3>
+                    <div id="users-list" class="user-list"></div>
+                    <button type="button" class="btn btn-success" onclick="analyzeProject()" style="margin-top: 1rem;">Analisar Projeto</button>
+                </div>
+                
+                <div id="result-container"></div>
+            </div>
+            
+            <div id="users-tab" class="tab-content">
+                <div class="form-section">
+                    <h3>Base de Usuários</h3>
+                    <button type="button" class="btn" onclick="loadAllUsers()">Carregar Todos os Usuários</button>
+                </div>
+                <div id="all-users-list"></div>
+            </div>
+            
+            <div id="history-tab" class="tab-content">
+                <div class="form-section">
+                    <h3>Histórico de Análises</h3>
+                    <button type="button" class="btn" onclick="loadHistory()">Carregar Histórico</button>
+                </div>
+                <div id="history-list"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let selectedUserId = null;
+        
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            document.getElementById(tabName + '-tab').classList.add('active');
+            event.target.classList.add('active');
+        }
+        
+        function loadUsers() {
+            const userSelection = document.getElementById('user-selection');
+            const usersList = document.getElementById('users-list');
+            
+            usersList.innerHTML = '<div class="loading"><div class="spinner"></div><p>Carregando usuários...</p></div>';
+            userSelection.classList.remove('hidden');
+            
+            fetch('/api/users')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.sucesso) {
+                        displayUsers(data.usuarios, 'users-list');
+                    } else {
+                        usersList.innerHTML = '<p>Erro ao carregar usuários: ' + data.erro + '</p>';
+                    }
+                })
+                .catch(error => {
+                    usersList.innerHTML = '<p>Erro de conexão: ' + error.message + '</p>';
+                });
+        }
+        
+        function displayUsers(users, containerId) {
+            const container = document.getElementById(containerId);
+            
+            if (users.length === 0) {
+                container.innerHTML = '<p>Nenhum usuário encontrado.</p>';
+                return;
+            }
+            
+            let html = '';
+            users.forEach(user => {
+                html += `
+                    <div class="user-item" onclick="selectUser('${user['Usuario_ID']}', this)">
+                        <div class="user-name">${user.Nome} (${user.Cargo})</div>
+                        <div class="user-details">${user['Experiencia(anos)']} anos de experiência | ${user['Sucesso_Medio(percentual)']}% de sucesso histórico</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function selectUser(userId, element) {
+            document.querySelectorAll('.user-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+            
+            element.classList.add('selected');
+            selectedUserId = userId;
+        }
+        
+        function getRecommendations() {
+            const form = document.getElementById('project-form');
+            const formData = new FormData(form);
+            
+            if (!formData.get('duracao') || !formData.get('orcamento') || !formData.get('tamanho_equipe') || !formData.get('recursos')) {
+                alert('Preencha todos os campos do projeto primeiro!');
+                return;
+            }
+            
+            const userSelection = document.getElementById('user-selection');
+            const usersList = document.getElementById('users-list');
+            
+            usersList.innerHTML = '<div class="loading"><div class="spinner"></div><p>Analisando e recomendando usuários...</p></div>';
+            userSelection.classList.remove('hidden');
+            
+            const projectData = {
+                duracao: formData.get('duracao'),
+                orcamento: formData.get('orcamento'),
+                tamanho_equipe: formData.get('tamanho_equipe'),
+                recursos: formData.get('recursos')
+            };
+            
+            fetch('/api/recommend', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(projectData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.sucesso) {
+                    displayRecommendations(data.recomendacoes);
+                } else {
+                    usersList.innerHTML = '<p>Erro ao gerar recomendações: ' + data.erro + '</p>';
+                }
+            })
+            .catch(error => {
+                usersList.innerHTML = '<p>Erro de conexão: ' + error.message + '</p>';
+            });
+        }
+        
+        function displayRecommendations(recommendations) {
+            const usersList = document.getElementById('users-list');
+            
+            if (recommendations.length === 0) {
+                usersList.innerHTML = '<p>Nenhuma recomendação disponível.</p>';
+                return;
+            }
+            
+            let html = '<h4 style="margin-bottom: 1rem; color: #2c3e50;">Usuários Recomendados (ordenados por probabilidade de sucesso)</h4>';
+            recommendations.forEach((user, index) => {
+                const ranking = index + 1;
+                html += `
+                    <div class="user-item" onclick="selectUser('${user.usuario_id}', this)">
+                        <div class="user-name">#${ranking} ${user.nome} (${user.cargo})</div>
+                        <div class="user-details">${user.experiencia} anos | ${user.sucesso_historico}% histórico | <strong style="color: #27ae60;">${user.probabilidade_sucesso_projeto}% sucesso previsto</strong></div>
+                    </div>
+                `;
+            });
+            
+            usersList.innerHTML = html;
+        }
+        
+        function analyzeProject() {
+            if (!selectedUserId) {
+                alert('Selecione um usuário primeiro!');
+                return;
+            }
+            
+            const form = document.getElementById('project-form');
+            const formData = new FormData(form);
+            
+            const resultContainer = document.getElementById('result-container');
+            resultContainer.innerHTML = '<div class="loading"><div class="spinner"></div><p>Analisando projeto...</p></div>';
+            
+            const projectData = {
+                duracao: formData.get('duracao'),
+                orcamento: formData.get('orcamento'),
+                tamanho_equipe: formData.get('tamanho_equipe'),
+                recursos: formData.get('recursos'),
+                user_id: selectedUserId
+            };
+            
+            fetch('/api/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(projectData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.sucesso) {
+                    displayResult(data.resultado);
+                } else {
+                    resultContainer.innerHTML = '<div class="result-container result-danger"><h3>Erro na Análise</h3><p>' + data.erro + '</p></div>';
+                }
+            })
+            .catch(error => {
+                resultContainer.innerHTML = '<div class="result-container result-danger"><h3>Erro de Conexão</h3><p>' + error.message + '</p></div>';
+            });
+        }
+        
+        function displayResult(result) {
+            const resultContainer = document.getElementById('result-container');
+            const probSucesso = result.predicao_ajustada.probabilidade_sucesso;
+            
+            let statusClass = 'result-success';
+            let statusIndicator = 'status-success';
+            let statusText = 'ALTA PROBABILIDADE DE SUCESSO';
+            
+            if (probSucesso < 60) {
+                statusClass = 'result-danger';
+                statusIndicator = 'status-danger';
+                statusText = 'BAIXA PROBABILIDADE DE SUCESSO';
+            } else if (probSucesso < 80) {
+                statusClass = 'result-warning';
+                statusIndicator = 'status-warning';
+                statusText = 'PROBABILIDADE MODERADA DE SUCESSO';
+            }
+            
+            let html = `
+                <div class="result-container ${statusClass}">
+                    <div class="result-header">
+                        <span class="status-indicator ${statusIndicator}"></span>
+                        <span class="result-status">${statusText}</span>
+                    </div>
+                    
+                    <div class="result-percentage" style="color: ${probSucesso >= 80 ? '#27ae60' : probSucesso >= 60 ? '#f39c12' : '#e74c3c'}">
+                        ${probSucesso}%
+                    </div>
+                    
+                    <div class="result-details">
+                        <div class="detail-card">
+                            <h4>Usuário Responsável</h4>
+                            <p><strong>${result.usuario.nome}</strong></p>
+                            <p>${result.usuario.cargo}</p>
+                            <p>${result.usuario.experiencia} anos de experiência</p>
+                            <p>${result.usuario.sucesso_historico}% sucesso histórico</p>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h4>Análise de Predição</h4>
+                            <p>Predição Base: ${result.predicao_base.probabilidade_sucesso}%</p>
+                            <p>Predição Ajustada: <strong>${result.predicao_ajustada.probabilidade_sucesso}%</strong></p>
+                            <p>Ajuste por usuário: ${result.predicao_ajustada.ajuste_usuario > 0 ? '+' : ''}${result.predicao_ajustada.ajuste_usuario}%</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Adicionar sugestões de melhoria se existirem
+            if (result.sugestoes_melhoria && result.sugestoes_melhoria.length > 0) {
+                html += `
+                    <div class="suggestions-section" style="margin-top: 20px; padding: 20px; background-color: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px;">
+                        <h4 style="color: #856404; margin-bottom: 15px; display: flex; align-items: center;">
+                            <span style="margin-right: 8px;">💡</span>
+                            Sugestões de Melhoria
+                        </h4>
+                        <div class="suggestions-list">`;
+                    
+                    result.sugestoes_melhoria.forEach((sugestao, index) => {
+                        const impactColor = sugestao.impacto.includes('Crítico') ? '#e74c3c' : 
+                                           sugestao.impacto.includes('Alto') ? '#e67e22' : 
+                                           sugestao.impacto.includes('Médio') ? '#f39c12' : '#27ae60';
+                        
+                        html += `
+                            <div class="suggestion-item" style="margin-bottom: 15px; padding: 15px; background-color: white; border-left: 4px solid ${impactColor}; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                                <div style="display: flex; justify-content: between; align-items: flex-start; margin-bottom: 8px;">
+                                    <strong style="color: #2c3e50; font-size: 14px;">${sugestao.categoria}</strong>
+                                    <span style="background-color: ${impactColor}; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: bold; margin-left: auto;">
+                                        ${sugestao.impacto}
+                                    </span>
+                                </div>
+                                <p style="margin: 5px 0; color: #7f8c8d; font-size: 13px;"><strong>Problema:</strong> ${sugestao.problema}</p>
+                                <p style="margin: 5px 0; color: #2c3e50; font-size: 13px;"><strong>Sugestão:</strong> ${sugestao.sugestao}</p>
+                            </div>`;
+                    });
+                    
+                    html += `
+                        </div>
+                    </div>`;
+            }
+            
+            html += `</div>`;
+            
+            resultContainer.innerHTML = html;
+        }
+        
+        function loadAllUsers() {
+            const container = document.getElementById('all-users-list');
+            container.innerHTML = '<div class="loading"><div class="spinner"></div><p>Carregando todos os usuários...</p></div>';
+            
+            fetch('/api/users')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.sucesso) {
+                        let html = `<div class="form-section"><h3>Total de Usuários: ${data.usuarios.length}</h3></div><div class="user-list">`;
+                        data.usuarios.forEach(user => {
+                            html += `
+                                <div class="user-item">
+                                    <div class="user-name">${user.Nome} (${user.Cargo})</div>
+                                    <div class="user-details">ID: ${user['Usuario_ID']} | ${user['Experiencia(anos)']} anos | ${user['Sucesso_Medio(percentual)']}% sucesso</div>
+                                </div>
+                            `;
+                        });
+                        html += '</div>';
+                        container.innerHTML = html;
+                    } else {
+                        container.innerHTML = '<p>Erro ao carregar usuários: ' + data.erro + '</p>';
+                    }
+                })
+                .catch(error => {
+                    container.innerHTML = '<p>Erro de conexão: ' + error.message + '</p>';
+                });
+        }
+        
+        function loadHistory() {
+            const container = document.getElementById('history-list');
+            container.innerHTML = '<div class="loading"><div class="spinner"></div><p>Carregando histórico...</p></div>';
+            
+            fetch('/api/history')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.sucesso) {
+                        if (data.historico.length === 0) {
+                            container.innerHTML = '<div class="form-section"><p>Nenhuma análise realizada nesta sessão.</p></div>';
+                        } else {
+                            let html = `<div class="form-section"><h3>Histórico da Sessão (${data.historico.length} análises)</h3></div>`;
+                            data.historico.forEach((entry, index) => {
+                                const timestamp = new Date(entry.timestamp).toLocaleString('pt-BR');
+                                const prob = entry.resultado.predicao_ajustada.probabilidade_sucesso;
+                                const statusClass = prob >= 80 ? 'status-success' : prob >= 60 ? 'status-warning' : 'status-danger';
+                                
+                                html += `
+                                    <div class="history-item">
+                                        <div class="history-header">
+                                            <div>
+                                                <span class="status-indicator ${statusClass}"></span>
+                                                <strong>${entry.resultado.usuario.nome}</strong>
+                                            </div>
+                                            <span class="history-timestamp">${timestamp}</span>
+                                        </div>
+                                        <p>Probabilidade de sucesso: <strong>${prob}%</strong></p>
+                                        <p>Orçamento: R$ ${entry.projeto['Orçamento(R$)'].toLocaleString('pt-BR')} | Duração: ${entry.projeto['Duração(meses)']} meses</p>
+                                    </div>
+                                `;
+                            });
+                            container.innerHTML = html;
+                        }
+                    } else {
+                        container.innerHTML = '<p>Erro ao carregar histórico: ' + data.erro + '</p>';
+                    }
+                })
+                .catch(error => {
+                    container.innerHTML = '<p>Erro de conexão: ' + error.message + '</p>';
+                });
+        }
+    </script>
+</body>
+</html>

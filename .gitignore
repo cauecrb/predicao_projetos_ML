@@ -1,0 +1,31 @@
+# Diretório de descarte
+descarte/
+
+# Ambientes virtuais
+venv/
+venv~/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Modelos treinados
+ *.joblib
+ trained_model.joblib
+
+# Arquivos de configuração
+*.env
+.env

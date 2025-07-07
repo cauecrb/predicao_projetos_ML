@@ -1,0 +1,1501 @@
+Projeto_ID,Projeto_name,Duracao_meses,Orcamento_R$,Tamanho_da_Equipe,RecursosDisponiveis,cargoFuncionario,Sucesso
+PROJ_0001,App de Atendimento Web,6.8,214470.76,2,baixo,Arquiteto de Software,1
+PROJ_0002,App de Delivery Web,6.1,265575.65,3,alto,Coordenador de TI,1
+PROJ_0003,Plataforma IoT,4.3,146486.27,2,baixo,Consultor Técnico,0
+PROJ_0004,Portal do Cliente,4.3,160852.96,2,baixo,Gerente de Projetos,1
+PROJ_0005,Sistema de Gestão Empresarial Plus,4.1,93408.17,2,alto,Consultor Técnico,0
+PROJ_0006,Sistema de Manutenção Plus,4.0,149801.52,2,baixo,Consultor Técnico,1
+PROJ_0007,Portal de Fornecedores Mobile,7.9,281033.84,2,baixo,Arquiteto de Software,0
+PROJ_0008,Sistema de Segurança,5.9,201017.05,3,baixo,Analista de Sistemas,1
+PROJ_0009,Sistema de Backup,2.8,80450.47,2,médio,Arquiteto de Software,1
+PROJ_0010,Plataforma E-commerce Pro,7.1,355154.94,3,médio,Coordenador de TI,1
+PROJ_0011,Portal do Cliente,6.3,221311.83,3,médio,Tech Lead,1
+PROJ_0012,Portal de Treinamento,8.0,345274.24,3,alto,Arquiteto de Software,1
+PROJ_0013,Sistema de Segurança Advanced,5.2,277867.22,4,baixo,Consultor Técnico,1
+PROJ_0014,Sistema de Estoque,2.8,108474.28,2,médio,Gerente de Desenvolvimento,1
+PROJ_0015,Portal do Cliente,3.7,159680.07,2,alto,Líder Técnico,0
+PROJ_0016,Sistema de Compras,10.3,400045.78,3,baixo,Líder Técnico,1
+PROJ_0017,Sistema de RH,6.2,208186.76,2,baixo,Gerente de Projetos,1
+PROJ_0018,Plataforma IoT Pro,6.6,249006.84,2,médio,Coordenador de TI,0
+PROJ_0019,Portal de Treinamento V2,2.4,62064.94,2,médio,Gerente de Desenvolvimento,1
+PROJ_0020,Portal Interno,6.7,180422.3,2,alto,Tech Lead,1
+PROJ_0021,Dashboard Analytics,9.2,684746.59,4,médio,Desenvolvedor Senior,1
+PROJ_0022,Plataforma IoT Web,3.5,94087.93,2,baixo,Coordenador de TI,0
+PROJ_0023,Sistema de Manutenção,2.7,80390.77,2,médio,Consultor Técnico,0
+PROJ_0024,Portal de Documentos Advanced,4.4,219876.71,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0025,Portal Interno,6.0,219114.44,3,alto,Consultor Técnico,0
+PROJ_0026,App de Delivery,2.8,127340.97,2,alto,Gerente de Projetos,0
+PROJ_0027,App de Delivery,3.9,174309.21,2,baixo,Tech Lead,1
+PROJ_0028,App de Monitoramento Plus,5.8,194498.01,2,alto,Líder Técnico,1
+PROJ_0029,Sistema de Compras,9.3,413581.26,2,médio,Desenvolvedor Senior,1
+PROJ_0030,App de Atendimento,2.9,123346.33,2,alto,Especialista em Dados,1
+PROJ_0031,Plataforma E-commerce Plus,5.4,244266.67,3,alto,Consultor Técnico,1
+PROJ_0032,Sistema de Produção Mobile,5.4,279143.89,2,alto,Gerente de Desenvolvimento,1
+PROJ_0033,Sistema de Compras,6.7,257729.41,2,médio,Tech Lead,0
+PROJ_0034,App de Delivery,3.5,164789.3,2,médio,Analista de Sistemas,1
+PROJ_0035,Plataforma de Vendas,5.5,234703.78,2,alto,Gerente de Projetos,1
+PROJ_0036,Portal de Treinamento Web,8.3,408239.05,2,médio,Analista de Sistemas,0
+PROJ_0037,Sistema de Segurança,7.0,658878.5,4,médio,Líder Técnico,1
+PROJ_0038,Portal do Cliente,5.8,199251.64,2,baixo,Líder Técnico,1
+PROJ_0039,Sistema de Qualidade,4.3,249895.36,3,baixo,Consultor Técnico,1
+PROJ_0040,Portal de Treinamento,16.1,3008664.92,8,médio,Coordenador de TI,1
+PROJ_0041,Plataforma IoT,3.9,81034.75,2,alto,Arquiteto de Software,1
+PROJ_0042,App de Comunicação,3.7,136304.18,3,médio,Coordenador de TI,1
+PROJ_0043,Sistema CRM,3.0,121063.62,2,médio,Especialista em Dados,1
+PROJ_0044,Sistema de Gestão Empresarial,3.8,78166.54,2,baixo,Arquiteto de Software,1
+PROJ_0045,Plataforma de Vendas,6.6,257074.68,3,médio,Consultor Técnico,1
+PROJ_0046,App de Controle de Acesso Web,2.4,73310.83,2,médio,Arquiteto de Software,1
+PROJ_0047,Plataforma de BI,9.3,316823.22,3,médio,Líder Técnico,1
+PROJ_0048,Sistema de RH Plus,7.3,248158.72,2,médio,Consultor Técnico,1
+PROJ_0049,App de Comunicação,5.0,188892.33,2,baixo,Gerente de Projetos,1
+PROJ_0050,Sistema de Manutenção,4.2,141886.4,2,alto,Gerente de Projetos,1
+PROJ_0051,Sistema de Estoque,6.3,292422.36,2,alto,Arquiteto de Software,1
+PROJ_0052,App de Delivery Mobile,7.0,302642.87,2,médio,Coordenador de TI,0
+PROJ_0053,Portal do Cliente,7.0,254248.84,2,alto,Coordenador de TI,1
+PROJ_0054,App de Comunicação,5.4,288209.31,3,médio,Analista de Sistemas,1
+PROJ_0055,Plataforma E-commerce,6.2,235245.84,2,médio,Consultor Técnico,1
+PROJ_0056,Dashboard Analytics Mobile,9.5,430627.79,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0057,Sistema de RH,5.5,220543.88,2,baixo,Desenvolvedor Senior,1
+PROJ_0058,Sistema de Backup,7.2,400860.44,4,baixo,Tech Lead,1
+PROJ_0059,Sistema de Qualidade,4.3,182622.79,2,médio,Especialista em Dados,0
+PROJ_0060,Sistema de Estoque V2,3.9,241382.88,3,médio,Tech Lead,0
+PROJ_0061,Sistema de Gestão Empresarial,5.3,147529.01,2,baixo,Desenvolvedor Senior,1
+PROJ_0062,Portal de Relatórios V2,9.8,823063.86,4,baixo,Gerente de Projetos,0
+PROJ_0063,App de Delivery V2,5.9,249685.74,2,médio,Tech Lead,0
+PROJ_0064,Portal do Cliente,4.3,361980.0,4,baixo,Arquiteto de Software,1
+PROJ_0065,Plataforma IoT,14.8,611492.0,3,médio,Consultor Técnico,1
+PROJ_0066,Plataforma E-commerce,2.4,79679.85,2,alto,Líder Técnico,1
+PROJ_0067,Portal de Relatórios,3.0,155308.21,3,baixo,Especialista em Dados,1
+PROJ_0068,Sistema de Segurança,6.2,312727.27,2,alto,Coordenador de TI,1
+PROJ_0069,Sistema de Estoque,2.7,128076.74,2,alto,Tech Lead,0
+PROJ_0070,Portal de Fornecedores,11.0,827506.92,4,médio,Gerente de Projetos,1
+PROJ_0071,Plataforma IoT,5.7,227465.67,2,médio,Coordenador de TI,1
+PROJ_0072,App Mobile de Vendas,6.0,597647.83,5,médio,Tech Lead,1
+PROJ_0073,Sistema de Segurança,4.7,191163.85,3,médio,Desenvolvedor Senior,1
+PROJ_0074,Sistema de RH Advanced,4.3,139708.51,2,médio,Analista de Sistemas,1
+PROJ_0075,Portal de Fornecedores Advanced,4.7,182277.74,2,médio,Desenvolvedor Senior,0
+PROJ_0076,Portal de Treinamento,5.3,212538.08,2,médio,Especialista em Dados,1
+PROJ_0077,Sistema de Segurança,3.0,68199.12,2,baixo,Consultor Técnico,1
+PROJ_0078,Sistema de Estoque Mobile,3.2,135636.61,2,médio,Gerente de Projetos,1
+PROJ_0079,Portal do Cliente,4.1,89946.59,2,médio,Desenvolvedor Senior,1
+PROJ_0080,Dashboard Analytics,5.5,152893.22,2,médio,Especialista em Dados,1
+PROJ_0081,Sistema de RH,5.1,176979.94,2,baixo,Gerente de Projetos,1
+PROJ_0082,Dashboard Analytics,16.0,1185614.3,4,baixo,Gerente de Desenvolvimento,1
+PROJ_0083,Portal Interno,7.1,210496.47,2,médio,Especialista em Dados,1
+PROJ_0084,Sistema CRM,3.6,81660.45,2,baixo,Consultor Técnico,1
+PROJ_0085,Plataforma IoT,11.9,855972.7,5,médio,Analista de Sistemas,1
+PROJ_0086,Sistema de RH V2,4.3,182654.4,3,médio,Líder Técnico,1
+PROJ_0087,Portal de Documentos,2.9,70890.62,2,baixo,Tech Lead,1
+PROJ_0088,App Mobile de Vendas Advanced,3.6,93372.26,2,médio,Consultor Técnico,0
+PROJ_0089,App de Controle de Acesso,4.8,228118.74,2,baixo,Analista de Sistemas,1
+PROJ_0090,App Mobile de Vendas,6.9,226563.05,2,alto,Coordenador de TI,1
+PROJ_0091,Portal de Treinamento Mobile,3.7,91052.38,2,médio,Coordenador de TI,1
+PROJ_0092,Plataforma IoT,3.2,92405.93,2,médio,Gerente de Desenvolvimento,1
+PROJ_0093,Sistema de Estoque,8.7,368005.22,2,médio,Líder Técnico,1
+PROJ_0094,App de Delivery,3.3,75848.23,2,alto,Gerente de Projetos,1
+PROJ_0095,Sistema de Manutenção Web,5.6,136839.44,2,baixo,Líder Técnico,0
+PROJ_0096,Portal de Relatórios,4.4,178623.14,2,alto,Arquiteto de Software,1
+PROJ_0097,Sistema de RH,6.4,254355.18,2,baixo,Tech Lead,0
+PROJ_0098,App de Delivery Plus,4.5,141400.74,2,alto,Arquiteto de Software,1
+PROJ_0099,Sistema de Qualidade,5.6,210095.42,2,alto,Coordenador de TI,1
+PROJ_0100,Sistema de Gestão Empresarial,4.4,141810.94,2,médio,Líder Técnico,1
+PROJ_0101,Sistema de Estoque Plus,3.6,107896.21,2,baixo,Consultor Técnico,1
+PROJ_0102,Portal Interno Pro,4.2,178981.32,2,médio,Coordenador de TI,0
+PROJ_0103,Sistema de Compras Pro,4.1,132666.72,2,médio,Analista de Sistemas,1
+PROJ_0104,Sistema de Qualidade,3.0,89217.92,2,alto,Arquiteto de Software,0
+PROJ_0105,Sistema de Manutenção,17.9,1796382.52,6,médio,Consultor Técnico,1
+PROJ_0106,Sistema de Gestão Empresarial,5.9,251238.42,2,baixo,Consultor Técnico,0
+PROJ_0107,Sistema CRM,5.6,195695.28,2,baixo,Coordenador de TI,1
+PROJ_0108,Sistema de Compras V2,9.0,731783.48,4,médio,Coordenador de TI,0
+PROJ_0109,Portal de Documentos,2.2,51630.51,2,médio,Arquiteto de Software,1
+PROJ_0110,Sistema CRM,2.8,84048.42,2,médio,Tech Lead,1
+PROJ_0111,Sistema de RH,4.7,211376.92,2,médio,Arquiteto de Software,1
+PROJ_0112,Plataforma de Vendas,3.7,91780.48,2,baixo,Gerente de Projetos,1
+PROJ_0113,Portal do Cliente,3.8,128615.11,2,médio,Arquiteto de Software,1
+PROJ_0114,App Mobile de Vendas Plus,3.1,153789.87,2,médio,Arquiteto de Software,1
+PROJ_0115,Dashboard Analytics,3.2,142251.96,3,médio,Consultor Técnico,1
+PROJ_0116,Sistema de Backup,3.8,78081.7,2,alto,Gerente de Projetos,1
+PROJ_0117,Sistema de Estoque Web,3.1,98252.61,2,alto,Analista de Sistemas,1
+PROJ_0118,Sistema de Produção Pro,11.6,405267.8,2,baixo,Líder Técnico,1
+PROJ_0119,Sistema de Produção Plus,6.2,298678.16,2,médio,Gerente de Projetos,1
+PROJ_0120,Sistema CRM,10.0,357625.38,2,médio,Gerente de Projetos,1
+PROJ_0121,Sistema de Compras,5.9,182388.69,2,médio,Desenvolvedor Senior,0
+PROJ_0122,Plataforma IoT Mobile,4.5,203417.17,3,médio,Gerente de Desenvolvimento,1
+PROJ_0123,Sistema de Manutenção,5.8,176539.34,2,baixo,Desenvolvedor Senior,1
+PROJ_0124,Portal de Treinamento Plus,2.6,110889.15,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0125,Sistema de Gestão Empresarial Pro,6.0,297322.73,3,alto,Gerente de Desenvolvimento,1
+PROJ_0126,Sistema de Segurança,6.4,192701.15,2,baixo,Desenvolvedor Senior,0
+PROJ_0127,Portal Interno Web,4.0,136905.6,2,baixo,Coordenador de TI,0
+PROJ_0128,App de Monitoramento,4.6,115200.05,2,médio,Especialista em Dados,1
+PROJ_0129,App de Delivery Advanced,2.7,101125.6,2,baixo,Tech Lead,0
+PROJ_0130,Sistema CRM,12.3,422762.2,2,baixo,Desenvolvedor Senior,0
+PROJ_0131,App de Delivery Plus,8.4,238183.69,2,alto,Gerente de Desenvolvimento,1
+PROJ_0132,Plataforma de Cursos V2,7.2,542077.09,4,médio,Arquiteto de Software,1
+PROJ_0133,Sistema Financeiro,8.9,381108.03,3,alto,Gerente de Desenvolvimento,1
+PROJ_0134,Plataforma IoT,5.9,308457.98,2,médio,Consultor Técnico,0
+PROJ_0135,Plataforma de Cursos,4.8,185265.2,3,baixo,Coordenador de TI,1
+PROJ_0136,Sistema de Compras,4.2,136085.86,2,médio,Analista de Sistemas,1
+PROJ_0137,Portal de Relatórios,9.8,873769.92,4,baixo,Arquiteto de Software,1
+PROJ_0138,App Mobile de Vendas Advanced,2.8,136907.8,2,médio,Tech Lead,0
+PROJ_0139,Portal de Documentos,5.5,695022.01,5,alto,Gerente de Desenvolvimento,1
+PROJ_0140,Sistema de Manutenção,4.5,111552.39,2,baixo,Coordenador de TI,1
+PROJ_0141,App de Monitoramento,7.8,268128.41,2,baixo,Desenvolvedor Senior,0
+PROJ_0142,Portal Interno Advanced,6.0,300090.46,2,médio,Gerente de Projetos,0
+PROJ_0143,Plataforma de Vendas,3.6,133016.61,2,baixo,Consultor Técnico,1
+PROJ_0144,Plataforma IoT,6.8,263236.63,3,alto,Desenvolvedor Senior,1
+PROJ_0145,Sistema Financeiro,4.0,199621.86,3,alto,Tech Lead,1
+PROJ_0146,Sistema de Manutenção,4.1,248210.0,4,alto,Coordenador de TI,1
+PROJ_0147,Portal de Documentos,8.4,485455.74,3,baixo,Consultor Técnico,1
+PROJ_0148,Sistema CRM,6.3,270707.94,3,baixo,Tech Lead,1
+PROJ_0149,App de Monitoramento,3.4,120198.42,2,alto,Consultor Técnico,1
+PROJ_0150,Plataforma E-commerce Web,9.4,446515.7,2,médio,Gerente de Desenvolvimento,0
+PROJ_0151,Plataforma IoT,6.7,416388.12,3,médio,Analista de Sistemas,0
+PROJ_0152,Sistema de Manutenção,6.8,232820.13,2,alto,Gerente de Desenvolvimento,1
+PROJ_0153,Sistema de Produção,3.6,121274.71,2,médio,Arquiteto de Software,1
+PROJ_0154,Sistema CRM Mobile,5.5,230540.08,2,médio,Líder Técnico,0
+PROJ_0155,App de Atendimento,4.4,144517.85,2,baixo,Especialista em Dados,0
+PROJ_0156,Sistema de Qualidade,5.9,296853.41,2,alto,Consultor Técnico,0
+PROJ_0157,App de Logística,5.7,427720.79,4,baixo,Analista de Sistemas,0
+PROJ_0158,Plataforma IoT Mobile,5.2,227985.94,2,baixo,Líder Técnico,1
+PROJ_0159,Plataforma de Cursos Plus,4.9,185372.89,2,médio,Arquiteto de Software,0
+PROJ_0160,App de Delivery,8.1,287707.97,2,médio,Analista de Sistemas,0
+PROJ_0161,Sistema de Gestão Empresarial Advanced,11.7,487887.96,2,alto,Líder Técnico,1
+PROJ_0162,Portal de Treinamento,10.6,977289.28,4,médio,Especialista em Dados,1
+PROJ_0163,Portal de Fornecedores,7.6,307239.62,2,baixo,Líder Técnico,1
+PROJ_0164,Sistema de RH,7.5,212552.54,2,médio,Gerente de Desenvolvimento,1
+PROJ_0165,App de Logística,4.6,92449.82,2,médio,Analista de Sistemas,1
+PROJ_0166,App de Atendimento,2.4,112250.57,2,baixo,Coordenador de TI,0
+PROJ_0167,App de Comunicação,3.2,127923.95,2,médio,Analista de Sistemas,1
+PROJ_0168,Sistema de Segurança,3.1,79071.93,2,baixo,Consultor Técnico,1
+PROJ_0169,Sistema de Qualidade Plus,5.4,387906.79,4,baixo,Coordenador de TI,1
+PROJ_0170,Sistema de Qualidade Advanced,7.3,837891.74,5,alto,Consultor Técnico,1
+PROJ_0171,Sistema de Produção,6.3,446324.12,4,médio,Especialista em Dados,1
+PROJ_0172,Sistema de Manutenção,5.9,254644.27,2,médio,Consultor Técnico,0
+PROJ_0173,Portal de Fornecedores,4.1,123912.96,2,baixo,Consultor Técnico,1
+PROJ_0174,Sistema de Qualidade,5.7,368359.97,3,médio,Especialista em Dados,1
+PROJ_0175,Sistema de Qualidade Plus,5.1,184636.98,2,médio,Arquiteto de Software,0
+PROJ_0176,App de Comunicação,8.8,373558.76,2,baixo,Especialista em Dados,0
+PROJ_0177,App de Atendimento Advanced,4.1,186215.93,2,baixo,Coordenador de TI,1
+PROJ_0178,Sistema de Backup Pro,6.5,200629.13,2,alto,Tech Lead,1
+PROJ_0179,Plataforma de Cursos,4.6,181047.54,3,alto,Coordenador de TI,1
+PROJ_0180,Plataforma E-commerce Advanced,2.6,82615.32,2,médio,Analista de Sistemas,1
+PROJ_0181,Sistema de Backup Advanced,3.8,133628.36,2,médio,Gerente de Desenvolvimento,1
+PROJ_0182,Plataforma de Cursos,3.0,67259.05,2,alto,Gerente de Desenvolvimento,1
+PROJ_0183,App Mobile de Vendas Advanced,6.9,287306.53,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0184,Sistema de Compras,6.6,235106.58,2,baixo,Gerente de Projetos,0
+PROJ_0185,Portal de Treinamento,3.9,83359.86,2,alto,Líder Técnico,0
+PROJ_0186,App de Monitoramento,2.4,99508.36,2,médio,Tech Lead,1
+PROJ_0187,Sistema CRM,6.6,298959.61,3,alto,Gerente de Desenvolvimento,1
+PROJ_0188,Sistema de Produção,3.3,98524.78,2,alto,Consultor Técnico,0
+PROJ_0189,Sistema de Segurança,4.9,532142.75,5,baixo,Desenvolvedor Senior,0
+PROJ_0190,App de Logística Advanced,5.2,188397.41,2,médio,Especialista em Dados,1
+PROJ_0191,Sistema de Gestão Empresarial,7.4,348260.16,2,médio,Gerente de Desenvolvimento,0
+PROJ_0192,Portal de Documentos Advanced,6.3,269017.03,2,alto,Analista de Sistemas,0
+PROJ_0193,Sistema de Manutenção,3.5,99501.63,2,médio,Gerente de Desenvolvimento,1
+PROJ_0194,Portal de Relatórios,5.7,170508.58,2,médio,Gerente de Projetos,1
+PROJ_0195,Portal do Cliente,11.2,1225354.14,6,médio,Analista de Sistemas,1
+PROJ_0196,Portal de Treinamento,8.7,258152.19,2,médio,Gerente de Projetos,1
+PROJ_0197,Portal Interno,5.3,355017.28,3,alto,Desenvolvedor Senior,1
+PROJ_0198,Sistema de Qualidade,7.0,250754.38,2,alto,Gerente de Desenvolvimento,1
+PROJ_0199,Portal Interno,6.5,179862.62,2,alto,Gerente de Desenvolvimento,1
+PROJ_0200,Portal Interno,5.1,219533.57,3,baixo,Especialista em Dados,1
+PROJ_0201,Sistema de Gestão Empresarial,7.8,255641.52,2,médio,Gerente de Projetos,1
+PROJ_0202,Sistema Financeiro V2,2.9,126416.28,3,médio,Gerente de Projetos,0
+PROJ_0203,App de Comunicação Plus,5.1,129915.47,2,médio,Desenvolvedor Senior,1
+PROJ_0204,Plataforma de BI Plus,5.4,174017.66,2,baixo,Desenvolvedor Senior,0
+PROJ_0205,Plataforma E-commerce,7.7,280166.49,2,médio,Coordenador de TI,1
+PROJ_0206,Portal de Relatórios,6.1,128429.04,2,médio,Especialista em Dados,1
+PROJ_0207,Sistema de Backup Pro,6.6,240483.01,2,alto,Analista de Sistemas,1
+PROJ_0208,Sistema de Manutenção,2.9,122023.04,2,alto,Coordenador de TI,1
+PROJ_0209,App de Comunicação,2.4,59402.94,2,baixo,Arquiteto de Software,0
+PROJ_0210,Sistema de Estoque,11.6,302034.15,2,médio,Arquiteto de Software,1
+PROJ_0211,Portal de Relatórios,3.8,171172.78,2,médio,Gerente de Desenvolvimento,1
+PROJ_0212,App de Monitoramento,2.7,104749.43,2,baixo,Desenvolvedor Senior,0
+PROJ_0213,Portal do Cliente,6.9,203999.43,2,médio,Desenvolvedor Senior,0
+PROJ_0214,Sistema de Estoque,10.0,388566.13,2,médio,Arquiteto de Software,1
+PROJ_0215,Portal de Treinamento,9.5,441731.17,3,alto,Coordenador de TI,1
+PROJ_0216,Sistema de Segurança,6.8,232657.93,3,baixo,Gerente de Projetos,1
+PROJ_0217,Sistema Financeiro,2.5,86837.1,2,médio,Tech Lead,0
+PROJ_0218,Portal do Cliente,6.0,199599.7,2,baixo,Tech Lead,0
+PROJ_0219,Sistema de Gestão Empresarial,8.3,379078.98,2,médio,Especialista em Dados,1
+PROJ_0220,Sistema de Estoque,3.1,115371.66,2,médio,Tech Lead,1
+PROJ_0221,App de Atendimento,5.3,184707.59,2,médio,Especialista em Dados,1
+PROJ_0222,Sistema de Backup Plus,4.5,94322.44,2,alto,Consultor Técnico,1
+PROJ_0223,App de Atendimento Mobile,5.2,175713.82,2,baixo,Especialista em Dados,0
+PROJ_0224,Sistema de Qualidade,6.9,154707.09,2,alto,Líder Técnico,1
+PROJ_0225,Portal Interno,5.7,141756.8,2,baixo,Desenvolvedor Senior,1
+PROJ_0226,Plataforma de BI,6.2,257867.88,2,alto,Arquiteto de Software,1
+PROJ_0227,Sistema de Compras,8.4,235879.11,2,alto,Especialista em Dados,1
+PROJ_0228,Portal de Relatórios,4.2,190028.67,2,alto,Gerente de Desenvolvimento,1
+PROJ_0229,Plataforma de Cursos Pro,4.1,133343.99,2,baixo,Analista de Sistemas,1
+PROJ_0230,App de Logística Pro,3.4,129751.08,2,baixo,Tech Lead,1
+PROJ_0231,Portal Interno,4.3,138927.16,2,médio,Arquiteto de Software,1
+PROJ_0232,Sistema de Produção Plus,6.1,228949.59,2,médio,Coordenador de TI,1
+PROJ_0233,App de Delivery,7.4,312837.85,2,médio,Especialista em Dados,0
+PROJ_0234,Sistema de Produção,6.1,234118.45,3,baixo,Especialista em Dados,1
+PROJ_0235,App de Atendimento,13.7,767512.74,4,baixo,Especialista em Dados,1
+PROJ_0236,Sistema de Segurança Pro,3.7,193069.17,3,médio,Desenvolvedor Senior,1
+PROJ_0237,App de Monitoramento,9.4,382677.39,4,alto,Arquiteto de Software,1
+PROJ_0238,Plataforma IoT,7.2,346040.41,4,médio,Especialista em Dados,1
+PROJ_0239,Sistema de Produção,6.7,831403.87,5,baixo,Gerente de Desenvolvimento,0
+PROJ_0240,Portal de Documentos,10.7,1400085.38,6,baixo,Tech Lead,1
+PROJ_0241,Sistema de Backup,3.3,143241.52,2,baixo,Arquiteto de Software,1
+PROJ_0242,Portal Interno Web,5.9,199395.91,2,alto,Desenvolvedor Senior,1
+PROJ_0243,Plataforma de Cursos Mobile,4.9,187559.98,2,alto,Analista de Sistemas,1
+PROJ_0244,Sistema de RH Advanced,3.3,173232.59,2,baixo,Arquiteto de Software,1
+PROJ_0245,Portal de Documentos,6.5,185577.74,2,alto,Consultor Técnico,1
+PROJ_0246,Sistema de Manutenção V2,15.5,1443138.89,6,médio,Desenvolvedor Senior,1
+PROJ_0247,Sistema CRM Plus,9.9,536182.59,4,baixo,Arquiteto de Software,1
+PROJ_0248,Sistema de Gestão Empresarial,9.9,385912.03,2,médio,Analista de Sistemas,1
+PROJ_0249,Portal Interno V2,9.5,252954.58,2,baixo,Consultor Técnico,0
+PROJ_0250,Sistema CRM,2.8,98001.19,2,alto,Analista de Sistemas,1
+PROJ_0251,App de Atendimento,12.1,632930.52,3,médio,Especialista em Dados,1
+PROJ_0252,Sistema de Estoque,9.3,335502.86,2,médio,Líder Técnico,1
+PROJ_0253,Sistema CRM,11.1,1307421.32,6,alto,Especialista em Dados,1
+PROJ_0254,Plataforma de Cursos V2,5.3,187276.01,3,alto,Arquiteto de Software,1
+PROJ_0255,Portal de Treinamento,5.6,282624.75,4,médio,Coordenador de TI,1
+PROJ_0256,App de Monitoramento,6.7,353460.68,2,médio,Líder Técnico,1
+PROJ_0257,App de Atendimento,9.6,711170.15,4,médio,Analista de Sistemas,1
+PROJ_0258,Plataforma E-commerce,3.0,75434.66,2,baixo,Arquiteto de Software,0
+PROJ_0259,Portal do Cliente,5.7,225386.82,2,médio,Coordenador de TI,0
+PROJ_0260,Sistema de Produção,4.5,150267.95,2,baixo,Líder Técnico,1
+PROJ_0261,Sistema de Manutenção,5.3,461053.62,4,baixo,Desenvolvedor Senior,0
+PROJ_0262,App de Comunicação,6.5,237167.05,2,baixo,Especialista em Dados,1
+PROJ_0263,App de Controle de Acesso,3.5,93006.03,2,alto,Líder Técnico,1
+PROJ_0264,Portal de Fornecedores,4.2,154665.54,2,médio,Líder Técnico,1
+PROJ_0265,App Mobile de Vendas,7.6,341787.05,2,médio,Coordenador de TI,0
+PROJ_0266,App de Comunicação Plus,5.1,239303.86,2,baixo,Arquiteto de Software,0
+PROJ_0267,Plataforma IoT Plus,6.2,287308.51,2,médio,Analista de Sistemas,1
+PROJ_0268,Sistema de Produção V2,4.3,184418.93,2,médio,Gerente de Desenvolvimento,1
+PROJ_0269,Sistema de Qualidade,6.6,391459.6,3,baixo,Especialista em Dados,1
+PROJ_0270,Sistema CRM Pro,3.0,134036.65,2,médio,Arquiteto de Software,1
+PROJ_0271,Sistema de Backup,7.2,702415.89,5,médio,Coordenador de TI,1
+PROJ_0272,Plataforma IoT Pro,4.0,102375.98,2,alto,Líder Técnico,1
+PROJ_0273,Plataforma IoT,6.2,234759.55,2,médio,Desenvolvedor Senior,0
+PROJ_0274,Portal de Fornecedores Plus,5.2,183465.56,2,baixo,Analista de Sistemas,0
+PROJ_0275,App de Controle de Acesso Plus,4.3,251615.8,3,médio,Coordenador de TI,1
+PROJ_0276,App Mobile de Vendas Pro,6.4,499971.3,4,alto,Líder Técnico,1
+PROJ_0277,Portal de Documentos,6.7,234709.7,2,alto,Arquiteto de Software,1
+PROJ_0278,Sistema de Qualidade Web,4.1,133201.99,2,médio,Arquiteto de Software,1
+PROJ_0279,Sistema de Backup,5.4,316866.13,3,médio,Arquiteto de Software,1
+PROJ_0280,Plataforma de Vendas,3.1,112054.89,2,alto,Especialista em Dados,1
+PROJ_0281,Portal do Cliente,5.9,279570.07,2,médio,Gerente de Desenvolvimento,0
+PROJ_0282,Portal de Documentos,4.6,145961.88,2,médio,Arquiteto de Software,1
+PROJ_0283,Sistema de Gestão Empresarial Web,3.4,118118.71,2,baixo,Líder Técnico,1
+PROJ_0284,Portal de Relatórios,3.9,154036.15,2,médio,Arquiteto de Software,1
+PROJ_0285,Portal de Relatórios Plus,6.5,185443.19,2,médio,Especialista em Dados,0
+PROJ_0286,Plataforma de Vendas,4.4,138915.28,2,médio,Arquiteto de Software,1
+PROJ_0287,Dashboard Analytics,3.4,109630.57,2,alto,Gerente de Desenvolvimento,1
+PROJ_0288,App de Atendimento,7.6,390625.46,3,médio,Coordenador de TI,1
+PROJ_0289,App de Logística,5.0,214712.17,2,médio,Tech Lead,0
+PROJ_0290,Plataforma de Cursos,4.9,226134.75,2,baixo,Analista de Sistemas,0
+PROJ_0291,Plataforma de Cursos,6.8,224515.89,2,alto,Especialista em Dados,1
+PROJ_0292,Sistema CRM,8.2,293300.7,2,alto,Gerente de Desenvolvimento,1
+PROJ_0293,Plataforma de BI,4.8,149537.88,2,médio,Gerente de Projetos,1
+PROJ_0294,Sistema de Qualidade Pro,8.8,431325.04,2,médio,Tech Lead,0
+PROJ_0295,Sistema de Estoque,5.1,130290.4,2,alto,Gerente de Desenvolvimento,1
+PROJ_0296,Portal de Treinamento,3.8,117588.99,2,baixo,Gerente de Projetos,0
+PROJ_0297,Plataforma IoT,8.5,462295.84,3,médio,Especialista em Dados,1
+PROJ_0298,Portal de Fornecedores Mobile,10.8,676754.13,3,médio,Tech Lead,1
+PROJ_0299,Sistema de Manutenção,11.6,678758.64,4,médio,Especialista em Dados,1
+PROJ_0300,App de Comunicação Pro,6.6,262117.45,2,médio,Consultor Técnico,1
+PROJ_0301,Plataforma E-commerce,3.8,81186.33,2,baixo,Especialista em Dados,0
+PROJ_0302,Sistema de Compras,4.8,161259.48,2,baixo,Coordenador de TI,1
+PROJ_0303,Sistema de Gestão Empresarial,4.6,166499.31,2,baixo,Líder Técnico,0
+PROJ_0304,Sistema de Segurança Plus,3.7,91599.95,2,médio,Arquiteto de Software,0
+PROJ_0305,Sistema de Produção Advanced,5.2,164782.33,2,alto,Coordenador de TI,1
+PROJ_0306,App de Delivery,2.8,139206.45,2,baixo,Coordenador de TI,0
+PROJ_0307,Sistema de Qualidade,4.1,154840.9,3,médio,Analista de Sistemas,1
+PROJ_0308,App de Logística,8.2,434814.87,5,médio,Arquiteto de Software,0
+PROJ_0309,Plataforma de Vendas,4.2,123149.39,2,médio,Gerente de Desenvolvimento,0
+PROJ_0310,Plataforma de BI,10.5,646859.62,4,baixo,Especialista em Dados,1
+PROJ_0311,App de Delivery,7.3,219195.38,2,médio,Analista de Sistemas,1
+PROJ_0312,App de Monitoramento Mobile,4.8,200195.7,2,alto,Consultor Técnico,0
+PROJ_0313,Portal de Documentos,7.6,258023.11,2,médio,Coordenador de TI,0
+PROJ_0314,Portal Interno,8.3,285183.03,2,médio,Gerente de Desenvolvimento,1
+PROJ_0315,Plataforma de Cursos,3.8,107606.43,2,alto,Consultor Técnico,1
+PROJ_0316,Portal Interno,4.4,153964.73,2,baixo,Arquiteto de Software,1
+PROJ_0317,Portal de Documentos Mobile,4.9,206419.3,3,alto,Líder Técnico,1
+PROJ_0318,Plataforma IoT,11.5,424900.31,3,alto,Analista de Sistemas,1
+PROJ_0319,Sistema de Qualidade,3.2,70860.77,2,alto,Tech Lead,1
+PROJ_0320,Plataforma de Cursos,4.5,199858.27,2,alto,Consultor Técnico,0
+PROJ_0321,App de Monitoramento,6.0,180279.55,2,médio,Tech Lead,1
+PROJ_0322,Portal de Treinamento Web,6.6,534835.19,4,médio,Desenvolvedor Senior,1
+PROJ_0323,Portal de Relatórios,6.0,211269.68,2,médio,Gerente de Desenvolvimento,1
+PROJ_0324,App Mobile de Vendas,4.3,159039.54,2,médio,Especialista em Dados,0
+PROJ_0325,Sistema de Backup,3.2,104349.58,2,médio,Gerente de Desenvolvimento,1
+PROJ_0326,App de Monitoramento,13.4,689980.32,2,alto,Analista de Sistemas,1
+PROJ_0327,App de Logística,6.0,178524.83,2,baixo,Analista de Sistemas,0
+PROJ_0328,Plataforma de Vendas,4.4,194940.76,2,alto,Tech Lead,1
+PROJ_0329,Portal de Treinamento Advanced,3.1,118365.79,2,médio,Coordenador de TI,1
+PROJ_0330,Plataforma de Vendas,3.9,241214.03,3,alto,Gerente de Projetos,1
+PROJ_0331,Portal de Documentos Web,4.5,217605.0,2,baixo,Analista de Sistemas,0
+PROJ_0332,Portal do Cliente,9.2,968635.7,6,médio,Arquiteto de Software,1
+PROJ_0333,Plataforma de Cursos,5.9,168596.38,2,alto,Gerente de Desenvolvimento,1
+PROJ_0334,App de Atendimento Pro,6.5,172983.02,2,alto,Consultor Técnico,1
+PROJ_0335,App de Monitoramento,8.1,508552.2,3,alto,Especialista em Dados,1
+PROJ_0336,Portal de Treinamento,7.7,241384.36,2,baixo,Líder Técnico,1
+PROJ_0337,Portal do Cliente Web,5.3,135788.65,2,alto,Arquiteto de Software,1
+PROJ_0338,App de Delivery,5.9,159112.29,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0339,Sistema de Estoque,3.8,115753.97,2,baixo,Coordenador de TI,0
+PROJ_0340,Sistema de Qualidade Pro,4.9,156468.1,2,alto,Gerente de Projetos,1
+PROJ_0341,App Mobile de Vendas,9.5,650049.86,5,baixo,Gerente de Projetos,1
+PROJ_0342,Sistema CRM,9.7,435550.61,3,alto,Gerente de Desenvolvimento,1
+PROJ_0343,Plataforma E-commerce Advanced,10.3,315030.45,2,alto,Líder Técnico,1
+PROJ_0344,Plataforma IoT,4.4,141973.41,2,baixo,Analista de Sistemas,0
+PROJ_0345,Dashboard Analytics Advanced,5.4,208673.82,3,médio,Líder Técnico,1
+PROJ_0346,Plataforma IoT Mobile,3.6,149753.31,2,alto,Analista de Sistemas,1
+PROJ_0347,App de Delivery,3.9,128019.4,2,médio,Arquiteto de Software,1
+PROJ_0348,Sistema de Qualidade V2,4.0,180307.66,2,alto,Especialista em Dados,0
+PROJ_0349,Sistema de Compras Mobile,3.6,153895.71,2,baixo,Analista de Sistemas,0
+PROJ_0350,Portal do Cliente,4.6,136609.48,2,médio,Tech Lead,1
+PROJ_0351,Portal de Relatórios Advanced,5.4,254063.15,2,baixo,Arquiteto de Software,0
+PROJ_0352,Sistema de Qualidade,10.7,640106.07,3,baixo,Desenvolvedor Senior,1
+PROJ_0353,App de Monitoramento,6.4,230186.93,2,alto,Coordenador de TI,1
+PROJ_0354,App de Delivery,9.2,195968.07,2,médio,Tech Lead,1
+PROJ_0355,Portal de Relatórios Web,2.9,95801.77,2,médio,Arquiteto de Software,1
+PROJ_0356,Sistema de Gestão Empresarial,3.4,127085.69,2,médio,Gerente de Desenvolvimento,1
+PROJ_0357,Portal Interno Web,5.2,111747.04,2,alto,Gerente de Projetos,1
+PROJ_0358,App de Controle de Acesso,5.4,265339.58,3,médio,Especialista em Dados,1
+PROJ_0359,Plataforma de BI,3.8,128535.07,2,alto,Arquiteto de Software,1
+PROJ_0360,App de Comunicação,5.5,137977.48,2,baixo,Líder Técnico,1
+PROJ_0361,Sistema de Segurança,3.5,104411.83,2,alto,Desenvolvedor Senior,1
+PROJ_0362,Sistema de Manutenção Web,6.9,194575.89,2,baixo,Analista de Sistemas,1
+PROJ_0363,App de Atendimento Web,9.9,603050.25,4,médio,Gerente de Projetos,1
+PROJ_0364,Sistema CRM,3.1,122888.62,2,médio,Gerente de Projetos,0
+PROJ_0365,Portal de Relatórios,4.6,116978.67,2,médio,Analista de Sistemas,1
+PROJ_0366,Portal do Cliente,5.4,199758.67,2,baixo,Tech Lead,1
+PROJ_0367,Portal de Documentos,4.9,198834.8,3,baixo,Desenvolvedor Senior,1
+PROJ_0368,Plataforma E-commerce,6.6,256199.24,2,alto,Tech Lead,0
+PROJ_0369,Plataforma de Vendas,2.7,81642.02,2,médio,Arquiteto de Software,0
+PROJ_0370,Plataforma de BI Advanced,7.0,363178.01,2,médio,Arquiteto de Software,0
+PROJ_0371,Portal de Documentos,3.9,137026.02,2,médio,Coordenador de TI,1
+PROJ_0372,Sistema de Qualidade,6.0,166490.15,2,baixo,Analista de Sistemas,1
+PROJ_0373,App de Comunicação,3.0,136908.78,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0374,Portal de Treinamento,5.3,128534.02,2,médio,Tech Lead,0
+PROJ_0375,Portal do Cliente,3.9,272069.08,3,alto,Gerente de Projetos,1
+PROJ_0376,Portal Interno,9.5,321269.3,2,médio,Especialista em Dados,1
+PROJ_0377,Sistema Financeiro,5.4,109142.55,2,baixo,Arquiteto de Software,0
+PROJ_0378,Portal de Relatórios,2.7,155755.21,3,baixo,Tech Lead,1
+PROJ_0379,Sistema de Estoque,4.9,249676.48,3,baixo,Especialista em Dados,1
+PROJ_0380,Sistema de Gestão Empresarial,4.1,96291.65,2,baixo,Consultor Técnico,0
+PROJ_0381,Plataforma de Cursos,5.9,377717.69,3,baixo,Desenvolvedor Senior,0
+PROJ_0382,App de Atendimento Advanced,3.3,69626.93,2,alto,Arquiteto de Software,1
+PROJ_0383,App de Atendimento,2.6,102873.76,2,médio,Analista de Sistemas,1
+PROJ_0384,App Mobile de Vendas,5.4,328234.43,3,médio,Arquiteto de Software,1
+PROJ_0385,App de Logística Plus,7.9,291516.28,2,alto,Consultor Técnico,0
+PROJ_0386,Plataforma E-commerce,6.7,422017.49,4,médio,Tech Lead,1
+PROJ_0387,Plataforma IoT,2.6,93454.14,2,baixo,Consultor Técnico,0
+PROJ_0388,Portal de Fornecedores,10.4,546993.59,4,médio,Analista de Sistemas,1
+PROJ_0389,Sistema de Compras,7.9,455082.87,3,alto,Coordenador de TI,1
+PROJ_0390,Plataforma de BI,8.2,294845.06,2,médio,Gerente de Desenvolvimento,1
+PROJ_0391,Portal Interno Pro,7.4,446699.37,3,alto,Desenvolvedor Senior,1
+PROJ_0392,Sistema de Qualidade,7.8,439916.25,3,baixo,Desenvolvedor Senior,0
+PROJ_0393,Portal de Treinamento,4.1,179270.08,2,médio,Tech Lead,0
+PROJ_0394,Sistema de Produção,4.5,330409.19,4,alto,Tech Lead,1
+PROJ_0395,App Mobile de Vendas,5.4,186631.76,2,médio,Desenvolvedor Senior,0
+PROJ_0396,Sistema de Estoque,3.6,173623.56,2,baixo,Especialista em Dados,0
+PROJ_0397,Portal do Cliente,13.2,378203.7,2,médio,Líder Técnico,1
+PROJ_0398,Sistema de Gestão Empresarial Pro,6.5,240446.43,2,médio,Desenvolvedor Senior,0
+PROJ_0399,Plataforma E-commerce,5.0,231592.51,2,médio,Desenvolvedor Senior,0
+PROJ_0400,Portal do Cliente,4.1,146413.37,3,baixo,Consultor Técnico,1
+PROJ_0401,Sistema de RH,4.2,138576.08,2,baixo,Desenvolvedor Senior,1
+PROJ_0402,Plataforma de Cursos,3.7,110985.41,2,baixo,Líder Técnico,1
+PROJ_0403,Sistema de Gestão Empresarial Plus,11.9,534008.21,2,médio,Analista de Sistemas,1
+PROJ_0404,Sistema de Produção Plus,3.4,91666.83,2,médio,Coordenador de TI,1
+PROJ_0405,Plataforma IoT,5.8,352769.94,3,médio,Analista de Sistemas,1
+PROJ_0406,Sistema de Gestão Empresarial,3.2,125641.64,2,médio,Desenvolvedor Senior,1
+PROJ_0407,Portal de Relatórios,6.1,241430.38,2,médio,Analista de Sistemas,0
+PROJ_0408,Portal Interno Web,6.8,314852.03,2,médio,Gerente de Desenvolvimento,1
+PROJ_0409,Plataforma de Vendas V2,5.0,335329.85,4,alto,Especialista em Dados,1
+PROJ_0410,Sistema de Qualidade,10.3,337490.04,3,baixo,Consultor Técnico,1
+PROJ_0411,Portal de Relatórios Mobile,7.0,287482.7,2,médio,Desenvolvedor Senior,1
+PROJ_0412,Sistema de Manutenção Web,3.8,184026.54,2,médio,Consultor Técnico,1
+PROJ_0413,Sistema CRM,6.6,286282.34,3,médio,Gerente de Projetos,0
+PROJ_0414,App Mobile de Vendas,8.2,301401.94,2,médio,Gerente de Desenvolvimento,0
+PROJ_0415,Portal de Fornecedores,6.1,229912.81,2,médio,Especialista em Dados,1
+PROJ_0416,Sistema de Backup,7.5,168852.0,2,médio,Coordenador de TI,1
+PROJ_0417,Sistema de Compras Mobile,2.5,85343.48,2,baixo,Analista de Sistemas,1
+PROJ_0418,Portal do Cliente Mobile,10.6,1014580.85,4,médio,Líder Técnico,1
+PROJ_0419,Sistema de Produção,3.3,116523.8,2,médio,Gerente de Desenvolvimento,1
+PROJ_0420,Sistema de Manutenção,3.6,183644.31,2,médio,Especialista em Dados,1
+PROJ_0421,Plataforma de Vendas,8.7,310289.22,2,baixo,Coordenador de TI,0
+PROJ_0422,Sistema de Segurança,3.6,139499.14,2,médio,Consultor Técnico,1
+PROJ_0423,Portal de Documentos,5.8,141592.23,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0424,Sistema de Qualidade,3.5,79891.95,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0425,Plataforma de Cursos,12.2,426412.7,3,médio,Gerente de Desenvolvimento,1
+PROJ_0426,Portal de Fornecedores,3.0,77022.79,2,alto,Tech Lead,1
+PROJ_0427,Portal de Fornecedores,4.0,152548.92,2,alto,Arquiteto de Software,1
+PROJ_0428,Sistema Financeiro,2.5,94360.59,2,baixo,Especialista em Dados,0
+PROJ_0429,Portal do Cliente V2,4.7,159827.67,2,médio,Coordenador de TI,0
+PROJ_0430,Portal de Fornecedores Web,4.4,119836.87,2,baixo,Tech Lead,1
+PROJ_0431,Sistema de Segurança V2,6.0,282864.02,4,alto,Líder Técnico,1
+PROJ_0432,Sistema de Produção,8.6,411663.38,3,alto,Coordenador de TI,1
+PROJ_0433,Portal de Fornecedores,6.3,227097.08,2,alto,Gerente de Desenvolvimento,1
+PROJ_0434,Portal de Treinamento,5.2,218402.51,2,baixo,Gerente de Projetos,0
+PROJ_0435,Sistema CRM,8.4,666728.01,4,médio,Tech Lead,1
+PROJ_0436,Sistema de Estoque,4.2,101285.6,2,médio,Desenvolvedor Senior,1
+PROJ_0437,Plataforma E-commerce,2.8,76730.17,2,alto,Desenvolvedor Senior,1
+PROJ_0438,Portal de Treinamento Mobile,3.2,214122.56,3,médio,Tech Lead,1
+PROJ_0439,Sistema de Estoque,6.5,314651.9,4,alto,Líder Técnico,1
+PROJ_0440,App de Delivery,7.5,490618.83,3,médio,Consultor Técnico,1
+PROJ_0441,App de Comunicação,10.6,831690.57,6,médio,Líder Técnico,1
+PROJ_0442,Plataforma IoT,4.8,145550.63,2,baixo,Gerente de Projetos,0
+PROJ_0443,Sistema de Manutenção,4.9,181331.51,2,médio,Arquiteto de Software,1
+PROJ_0444,Sistema de Gestão Empresarial Web,8.8,228737.81,2,médio,Arquiteto de Software,1
+PROJ_0445,App de Controle de Acesso,9.1,831485.14,4,alto,Gerente de Projetos,1
+PROJ_0446,Dashboard Analytics,3.1,83314.27,2,baixo,Líder Técnico,1
+PROJ_0447,Plataforma IoT,10.6,561268.54,4,médio,Analista de Sistemas,1
+PROJ_0448,Portal de Documentos,2.7,137068.98,2,alto,Gerente de Projetos,1
+PROJ_0449,Portal do Cliente,4.6,231758.69,2,baixo,Desenvolvedor Senior,1
+PROJ_0450,App de Monitoramento,7.2,478109.53,4,médio,Tech Lead,1
+PROJ_0451,Dashboard Analytics,4.0,130519.29,2,alto,Tech Lead,1
+PROJ_0452,App de Comunicação,10.1,757538.32,4,alto,Líder Técnico,1
+PROJ_0453,Portal do Cliente,6.3,188510.9,2,alto,Analista de Sistemas,0
+PROJ_0454,Dashboard Analytics,11.1,594412.98,2,médio,Gerente de Projetos,0
+PROJ_0455,Plataforma IoT Advanced,5.7,204605.42,2,médio,Gerente de Desenvolvimento,1
+PROJ_0456,App de Logística,5.7,236807.24,2,médio,Gerente de Desenvolvimento,1
+PROJ_0457,Portal Interno Mobile,3.0,90134.62,2,médio,Coordenador de TI,1
+PROJ_0458,Sistema Financeiro,11.9,1045439.9,4,alto,Arquiteto de Software,0
+PROJ_0459,Plataforma IoT,10.1,282984.6,2,baixo,Especialista em Dados,0
+PROJ_0460,Plataforma de Vendas,4.6,93803.31,2,médio,Gerente de Projetos,1
+PROJ_0461,App de Delivery,9.1,442517.43,2,baixo,Líder Técnico,0
+PROJ_0462,App Mobile de Vendas Pro,7.2,276890.75,2,baixo,Desenvolvedor Senior,1
+PROJ_0463,App de Comunicação Pro,5.5,123985.28,2,baixo,Arquiteto de Software,1
+PROJ_0464,Plataforma de Cursos Advanced,3.8,144138.23,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0465,Dashboard Analytics Mobile,4.3,135355.14,2,baixo,Desenvolvedor Senior,0
+PROJ_0466,Plataforma de Vendas,3.0,68114.07,2,médio,Tech Lead,1
+PROJ_0467,Portal do Cliente,4.4,159607.52,2,baixo,Gerente de Projetos,0
+PROJ_0468,Portal de Fornecedores V2,6.2,192486.23,2,alto,Tech Lead,1
+PROJ_0469,Portal de Relatórios,5.3,407802.27,4,alto,Gerente de Desenvolvimento,1
+PROJ_0470,Sistema de Backup,4.6,357111.61,3,médio,Arquiteto de Software,1
+PROJ_0471,Sistema de Estoque,5.7,220969.58,2,médio,Tech Lead,0
+PROJ_0472,Dashboard Analytics,12.0,612462.87,3,baixo,Líder Técnico,0
+PROJ_0473,Sistema de Qualidade,2.4,130561.14,3,baixo,Tech Lead,1
+PROJ_0474,Portal do Cliente,11.5,361764.42,2,baixo,Coordenador de TI,1
+PROJ_0475,App de Delivery,6.5,335663.94,2,médio,Gerente de Desenvolvimento,1
+PROJ_0476,Plataforma de Vendas Pro,8.0,211312.03,2,alto,Tech Lead,1
+PROJ_0477,App de Delivery,9.5,312161.45,2,baixo,Analista de Sistemas,1
+PROJ_0478,Portal do Cliente,7.4,302624.85,2,baixo,Coordenador de TI,0
+PROJ_0479,Plataforma de Vendas,6.4,226322.04,2,baixo,Tech Lead,1
+PROJ_0480,Sistema Financeiro,3.5,130600.63,2,baixo,Analista de Sistemas,1
+PROJ_0481,App de Delivery Pro,8.2,294612.56,2,baixo,Desenvolvedor Senior,1
+PROJ_0482,Dashboard Analytics,10.4,1575854.02,7,médio,Coordenador de TI,1
+PROJ_0483,Dashboard Analytics,5.9,212243.08,2,baixo,Especialista em Dados,1
+PROJ_0484,Sistema de Qualidade,12.1,629122.33,4,médio,Líder Técnico,1
+PROJ_0485,Sistema de Qualidade,3.5,125982.92,2,médio,Líder Técnico,1
+PROJ_0486,App de Atendimento,6.3,173834.02,2,médio,Líder Técnico,0
+PROJ_0487,Plataforma de Cursos,4.9,231077.44,2,alto,Tech Lead,1
+PROJ_0488,Plataforma E-commerce,5.2,256301.11,2,alto,Especialista em Dados,0
+PROJ_0489,Sistema de Qualidade,9.3,770444.47,4,médio,Arquiteto de Software,1
+PROJ_0490,Portal de Relatórios Mobile,10.8,526603.47,2,baixo,Coordenador de TI,0
+PROJ_0491,Sistema CRM,3.0,96735.25,2,médio,Gerente de Projetos,1
+PROJ_0492,App Mobile de Vendas,3.2,280407.89,4,médio,Arquiteto de Software,0
+PROJ_0493,Portal do Cliente,4.5,168491.48,2,alto,Coordenador de TI,0
+PROJ_0494,Sistema de Manutenção,12.2,298538.1,2,médio,Gerente de Desenvolvimento,1
+PROJ_0495,Sistema de Qualidade,8.3,400618.21,3,médio,Gerente de Projetos,1
+PROJ_0496,Sistema de Qualidade,4.1,110463.23,2,alto,Líder Técnico,1
+PROJ_0497,App de Atendimento Mobile,4.8,203228.82,2,médio,Especialista em Dados,0
+PROJ_0498,Plataforma de Vendas V2,5.9,159292.99,2,médio,Especialista em Dados,1
+PROJ_0499,Sistema de Estoque,6.8,356976.28,4,médio,Tech Lead,1
+PROJ_0500,Sistema de Backup Web,7.1,349865.28,2,alto,Analista de Sistemas,1
+PROJ_0501,App Mobile de Vendas Advanced,7.1,146080.62,2,médio,Especialista em Dados,1
+PROJ_0502,Plataforma de Vendas,3.6,122743.93,2,alto,Analista de Sistemas,1
+PROJ_0503,Sistema Financeiro,7.3,278185.82,2,baixo,Arquiteto de Software,1
+PROJ_0504,App de Monitoramento,2.9,79118.85,2,alto,Tech Lead,1
+PROJ_0505,Plataforma IoT,5.2,192063.53,2,alto,Tech Lead,1
+PROJ_0506,Portal do Cliente,4.4,123860.25,2,médio,Consultor Técnico,0
+PROJ_0507,Plataforma IoT,4.2,116516.73,2,médio,Arquiteto de Software,0
+PROJ_0508,Portal de Documentos,5.8,198284.63,2,alto,Líder Técnico,1
+PROJ_0509,Portal de Treinamento V2,4.0,98805.33,2,médio,Líder Técnico,1
+PROJ_0510,Plataforma IoT Pro,3.8,91195.18,2,alto,Arquiteto de Software,1
+PROJ_0511,App de Atendimento,3.9,147225.8,2,alto,Gerente de Desenvolvimento,1
+PROJ_0512,Plataforma E-commerce,6.2,443241.8,4,médio,Coordenador de TI,1
+PROJ_0513,Sistema CRM,10.6,650433.21,4,médio,Tech Lead,1
+PROJ_0514,Plataforma de BI Web,7.0,349704.81,3,médio,Consultor Técnico,1
+PROJ_0515,Portal do Cliente,4.8,108291.05,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0516,Plataforma de Vendas,7.7,514381.7,4,alto,Tech Lead,0
+PROJ_0517,Sistema CRM Plus,3.8,137937.5,2,médio,Tech Lead,1
+PROJ_0518,App de Comunicação,8.1,321548.26,3,médio,Desenvolvedor Senior,1
+PROJ_0519,Plataforma E-commerce Pro,3.2,148015.77,2,baixo,Coordenador de TI,0
+PROJ_0520,Plataforma de Vendas,3.1,72546.86,2,alto,Consultor Técnico,0
+PROJ_0521,App Mobile de Vendas,6.3,264969.68,2,baixo,Líder Técnico,1
+PROJ_0522,Plataforma E-commerce,4.5,131231.34,2,alto,Analista de Sistemas,1
+PROJ_0523,Dashboard Analytics Web,5.1,230701.85,2,baixo,Líder Técnico,0
+PROJ_0524,Sistema de Segurança,10.9,476715.08,3,médio,Especialista em Dados,1
+PROJ_0525,App Mobile de Vendas,7.8,376350.61,2,baixo,Desenvolvedor Senior,0
+PROJ_0526,Sistema de Qualidade,3.8,95008.72,2,médio,Especialista em Dados,1
+PROJ_0527,App de Delivery,3.7,149522.9,2,alto,Arquiteto de Software,1
+PROJ_0528,Sistema de Segurança,5.6,195547.56,2,baixo,Desenvolvedor Senior,1
+PROJ_0529,Sistema Financeiro,2.9,98228.06,2,alto,Líder Técnico,1
+PROJ_0530,Sistema de Qualidade,7.2,223591.28,2,alto,Arquiteto de Software,1
+PROJ_0531,App de Comunicação,2.8,104419.38,2,médio,Consultor Técnico,1
+PROJ_0532,Portal de Fornecedores,4.6,190556.96,2,baixo,Desenvolvedor Senior,0
+PROJ_0533,Sistema de Segurança,9.1,288750.35,2,alto,Arquiteto de Software,1
+PROJ_0534,App Mobile de Vendas,8.3,405340.67,3,alto,Tech Lead,1
+PROJ_0535,Sistema de Produção,3.4,114239.75,2,baixo,Consultor Técnico,1
+PROJ_0536,Portal de Treinamento V2,4.3,163332.09,2,médio,Analista de Sistemas,1
+PROJ_0537,Portal Interno,2.6,80506.21,2,baixo,Consultor Técnico,0
+PROJ_0538,Plataforma E-commerce,3.7,103173.15,2,alto,Coordenador de TI,1
+PROJ_0539,App de Controle de Acesso Advanced,3.6,219142.52,3,médio,Tech Lead,1
+PROJ_0540,App de Controle de Acesso V2,4.9,177193.58,2,médio,Gerente de Desenvolvimento,1
+PROJ_0541,Plataforma de Vendas,8.7,252054.4,2,médio,Gerente de Desenvolvimento,1
+PROJ_0542,Portal do Cliente,3.7,126871.4,2,alto,Gerente de Projetos,1
+PROJ_0543,Plataforma de Cursos,6.6,249528.15,2,alto,Tech Lead,1
+PROJ_0544,Sistema de Segurança V2,9.4,454645.75,4,baixo,Arquiteto de Software,1
+PROJ_0545,App de Controle de Acesso,9.4,624362.04,5,médio,Analista de Sistemas,1
+PROJ_0546,App de Comunicação,2.4,70627.94,2,alto,Especialista em Dados,1
+PROJ_0547,Sistema de Manutenção V2,4.8,164209.34,2,baixo,Gerente de Projetos,0
+PROJ_0548,Portal Interno Plus,3.0,120933.11,2,alto,Consultor Técnico,1
+PROJ_0549,Portal de Documentos,3.6,120060.06,2,médio,Gerente de Desenvolvimento,1
+PROJ_0550,Sistema de Estoque,4.7,155651.84,2,médio,Desenvolvedor Senior,1
+PROJ_0551,Sistema CRM Plus,9.8,429779.46,3,médio,Gerente de Desenvolvimento,1
+PROJ_0552,App de Atendimento,3.7,101872.03,2,médio,Especialista em Dados,1
+PROJ_0553,Portal do Cliente Advanced,6.9,284351.12,2,baixo,Líder Técnico,1
+PROJ_0554,Sistema de Produção Mobile,4.3,158086.93,2,baixo,Líder Técnico,0
+PROJ_0555,App de Delivery,5.2,153463.62,2,baixo,Arquiteto de Software,1
+PROJ_0556,Portal de Fornecedores Pro,9.4,1189493.02,6,baixo,Desenvolvedor Senior,1
+PROJ_0557,Portal de Relatórios,3.2,136824.82,2,alto,Coordenador de TI,1
+PROJ_0558,Plataforma de Vendas,3.7,164274.52,3,alto,Coordenador de TI,1
+PROJ_0559,Plataforma de Vendas,7.5,189014.46,2,alto,Consultor Técnico,1
+PROJ_0560,Sistema de Produção Advanced,9.6,375844.25,2,médio,Gerente de Projetos,0
+PROJ_0561,App de Atendimento,4.2,177191.05,2,baixo,Tech Lead,1
+PROJ_0562,Portal Interno,3.0,132254.88,2,médio,Tech Lead,1
+PROJ_0563,Sistema de Segurança Plus,2.5,88140.36,2,baixo,Coordenador de TI,0
+PROJ_0564,App de Comunicação,5.8,156220.37,2,médio,Tech Lead,1
+PROJ_0565,Plataforma E-commerce Mobile,2.6,72482.99,2,alto,Tech Lead,1
+PROJ_0566,Plataforma de BI,5.5,239871.59,2,médio,Especialista em Dados,0
+PROJ_0567,Sistema de Backup,3.6,148615.67,2,baixo,Analista de Sistemas,1
+PROJ_0568,Sistema de Segurança Web,4.8,145010.13,2,alto,Especialista em Dados,1
+PROJ_0569,App Mobile de Vendas V2,15.3,1127474.94,4,alto,Desenvolvedor Senior,1
+PROJ_0570,Sistema de Compras Pro,7.0,229079.57,2,médio,Consultor Técnico,0
+PROJ_0571,App de Monitoramento,4.8,341346.94,4,alto,Consultor Técnico,1
+PROJ_0572,App de Logística Web,4.0,140603.36,2,médio,Desenvolvedor Senior,1
+PROJ_0573,Sistema CRM,8.0,223099.06,2,baixo,Gerente de Projetos,0
+PROJ_0574,Portal de Treinamento,6.2,387696.94,3,alto,Arquiteto de Software,1
+PROJ_0575,Sistema de Estoque,6.7,600888.0,4,médio,Gerente de Desenvolvimento,1
+PROJ_0576,Sistema de Compras,9.1,598448.16,5,alto,Especialista em Dados,1
+PROJ_0577,Sistema de Compras,7.5,215980.85,2,baixo,Tech Lead,1
+PROJ_0578,Dashboard Analytics,4.1,141506.07,2,médio,Especialista em Dados,0
+PROJ_0579,Sistema Financeiro,5.4,141736.67,2,médio,Consultor Técnico,0
+PROJ_0580,Portal Interno,7.0,149140.87,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0581,Portal do Cliente,4.4,168494.26,2,baixo,Analista de Sistemas,1
+PROJ_0582,Sistema de Produção V2,2.6,125010.65,2,alto,Coordenador de TI,1
+PROJ_0583,Plataforma de Cursos,8.5,218705.86,2,médio,Arquiteto de Software,1
+PROJ_0584,Sistema de Qualidade,2.1,56769.5,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0585,Dashboard Analytics,11.1,640731.26,4,baixo,Tech Lead,1
+PROJ_0586,Sistema de Qualidade Pro,7.2,428955.35,3,baixo,Líder Técnico,1
+PROJ_0587,Portal de Fornecedores V2,4.0,110245.71,2,médio,Coordenador de TI,0
+PROJ_0588,Plataforma IoT,5.5,209491.18,2,médio,Tech Lead,1
+PROJ_0589,Plataforma de Vendas,9.0,300315.17,2,médio,Analista de Sistemas,1
+PROJ_0590,Sistema de Gestão Empresarial Mobile,6.6,181976.22,2,baixo,Especialista em Dados,0
+PROJ_0591,App Mobile de Vendas Plus,3.6,136105.38,2,médio,Tech Lead,1
+PROJ_0592,Sistema Financeiro,3.1,107358.44,2,médio,Líder Técnico,1
+PROJ_0593,App Mobile de Vendas,6.1,252641.13,2,baixo,Especialista em Dados,0
+PROJ_0594,Sistema Financeiro,4.9,179527.1,2,baixo,Coordenador de TI,1
+PROJ_0595,Portal de Relatórios Pro,8.0,289430.48,3,médio,Gerente de Desenvolvimento,1
+PROJ_0596,Plataforma de Cursos,16.9,1608474.04,5,médio,Desenvolvedor Senior,1
+PROJ_0597,Sistema de Estoque Plus,4.5,182217.87,2,baixo,Especialista em Dados,1
+PROJ_0598,Plataforma de Vendas,9.5,780304.34,4,médio,Consultor Técnico,0
+PROJ_0599,Sistema de Estoque Pro,5.8,151213.58,2,baixo,Especialista em Dados,1
+PROJ_0600,Sistema de RH,6.1,187537.75,2,baixo,Arquiteto de Software,1
+PROJ_0601,Sistema de Backup,12.8,699824.14,3,baixo,Especialista em Dados,1
+PROJ_0602,Sistema de RH V2,3.5,133681.21,2,médio,Especialista em Dados,0
+PROJ_0603,Dashboard Analytics,3.4,75958.82,2,alto,Especialista em Dados,1
+PROJ_0604,Portal do Cliente,4.3,158733.79,2,baixo,Tech Lead,0
+PROJ_0605,Plataforma IoT,3.7,125126.21,2,médio,Coordenador de TI,0
+PROJ_0606,Sistema de Produção,8.7,397591.93,2,médio,Arquiteto de Software,1
+PROJ_0607,Portal de Treinamento Web,9.5,539480.19,4,médio,Analista de Sistemas,1
+PROJ_0608,Sistema de Segurança,9.9,584294.84,4,baixo,Desenvolvedor Senior,0
+PROJ_0609,Sistema de Estoque,4.8,234084.75,2,baixo,Analista de Sistemas,0
+PROJ_0610,App de Delivery,2.8,80806.44,2,baixo,Gerente de Projetos,1
+PROJ_0611,Sistema Financeiro,6.0,288232.84,2,alto,Tech Lead,1
+PROJ_0612,Sistema de Qualidade,6.3,195118.11,2,médio,Consultor Técnico,1
+PROJ_0613,Plataforma E-commerce,4.5,161925.27,2,alto,Coordenador de TI,1
+PROJ_0614,Portal do Cliente,9.5,770992.42,4,alto,Especialista em Dados,1
+PROJ_0615,Plataforma de Vendas,8.8,592600.23,4,baixo,Gerente de Desenvolvimento,1
+PROJ_0616,Plataforma de BI,4.8,266865.54,4,alto,Analista de Sistemas,1
+PROJ_0617,Plataforma de Cursos,7.1,256428.62,2,alto,Especialista em Dados,0
+PROJ_0618,Sistema de Qualidade,4.0,164372.93,2,médio,Tech Lead,0
+PROJ_0619,Plataforma E-commerce,4.1,143072.31,2,alto,Consultor Técnico,1
+PROJ_0620,App de Atendimento,2.9,116725.9,2,alto,Analista de Sistemas,1
+PROJ_0621,Portal de Fornecedores,6.6,194941.09,2,médio,Gerente de Projetos,1
+PROJ_0622,Plataforma de BI Plus,5.4,260019.73,3,baixo,Arquiteto de Software,1
+PROJ_0623,Dashboard Analytics Web,8.6,787192.52,5,baixo,Desenvolvedor Senior,0
+PROJ_0624,Sistema Financeiro,3.4,165002.37,3,médio,Consultor Técnico,1
+PROJ_0625,Sistema de Compras V2,7.8,172958.25,2,médio,Arquiteto de Software,1
+PROJ_0626,Sistema de RH,6.7,220491.63,3,alto,Consultor Técnico,0
+PROJ_0627,Portal Interno Pro,3.4,101173.81,2,médio,Líder Técnico,1
+PROJ_0628,Sistema de Produção Web,5.1,155398.52,2,médio,Analista de Sistemas,1
+PROJ_0629,Portal de Relatórios,6.1,300602.16,2,baixo,Analista de Sistemas,0
+PROJ_0630,Dashboard Analytics,6.1,141607.74,2,baixo,Líder Técnico,0
+PROJ_0631,Plataforma de Cursos,8.6,234867.07,2,baixo,Líder Técnico,1
+PROJ_0632,App Mobile de Vendas,6.0,186908.96,2,alto,Gerente de Projetos,0
+PROJ_0633,Portal do Cliente Web,2.3,83438.66,2,baixo,Líder Técnico,1
+PROJ_0634,Portal Interno,3.5,98022.31,2,baixo,Líder Técnico,1
+PROJ_0635,Portal de Fornecedores,5.8,344558.36,3,alto,Gerente de Projetos,1
+PROJ_0636,App de Logística,11.3,823816.0,3,alto,Consultor Técnico,1
+PROJ_0637,Sistema CRM,3.4,111637.88,2,baixo,Arquiteto de Software,0
+PROJ_0638,App de Logística Web,4.2,187430.16,2,médio,Gerente de Desenvolvimento,1
+PROJ_0639,Sistema CRM,3.6,96003.19,2,baixo,Gerente de Projetos,0
+PROJ_0640,Dashboard Analytics,5.0,132820.69,2,alto,Especialista em Dados,1
+PROJ_0641,Sistema de Qualidade Mobile,4.4,156369.33,2,médio,Analista de Sistemas,1
+PROJ_0642,Plataforma de Cursos,4.4,219898.79,2,médio,Tech Lead,0
+PROJ_0643,Portal de Documentos,4.8,168943.89,2,baixo,Tech Lead,1
+PROJ_0644,App de Monitoramento Pro,4.3,162388.86,3,baixo,Consultor Técnico,1
+PROJ_0645,Sistema de Produção Plus,11.5,1046931.57,5,médio,Especialista em Dados,1
+PROJ_0646,Sistema de Estoque Plus,4.6,121427.29,2,médio,Analista de Sistemas,1
+PROJ_0647,Sistema de Estoque Advanced,2.9,63991.8,2,baixo,Líder Técnico,1
+PROJ_0648,Portal de Fornecedores Plus,3.3,123973.98,2,alto,Tech Lead,1
+PROJ_0649,App de Controle de Acesso,6.2,447967.98,4,baixo,Tech Lead,1
+PROJ_0650,Sistema de RH,4.7,175687.36,2,alto,Especialista em Dados,1
+PROJ_0651,Plataforma de Vendas,8.4,365238.31,3,baixo,Arquiteto de Software,1
+PROJ_0652,App de Logística Advanced,5.0,216088.6,2,médio,Consultor Técnico,1
+PROJ_0653,Sistema de Qualidade,5.7,328758.04,3,médio,Desenvolvedor Senior,1
+PROJ_0654,Portal de Relatórios,9.5,386383.53,2,alto,Gerente de Projetos,0
+PROJ_0655,Sistema CRM,4.1,153304.12,2,alto,Especialista em Dados,1
+PROJ_0656,Sistema CRM,3.2,100038.75,2,baixo,Coordenador de TI,0
+PROJ_0657,Portal de Fornecedores Pro,5.1,200866.84,2,médio,Tech Lead,1
+PROJ_0658,App de Comunicação,7.0,158698.08,2,baixo,Gerente de Projetos,0
+PROJ_0659,App de Monitoramento Mobile,5.0,229722.45,3,alto,Desenvolvedor Senior,1
+PROJ_0660,Sistema Financeiro,6.7,208531.06,2,alto,Coordenador de TI,1
+PROJ_0661,App de Monitoramento,8.1,387870.43,3,alto,Consultor Técnico,1
+PROJ_0662,Portal Interno,9.6,525293.03,3,médio,Líder Técnico,1
+PROJ_0663,Plataforma IoT,5.0,248832.26,4,baixo,Analista de Sistemas,1
+PROJ_0664,Sistema de Estoque,7.0,274053.4,2,alto,Tech Lead,0
+PROJ_0665,Sistema de Produção,8.2,252171.17,2,médio,Analista de Sistemas,1
+PROJ_0666,Sistema de RH,6.4,619594.84,4,alto,Gerente de Desenvolvimento,1
+PROJ_0667,Plataforma de Vendas V2,2.8,108111.48,2,médio,Analista de Sistemas,1
+PROJ_0668,Sistema de Backup,3.3,118030.72,2,baixo,Especialista em Dados,1
+PROJ_0669,Plataforma de Vendas,5.6,187798.61,2,alto,Líder Técnico,0
+PROJ_0670,Sistema de Compras,4.3,158160.28,3,médio,Tech Lead,0
+PROJ_0671,App de Controle de Acesso,3.6,153987.03,3,alto,Analista de Sistemas,1
+PROJ_0672,App de Monitoramento,6.4,175351.68,2,baixo,Arquiteto de Software,0
+PROJ_0673,Portal de Relatórios,2.7,89396.07,2,médio,Consultor Técnico,1
+PROJ_0674,Sistema de Produção,2.9,82900.72,2,baixo,Líder Técnico,1
+PROJ_0675,Sistema CRM,4.8,123874.31,2,médio,Gerente de Projetos,1
+PROJ_0676,Sistema Financeiro,7.8,414081.76,3,médio,Coordenador de TI,1
+PROJ_0677,Portal de Fornecedores,8.7,312241.59,2,baixo,Gerente de Projetos,0
+PROJ_0678,Sistema de Manutenção,8.5,465991.89,4,alto,Líder Técnico,1
+PROJ_0679,Portal de Relatórios V2,14.9,908994.16,4,médio,Líder Técnico,0
+PROJ_0680,App de Logística Web,6.5,250851.01,2,alto,Líder Técnico,1
+PROJ_0681,App de Comunicação,3.3,88654.51,2,alto,Analista de Sistemas,1
+PROJ_0682,Plataforma de BI,6.2,244733.74,2,baixo,Gerente de Projetos,0
+PROJ_0683,Portal de Relatórios,4.1,132684.86,2,baixo,Coordenador de TI,1
+PROJ_0684,Sistema de RH Pro,2.4,69601.1,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0685,Plataforma E-commerce,10.8,785922.6,4,baixo,Desenvolvedor Senior,0
+PROJ_0686,Portal de Fornecedores,5.5,204465.86,2,baixo,Líder Técnico,1
+PROJ_0687,App de Controle de Acesso,6.5,318003.75,3,médio,Gerente de Projetos,1
+PROJ_0688,Sistema de Backup Plus,4.0,228128.96,3,baixo,Consultor Técnico,0
+PROJ_0689,Plataforma de Cursos,4.2,212093.29,3,médio,Especialista em Dados,1
+PROJ_0690,Plataforma de Vendas,3.7,108967.97,2,médio,Analista de Sistemas,1
+PROJ_0691,Sistema de Qualidade,4.6,129951.05,2,médio,Tech Lead,1
+PROJ_0692,Sistema de Produção,5.9,153439.94,2,médio,Arquiteto de Software,1
+PROJ_0693,Sistema de Manutenção,2.1,84429.64,2,alto,Desenvolvedor Senior,1
+PROJ_0694,Portal Interno,6.3,204300.21,2,alto,Desenvolvedor Senior,1
+PROJ_0695,Sistema CRM,9.1,236143.46,2,médio,Desenvolvedor Senior,0
+PROJ_0696,Sistema de Backup,9.2,412523.11,3,médio,Tech Lead,1
+PROJ_0697,App de Logística,9.8,234072.48,2,baixo,Arquiteto de Software,0
+PROJ_0698,Sistema CRM Web,7.8,284233.17,2,médio,Consultor Técnico,0
+PROJ_0699,App de Monitoramento,4.2,307630.22,4,baixo,Gerente de Desenvolvimento,1
+PROJ_0700,Plataforma de BI,4.5,160521.1,2,baixo,Analista de Sistemas,0
+PROJ_0701,Sistema CRM Web,3.2,107392.23,2,médio,Coordenador de TI,1
+PROJ_0702,Sistema Financeiro,6.1,263644.64,2,alto,Arquiteto de Software,1
+PROJ_0703,Portal de Documentos,7.6,207385.22,2,médio,Desenvolvedor Senior,0
+PROJ_0704,Plataforma de BI,3.2,85076.15,2,médio,Consultor Técnico,1
+PROJ_0705,Sistema de Backup V2,5.7,297411.97,2,médio,Líder Técnico,1
+PROJ_0706,Portal de Documentos,4.1,118167.76,2,médio,Desenvolvedor Senior,1
+PROJ_0707,App Mobile de Vendas,5.4,182904.95,2,baixo,Consultor Técnico,0
+PROJ_0708,App de Delivery,2.5,146382.14,4,médio,Gerente de Projetos,1
+PROJ_0709,Sistema de Estoque,5.2,181553.98,2,médio,Especialista em Dados,1
+PROJ_0710,Sistema de Estoque,10.2,641356.98,3,médio,Analista de Sistemas,0
+PROJ_0711,Sistema de Gestão Empresarial,11.0,390875.33,3,médio,Analista de Sistemas,1
+PROJ_0712,Portal de Fornecedores,2.7,97350.61,2,médio,Especialista em Dados,0
+PROJ_0713,App de Logística,6.7,170880.75,2,médio,Arquiteto de Software,0
+PROJ_0714,Plataforma de Cursos V2,10.5,533363.12,2,médio,Coordenador de TI,1
+PROJ_0715,App de Atendimento,3.0,97164.7,2,baixo,Consultor Técnico,1
+PROJ_0716,Portal de Documentos,8.4,226396.58,2,médio,Gerente de Projetos,0
+PROJ_0717,App de Controle de Acesso,2.4,144126.5,3,médio,Gerente de Desenvolvimento,1
+PROJ_0718,Sistema de Compras,2.8,73698.02,2,alto,Gerente de Projetos,1
+PROJ_0719,Plataforma de BI,4.0,126681.95,2,baixo,Especialista em Dados,1
+PROJ_0720,Dashboard Analytics,4.8,117110.3,2,baixo,Arquiteto de Software,1
+PROJ_0721,Sistema de Compras Pro,14.8,673039.14,3,alto,Líder Técnico,0
+PROJ_0722,Sistema de Manutenção Pro,7.5,288531.84,2,alto,Arquiteto de Software,1
+PROJ_0723,Sistema de Qualidade,3.5,95610.08,2,baixo,Consultor Técnico,1
+PROJ_0724,Plataforma de Vendas,9.2,628794.7,4,baixo,Analista de Sistemas,1
+PROJ_0725,Portal de Treinamento,7.7,495658.09,3,baixo,Arquiteto de Software,0
+PROJ_0726,Sistema de RH,3.2,102377.89,2,alto,Tech Lead,1
+PROJ_0727,Dashboard Analytics,2.5,71994.0,2,médio,Arquiteto de Software,1
+PROJ_0728,Sistema de Backup Web,5.4,155487.36,2,alto,Tech Lead,1
+PROJ_0729,Sistema de Segurança Web,3.6,163277.71,2,baixo,Desenvolvedor Senior,0
+PROJ_0730,Dashboard Analytics,4.6,312908.13,4,baixo,Gerente de Desenvolvimento,1
+PROJ_0731,Plataforma de BI,8.6,260195.12,2,médio,Tech Lead,0
+PROJ_0732,Portal do Cliente,4.1,116822.37,2,médio,Coordenador de TI,0
+PROJ_0733,Dashboard Analytics,8.9,192312.9,2,baixo,Especialista em Dados,1
+PROJ_0734,Plataforma de Cursos,5.9,246331.55,2,alto,Gerente de Projetos,1
+PROJ_0735,Portal Interno,5.0,186816.14,2,baixo,Especialista em Dados,1
+PROJ_0736,App de Comunicação Pro,2.9,153473.64,2,baixo,Arquiteto de Software,0
+PROJ_0737,Portal de Relatórios,6.8,305461.96,2,alto,Gerente de Projetos,1
+PROJ_0738,Portal Interno,6.3,360060.2,3,baixo,Desenvolvedor Senior,1
+PROJ_0739,App Mobile de Vendas,4.3,132672.4,2,baixo,Especialista em Dados,0
+PROJ_0740,Sistema CRM Web,7.2,293905.93,2,alto,Consultor Técnico,1
+PROJ_0741,App de Controle de Acesso,4.5,116127.65,2,alto,Arquiteto de Software,1
+PROJ_0742,Sistema de Backup Pro,3.6,154728.97,2,baixo,Tech Lead,0
+PROJ_0743,Sistema de Manutenção Plus,5.1,159057.59,2,baixo,Especialista em Dados,0
+PROJ_0744,Plataforma E-commerce,6.8,216036.97,2,baixo,Líder Técnico,0
+PROJ_0745,Sistema Financeiro,9.4,215549.73,2,médio,Consultor Técnico,0
+PROJ_0746,App de Controle de Acesso,4.2,161084.34,2,médio,Consultor Técnico,1
+PROJ_0747,Sistema de Segurança,4.0,254095.78,3,baixo,Desenvolvedor Senior,1
+PROJ_0748,App de Comunicação Mobile,12.8,1275140.45,4,médio,Coordenador de TI,1
+PROJ_0749,Plataforma de Vendas,3.7,152246.94,2,alto,Tech Lead,0
+PROJ_0750,Portal do Cliente,9.9,627555.05,4,médio,Coordenador de TI,0
+PROJ_0751,App Mobile de Vendas,6.6,223780.5,2,baixo,Consultor Técnico,0
+PROJ_0752,Sistema de RH,6.1,243685.31,2,alto,Analista de Sistemas,1
+PROJ_0753,Dashboard Analytics,4.5,179051.47,2,alto,Consultor Técnico,1
+PROJ_0754,Sistema de Qualidade Plus,4.3,118954.22,2,médio,Líder Técnico,1
+PROJ_0755,App de Logística Mobile,5.2,187312.84,2,médio,Especialista em Dados,0
+PROJ_0756,Sistema de Segurança Plus,6.4,300557.76,2,médio,Consultor Técnico,1
+PROJ_0757,Portal de Fornecedores,6.8,237101.35,2,baixo,Gerente de Projetos,0
+PROJ_0758,Sistema de Produção,3.5,198358.46,3,médio,Arquiteto de Software,1
+PROJ_0759,Portal de Documentos Pro,3.0,131693.27,2,alto,Gerente de Projetos,0
+PROJ_0760,Portal de Documentos V2,4.1,327414.41,3,médio,Gerente de Projetos,1
+PROJ_0761,Portal de Fornecedores,9.5,585582.44,3,médio,Coordenador de TI,1
+PROJ_0762,Sistema de Produção,4.6,354362.81,3,baixo,Coordenador de TI,0
+PROJ_0763,App de Controle de Acesso,3.7,127698.45,2,médio,Arquiteto de Software,1
+PROJ_0764,Portal de Fornecedores Plus,5.2,238409.0,3,baixo,Gerente de Desenvolvimento,1
+PROJ_0765,Sistema Financeiro,2.8,79366.48,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0766,Sistema de Qualidade,5.9,265381.95,2,alto,Gerente de Desenvolvimento,1
+PROJ_0767,App de Monitoramento Web,3.6,120457.41,2,médio,Consultor Técnico,1
+PROJ_0768,Plataforma E-commerce,4.6,130513.27,2,alto,Tech Lead,1
+PROJ_0769,Sistema de Estoque Mobile,5.6,243305.23,2,alto,Gerente de Desenvolvimento,1
+PROJ_0770,Plataforma de Vendas Plus,3.4,113288.82,2,baixo,Gerente de Projetos,1
+PROJ_0771,App de Comunicação Pro,7.0,280135.57,2,alto,Especialista em Dados,0
+PROJ_0772,Plataforma IoT,5.8,417600.53,4,baixo,Gerente de Desenvolvimento,1
+PROJ_0773,Sistema de Produção,2.8,87155.42,2,médio,Desenvolvedor Senior,1
+PROJ_0774,App de Delivery,6.8,233309.62,2,baixo,Analista de Sistemas,1
+PROJ_0775,Portal Interno Web,8.8,412010.2,4,alto,Coordenador de TI,1
+PROJ_0776,App Mobile de Vendas,7.4,188199.97,2,médio,Gerente de Desenvolvimento,0
+PROJ_0777,Sistema de Manutenção,2.7,100613.88,2,médio,Gerente de Projetos,1
+PROJ_0778,App de Delivery V2,10.0,1695968.92,7,médio,Líder Técnico,1
+PROJ_0779,App Mobile de Vendas,4.0,121247.83,2,alto,Gerente de Projetos,1
+PROJ_0780,App de Delivery,5.2,391995.75,5,médio,Gerente de Desenvolvimento,1
+PROJ_0781,Sistema de Qualidade Plus,7.0,347039.09,4,médio,Gerente de Projetos,0
+PROJ_0782,Plataforma E-commerce,4.7,144586.97,2,médio,Arquiteto de Software,1
+PROJ_0783,App de Delivery,6.7,290745.29,2,médio,Líder Técnico,0
+PROJ_0784,Plataforma de Cursos,3.7,94287.52,2,baixo,Tech Lead,1
+PROJ_0785,App de Delivery,9.2,229771.49,2,médio,Analista de Sistemas,0
+PROJ_0786,Plataforma IoT,6.0,181299.49,2,médio,Gerente de Desenvolvimento,1
+PROJ_0787,Sistema CRM Mobile,4.2,160456.51,2,médio,Líder Técnico,1
+PROJ_0788,Sistema de Compras,7.1,337213.28,3,alto,Analista de Sistemas,1
+PROJ_0789,App de Atendimento,7.0,530134.24,5,alto,Consultor Técnico,1
+PROJ_0790,App de Logística Pro,9.4,655230.34,3,alto,Gerente de Desenvolvimento,1
+PROJ_0791,Sistema de Segurança,4.7,128774.99,2,médio,Gerente de Desenvolvimento,1
+PROJ_0792,Portal de Fornecedores Advanced,6.5,287528.35,2,baixo,Analista de Sistemas,0
+PROJ_0793,App de Comunicação,3.7,121650.64,2,alto,Desenvolvedor Senior,0
+PROJ_0794,Portal de Treinamento Web,5.7,285341.34,4,alto,Analista de Sistemas,1
+PROJ_0795,Sistema de Segurança,13.8,995827.74,4,alto,Gerente de Projetos,1
+PROJ_0796,Sistema de Produção,4.4,201412.79,3,baixo,Gerente de Desenvolvimento,1
+PROJ_0797,Sistema de Produção,4.0,114018.67,2,alto,Gerente de Desenvolvimento,1
+PROJ_0798,App de Delivery Pro,6.0,526745.96,4,alto,Coordenador de TI,1
+PROJ_0799,App de Controle de Acesso,5.4,182404.18,2,alto,Tech Lead,1
+PROJ_0800,Portal do Cliente,9.5,459666.88,3,alto,Desenvolvedor Senior,1
+PROJ_0801,App Mobile de Vendas Web,2.3,93172.39,2,baixo,Líder Técnico,0
+PROJ_0802,Sistema de Manutenção V2,4.4,159099.92,2,médio,Desenvolvedor Senior,1
+PROJ_0803,Sistema de Segurança,5.0,143104.86,2,alto,Consultor Técnico,1
+PROJ_0804,Sistema de RH,3.8,143237.13,2,médio,Tech Lead,1
+PROJ_0805,Sistema CRM,4.5,153901.34,2,médio,Gerente de Projetos,0
+PROJ_0806,Sistema de RH,4.7,106186.47,2,alto,Coordenador de TI,0
+PROJ_0807,Portal de Documentos,2.9,92992.04,2,médio,Especialista em Dados,0
+PROJ_0808,App de Controle de Acesso Mobile,7.8,164974.76,2,alto,Desenvolvedor Senior,0
+PROJ_0809,App de Monitoramento,5.7,141564.24,2,médio,Consultor Técnico,0
+PROJ_0810,Plataforma de Cursos,5.6,257561.86,2,alto,Gerente de Desenvolvimento,1
+PROJ_0811,Sistema de Qualidade,3.5,121036.8,2,médio,Tech Lead,0
+PROJ_0812,Sistema CRM Mobile,6.7,148434.3,2,baixo,Especialista em Dados,0
+PROJ_0813,Sistema de Qualidade Web,5.5,137958.04,2,baixo,Especialista em Dados,1
+PROJ_0814,App de Comunicação,5.0,183873.66,2,baixo,Desenvolvedor Senior,1
+PROJ_0815,Sistema Financeiro,4.6,428909.45,6,baixo,Gerente de Projetos,1
+PROJ_0816,Portal de Relatórios,10.2,366058.81,2,alto,Analista de Sistemas,1
+PROJ_0817,Sistema de Gestão Empresarial Mobile,4.8,342100.4,3,médio,Líder Técnico,1
+PROJ_0818,Portal de Documentos,10.3,284262.42,2,médio,Analista de Sistemas,0
+PROJ_0819,Sistema de RH,6.8,181035.14,2,médio,Gerente de Desenvolvimento,1
+PROJ_0820,Portal de Relatórios,3.1,109123.25,2,médio,Especialista em Dados,1
+PROJ_0821,Sistema de Produção,3.9,103371.09,2,baixo,Tech Lead,1
+PROJ_0822,Portal Interno,8.4,740404.16,4,baixo,Especialista em Dados,1
+PROJ_0823,Portal de Documentos,2.5,122135.07,2,alto,Especialista em Dados,1
+PROJ_0824,Sistema de Qualidade Pro,9.9,630511.36,4,alto,Analista de Sistemas,1
+PROJ_0825,Plataforma E-commerce,7.9,198246.15,2,médio,Especialista em Dados,1
+PROJ_0826,Dashboard Analytics,5.0,181458.46,3,alto,Consultor Técnico,1
+PROJ_0827,App de Atendimento,6.7,250750.61,2,médio,Consultor Técnico,1
+PROJ_0828,App Mobile de Vendas,9.6,979834.31,6,médio,Coordenador de TI,1
+PROJ_0829,Plataforma de BI,9.5,618794.32,3,baixo,Gerente de Projetos,0
+PROJ_0830,Portal de Fornecedores Web,9.7,417735.48,3,médio,Desenvolvedor Senior,0
+PROJ_0831,Portal do Cliente,5.2,188547.03,2,alto,Gerente de Projetos,1
+PROJ_0832,Sistema de RH,4.8,151950.0,2,médio,Tech Lead,1
+PROJ_0833,App Mobile de Vendas,10.0,518593.34,3,baixo,Líder Técnico,0
+PROJ_0834,App de Controle de Acesso,2.3,88934.6,3,médio,Especialista em Dados,1
+PROJ_0835,Sistema de Gestão Empresarial Mobile,8.5,235899.83,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0836,Sistema de Gestão Empresarial Web,7.0,240655.49,2,baixo,Arquiteto de Software,1
+PROJ_0837,Sistema de Produção,5.5,234081.55,2,médio,Gerente de Projetos,1
+PROJ_0838,Plataforma de Vendas,3.0,93714.25,2,médio,Gerente de Desenvolvimento,1
+PROJ_0839,Sistema de Segurança,6.1,286029.93,2,baixo,Analista de Sistemas,0
+PROJ_0840,Sistema de Estoque,13.9,474680.04,2,baixo,Consultor Técnico,0
+PROJ_0841,Plataforma E-commerce Mobile,2.6,132190.41,2,baixo,Consultor Técnico,1
+PROJ_0842,Portal Interno,9.7,414618.46,3,baixo,Arquiteto de Software,1
+PROJ_0843,Sistema de Segurança,8.2,628351.49,5,baixo,Tech Lead,1
+PROJ_0844,App de Monitoramento,6.4,193187.29,2,alto,Desenvolvedor Senior,1
+PROJ_0845,Sistema de Backup Web,2.5,72951.6,2,médio,Coordenador de TI,1
+PROJ_0846,App de Atendimento,4.7,133612.48,2,médio,Gerente de Projetos,1
+PROJ_0847,Portal do Cliente,4.4,194190.35,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0848,Sistema de Produção,11.4,451802.59,2,alto,Gerente de Projetos,0
+PROJ_0849,Sistema de Backup Advanced,8.2,370471.84,3,baixo,Gerente de Desenvolvimento,1
+PROJ_0850,App de Atendimento,10.8,679542.36,3,médio,Líder Técnico,1
+PROJ_0851,Portal de Treinamento,4.4,165986.38,2,médio,Consultor Técnico,1
+PROJ_0852,App de Controle de Acesso Plus,3.8,172150.48,2,baixo,Líder Técnico,0
+PROJ_0853,App de Logística V2,3.6,173741.13,2,médio,Arquiteto de Software,0
+PROJ_0854,Sistema de Compras,5.5,147161.12,2,baixo,Gerente de Projetos,0
+PROJ_0855,Dashboard Analytics,7.9,331120.04,2,médio,Tech Lead,0
+PROJ_0856,Sistema de Gestão Empresarial,2.9,98303.34,2,baixo,Líder Técnico,1
+PROJ_0857,Plataforma E-commerce,2.6,61057.49,2,médio,Gerente de Desenvolvimento,1
+PROJ_0858,App de Controle de Acesso Plus,3.9,192451.28,2,médio,Líder Técnico,1
+PROJ_0859,App de Delivery,7.4,343801.2,3,alto,Gerente de Desenvolvimento,1
+PROJ_0860,Plataforma IoT,6.6,209725.57,2,baixo,Tech Lead,1
+PROJ_0861,App de Monitoramento,4.1,169632.64,2,alto,Analista de Sistemas,1
+PROJ_0862,Sistema de Segurança,4.4,184669.17,2,médio,Coordenador de TI,1
+PROJ_0863,Plataforma de Vendas,3.1,110923.16,2,baixo,Tech Lead,1
+PROJ_0864,App Mobile de Vendas Plus,5.3,353810.65,5,alto,Coordenador de TI,1
+PROJ_0865,Plataforma de Cursos,7.3,209637.38,2,baixo,Líder Técnico,1
+PROJ_0866,Sistema de Manutenção,3.2,107650.44,2,baixo,Tech Lead,1
+PROJ_0867,Sistema de Gestão Empresarial,9.0,531186.3,3,médio,Especialista em Dados,1
+PROJ_0868,App de Logística Mobile,4.3,138606.75,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0869,Portal de Fornecedores Mobile,4.0,146439.37,2,alto,Gerente de Desenvolvimento,1
+PROJ_0870,Portal do Cliente,4.3,157802.85,2,médio,Arquiteto de Software,1
+PROJ_0871,Sistema de Segurança V2,4.9,132810.46,2,alto,Coordenador de TI,1
+PROJ_0872,Portal Interno Web,5.5,114506.42,2,alto,Analista de Sistemas,1
+PROJ_0873,Portal de Documentos,7.9,501450.81,5,médio,Tech Lead,1
+PROJ_0874,Sistema de Estoque Pro,5.4,212824.72,2,médio,Especialista em Dados,1
+PROJ_0875,Sistema Financeiro,4.3,150506.84,2,alto,Coordenador de TI,1
+PROJ_0876,Plataforma E-commerce Advanced,14.0,1988856.88,7,alto,Especialista em Dados,1
+PROJ_0877,Sistema de Produção,4.6,136345.68,2,médio,Gerente de Desenvolvimento,1
+PROJ_0878,Sistema de Estoque Pro,6.6,173215.64,2,baixo,Consultor Técnico,0
+PROJ_0879,Portal do Cliente,4.2,297084.14,3,médio,Tech Lead,1
+PROJ_0880,Portal de Treinamento,3.7,136181.25,2,baixo,Arquiteto de Software,1
+PROJ_0881,Portal de Fornecedores,3.6,129796.64,2,médio,Coordenador de TI,1
+PROJ_0882,Portal de Documentos,7.6,351102.94,4,médio,Desenvolvedor Senior,1
+PROJ_0883,Portal de Relatórios,3.2,137129.71,2,médio,Gerente de Desenvolvimento,0
+PROJ_0884,Dashboard Analytics Pro,7.3,453310.43,4,alto,Arquiteto de Software,1
+PROJ_0885,App de Logística Plus,4.2,279173.91,3,médio,Gerente de Desenvolvimento,0
+PROJ_0886,Portal Interno,4.9,231263.13,2,médio,Especialista em Dados,1
+PROJ_0887,Sistema de Segurança Pro,3.4,113522.95,2,alto,Desenvolvedor Senior,1
+PROJ_0888,Portal de Documentos,3.4,104251.84,2,alto,Líder Técnico,1
+PROJ_0889,Sistema de Manutenção V2,3.9,109482.62,2,alto,Analista de Sistemas,1
+PROJ_0890,Sistema CRM Advanced,6.9,287821.5,2,alto,Tech Lead,0
+PROJ_0891,Plataforma de BI,3.4,86235.43,2,baixo,Tech Lead,1
+PROJ_0892,Sistema de Qualidade,2.6,61565.29,2,baixo,Líder Técnico,0
+PROJ_0893,Plataforma E-commerce,3.4,102926.92,2,médio,Líder Técnico,1
+PROJ_0894,Sistema de Backup Pro,7.7,617268.14,4,baixo,Analista de Sistemas,1
+PROJ_0895,App de Monitoramento,3.5,158225.11,2,alto,Arquiteto de Software,0
+PROJ_0896,Portal de Documentos,5.4,236035.27,3,médio,Especialista em Dados,1
+PROJ_0897,Portal de Relatórios,5.9,155396.95,2,baixo,Tech Lead,1
+PROJ_0898,App de Monitoramento Advanced,5.6,250326.36,2,médio,Tech Lead,1
+PROJ_0899,Sistema de Estoque,3.0,101864.22,2,alto,Desenvolvedor Senior,1
+PROJ_0900,Portal de Relatórios,5.2,204037.03,2,alto,Analista de Sistemas,1
+PROJ_0901,Plataforma IoT,5.4,196565.07,2,médio,Gerente de Projetos,0
+PROJ_0902,Portal de Documentos,11.8,565698.77,3,alto,Desenvolvedor Senior,0
+PROJ_0903,Sistema de Qualidade,3.3,100032.88,2,baixo,Coordenador de TI,0
+PROJ_0904,Plataforma de BI,9.0,408686.81,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0905,Plataforma IoT,2.4,68735.96,2,alto,Arquiteto de Software,1
+PROJ_0906,App de Delivery Plus,5.9,241178.37,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0907,Sistema de Segurança,3.7,97322.72,2,médio,Especialista em Dados,0
+PROJ_0908,Sistema de Manutenção,3.4,132838.1,2,alto,Gerente de Desenvolvimento,1
+PROJ_0909,Sistema de Produção,8.5,189922.54,2,médio,Gerente de Desenvolvimento,1
+PROJ_0910,Sistema de Produção Pro,3.0,97004.16,2,alto,Consultor Técnico,1
+PROJ_0911,Sistema de Manutenção,6.3,164732.11,2,baixo,Coordenador de TI,1
+PROJ_0912,Sistema de Estoque,5.9,316332.24,3,baixo,Tech Lead,1
+PROJ_0913,Dashboard Analytics,4.3,174639.2,2,médio,Gerente de Projetos,1
+PROJ_0914,Portal de Relatórios,5.0,217320.48,2,médio,Gerente de Desenvolvimento,0
+PROJ_0915,App de Comunicação,2.4,108315.07,2,baixo,Gerente de Desenvolvimento,0
+PROJ_0916,Sistema de Estoque Pro,4.1,140909.82,2,alto,Desenvolvedor Senior,1
+PROJ_0917,Plataforma de Vendas,4.9,157147.35,2,médio,Consultor Técnico,1
+PROJ_0918,Portal de Relatórios,5.4,251264.67,2,baixo,Desenvolvedor Senior,1
+PROJ_0919,Sistema de Qualidade,4.4,131147.2,2,médio,Especialista em Dados,1
+PROJ_0920,App de Comunicação,9.5,426858.42,2,alto,Consultor Técnico,1
+PROJ_0921,Plataforma E-commerce,5.8,273904.05,2,médio,Gerente de Projetos,1
+PROJ_0922,App de Logística Advanced,3.1,121933.64,2,baixo,Coordenador de TI,1
+PROJ_0923,Sistema de Estoque,5.7,230729.98,2,médio,Analista de Sistemas,1
+PROJ_0924,Sistema Financeiro,6.6,196799.04,2,médio,Especialista em Dados,1
+PROJ_0925,Sistema de Segurança Advanced,3.8,141806.01,2,baixo,Tech Lead,1
+PROJ_0926,App de Logística Web,4.4,152254.86,2,médio,Especialista em Dados,0
+PROJ_0927,Plataforma de Cursos V2,4.9,521712.39,5,baixo,Coordenador de TI,0
+PROJ_0928,Sistema de Gestão Empresarial,7.3,276272.42,2,baixo,Coordenador de TI,1
+PROJ_0929,Plataforma IoT,13.8,1179118.61,5,baixo,Desenvolvedor Senior,0
+PROJ_0930,Plataforma de Vendas Plus,10.7,301340.44,2,alto,Tech Lead,1
+PROJ_0931,Sistema de Produção,5.3,157540.47,2,baixo,Especialista em Dados,0
+PROJ_0932,App de Delivery,13.7,762585.89,4,baixo,Analista de Sistemas,1
+PROJ_0933,Dashboard Analytics,4.5,156199.75,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0934,App de Monitoramento Mobile,6.2,242375.9,2,médio,Desenvolvedor Senior,0
+PROJ_0935,Sistema de Qualidade,3.9,100961.71,2,médio,Gerente de Desenvolvimento,1
+PROJ_0936,Sistema de Gestão Empresarial,5.9,192671.26,2,alto,Desenvolvedor Senior,1
+PROJ_0937,Portal Interno,6.5,217181.7,2,médio,Coordenador de TI,1
+PROJ_0938,Portal de Relatórios Mobile,6.8,310579.77,2,médio,Analista de Sistemas,1
+PROJ_0939,Sistema Financeiro,8.2,224168.42,2,médio,Especialista em Dados,0
+PROJ_0940,Sistema de Estoque Advanced,5.6,181303.57,2,baixo,Consultor Técnico,1
+PROJ_0941,App de Atendimento,6.4,230309.99,2,baixo,Gerente de Desenvolvimento,1
+PROJ_0942,Sistema de Manutenção,7.2,233007.41,2,alto,Coordenador de TI,1
+PROJ_0943,Sistema Financeiro,3.8,163744.82,2,baixo,Especialista em Dados,0
+PROJ_0944,Sistema de Manutenção Web,10.1,1032427.71,4,baixo,Arquiteto de Software,0
+PROJ_0945,App de Controle de Acesso,2.1,83011.25,2,médio,Coordenador de TI,1
+PROJ_0946,Plataforma IoT V2,8.9,736073.54,4,baixo,Desenvolvedor Senior,1
+PROJ_0947,Sistema CRM Pro,8.7,290010.91,2,médio,Analista de Sistemas,0
+PROJ_0948,Plataforma de Vendas,3.8,105869.61,2,alto,Líder Técnico,1
+PROJ_0949,Plataforma E-commerce,2.6,97723.2,2,médio,Gerente de Desenvolvimento,1
+PROJ_0950,Dashboard Analytics,6.6,195365.56,2,alto,Consultor Técnico,0
+PROJ_0951,Sistema de Backup,3.4,105201.4,2,baixo,Analista de Sistemas,1
+PROJ_0952,Sistema de Produção Pro,2.6,75816.16,2,baixo,Analista de Sistemas,1
+PROJ_0953,Dashboard Analytics,6.3,288782.38,2,alto,Especialista em Dados,0
+PROJ_0954,Sistema de Manutenção Pro,4.1,208598.72,2,alto,Gerente de Projetos,1
+PROJ_0955,App de Logística Advanced,5.1,138952.95,2,médio,Consultor Técnico,1
+PROJ_0956,Plataforma de Vendas,15.8,1166043.66,4,alto,Gerente de Desenvolvimento,0
+PROJ_0957,Plataforma IoT,5.6,149368.59,2,alto,Especialista em Dados,1
+PROJ_0958,App de Logística Mobile,6.4,219834.26,2,médio,Gerente de Projetos,1
+PROJ_0959,Sistema de Segurança,4.3,257157.83,4,baixo,Arquiteto de Software,1
+PROJ_0960,App Mobile de Vendas Mobile,4.6,167616.32,2,médio,Arquiteto de Software,1
+PROJ_0961,Dashboard Analytics,8.7,249441.22,2,médio,Líder Técnico,1
+PROJ_0962,Portal de Documentos,3.0,97119.89,2,alto,Especialista em Dados,1
+PROJ_0963,Sistema de Produção,4.4,130622.03,2,alto,Líder Técnico,1
+PROJ_0964,Sistema de Estoque Mobile,2.2,57123.6,2,baixo,Tech Lead,0
+PROJ_0965,Sistema de Produção,4.2,122891.17,2,médio,Gerente de Projetos,1
+PROJ_0966,App de Comunicação,4.0,105453.47,2,médio,Consultor Técnico,0
+PROJ_0967,Sistema de RH,5.9,189169.29,2,baixo,Coordenador de TI,1
+PROJ_0968,Portal de Documentos,3.7,120788.55,2,alto,Desenvolvedor Senior,1
+PROJ_0969,Sistema CRM,3.1,97547.79,2,médio,Gerente de Projetos,0
+PROJ_0970,Sistema de Qualidade V2,11.4,359497.33,2,médio,Especialista em Dados,1
+PROJ_0971,Portal de Treinamento,6.2,154065.84,2,médio,Desenvolvedor Senior,1
+PROJ_0972,Sistema de RH,6.4,386847.1,3,médio,Líder Técnico,1
+PROJ_0973,Sistema de Backup,18.3,2100356.81,5,médio,Líder Técnico,1
+PROJ_0974,App de Atendimento,3.4,114612.87,2,médio,Líder Técnico,1
+PROJ_0975,Plataforma E-commerce,4.7,145401.92,2,baixo,Desenvolvedor Senior,1
+PROJ_0976,Sistema de Segurança Pro,9.5,207851.38,2,alto,Consultor Técnico,1
+PROJ_0977,Portal Interno,6.1,211333.63,2,médio,Analista de Sistemas,1
+PROJ_0978,Plataforma de Cursos,4.4,132430.29,2,alto,Arquiteto de Software,1
+PROJ_0979,Sistema CRM,12.8,358581.51,2,baixo,Consultor Técnico,0
+PROJ_0980,Sistema de Compras,4.1,109282.4,2,médio,Coordenador de TI,1
+PROJ_0981,Plataforma E-commerce,4.5,103483.04,2,alto,Gerente de Desenvolvimento,1
+PROJ_0982,App de Controle de Acesso Pro,3.7,114938.62,2,baixo,Analista de Sistemas,0
+PROJ_0983,Sistema de Backup,9.8,305257.85,2,baixo,Desenvolvedor Senior,0
+PROJ_0984,Plataforma E-commerce,2.6,131921.59,2,médio,Desenvolvedor Senior,1
+PROJ_0985,App de Comunicação,3.8,140456.07,2,médio,Gerente de Desenvolvimento,1
+PROJ_0986,App de Logística Web,9.1,313491.9,2,alto,Arquiteto de Software,1
+PROJ_0987,App de Atendimento,5.4,297649.6,3,baixo,Especialista em Dados,0
+PROJ_0988,Portal do Cliente,2.4,79631.75,2,médio,Coordenador de TI,1
+PROJ_0989,App de Monitoramento,6.8,234988.87,2,médio,Arquiteto de Software,1
+PROJ_0990,Sistema de Backup,9.0,392859.24,3,baixo,Tech Lead,1
+PROJ_0991,Sistema de Qualidade,9.7,397692.83,3,alto,Tech Lead,1
+PROJ_0992,Portal de Relatórios Web,8.6,428413.07,2,baixo,Coordenador de TI,1
+PROJ_0993,Portal de Documentos,9.4,456206.09,3,baixo,Tech Lead,1
+PROJ_0994,Portal de Treinamento Mobile,19.8,2277850.02,7,médio,Gerente de Desenvolvimento,1
+PROJ_0995,Sistema de RH,3.0,70754.28,2,médio,Desenvolvedor Senior,0
+PROJ_0996,App de Logística Pro,8.5,396725.04,3,baixo,Tech Lead,1
+PROJ_0997,Sistema de Produção,5.7,158308.98,2,baixo,Líder Técnico,0
+PROJ_0998,Portal de Treinamento,6.0,224211.28,2,médio,Tech Lead,1
+PROJ_0999,Sistema de Compras,5.4,242391.73,2,médio,Gerente de Projetos,1
+PROJ_1000,App Mobile de Vendas Advanced,5.3,377460.97,4,alto,Gerente de Projetos,1
+PROJ_1001,Sistema de Estoque,7.4,235842.83,2,baixo,Analista de Sistemas,0
+PROJ_1002,Sistema de Qualidade,6.6,240878.96,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1003,Sistema de RH,13.6,1349402.93,5,baixo,Analista de Sistemas,1
+PROJ_1004,Sistema de Compras,6.8,322921.02,3,baixo,Analista de Sistemas,1
+PROJ_1005,Portal de Treinamento,3.4,135636.03,2,médio,Arquiteto de Software,1
+PROJ_1006,Portal do Cliente,2.8,74616.68,2,alto,Arquiteto de Software,1
+PROJ_1007,Portal do Cliente,4.6,216674.31,2,médio,Analista de Sistemas,0
+PROJ_1008,App Mobile de Vendas,3.1,114320.22,2,alto,Arquiteto de Software,1
+PROJ_1009,Portal de Documentos,6.0,204656.71,2,alto,Desenvolvedor Senior,1
+PROJ_1010,Portal de Fornecedores,5.1,103973.65,2,médio,Coordenador de TI,1
+PROJ_1011,Sistema de Gestão Empresarial V2,2.6,100610.23,2,baixo,Analista de Sistemas,1
+PROJ_1012,Portal de Relatórios Web,3.8,109168.53,2,alto,Especialista em Dados,1
+PROJ_1013,Sistema de Gestão Empresarial Pro,8.5,519613.67,4,médio,Coordenador de TI,1
+PROJ_1014,Portal de Treinamento,2.2,88859.7,2,alto,Analista de Sistemas,1
+PROJ_1015,App de Logística Advanced,6.3,445176.45,4,médio,Coordenador de TI,1
+PROJ_1016,Portal de Documentos,15.6,1345564.42,6,alto,Coordenador de TI,1
+PROJ_1017,Plataforma de Cursos,8.1,310765.77,2,médio,Arquiteto de Software,0
+PROJ_1018,Plataforma E-commerce,3.6,153584.95,3,alto,Analista de Sistemas,1
+PROJ_1019,App de Atendimento,2.9,73040.76,2,alto,Analista de Sistemas,1
+PROJ_1020,Portal do Cliente,3.0,90466.99,2,baixo,Gerente de Projetos,0
+PROJ_1021,Sistema de Manutenção,6.1,213080.11,2,alto,Especialista em Dados,0
+PROJ_1022,Sistema Financeiro,7.5,225310.18,2,baixo,Analista de Sistemas,0
+PROJ_1023,App de Controle de Acesso,6.0,181547.87,2,baixo,Especialista em Dados,0
+PROJ_1024,Portal de Treinamento V2,6.8,238494.88,2,baixo,Analista de Sistemas,0
+PROJ_1025,App de Comunicação Web,8.8,288041.01,2,médio,Gerente de Desenvolvimento,1
+PROJ_1026,Sistema Financeiro,3.6,135144.05,2,médio,Tech Lead,1
+PROJ_1027,Sistema de Segurança Pro,11.1,376178.92,2,médio,Coordenador de TI,1
+PROJ_1028,App de Delivery,5.4,293493.23,4,médio,Líder Técnico,1
+PROJ_1029,Portal de Documentos,9.0,308355.28,2,baixo,Gerente de Projetos,0
+PROJ_1030,Portal de Treinamento,5.0,208440.28,3,médio,Arquiteto de Software,1
+PROJ_1031,Sistema de RH,14.9,470596.48,3,alto,Consultor Técnico,1
+PROJ_1032,Sistema de RH,3.6,136324.79,2,baixo,Arquiteto de Software,1
+PROJ_1033,App de Atendimento Plus,4.1,118949.87,2,baixo,Especialista em Dados,0
+PROJ_1034,App de Monitoramento Advanced,3.5,108064.77,2,alto,Líder Técnico,1
+PROJ_1035,Portal do Cliente,8.2,245835.27,2,baixo,Gerente de Projetos,1
+PROJ_1036,Sistema Financeiro,6.6,605996.28,5,alto,Analista de Sistemas,1
+PROJ_1037,App de Monitoramento,3.4,146624.02,2,alto,Líder Técnico,1
+PROJ_1038,Portal de Fornecedores,3.7,111585.67,2,médio,Analista de Sistemas,1
+PROJ_1039,App de Comunicação,7.4,163715.59,2,baixo,Coordenador de TI,0
+PROJ_1040,Sistema de Gestão Empresarial,4.5,123560.82,2,baixo,Gerente de Projetos,0
+PROJ_1041,Portal Interno V2,2.9,208943.41,4,médio,Gerente de Desenvolvimento,1
+PROJ_1042,Plataforma de Vendas Web,12.9,1620912.21,7,alto,Consultor Técnico,1
+PROJ_1043,App de Comunicação,2.5,67997.98,2,alto,Gerente de Desenvolvimento,1
+PROJ_1044,Portal do Cliente,2.6,80535.45,2,alto,Consultor Técnico,1
+PROJ_1045,Sistema de Manutenção V2,7.8,349053.36,3,baixo,Arquiteto de Software,1
+PROJ_1046,Portal do Cliente,4.0,132644.48,2,baixo,Desenvolvedor Senior,1
+PROJ_1047,Sistema de Segurança Pro,5.3,134880.43,2,médio,Gerente de Desenvolvimento,1
+PROJ_1048,Portal de Relatórios,6.4,448571.84,3,baixo,Coordenador de TI,0
+PROJ_1049,Sistema CRM,4.3,107710.94,2,médio,Desenvolvedor Senior,1
+PROJ_1050,App Mobile de Vendas Advanced,8.7,378221.85,2,baixo,Coordenador de TI,0
+PROJ_1051,Sistema de Qualidade,4.4,262127.79,3,alto,Gerente de Projetos,1
+PROJ_1052,Sistema CRM,7.8,695435.85,5,baixo,Analista de Sistemas,0
+PROJ_1053,Sistema de Estoque Plus,6.3,187138.42,2,baixo,Gerente de Projetos,1
+PROJ_1054,Dashboard Analytics,3.2,138567.83,2,baixo,Tech Lead,0
+PROJ_1055,Plataforma de Vendas,6.5,243228.05,3,médio,Arquiteto de Software,1
+PROJ_1056,Dashboard Analytics,8.7,488539.86,3,alto,Arquiteto de Software,1
+PROJ_1057,Portal de Documentos,7.4,177989.63,2,baixo,Gerente de Projetos,0
+PROJ_1058,Plataforma de Cursos,3.2,103098.88,2,alto,Arquiteto de Software,1
+PROJ_1059,Plataforma de Vendas Web,4.1,129000.47,2,alto,Líder Técnico,1
+PROJ_1060,App de Atendimento Advanced,8.1,483401.49,3,médio,Consultor Técnico,1
+PROJ_1061,Sistema Financeiro Mobile,3.2,125973.81,2,baixo,Analista de Sistemas,1
+PROJ_1062,Sistema Financeiro V2,5.3,204205.19,2,médio,Líder Técnico,1
+PROJ_1063,Plataforma IoT,2.7,91577.43,2,médio,Desenvolvedor Senior,0
+PROJ_1064,Portal de Documentos,5.6,158388.5,2,baixo,Gerente de Projetos,0
+PROJ_1065,Portal de Treinamento,12.5,892090.67,3,alto,Desenvolvedor Senior,1
+PROJ_1066,App Mobile de Vendas,4.9,183574.9,2,baixo,Gerente de Desenvolvimento,0
+PROJ_1067,App de Controle de Acesso V2,2.7,92816.72,2,médio,Consultor Técnico,1
+PROJ_1068,Sistema de Segurança,4.8,146546.81,2,médio,Gerente de Desenvolvimento,1
+PROJ_1069,App de Delivery,6.8,163161.15,2,médio,Gerente de Desenvolvimento,1
+PROJ_1070,App de Controle de Acesso,4.3,387624.64,4,alto,Arquiteto de Software,1
+PROJ_1071,Plataforma de BI Pro,2.9,285219.52,4,médio,Coordenador de TI,1
+PROJ_1072,Plataforma de Vendas,2.8,105629.31,2,alto,Gerente de Projetos,1
+PROJ_1073,Dashboard Analytics Mobile,6.6,232945.71,2,baixo,Gerente de Projetos,0
+PROJ_1074,App de Monitoramento Advanced,3.9,134476.74,2,baixo,Arquiteto de Software,1
+PROJ_1075,App de Comunicação,6.2,261007.44,2,alto,Tech Lead,1
+PROJ_1076,Portal do Cliente,6.8,305523.86,2,baixo,Gerente de Projetos,1
+PROJ_1077,Sistema Financeiro Mobile,3.9,138708.63,2,médio,Arquiteto de Software,0
+PROJ_1078,Portal de Documentos,10.8,562850.32,3,alto,Especialista em Dados,1
+PROJ_1079,Sistema Financeiro,2.6,93925.23,2,alto,Especialista em Dados,1
+PROJ_1080,App de Comunicação,10.9,282994.71,2,médio,Consultor Técnico,1
+PROJ_1081,App de Comunicação,4.5,141551.47,2,médio,Analista de Sistemas,1
+PROJ_1082,Sistema de Gestão Empresarial,6.9,303673.86,2,médio,Gerente de Projetos,0
+PROJ_1083,App de Delivery,4.0,118368.61,2,médio,Gerente de Projetos,1
+PROJ_1084,Plataforma de Cursos Web,4.0,136069.36,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1085,Portal de Treinamento,5.0,152693.29,2,baixo,Arquiteto de Software,1
+PROJ_1086,Sistema de Estoque Plus,4.2,294781.56,5,alto,Gerente de Desenvolvimento,1
+PROJ_1087,App de Logística,6.2,249500.13,3,médio,Analista de Sistemas,1
+PROJ_1088,Sistema de Backup V2,2.4,73272.56,2,médio,Desenvolvedor Senior,1
+PROJ_1089,Sistema de Compras,4.8,200035.42,2,baixo,Gerente de Desenvolvimento,0
+PROJ_1090,Sistema de Backup,6.4,271526.16,2,alto,Especialista em Dados,0
+PROJ_1091,Portal de Documentos V2,7.3,509882.9,4,médio,Consultor Técnico,1
+PROJ_1092,Plataforma E-commerce,4.7,129542.66,2,baixo,Gerente de Desenvolvimento,0
+PROJ_1093,Portal do Cliente,3.8,149913.47,3,baixo,Gerente de Projetos,1
+PROJ_1094,Portal de Fornecedores,8.2,258557.12,2,baixo,Analista de Sistemas,1
+PROJ_1095,App de Delivery Pro,4.5,183651.74,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1096,Sistema de Backup,6.8,151789.99,2,alto,Tech Lead,1
+PROJ_1097,Plataforma de Cursos,11.1,1281297.23,5,baixo,Desenvolvedor Senior,0
+PROJ_1098,Portal do Cliente,4.1,134887.65,2,médio,Analista de Sistemas,1
+PROJ_1099,App de Comunicação,5.6,194405.95,2,alto,Coordenador de TI,1
+PROJ_1100,Plataforma E-commerce Advanced,3.2,88517.19,2,baixo,Especialista em Dados,0
+PROJ_1101,Plataforma de Cursos,5.1,317435.82,3,médio,Consultor Técnico,1
+PROJ_1102,Sistema Financeiro,7.5,281696.13,2,alto,Desenvolvedor Senior,1
+PROJ_1103,Sistema de Qualidade,5.0,223840.0,2,baixo,Arquiteto de Software,0
+PROJ_1104,Portal de Treinamento Plus,8.8,563804.21,3,baixo,Arquiteto de Software,1
+PROJ_1105,Plataforma de BI,6.0,184485.16,2,baixo,Líder Técnico,1
+PROJ_1106,App Mobile de Vendas Pro,8.8,327939.69,2,médio,Analista de Sistemas,1
+PROJ_1107,Portal do Cliente,4.8,196290.11,2,médio,Tech Lead,1
+PROJ_1108,App de Monitoramento,6.5,196478.96,2,médio,Arquiteto de Software,0
+PROJ_1109,Portal Interno,5.2,167318.21,2,baixo,Analista de Sistemas,0
+PROJ_1110,Sistema de Gestão Empresarial,8.3,443909.16,3,alto,Especialista em Dados,0
+PROJ_1111,Sistema de Produção,7.7,266907.05,2,baixo,Desenvolvedor Senior,1
+PROJ_1112,Sistema de Estoque,5.5,219137.31,2,médio,Analista de Sistemas,1
+PROJ_1113,Sistema de Estoque Plus,6.4,357466.83,4,baixo,Analista de Sistemas,1
+PROJ_1114,Sistema de RH,3.8,98701.22,2,baixo,Tech Lead,1
+PROJ_1115,Plataforma IoT,4.4,130616.23,2,baixo,Coordenador de TI,0
+PROJ_1116,Portal de Relatórios,3.0,123036.74,2,baixo,Coordenador de TI,0
+PROJ_1117,Sistema de Gestão Empresarial,3.7,145020.74,2,baixo,Desenvolvedor Senior,0
+PROJ_1118,Sistema de Compras,6.7,343744.32,2,baixo,Analista de Sistemas,0
+PROJ_1119,Portal do Cliente,8.1,174943.12,2,baixo,Tech Lead,1
+PROJ_1120,Sistema de Estoque Advanced,5.6,153090.09,2,médio,Gerente de Projetos,0
+PROJ_1121,Dashboard Analytics,8.4,391304.99,3,baixo,Gerente de Desenvolvimento,1
+PROJ_1122,Plataforma de BI,5.1,169510.5,2,alto,Especialista em Dados,1
+PROJ_1123,Sistema de Gestão Empresarial,4.2,116843.71,2,alto,Gerente de Desenvolvimento,1
+PROJ_1124,Dashboard Analytics,7.8,230790.71,2,alto,Analista de Sistemas,1
+PROJ_1125,Portal Interno Plus,3.2,136475.16,2,alto,Gerente de Projetos,1
+PROJ_1126,Sistema de Manutenção,3.1,88493.34,2,médio,Desenvolvedor Senior,0
+PROJ_1127,App de Atendimento Advanced,8.9,554803.08,5,alto,Consultor Técnico,1
+PROJ_1128,App de Logística Pro,3.6,140440.09,2,médio,Gerente de Desenvolvimento,1
+PROJ_1129,Plataforma E-commerce,7.0,409531.86,3,médio,Consultor Técnico,1
+PROJ_1130,App de Delivery,6.0,209120.85,2,baixo,Consultor Técnico,0
+PROJ_1131,Sistema de Segurança Advanced,7.2,491636.32,3,alto,Tech Lead,1
+PROJ_1132,App de Logística,7.9,240132.38,2,médio,Especialista em Dados,1
+PROJ_1133,Sistema Financeiro,3.4,92739.75,2,baixo,Consultor Técnico,1
+PROJ_1134,Plataforma de Cursos,5.1,192993.08,2,médio,Analista de Sistemas,1
+PROJ_1135,Sistema de Gestão Empresarial,6.3,273277.58,2,baixo,Desenvolvedor Senior,0
+PROJ_1136,Sistema de Gestão Empresarial,6.0,197903.13,2,médio,Arquiteto de Software,1
+PROJ_1137,App Mobile de Vendas,11.7,312627.23,2,médio,Especialista em Dados,0
+PROJ_1138,Plataforma de Vendas,7.6,290092.97,2,alto,Líder Técnico,1
+PROJ_1139,App de Delivery,9.5,476256.57,3,alto,Coordenador de TI,1
+PROJ_1140,App de Delivery,9.1,433761.54,4,baixo,Arquiteto de Software,1
+PROJ_1141,Sistema de Produção,4.8,298733.41,3,médio,Gerente de Projetos,1
+PROJ_1142,App de Comunicação,6.1,169615.89,2,alto,Desenvolvedor Senior,1
+PROJ_1143,Portal de Relatórios,4.5,154785.04,2,médio,Gerente de Desenvolvimento,1
+PROJ_1144,Sistema Financeiro,4.3,137359.32,2,baixo,Analista de Sistemas,1
+PROJ_1145,Dashboard Analytics Pro,13.6,1189003.4,7,alto,Tech Lead,0
+PROJ_1146,App de Controle de Acesso,5.3,124541.07,2,baixo,Tech Lead,0
+PROJ_1147,Portal de Relatórios,3.2,114126.73,2,médio,Líder Técnico,1
+PROJ_1148,Sistema de RH,2.6,65268.1,2,médio,Especialista em Dados,1
+PROJ_1149,Sistema de Produção,6.6,811764.4,5,médio,Especialista em Dados,1
+PROJ_1150,App Mobile de Vendas Plus,3.4,145816.68,3,alto,Líder Técnico,1
+PROJ_1151,App de Delivery Advanced,5.4,262245.73,2,médio,Gerente de Projetos,0
+PROJ_1152,Plataforma de Cursos,12.7,449166.25,2,médio,Desenvolvedor Senior,0
+PROJ_1153,Sistema de Segurança Web,5.2,149537.33,2,baixo,Analista de Sistemas,0
+PROJ_1154,App de Controle de Acesso,4.3,183522.63,2,baixo,Tech Lead,1
+PROJ_1155,App Mobile de Vendas Mobile,3.5,95089.28,2,médio,Analista de Sistemas,1
+PROJ_1156,App de Comunicação Mobile,12.5,633240.3,4,baixo,Tech Lead,0
+PROJ_1157,Portal do Cliente,3.6,101935.57,2,baixo,Gerente de Desenvolvimento,0
+PROJ_1158,Portal de Relatórios Pro,3.2,81883.53,2,baixo,Tech Lead,1
+PROJ_1159,Plataforma E-commerce,7.1,265121.75,2,alto,Gerente de Desenvolvimento,1
+PROJ_1160,Sistema de Segurança,10.1,391913.71,2,médio,Especialista em Dados,1
+PROJ_1161,App de Atendimento,4.4,242719.52,4,alto,Consultor Técnico,1
+PROJ_1162,Sistema de Backup,5.3,147121.57,2,médio,Líder Técnico,1
+PROJ_1163,Sistema de Segurança,12.0,489683.04,2,médio,Líder Técnico,0
+PROJ_1164,Plataforma de BI Pro,8.1,299112.85,2,médio,Arquiteto de Software,1
+PROJ_1165,Plataforma E-commerce V2,4.6,155660.74,2,baixo,Líder Técnico,0
+PROJ_1166,App de Monitoramento,9.0,532207.78,4,baixo,Líder Técnico,1
+PROJ_1167,App Mobile de Vendas Pro,2.9,103779.08,2,médio,Líder Técnico,1
+PROJ_1168,App de Delivery,12.5,939955.74,4,alto,Coordenador de TI,1
+PROJ_1169,App de Controle de Acesso,4.0,108688.25,2,alto,Tech Lead,1
+PROJ_1170,Portal de Documentos Pro,6.9,162631.74,2,baixo,Tech Lead,0
+PROJ_1171,Dashboard Analytics,13.4,1769902.68,6,baixo,Coordenador de TI,0
+PROJ_1172,Plataforma de BI,5.4,395131.1,4,baixo,Tech Lead,1
+PROJ_1173,Sistema de Qualidade Plus,8.1,228465.84,2,médio,Desenvolvedor Senior,1
+PROJ_1174,Sistema de Backup Pro,3.9,163586.59,2,médio,Coordenador de TI,1
+PROJ_1175,Portal de Documentos Advanced,4.1,182368.58,2,baixo,Especialista em Dados,1
+PROJ_1176,Portal de Documentos,4.1,169929.43,2,alto,Analista de Sistemas,0
+PROJ_1177,Sistema de Compras,5.7,448289.5,4,médio,Gerente de Desenvolvimento,0
+PROJ_1178,Sistema Financeiro,10.2,485093.0,4,médio,Coordenador de TI,1
+PROJ_1179,Plataforma de BI,6.2,443155.5,5,médio,Líder Técnico,1
+PROJ_1180,App de Atendimento,2.7,94421.02,3,alto,Desenvolvedor Senior,1
+PROJ_1181,Dashboard Analytics,11.6,902743.18,4,baixo,Gerente de Projetos,0
+PROJ_1182,Sistema CRM Pro,3.4,125368.22,2,alto,Coordenador de TI,1
+PROJ_1183,Portal do Cliente,2.4,80697.99,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1184,Dashboard Analytics,2.7,118018.26,2,alto,Consultor Técnico,1
+PROJ_1185,Sistema de Compras,2.9,110197.6,2,médio,Tech Lead,1
+PROJ_1186,Sistema de Manutenção,5.3,132233.08,2,médio,Especialista em Dados,1
+PROJ_1187,Sistema de Backup Web,7.4,312447.69,2,médio,Analista de Sistemas,0
+PROJ_1188,Sistema de Manutenção,9.4,464033.22,2,médio,Analista de Sistemas,1
+PROJ_1189,App Mobile de Vendas Plus,10.8,492444.81,3,baixo,Desenvolvedor Senior,0
+PROJ_1190,Portal de Fornecedores,2.3,120341.65,3,médio,Consultor Técnico,1
+PROJ_1191,Portal Interno,5.9,503074.86,6,baixo,Arquiteto de Software,1
+PROJ_1192,App de Delivery Advanced,5.2,218652.27,2,médio,Líder Técnico,1
+PROJ_1193,Sistema de Produção,8.2,357509.24,2,médio,Analista de Sistemas,0
+PROJ_1194,App Mobile de Vendas,5.8,191223.74,2,alto,Gerente de Desenvolvimento,1
+PROJ_1195,Portal do Cliente Web,9.7,389642.49,2,médio,Líder Técnico,1
+PROJ_1196,App de Logística V2,3.6,141480.0,2,médio,Desenvolvedor Senior,1
+PROJ_1197,Dashboard Analytics,5.6,209852.03,2,baixo,Coordenador de TI,1
+PROJ_1198,App de Logística,5.6,180902.09,2,médio,Arquiteto de Software,1
+PROJ_1199,Sistema de Segurança,6.9,228430.02,2,médio,Especialista em Dados,0
+PROJ_1200,Sistema de Compras,6.7,265930.66,3,médio,Coordenador de TI,1
+PROJ_1201,App de Atendimento,8.4,324203.65,2,baixo,Analista de Sistemas,0
+PROJ_1202,Sistema Financeiro,4.4,171381.48,2,alto,Tech Lead,1
+PROJ_1203,Dashboard Analytics,3.7,149189.81,2,médio,Arquiteto de Software,0
+PROJ_1204,Sistema de Qualidade,7.1,259031.52,2,alto,Desenvolvedor Senior,0
+PROJ_1205,Plataforma de BI V2,4.3,131336.35,2,médio,Analista de Sistemas,0
+PROJ_1206,App de Comunicação,14.2,1085137.45,4,médio,Coordenador de TI,1
+PROJ_1207,Portal do Cliente,5.7,227994.54,2,baixo,Consultor Técnico,0
+PROJ_1208,Portal de Fornecedores,13.5,1205137.64,5,médio,Líder Técnico,1
+PROJ_1209,App de Delivery,5.4,166001.7,2,médio,Gerente de Desenvolvimento,1
+PROJ_1210,Plataforma de BI,13.8,1293878.89,7,baixo,Consultor Técnico,1
+PROJ_1211,Plataforma IoT,5.8,218916.48,2,médio,Especialista em Dados,0
+PROJ_1212,Portal de Relatórios,6.5,236824.75,2,baixo,Especialista em Dados,1
+PROJ_1213,Sistema CRM Web,7.4,172295.38,2,baixo,Gerente de Projetos,1
+PROJ_1214,Plataforma de Vendas,6.1,387951.19,4,baixo,Consultor Técnico,1
+PROJ_1215,Sistema de Segurança,8.9,504789.32,4,alto,Líder Técnico,0
+PROJ_1216,Plataforma E-commerce Advanced,6.6,308772.16,2,médio,Analista de Sistemas,0
+PROJ_1217,Dashboard Analytics,5.1,203440.79,2,baixo,Desenvolvedor Senior,1
+PROJ_1218,Plataforma E-commerce V2,8.7,661699.66,3,baixo,Gerente de Desenvolvimento,1
+PROJ_1219,Sistema de RH,8.1,180911.25,2,médio,Analista de Sistemas,1
+PROJ_1220,Plataforma de BI,6.7,251395.54,2,médio,Tech Lead,1
+PROJ_1221,App de Controle de Acesso,3.3,121049.06,2,médio,Coordenador de TI,1
+PROJ_1222,Portal do Cliente,5.3,177315.75,2,médio,Gerente de Desenvolvimento,1
+PROJ_1223,Sistema de Produção,8.1,238404.18,2,médio,Arquiteto de Software,1
+PROJ_1224,Plataforma de Vendas,2.9,108488.17,2,baixo,Gerente de Projetos,1
+PROJ_1225,Sistema de Segurança,4.3,160142.41,2,médio,Líder Técnico,1
+PROJ_1226,Plataforma de Vendas,5.2,128876.2,2,médio,Coordenador de TI,1
+PROJ_1227,Portal de Fornecedores Mobile,3.2,136579.2,3,médio,Líder Técnico,1
+PROJ_1228,Portal de Relatórios,5.0,163507.61,2,alto,Coordenador de TI,1
+PROJ_1229,App de Controle de Acesso V2,9.4,405929.38,3,médio,Arquiteto de Software,1
+PROJ_1230,Portal de Treinamento,7.2,342006.39,2,alto,Tech Lead,1
+PROJ_1231,Sistema de Compras,5.2,197819.03,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1232,App de Atendimento,3.8,105589.93,2,alto,Líder Técnico,1
+PROJ_1233,App de Logística Pro,3.5,117792.83,2,alto,Gerente de Desenvolvimento,1
+PROJ_1234,Plataforma E-commerce,6.1,299685.95,3,alto,Gerente de Desenvolvimento,1
+PROJ_1235,App Mobile de Vendas,8.9,348335.07,2,alto,Tech Lead,1
+PROJ_1236,Sistema de Backup Web,7.0,210322.67,2,médio,Especialista em Dados,1
+PROJ_1237,App de Controle de Acesso Pro,6.7,497542.77,3,alto,Gerente de Projetos,1
+PROJ_1238,Plataforma de Cursos,8.0,228787.1,2,alto,Arquiteto de Software,1
+PROJ_1239,Sistema CRM Advanced,6.6,396959.14,3,baixo,Coordenador de TI,1
+PROJ_1240,Portal de Treinamento Pro,6.9,317166.26,4,alto,Especialista em Dados,1
+PROJ_1241,App de Comunicação,6.5,253344.79,2,baixo,Arquiteto de Software,1
+PROJ_1242,Portal de Documentos,11.7,1156093.84,4,baixo,Coordenador de TI,1
+PROJ_1243,Sistema de RH,2.2,56439.92,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1244,Portal de Documentos,3.5,91988.4,2,médio,Consultor Técnico,1
+PROJ_1245,Portal de Treinamento,2.5,72930.83,2,alto,Gerente de Projetos,1
+PROJ_1246,Plataforma de Vendas,2.8,83661.31,2,médio,Coordenador de TI,0
+PROJ_1247,Sistema CRM,3.8,185445.54,2,baixo,Gerente de Desenvolvimento,0
+PROJ_1248,Plataforma E-commerce,10.9,658716.24,4,baixo,Consultor Técnico,1
+PROJ_1249,Sistema de Compras,6.5,169565.07,2,baixo,Analista de Sistemas,1
+PROJ_1250,Sistema de RH,7.7,228148.32,2,alto,Desenvolvedor Senior,1
+PROJ_1251,Plataforma de BI V2,2.2,78226.79,3,alto,Especialista em Dados,1
+PROJ_1252,App Mobile de Vendas,3.6,120480.31,2,baixo,Desenvolvedor Senior,0
+PROJ_1253,Portal Interno,8.0,290644.27,2,alto,Especialista em Dados,1
+PROJ_1254,Plataforma de Vendas,5.9,130729.08,2,baixo,Coordenador de TI,0
+PROJ_1255,Plataforma IoT Pro,7.2,151862.84,2,baixo,Especialista em Dados,1
+PROJ_1256,Sistema de Manutenção,7.9,232228.43,2,médio,Especialista em Dados,1
+PROJ_1257,Portal de Relatórios,4.5,376371.68,4,médio,Tech Lead,1
+PROJ_1258,Dashboard Analytics,5.7,158767.55,2,médio,Arquiteto de Software,1
+PROJ_1259,Portal de Documentos,7.8,287367.76,2,médio,Coordenador de TI,1
+PROJ_1260,Sistema CRM V2,6.7,317827.63,3,médio,Analista de Sistemas,1
+PROJ_1261,Portal de Treinamento,5.7,273688.91,3,médio,Desenvolvedor Senior,1
+PROJ_1262,Portal de Treinamento Plus,4.4,129200.01,2,médio,Desenvolvedor Senior,1
+PROJ_1263,Portal Interno,6.4,299010.64,3,alto,Consultor Técnico,1
+PROJ_1264,Sistema de Gestão Empresarial,5.2,428046.04,4,baixo,Gerente de Projetos,0
+PROJ_1265,App de Logística,5.5,235565.44,2,médio,Analista de Sistemas,0
+PROJ_1266,Sistema de Manutenção,3.2,108132.99,2,alto,Desenvolvedor Senior,1
+PROJ_1267,Portal Interno,4.2,96920.4,2,alto,Arquiteto de Software,1
+PROJ_1268,Sistema de Backup,2.6,106020.17,2,baixo,Arquiteto de Software,0
+PROJ_1269,Portal de Fornecedores,3.2,103330.68,2,baixo,Tech Lead,1
+PROJ_1270,Sistema de Qualidade Advanced,2.9,76717.15,2,alto,Arquiteto de Software,1
+PROJ_1271,Plataforma IoT,6.8,354621.94,3,alto,Líder Técnico,1
+PROJ_1272,App de Monitoramento,3.6,171363.49,2,baixo,Gerente de Projetos,0
+PROJ_1273,Plataforma de Vendas,7.9,472976.92,4,médio,Tech Lead,1
+PROJ_1274,Sistema de Produção,3.9,126806.32,2,médio,Líder Técnico,1
+PROJ_1275,Sistema CRM V2,4.5,153763.94,2,médio,Especialista em Dados,1
+PROJ_1276,Portal do Cliente,5.2,283987.72,3,baixo,Arquiteto de Software,1
+PROJ_1277,App de Atendimento,7.4,264799.9,2,alto,Arquiteto de Software,1
+PROJ_1278,Portal Interno,3.8,100954.35,2,baixo,Arquiteto de Software,1
+PROJ_1279,Sistema de RH Plus,9.9,717171.25,4,médio,Gerente de Projetos,1
+PROJ_1280,Sistema de Segurança,7.5,287089.01,3,médio,Líder Técnico,1
+PROJ_1281,App de Monitoramento,5.6,293398.76,3,baixo,Analista de Sistemas,1
+PROJ_1282,Portal de Documentos Advanced,4.1,166279.92,2,médio,Arquiteto de Software,1
+PROJ_1283,Portal Interno,3.1,166425.31,3,alto,Gerente de Desenvolvimento,1
+PROJ_1284,App de Monitoramento,5.7,177863.85,2,alto,Líder Técnico,1
+PROJ_1285,Sistema de Backup,3.9,101066.43,2,baixo,Desenvolvedor Senior,0
+PROJ_1286,Plataforma de Cursos,12.5,598510.64,3,alto,Desenvolvedor Senior,1
+PROJ_1287,Plataforma IoT,4.8,188300.97,2,alto,Especialista em Dados,1
+PROJ_1288,App de Controle de Acesso,11.4,918594.06,5,baixo,Tech Lead,1
+PROJ_1289,Plataforma de Vendas,6.6,425154.29,3,médio,Analista de Sistemas,1
+PROJ_1290,Plataforma de BI,4.9,186275.88,2,baixo,Consultor Técnico,1
+PROJ_1291,Dashboard Analytics Advanced,6.3,202771.99,2,alto,Analista de Sistemas,0
+PROJ_1292,Portal de Documentos Mobile,7.1,276841.23,2,alto,Analista de Sistemas,1
+PROJ_1293,Plataforma IoT,4.6,157635.49,2,alto,Coordenador de TI,1
+PROJ_1294,App de Delivery,2.7,122501.46,2,médio,Arquiteto de Software,0
+PROJ_1295,Portal de Fornecedores,4.4,123644.37,2,baixo,Tech Lead,1
+PROJ_1296,Sistema Financeiro Pro,7.7,295218.56,2,alto,Especialista em Dados,1
+PROJ_1297,Portal de Treinamento V2,6.4,284542.27,2,médio,Líder Técnico,0
+PROJ_1298,Portal de Relatórios,3.4,110628.09,2,alto,Coordenador de TI,1
+PROJ_1299,App de Logística,3.4,225261.26,4,alto,Consultor Técnico,1
+PROJ_1300,Sistema de Estoque,5.3,182784.88,2,alto,Gerente de Desenvolvimento,1
+PROJ_1301,Plataforma de Vendas V2,8.2,312088.28,2,baixo,Analista de Sistemas,0
+PROJ_1302,Plataforma E-commerce,7.9,397410.37,2,baixo,Tech Lead,0
+PROJ_1303,Portal de Fornecedores,4.8,157808.0,2,médio,Especialista em Dados,1
+PROJ_1304,Plataforma E-commerce,8.9,350706.93,3,médio,Analista de Sistemas,1
+PROJ_1305,App de Comunicação Pro,5.5,363704.54,3,baixo,Analista de Sistemas,1
+PROJ_1306,Plataforma de Cursos,4.1,107024.28,2,médio,Gerente de Projetos,1
+PROJ_1307,Sistema de Qualidade Plus,4.9,169300.54,2,médio,Líder Técnico,1
+PROJ_1308,App de Comunicação V2,7.6,291729.06,3,alto,Analista de Sistemas,1
+PROJ_1309,Sistema de Manutenção,7.1,302235.61,3,médio,Gerente de Desenvolvimento,1
+PROJ_1310,App de Monitoramento,3.3,136574.8,2,alto,Especialista em Dados,1
+PROJ_1311,App de Monitoramento Mobile,7.3,262959.83,2,alto,Desenvolvedor Senior,1
+PROJ_1312,Portal de Documentos,2.6,99784.83,2,médio,Gerente de Projetos,1
+PROJ_1313,Sistema de Compras,3.9,171385.76,2,alto,Consultor Técnico,0
+PROJ_1314,Sistema de RH V2,3.0,84296.49,2,médio,Desenvolvedor Senior,1
+PROJ_1315,App de Delivery,13.9,705239.88,4,médio,Tech Lead,1
+PROJ_1316,Sistema CRM Advanced,7.7,575615.56,4,médio,Consultor Técnico,1
+PROJ_1317,Portal de Relatórios,19.2,1388566.75,5,baixo,Coordenador de TI,1
+PROJ_1318,Plataforma de BI Pro,5.1,197411.02,2,alto,Especialista em Dados,1
+PROJ_1319,Portal de Documentos,9.4,465233.57,2,médio,Consultor Técnico,1
+PROJ_1320,Plataforma de Cursos,4.8,275144.78,3,baixo,Analista de Sistemas,0
+PROJ_1321,Plataforma de Cursos,2.9,78232.16,2,médio,Especialista em Dados,1
+PROJ_1322,Sistema Financeiro,9.7,902313.02,4,alto,Analista de Sistemas,1
+PROJ_1323,App de Controle de Acesso,4.5,109823.45,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1324,Sistema de Gestão Empresarial Web,6.2,267734.3,3,alto,Analista de Sistemas,1
+PROJ_1325,Sistema de RH,3.0,92632.35,2,baixo,Líder Técnico,0
+PROJ_1326,Plataforma de Vendas Pro,4.4,184614.18,2,baixo,Gerente de Projetos,1
+PROJ_1327,App de Monitoramento,4.9,242050.27,3,médio,Arquiteto de Software,1
+PROJ_1328,App de Comunicação,5.7,273386.68,4,médio,Gerente de Projetos,1
+PROJ_1329,Sistema de Manutenção,6.5,259039.24,2,alto,Coordenador de TI,0
+PROJ_1330,App de Atendimento,6.8,414208.25,3,baixo,Gerente de Projetos,1
+PROJ_1331,Sistema de Backup Advanced,10.2,856545.17,6,médio,Gerente de Desenvolvimento,1
+PROJ_1332,Sistema de Estoque,10.9,269961.16,2,médio,Especialista em Dados,0
+PROJ_1333,Sistema de Backup Web,4.4,231566.09,3,baixo,Gerente de Projetos,0
+PROJ_1334,Sistema CRM,5.8,199882.53,2,baixo,Coordenador de TI,1
+PROJ_1335,Plataforma IoT,3.5,93710.99,2,médio,Líder Técnico,1
+PROJ_1336,Sistema de Manutenção,3.7,81331.76,2,alto,Gerente de Desenvolvimento,1
+PROJ_1337,Plataforma de BI,9.5,653826.88,3,baixo,Consultor Técnico,0
+PROJ_1338,Portal de Documentos,4.1,115146.04,2,médio,Arquiteto de Software,1
+PROJ_1339,Sistema de Estoque,5.2,176622.67,2,alto,Especialista em Dados,1
+PROJ_1340,Sistema de RH,9.3,533301.92,3,baixo,Arquiteto de Software,1
+PROJ_1341,Plataforma de BI,4.5,226142.39,3,alto,Desenvolvedor Senior,1
+PROJ_1342,Sistema Financeiro,4.2,308715.59,4,médio,Arquiteto de Software,1
+PROJ_1343,Dashboard Analytics Advanced,5.0,115097.82,2,alto,Desenvolvedor Senior,1
+PROJ_1344,Sistema de Backup,5.6,271834.86,3,médio,Tech Lead,1
+PROJ_1345,App de Delivery Web,9.3,318781.72,2,baixo,Coordenador de TI,0
+PROJ_1346,App de Controle de Acesso Mobile,4.9,172662.43,2,baixo,Especialista em Dados,1
+PROJ_1347,Plataforma E-commerce,6.3,151998.0,2,alto,Consultor Técnico,1
+PROJ_1348,Portal do Cliente,3.1,81324.19,2,médio,Coordenador de TI,0
+PROJ_1349,Sistema de Compras Plus,5.5,162771.76,2,médio,Especialista em Dados,1
+PROJ_1350,Sistema CRM V2,8.6,765938.66,5,baixo,Coordenador de TI,1
+PROJ_1351,Plataforma de BI V2,6.5,273692.77,2,alto,Arquiteto de Software,1
+PROJ_1352,Sistema Financeiro,9.2,389369.88,3,médio,Tech Lead,1
+PROJ_1353,Portal de Fornecedores,6.6,173988.32,2,baixo,Coordenador de TI,1
+PROJ_1354,Portal de Treinamento,7.3,265471.08,2,alto,Gerente de Projetos,1
+PROJ_1355,Sistema de Gestão Empresarial,9.3,919734.65,4,baixo,Analista de Sistemas,1
+PROJ_1356,Plataforma de Cursos,2.7,84240.29,2,alto,Especialista em Dados,1
+PROJ_1357,Sistema de Manutenção Web,5.2,203430.35,2,médio,Coordenador de TI,1
+PROJ_1358,Sistema Financeiro,7.4,164044.54,2,médio,Analista de Sistemas,1
+PROJ_1359,Sistema de Estoque,3.3,73853.41,2,médio,Especialista em Dados,1
+PROJ_1360,Portal Interno,4.4,214139.83,2,baixo,Especialista em Dados,0
+PROJ_1361,Sistema de Segurança,8.2,276151.16,2,médio,Analista de Sistemas,0
+PROJ_1362,Sistema de Estoque Web,5.6,169517.73,2,alto,Gerente de Projetos,1
+PROJ_1363,Portal de Treinamento Advanced,6.3,183960.16,2,médio,Líder Técnico,0
+PROJ_1364,App de Logística,3.8,127021.7,2,alto,Especialista em Dados,1
+PROJ_1365,Dashboard Analytics,5.8,238009.41,3,baixo,Tech Lead,1
+PROJ_1366,Sistema de Manutenção Web,4.4,192900.08,2,médio,Analista de Sistemas,0
+PROJ_1367,App de Logística,3.7,99212.13,2,médio,Coordenador de TI,0
+PROJ_1368,Sistema de Compras,9.3,355170.55,2,médio,Gerente de Projetos,0
+PROJ_1369,Portal do Cliente Pro,6.2,283000.92,2,alto,Gerente de Projetos,0
+PROJ_1370,Sistema de Backup,2.9,148021.97,2,alto,Consultor Técnico,0
+PROJ_1371,App de Comunicação,4.7,129427.48,2,médio,Líder Técnico,1
+PROJ_1372,App de Delivery,14.1,363487.87,2,baixo,Tech Lead,0
+PROJ_1373,Plataforma de Vendas,5.3,168107.23,2,alto,Líder Técnico,1
+PROJ_1374,Sistema de Estoque,2.7,120446.46,2,baixo,Desenvolvedor Senior,0
+PROJ_1375,App de Logística,5.0,170464.25,2,alto,Gerente de Desenvolvimento,1
+PROJ_1376,Plataforma E-commerce,2.9,78883.69,2,médio,Consultor Técnico,0
+PROJ_1377,Sistema de Compras,6.0,188913.28,2,médio,Gerente de Projetos,0
+PROJ_1378,Sistema de Gestão Empresarial,2.5,94628.85,2,alto,Analista de Sistemas,1
+PROJ_1379,Plataforma de Vendas,11.1,462343.12,3,baixo,Especialista em Dados,1
+PROJ_1380,Portal de Treinamento Advanced,10.1,753520.15,4,médio,Tech Lead,1
+PROJ_1381,App de Delivery,5.4,221937.2,2,alto,Arquiteto de Software,1
+PROJ_1382,App Mobile de Vendas,10.5,261687.66,2,médio,Consultor Técnico,1
+PROJ_1383,App de Atendimento,4.1,116978.25,2,baixo,Desenvolvedor Senior,0
+PROJ_1384,Portal do Cliente,7.8,168711.14,2,baixo,Líder Técnico,0
+PROJ_1385,Sistema de Qualidade Advanced,3.7,182273.18,4,baixo,Especialista em Dados,1
+PROJ_1386,Plataforma de Cursos Advanced,7.8,506137.57,4,médio,Gerente de Projetos,1
+PROJ_1387,Sistema de Estoque,4.0,120625.97,2,médio,Gerente de Projetos,1
+PROJ_1388,Sistema de Produção,3.3,194810.39,3,médio,Coordenador de TI,1
+PROJ_1389,Sistema de Segurança,6.2,372198.87,4,alto,Líder Técnico,1
+PROJ_1390,App de Atendimento,4.2,129150.2,2,baixo,Consultor Técnico,0
+PROJ_1391,Sistema de Produção Web,4.0,174878.77,2,alto,Especialista em Dados,1
+PROJ_1392,Plataforma de Cursos,3.6,95897.64,2,médio,Gerente de Projetos,1
+PROJ_1393,Plataforma de BI Advanced,7.6,227668.27,2,médio,Tech Lead,0
+PROJ_1394,Sistema de Produção,11.7,1134659.58,5,médio,Líder Técnico,1
+PROJ_1395,App de Logística,6.7,334501.32,2,alto,Tech Lead,0
+PROJ_1396,Sistema de Backup,2.9,128499.08,2,médio,Coordenador de TI,0
+PROJ_1397,App de Comunicação,9.6,406477.37,2,médio,Gerente de Projetos,1
+PROJ_1398,Plataforma de Cursos,6.2,190843.93,2,médio,Arquiteto de Software,1
+PROJ_1399,Sistema de Produção,12.7,910656.59,5,médio,Coordenador de TI,1
+PROJ_1400,App Mobile de Vendas,6.0,204364.53,2,médio,Especialista em Dados,1
+PROJ_1401,Plataforma E-commerce,9.0,259856.54,2,médio,Gerente de Desenvolvimento,0
+PROJ_1402,Sistema de Estoque Plus,4.8,222785.36,3,médio,Desenvolvedor Senior,1
+PROJ_1403,Sistema de Estoque,6.6,247236.56,2,médio,Gerente de Desenvolvimento,0
+PROJ_1404,Sistema de RH,3.0,127067.82,2,alto,Desenvolvedor Senior,1
+PROJ_1405,Sistema de Backup,2.7,101512.32,2,médio,Gerente de Desenvolvimento,1
+PROJ_1406,App Mobile de Vendas,9.3,268108.95,2,médio,Líder Técnico,1
+PROJ_1407,Sistema de Estoque,17.1,1305590.09,4,baixo,Especialista em Dados,1
+PROJ_1408,Sistema de Qualidade,6.2,200232.54,2,baixo,Consultor Técnico,0
+PROJ_1409,Plataforma E-commerce,6.2,284036.21,3,médio,Gerente de Projetos,1
+PROJ_1410,Plataforma de Vendas,3.5,105229.41,2,baixo,Consultor Técnico,0
+PROJ_1411,App de Controle de Acesso,3.5,130354.66,2,baixo,Líder Técnico,1
+PROJ_1412,App de Logística,6.8,511220.11,4,baixo,Analista de Sistemas,1
+PROJ_1413,Sistema de Backup,9.7,210843.37,2,médio,Analista de Sistemas,1
+PROJ_1414,Sistema de Estoque,4.0,122560.65,2,médio,Líder Técnico,1
+PROJ_1415,Sistema de Manutenção,7.4,462324.41,3,médio,Consultor Técnico,1
+PROJ_1416,Sistema de Compras,4.4,107086.99,2,alto,Líder Técnico,1
+PROJ_1417,App de Controle de Acesso,5.1,620417.9,5,médio,Desenvolvedor Senior,1
+PROJ_1418,Portal Interno,2.9,94147.21,2,médio,Tech Lead,1
+PROJ_1419,Sistema CRM,14.2,1025960.81,6,alto,Analista de Sistemas,1
+PROJ_1420,Plataforma E-commerce,3.4,106093.41,2,médio,Consultor Técnico,1
+PROJ_1421,Sistema CRM,12.4,283466.89,2,médio,Consultor Técnico,0
+PROJ_1422,Portal de Treinamento,4.6,194570.71,2,baixo,Consultor Técnico,1
+PROJ_1423,App de Atendimento Plus,5.3,200918.76,2,alto,Líder Técnico,1
+PROJ_1424,Sistema de Backup Pro,9.9,342797.6,2,baixo,Analista de Sistemas,1
+PROJ_1425,Sistema de Backup,2.6,108811.87,2,médio,Analista de Sistemas,0
+PROJ_1426,Plataforma de Vendas,2.8,116916.03,2,alto,Tech Lead,1
+PROJ_1427,Sistema de Backup Pro,8.0,300026.46,2,médio,Consultor Técnico,1
+PROJ_1428,App de Logística,5.3,133046.36,2,baixo,Gerente de Desenvolvimento,1
+PROJ_1429,Plataforma IoT,5.7,318876.4,3,alto,Consultor Técnico,1
+PROJ_1430,Sistema CRM,5.8,251887.25,2,alto,Gerente de Desenvolvimento,0
+PROJ_1431,Sistema de Segurança V2,4.4,182621.88,2,baixo,Gerente de Projetos,0
+PROJ_1432,App de Monitoramento Web,5.4,233996.04,2,médio,Gerente de Projetos,1
+PROJ_1433,Sistema de RH Plus,4.6,122466.05,2,médio,Arquiteto de Software,1
+PROJ_1434,Plataforma IoT V2,6.6,196384.68,2,alto,Arquiteto de Software,1
+PROJ_1435,Sistema de RH,2.5,140601.36,3,baixo,Gerente de Projetos,1
+PROJ_1436,Sistema Financeiro,2.6,58470.62,2,baixo,Coordenador de TI,1
+PROJ_1437,Sistema de Manutenção,2.7,232868.35,4,médio,Consultor Técnico,1
+PROJ_1438,Portal de Treinamento Web,6.5,225517.32,3,médio,Consultor Técnico,1
+PROJ_1439,App de Monitoramento Web,4.6,154012.12,2,alto,Arquiteto de Software,1
+PROJ_1440,Sistema de Backup,3.4,115049.73,2,alto,Gerente de Desenvolvimento,1
+PROJ_1441,App de Monitoramento,4.3,124777.29,2,alto,Tech Lead,1
+PROJ_1442,Sistema de Produção Web,3.9,136620.64,2,médio,Arquiteto de Software,1
+PROJ_1443,Sistema de RH,4.9,117017.79,2,alto,Especialista em Dados,1
+PROJ_1444,Plataforma de BI Web,4.0,155246.09,2,médio,Tech Lead,1
+PROJ_1445,App de Comunicação,12.4,823090.19,4,médio,Líder Técnico,0
+PROJ_1446,Sistema de RH,3.2,125625.35,2,alto,Desenvolvedor Senior,1
+PROJ_1447,Sistema CRM,8.0,480269.61,3,baixo,Coordenador de TI,1
+PROJ_1448,Dashboard Analytics,11.7,1230343.37,5,médio,Consultor Técnico,0
+PROJ_1449,Sistema de Estoque,9.8,443269.34,3,médio,Gerente de Desenvolvimento,1
+PROJ_1450,Portal Interno,6.6,306290.05,2,alto,Analista de Sistemas,0
+PROJ_1451,Dashboard Analytics,5.0,398135.94,4,alto,Arquiteto de Software,0
+PROJ_1452,Sistema de Gestão Empresarial,5.7,271225.38,2,baixo,Analista de Sistemas,0
+PROJ_1453,App Mobile de Vendas Pro,7.4,495844.0,5,alto,Líder Técnico,1
+PROJ_1454,App Mobile de Vendas,2.9,132681.12,2,baixo,Líder Técnico,0
+PROJ_1455,Plataforma de BI,7.3,859551.42,5,médio,Especialista em Dados,0
+PROJ_1456,Sistema de Segurança,7.4,164700.73,2,baixo,Tech Lead,0
+PROJ_1457,Portal do Cliente,2.6,77746.93,2,alto,Tech Lead,1
+PROJ_1458,Plataforma de Vendas Plus,5.7,181886.85,2,alto,Consultor Técnico,1
+PROJ_1459,Portal do Cliente,2.3,68139.89,2,baixo,Analista de Sistemas,0
+PROJ_1460,Portal de Fornecedores,3.3,123417.24,2,alto,Gerente de Desenvolvimento,1
+PROJ_1461,Portal do Cliente,3.8,119197.16,2,alto,Desenvolvedor Senior,1
+PROJ_1462,Plataforma IoT,4.7,162458.45,2,baixo,Tech Lead,0
+PROJ_1463,Sistema CRM Mobile,6.7,332849.29,3,baixo,Consultor Técnico,1
+PROJ_1464,App de Logística,3.0,164231.27,3,baixo,Gerente de Projetos,1
+PROJ_1465,Sistema de Estoque,5.8,220985.08,2,alto,Especialista em Dados,1
+PROJ_1466,App de Delivery,9.2,465945.67,4,alto,Líder Técnico,1
+PROJ_1467,App de Controle de Acesso,7.4,278373.16,2,médio,Gerente de Projetos,0
+PROJ_1468,Plataforma IoT,2.7,103459.3,2,alto,Gerente de Desenvolvimento,1
+PROJ_1469,App de Controle de Acesso,9.7,847467.83,5,alto,Coordenador de TI,1
+PROJ_1470,App de Monitoramento Web,3.8,108444.33,2,alto,Arquiteto de Software,1
+PROJ_1471,Sistema de Gestão Empresarial,5.7,211319.93,2,alto,Tech Lead,1
+PROJ_1472,Plataforma de Vendas,8.1,316335.38,2,baixo,Especialista em Dados,1
+PROJ_1473,App de Logística Web,8.4,324803.62,2,médio,Desenvolvedor Senior,0
+PROJ_1474,Plataforma de Cursos,4.0,277598.52,3,alto,Coordenador de TI,1
+PROJ_1475,Dashboard Analytics,2.7,78954.48,2,médio,Consultor Técnico,1
+PROJ_1476,Sistema de Produção V2,4.6,169983.9,2,médio,Desenvolvedor Senior,1
+PROJ_1477,Plataforma IoT,2.7,85548.01,2,alto,Desenvolvedor Senior,0
+PROJ_1478,Portal de Treinamento,5.7,265655.69,3,médio,Coordenador de TI,1
+PROJ_1479,Sistema de RH,4.7,216704.11,3,baixo,Gerente de Desenvolvimento,1
+PROJ_1480,App de Atendimento,5.5,219047.91,2,médio,Coordenador de TI,1
+PROJ_1481,Portal de Documentos,4.6,457439.66,4,médio,Gerente de Projetos,0
+PROJ_1482,Sistema de Qualidade,6.6,267948.12,3,médio,Gerente de Projetos,1
+PROJ_1483,Portal do Cliente Plus,4.7,158142.69,2,alto,Arquiteto de Software,1
+PROJ_1484,Sistema de Produção Plus,6.2,139971.65,2,médio,Arquiteto de Software,1
+PROJ_1485,Portal de Fornecedores,3.6,95420.15,2,alto,Gerente de Desenvolvimento,1
+PROJ_1486,Portal de Fornecedores,7.4,297568.01,2,médio,Gerente de Desenvolvimento,0
+PROJ_1487,Plataforma IoT V2,2.4,80664.97,2,médio,Líder Técnico,1
+PROJ_1488,Portal do Cliente,5.0,107206.07,2,médio,Líder Técnico,1
+PROJ_1489,App Mobile de Vendas,3.7,137304.89,2,médio,Coordenador de TI,1
+PROJ_1490,Sistema Financeiro,15.1,904984.14,4,baixo,Coordenador de TI,0
+PROJ_1491,Sistema CRM,2.5,70452.42,2,médio,Arquiteto de Software,1
+PROJ_1492,Sistema de Manutenção Advanced,7.0,183947.26,2,alto,Gerente de Desenvolvimento,1
+PROJ_1493,App de Monitoramento,2.7,69807.97,2,baixo,Gerente de Projetos,0
+PROJ_1494,App de Logística Plus,4.8,193455.15,2,médio,Analista de Sistemas,0
+PROJ_1495,Portal de Documentos,6.0,352181.8,3,médio,Consultor Técnico,0
+PROJ_1496,Sistema CRM,3.5,135175.89,2,médio,Analista de Sistemas,1
+PROJ_1497,Sistema CRM,3.9,141569.4,2,médio,Tech Lead,1
+PROJ_1498,Sistema de Gestão Empresarial,4.0,196941.47,2,médio,Consultor Técnico,1
+PROJ_1499,Plataforma E-commerce V2,5.3,290601.39,3,alto,Líder Técnico,1
+PROJ_1500,Sistema de Manutenção,11.3,436321.1,2,médio,Consultor Técnico,0

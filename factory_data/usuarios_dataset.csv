@@ -1,0 +1,1001 @@
+Usuario_ID,Nome,Cargo,Historico_de_Projetos,Experiencia(anos),Sucesso_Medio(percentual)
+1,Juliana Nascimento,Desenvolvedor Pleno,18/23 (Sucessos/Total),8,79.0
+2,Maria Gabriela Vieira,Desenvolvedor Senior,18/21 (Sucessos/Total),11,88.2
+3,Gabriela Ribeiro,Desenvolvedor Pleno,4/6 (Sucessos/Total),3,67.5
+4,Thiago André Cardoso,Scrum Master,9/13 (Sucessos/Total),7,73.7
+5,Ana Mariana Santos,Scrum Master,9/14 (Sucessos/Total),6,68.1
+6,Juliana Vieira,Designer UX/UI,6/10 (Sucessos/Total),5,67.9
+7,Priscila Pereira,Analista de Sistemas,11/16 (Sucessos/Total),7,71.5
+8,Camila Pereira,Analista de Sistemas,13/16 (Sucessos/Total),10,83.6
+9,Rafael Ferreira,Designer UX/UI,14/21 (Sucessos/Total),8,70.8
+10,Larissa Correia,Desenvolvedor Pleno,7/11 (Sucessos/Total),5,71.0
+11,Larissa Fernandes,Scrum Master,6/9 (Sucessos/Total),4,74.1
+12,João Rafael Nascimento,Tech Lead,21/23 (Sucessos/Total),15,92.0
+13,Mônica Renata Dias,DevOps Engineer,3/4 (Sucessos/Total),3,80.5
+14,Patrícia Luciana Pereira,Desenvolvedor Junior,1/2 (Sucessos/Total),1,57.8
+15,Beatriz Ana Almeida,Desenvolvedor Junior,3/6 (Sucessos/Total),3,58.8
+16,João Ferreira,Desenvolvedor Junior,3/7 (Sucessos/Total),2,57.1
+17,Rodrigo Mendes,Gerente de Projeto,29/35 (Sucessos/Total),13,84.6
+18,Lucas Lopes,Desenvolvedor Senior,16/20 (Sucessos/Total),14,80.3
+19,Marcelo Correia,Desenvolvedor Junior,1/2 (Sucessos/Total),1,58.6
+20,Amanda Dias,Analista de Sistemas,13/18 (Sucessos/Total),6,73.5
+21,Bruno Fernando Rocha,Desenvolvedor Senior,9/11 (Sucessos/Total),10,84.5
+22,Fernando Rafael Pereira,Desenvolvedor Pleno,9/12 (Sucessos/Total),6,76.4
+23,Thiago André Rocha,DevOps Engineer,16/21 (Sucessos/Total),6,80.1
+24,Rafael Daniel Vieira,Analista de Sistemas,18/22 (Sucessos/Total),9,83.0
+25,Amanda Teixeira,Tech Lead,8/10 (Sucessos/Total),8,88.2
+26,Matheus Leonardo Lopes,Desenvolvedor Pleno,12/21 (Sucessos/Total),8,59.7
+27,Gabriela Gomes,Analista de Sistemas,21/25 (Sucessos/Total),12,85.6
+28,Ricardo Lucas Carvalho,Desenvolvedor Pleno,3/4 (Sucessos/Total),3,76.5
+29,Fernanda Pereira,Desenvolvedor Pleno,8/12 (Sucessos/Total),4,69.8
+30,Matheus Cardoso,Analista de Sistemas,13/18 (Sucessos/Total),12,75.0
+31,Matheus Fernando Fernandes,Desenvolvedor Senior,25/29 (Sucessos/Total),11,87.0
+32,Carla Costa,Desenvolvedor Pleno,10/14 (Sucessos/Total),7,72.2
+33,Paulo Cardoso,Coordenador de TI,25/30 (Sucessos/Total),14,84.6
+34,Fernando Ramos,Desenvolvedor Junior,1/2 (Sucessos/Total),0,69.7
+35,Mônica Correia,Analista de Qualidade,12/16 (Sucessos/Total),8,78.9
+36,André Ramos,Analista de Sistemas,7/10 (Sucessos/Total),9,79.3
+37,Felipe Barbosa,Desenvolvedor Pleno,15/22 (Sucessos/Total),7,68.8
+38,Larissa Maria Rocha,Desenvolvedor Pleno,3/5 (Sucessos/Total),5,78.2
+39,João Nascimento,Desenvolvedor Pleno,7/10 (Sucessos/Total),8,74.8
+40,Bruno Monteiro,Desenvolvedor Senior,33/38 (Sucessos/Total),15,87.7
+41,Mariana Cardoso,Analista de Sistemas,2/4 (Sucessos/Total),3,70.3
+42,Bruno Dias,Analista de Qualidade,3/5 (Sucessos/Total),2,70.1
+43,Bruno Pereira,Tech Lead,9/11 (Sucessos/Total),9,86.4
+44,Maria Mônica Mendes,Desenvolvedor Senior,14/18 (Sucessos/Total),6,78.3
+45,Leonardo Felipe Monteiro,Arquiteto de Software,15/17 (Sucessos/Total),23,90.1
+46,Débora Mariana Freitas,Tech Lead,14/16 (Sucessos/Total),12,92.6
+47,Felipe Bruno Barbosa,Desenvolvedor Senior,12/15 (Sucessos/Total),14,83.5
+48,Maria Santos,Arquiteto de Software,19/21 (Sucessos/Total),23,92.2
+49,Vanessa Alves,Desenvolvedor Pleno,12/17 (Sucessos/Total),7,73.9
+50,Priscila Mônica Lima,Desenvolvedor Pleno,16/21 (Sucessos/Total),7,76.8
+51,João Lopes,Analista de Sistemas,2/4 (Sucessos/Total),3,68.8
+52,Cristina Ramos,Arquiteto de Software,25/28 (Sucessos/Total),24,91.5
+53,Carlos Costa,Analista de Sistemas,18/22 (Sucessos/Total),12,82.0
+54,Renata Ramos,Desenvolvedor Senior,9/11 (Sucessos/Total),9,83.5
+55,Paulo Rodrigues,Scrum Master,8/13 (Sucessos/Total),5,67.5
+56,Rodrigo Carlos Mendes,Gerente de Projeto,12/15 (Sucessos/Total),13,85.4
+57,Leonardo Souza,Desenvolvedor Senior,10/12 (Sucessos/Total),6,83.4
+58,Luciana Mendes,Desenvolvedor Pleno,7/12 (Sucessos/Total),4,62.3
+59,Ana Freitas,Desenvolvedor Senior,7/12 (Sucessos/Total),9,65.9
+60,Carla Rodrigues,Desenvolvedor Senior,9/13 (Sucessos/Total),5,76.1
+61,Mariana Freitas,Desenvolvedor Senior,8/10 (Sucessos/Total),8,84.2
+62,Gabriela Dias,Desenvolvedor Pleno,9/12 (Sucessos/Total),8,77.1
+63,Bruno Carlos Soares,Desenvolvedor Pleno,19/24 (Sucessos/Total),8,81.3
+64,Leonardo Matheus Oliveira,Tech Lead,23/27 (Sucessos/Total),13,86.7
+65,Juliana Rocha,Gerente de Projeto,24/29 (Sucessos/Total),14,83.5
+66,Diego Barbosa,Gerente de Projeto,10/12 (Sucessos/Total),9,83.7
+67,Vanessa Nascimento,Desenvolvedor Senior,5/7 (Sucessos/Total),5,77.6
+68,Ricardo Carvalho,Gerente de Projeto,28/32 (Sucessos/Total),16,90.1
+69,Luciana Mônica Alves,Gerente de Projeto,14/16 (Sucessos/Total),12,90.7
+70,Renata Gomes,Desenvolvedor Senior,14/18 (Sucessos/Total),7,83.0
+71,Luciana Correia,Tech Lead,29/32 (Sucessos/Total),13,92.1
+72,Lucas Fernando Monteiro,Analista de Negócios,3/5 (Sucessos/Total),2,71.6
+73,Juliana Fernandes,Desenvolvedor Senior,29/37 (Sucessos/Total),11,80.1
+74,Cristina Costa,Tech Lead,17/22 (Sucessos/Total),7,79.7
+75,Priscila Oliveira,Desenvolvedor Senior,27/36 (Sucessos/Total),11,76.0
+76,Felipe Vieira,Desenvolvedor Pleno,16/22 (Sucessos/Total),8,73.8
+77,Marcelo Costa,Desenvolvedor Senior,26/31 (Sucessos/Total),14,85.6
+78,Gabriel Lima,Product Owner,8/10 (Sucessos/Total),4,80.3
+79,Pedro Ramos,Arquiteto de Software,23/26 (Sucessos/Total),16,92.3
+80,Renata Mônica Lopes,Desenvolvedor Junior,1/2 (Sucessos/Total),0,58.2
+81,João Rodrigo Mendes,Desenvolvedor Pleno,7/10 (Sucessos/Total),8,74.1
+82,Luciana Santos,Desenvolvedor Junior,4/7 (Sucessos/Total),3,60.1
+83,Mônica Maria Rodrigues,Desenvolvedor Junior,1/2 (Sucessos/Total),1,67.9
+84,Matheus Cardoso,Arquiteto de Software,15/19 (Sucessos/Total),18,82.6
+85,Vanessa Souza,Scrum Master,28/34 (Sucessos/Total),12,85.0
+86,Matheus Paulo Ferreira,Analista de Qualidade,2/3 (Sucessos/Total),2,74.3
+87,Luciana Larissa Freitas,Arquiteto de Software,20/22 (Sucessos/Total),19,91.9
+88,Carla Vieira,Gerente de Projeto,17/20 (Sucessos/Total),9,85.1
+89,Camila Camila Barbosa,Desenvolvedor Junior,1/2 (Sucessos/Total),0,55.2
+90,Gabriel Gomes,Analista de Sistemas,9/14 (Sucessos/Total),10,71.3
+91,Gabriel Fernandes,Desenvolvedor Pleno,3/5 (Sucessos/Total),3,75.0
+92,Amanda Lopes,Desenvolvedor Junior,0/1 (Sucessos/Total),0,67.4
+93,Priscila Lopes,Arquiteto de Software,33/36 (Sucessos/Total),13,91.8
+94,Patrícia Priscila Cardoso,Desenvolvedor Pleno,5/9 (Sucessos/Total),5,66.4
+95,Marcelo Barbosa,Desenvolvedor Pleno,3/5 (Sucessos/Total),3,65.2
+96,Mônica Mendes,Arquiteto de Software,10/12 (Sucessos/Total),9,87.8
+97,Bruno Carlos Lima,Desenvolvedor Junior,4/7 (Sucessos/Total),2,69.0
+98,Vanessa Ferreira,Gerente de Projeto,22/31 (Sucessos/Total),17,71.6
+99,Rafael Carvalho,Desenvolvedor Pleno,7/11 (Sucessos/Total),6,69.9
+100,Gustavo Diego Ramos,Desenvolvedor Senior,12/15 (Sucessos/Total),15,82.7
+101,Juliana Beatriz Rodrigues,Desenvolvedor Junior,1/3 (Sucessos/Total),0,60.1
+102,Camila Rocha,Desenvolvedor Pleno,14/19 (Sucessos/Total),7,74.8
+103,Bruno Bruno Lima,Analista de Qualidade,17/21 (Sucessos/Total),9,82.8
+104,Tatiana Vieira,Product Owner,19/24 (Sucessos/Total),8,83.2
+105,Daniel Souza,Desenvolvedor Pleno,16/22 (Sucessos/Total),6,75.6
+106,Juliana Correia,Arquiteto de Software,30/33 (Sucessos/Total),11,93.2
+107,Thiago Ricardo Lima,DevOps Engineer,9/13 (Sucessos/Total),9,74.1
+108,Vanessa Ribeiro,Designer UX/UI,1/3 (Sucessos/Total),1,62.1
+109,Diego Ramos,Gerente de Projeto,5/7 (Sucessos/Total),5,83.3
+110,Patrícia Beatriz Vieira,Desenvolvedor Junior,1/2 (Sucessos/Total),1,56.3
+111,Larissa Silva,Tech Lead,17/20 (Sucessos/Total),14,89.8
+112,Paulo Ribeiro,Analista de Sistemas,10/14 (Sucessos/Total),6,73.5
+113,Maria Camila Soares,Desenvolvedor Junior,2/4 (Sucessos/Total),2,57.7
+114,Thiago Silva,Desenvolvedor Pleno,12/19 (Sucessos/Total),6,66.7
+115,Rodrigo João Ribeiro,Analista de Sistemas,6/9 (Sucessos/Total),4,74.2
+116,Maria Silva,Analista de Sistemas,14/19 (Sucessos/Total),6,75.7
+117,Leonardo Alves,Desenvolvedor Pleno,3/5 (Sucessos/Total),4,65.5
+118,Juliana Gabriela Vieira,Desenvolvedor Junior,0/1 (Sucessos/Total),0,47.8
+119,Carlos Monteiro,Analista de Negócios,2/3 (Sucessos/Total),3,69.6
+120,Carlos Monteiro,Desenvolvedor Junior,3/7 (Sucessos/Total),3,52.0
+121,Daniel André Mendes,Desenvolvedor Senior,4/6 (Sucessos/Total),5,73.1
+122,Leonardo Lucas Teixeira,Desenvolvedor Junior,1/2 (Sucessos/Total),1,61.4
+123,Luciana Fernandes,Desenvolvedor Pleno,8/13 (Sucessos/Total),6,68.8
+124,Fernando Teixeira,Desenvolvedor Pleno,13/18 (Sucessos/Total),8,72.8
+125,Rodrigo Rodrigues,Desenvolvedor Junior,0/1 (Sucessos/Total),0,47.6
+126,Fernanda Fernanda Rodrigues,Gerente de Projeto,12/14 (Sucessos/Total),9,86.5
+127,Daniel Vieira,Desenvolvedor Junior,1/3 (Sucessos/Total),1,56.6
+128,Bruno Dias,Analista de Sistemas,20/24 (Sucessos/Total),12,83.6
+129,Ricardo Gomes,Desenvolvedor Senior,18/22 (Sucessos/Total),12,82.2
+130,Juliana Fernandes,Desenvolvedor Junior,1/3 (Sucessos/Total),1,59.9
+131,Juliana Carla Barbosa,Product Owner,16/20 (Sucessos/Total),9,80.1
+132,Rafael Nascimento,Gerente de Projeto,13/15 (Sucessos/Total),19,88.4
+133,Carlos Ramos,Tech Lead,32/37 (Sucessos/Total),14,87.4
+134,Mariana Barbosa,Desenvolvedor Senior,28/35 (Sucessos/Total),14,80.1
+135,Priscila Santos,Arquiteto de Software,25/30 (Sucessos/Total),25,86.6
+136,Patrícia Dias,Analista de Sistemas,14/21 (Sucessos/Total),7,71.3
+137,Vanessa Martins,Arquiteto de Software,21/23 (Sucessos/Total),23,93.2
+138,Gustavo André Rodrigues,Product Owner,15/20 (Sucessos/Total),6,79.7
+139,Ana Beatriz Mendes,Desenvolvedor Senior,12/15 (Sucessos/Total),9,81.1
+140,Cristina Dias,Desenvolvedor Senior,30/34 (Sucessos/Total),13,90.7
+141,Bruno Gomes,Desenvolvedor Senior,10/13 (Sucessos/Total),10,83.5
+142,Felipe Ribeiro,Product Owner,6/9 (Sucessos/Total),4,70.2
+143,André Fernandes,Desenvolvedor Junior,1/3 (Sucessos/Total),3,52.5
+144,Amanda Silva,Analista de Negócios,10/14 (Sucessos/Total),9,76.9
+145,André Rocha,Tech Lead,23/26 (Sucessos/Total),17,89.4
+146,Ricardo Souza,Gerente de Projeto,14/18 (Sucessos/Total),8,81.8
+147,Thiago Gomes,Desenvolvedor Senior,13/15 (Sucessos/Total),11,87.9
+148,Gustavo João Dias,Analista de Qualidade,9/13 (Sucessos/Total),5,72.4
+149,Gustavo Pereira,Gerente de Projeto,9/10 (Sucessos/Total),9,93.5
+150,Camila Rocha,Desenvolvedor Junior,4/6 (Sucessos/Total),2,71.7
+151,Maria Silva,Desenvolvedor Junior,1/2 (Sucessos/Total),1,59.9
+152,Pedro Paulo Ribeiro,Desenvolvedor Junior,0/1 (Sucessos/Total),0,55.7
+153,Pedro Teixeira,Desenvolvedor Senior,15/20 (Sucessos/Total),15,79.2
+154,Diego Nascimento,Arquiteto de Software,31/35 (Sucessos/Total),25,89.5
+155,Diego Dias,Desenvolvedor Senior,4/6 (Sucessos/Total),5,73.0
+156,Mariana Ramos,Analista de Sistemas,13/18 (Sucessos/Total),9,75.1
+157,Thiago Lopes,Tech Lead,28/32 (Sucessos/Total),14,90.3
+158,Beatriz Souza,Analista de Qualidade,15/24 (Sucessos/Total),7,66.0
+159,Bruno Rodrigues,Arquiteto de Software,19/22 (Sucessos/Total),22,89.2
+160,Tatiana Soares,Designer UX/UI,2/3 (Sucessos/Total),3,82.8
+161,Marcelo Ramos,Desenvolvedor Junior,0/1 (Sucessos/Total),0,60.4
+162,Patrícia Lopes,Desenvolvedor Pleno,15/24 (Sucessos/Total),7,65.7
+163,Bruno Teixeira,Analista de Negócios,2/3 (Sucessos/Total),3,74.3
+164,André Silva,Desenvolvedor Junior,1/3 (Sucessos/Total),0,55.1
+165,Daniel Rodrigo Pereira,Desenvolvedor Junior,2/4 (Sucessos/Total),3,62.5
+166,Camila Almeida,Desenvolvedor Junior,1/2 (Sucessos/Total),1,51.9
+167,Rodrigo Monteiro,Analista de Sistemas,21/29 (Sucessos/Total),12,74.5
+168,Fernando Soares,Tech Lead,18/23 (Sucessos/Total),13,82.1
+169,Thiago Lima,Analista de Sistemas,13/18 (Sucessos/Total),10,76.2
+170,Larissa Amanda Mendes,Desenvolvedor Senior,8/10 (Sucessos/Total),9,80.0
+171,Débora Rodrigues,Desenvolvedor Junior,4/7 (Sucessos/Total),2,57.4
+172,Camila Camila Ramos,Arquiteto de Software,19/21 (Sucessos/Total),13,92.3
+173,Paulo Costa,Analista de Sistemas,16/22 (Sucessos/Total),11,72.8
+174,Camila Débora Teixeira,Desenvolvedor Pleno,6/10 (Sucessos/Total),4,61.6
+175,Débora Correia,Desenvolvedor Senior,16/20 (Sucessos/Total),7,82.0
+176,Patrícia Souza,Analista de Sistemas,28/38 (Sucessos/Total),12,74.7
+177,Carlos Pedro Ramos,DevOps Engineer,11/14 (Sucessos/Total),8,80.2
+178,Renata Soares,Desenvolvedor Senior,12/15 (Sucessos/Total),14,83.8
+179,Gustavo Leonardo Cardoso,Analista de Negócios,13/17 (Sucessos/Total),8,78.1
+180,João Diego Souza,Desenvolvedor Pleno,13/19 (Sucessos/Total),7,71.1
+181,Fernanda Almeida,Tech Lead,8/10 (Sucessos/Total),8,86.2
+182,Beatriz Renata Nascimento,Analista de Sistemas,8/11 (Sucessos/Total),8,78.4
+183,Pedro Gabriel Rodrigues,Tech Lead,30/37 (Sucessos/Total),18,83.1
+184,Gabriel Costa,Scrum Master,15/20 (Sucessos/Total),10,79.2
+185,Luciana Beatriz Vieira,Desenvolvedor Pleno,6/9 (Sucessos/Total),4,77.6
+186,Camila Ramos,DevOps Engineer,21/31 (Sucessos/Total),11,70.6
+187,Diego Souza,Desenvolvedor Junior,2/6 (Sucessos/Total),2,48.5
+188,Maria Teixeira,Coordenador de TI,11/14 (Sucessos/Total),10,84.8
+189,Renata Alves,Desenvolvedor Pleno,3/5 (Sucessos/Total),5,72.1
+190,Maria Rodrigues,Desenvolvedor Senior,10/13 (Sucessos/Total),5,82.0
+191,Débora Dias,Desenvolvedor Junior,3/7 (Sucessos/Total),3,45.0
+192,Mônica Lopes,Tech Lead,32/38 (Sucessos/Total),15,85.7
+193,Renata Mariana Cardoso,Gerente de Projeto,3/5 (Sucessos/Total),5,76.3
+194,Mariana Rodrigues,Gerente de Projeto,11/14 (Sucessos/Total),10,81.6
+195,Patrícia Larissa Silva,Desenvolvedor Senior,10/14 (Sucessos/Total),6,77.8
+196,Ana Fernandes,Designer UX/UI,1/2 (Sucessos/Total),1,60.3
+197,Leonardo Nascimento,Desenvolvedor Pleno,14/18 (Sucessos/Total),7,79.6
+198,Matheus Mendes,Tech Lead,26/32 (Sucessos/Total),13,84.0
+199,Gabriel Barbosa,Desenvolvedor Pleno,9/13 (Sucessos/Total),7,70.4
+200,Gabriel Soares,Desenvolvedor Senior,17/23 (Sucessos/Total),10,76.9
+201,Renata Dias,DevOps Engineer,17/21 (Sucessos/Total),8,83.8
+202,Priscila Soares,Desenvolvedor Senior,9/11 (Sucessos/Total),10,84.8
+203,Felipe Martins,Desenvolvedor Junior,2/7 (Sucessos/Total),2,42.5
+204,Carla Correia,Desenvolvedor Pleno,10/17 (Sucessos/Total),6,63.7
+205,Vanessa Costa,Desenvolvedor Pleno,8/12 (Sucessos/Total),5,71.9
+206,Fernanda Priscila Ramos,Scrum Master,9/13 (Sucessos/Total),5,71.3
+207,Juliana Ferreira,Desenvolvedor Junior,2/5 (Sucessos/Total),3,46.5
+208,André Martins,Desenvolvedor Pleno,13/17 (Sucessos/Total),7,80.0
+209,Lucas Ferreira,Tech Lead,16/18 (Sucessos/Total),11,91.4
+210,Rodrigo Rafael Ramos,Analista de Sistemas,7/10 (Sucessos/Total),8,71.1
+211,Vanessa Débora Cardoso,Product Owner,18/20 (Sucessos/Total),12,90.0
+212,João Pedro Silva,Desenvolvedor Pleno,7/10 (Sucessos/Total),8,78.5
+213,Rafael Felipe Ferreira,Desenvolvedor Pleno,3/6 (Sucessos/Total),3,62.1
+214,Gabriela Ana Barbosa,Desenvolvedor Senior,8/10 (Sucessos/Total),8,80.6
+215,Luciana Cristina Souza,Gerente de Projeto,23/31 (Sucessos/Total),14,74.8
+216,Gabriel Alves,Gerente de Projeto,8/10 (Sucessos/Total),10,83.5
+217,Lucas Souza,Desenvolvedor Pleno,15/21 (Sucessos/Total),8,72.2
+218,Juliana Priscila Rocha,Coordenador de TI,13/16 (Sucessos/Total),6,83.0
+219,Juliana Mendes,Analista de Sistemas,10/13 (Sucessos/Total),4,80.6
+220,Paulo Costa,Designer UX/UI,1/2 (Sucessos/Total),1,68.5
+221,Carla Rocha,Desenvolvedor Junior,1/3 (Sucessos/Total),1,58.8
+222,Daniel Lima,Analista de Sistemas,8/10 (Sucessos/Total),5,80.1
+223,João Diego Nascimento,Analista de Sistemas,8/10 (Sucessos/Total),9,84.9
+224,Carlos Vieira,Desenvolvedor Junior,1/3 (Sucessos/Total),1,55.9
+225,Felipe Costa,Desenvolvedor Junior,3/5 (Sucessos/Total),2,74.6
+226,Amanda Mendes,Desenvolvedor Pleno,9/12 (Sucessos/Total),7,76.1
+227,Cristina Ferreira,Desenvolvedor Pleno,15/23 (Sucessos/Total),6,67.9
+228,Fernando Alves,Desenvolvedor Pleno,4/7 (Sucessos/Total),4,58.2
+229,Priscila Fernandes,Analista de Qualidade,11/14 (Sucessos/Total),10,79.2
+230,Fernando Dias,Desenvolvedor Senior,28/35 (Sucessos/Total),15,80.2
+231,Gabriela Mariana Santos,Arquiteto de Software,31/34 (Sucessos/Total),23,91.4
+232,Juliana Tatiana Alves,Analista de Sistemas,15/21 (Sucessos/Total),7,74.8
+233,João Ribeiro,Analista de Sistemas,15/22 (Sucessos/Total),8,70.8
+234,Rodrigo Gabriel Teixeira,Desenvolvedor Pleno,9/13 (Sucessos/Total),8,73.8
+235,Luciana Carla Souza,Desenvolvedor Senior,9/13 (Sucessos/Total),6,75.1
+236,Renata Souza,Desenvolvedor Junior,0/2 (Sucessos/Total),0,43.6
+237,Leonardo Monteiro,Gerente de Projeto,12/16 (Sucessos/Total),6,80.3
+238,Thiago Lopes,Desenvolvedor Pleno,7/10 (Sucessos/Total),6,73.7
+239,Gabriela Pereira,Desenvolvedor Senior,17/21 (Sucessos/Total),7,83.1
+240,Diego André Oliveira,Product Owner,32/37 (Sucessos/Total),15,88.0
+241,Renata Correia,Desenvolvedor Junior,3/7 (Sucessos/Total),3,55.6
+242,Marcelo Pereira,Desenvolvedor Senior,18/24 (Sucessos/Total),7,78.4
+243,Tatiana Monteiro,Desenvolvedor Pleno,11/17 (Sucessos/Total),7,69.7
+244,Ana Vieira,Analista de Negócios,10/15 (Sucessos/Total),7,68.7
+245,Felipe Rodrigues,Gerente de Projeto,14/17 (Sucessos/Total),7,86.8
+246,Débora Ana Ramos,Tech Lead,27/30 (Sucessos/Total),17,91.4
+247,Paulo Gustavo Fernandes,Desenvolvedor Junior,3/5 (Sucessos/Total),2,62.5
+248,Fernanda Silva,Gerente de Projeto,13/16 (Sucessos/Total),14,81.3
+249,Bruno Costa,Desenvolvedor Senior,9/12 (Sucessos/Total),7,80.5
+250,Fernanda Freitas,Designer UX/UI,1/3 (Sucessos/Total),2,64.4
+251,Priscila Patrícia Santos,Tech Lead,17/22 (Sucessos/Total),12,80.4
+252,Mariana Dias,Gerente de Projeto,16/20 (Sucessos/Total),14,82.4
+253,João Alves,Desenvolvedor Pleno,7/11 (Sucessos/Total),5,65.9
+254,Bruno Ribeiro,Coordenador de TI,16/20 (Sucessos/Total),10,84.2
+255,Rodrigo Bruno Mendes,Arquiteto de Software,13/15 (Sucessos/Total),17,92.0
+256,Diego Lopes,Designer UX/UI,8/11 (Sucessos/Total),5,76.5
+257,Daniel Ferreira,Analista de Negócios,15/22 (Sucessos/Total),9,72.5
+258,Patrícia Ferreira,Desenvolvedor Pleno,4/6 (Sucessos/Total),4,75.1
+259,Mariana Fernanda Cardoso,Desenvolvedor Pleno,12/20 (Sucessos/Total),6,61.2
+260,Ana Soares,Desenvolvedor Junior,1/2 (Sucessos/Total),1,53.0
+261,Mônica Gabriela Rodrigues,Desenvolvedor Senior,11/14 (Sucessos/Total),8,85.7
+262,Camila Rocha,Arquiteto de Software,28/33 (Sucessos/Total),14,87.6
+263,Beatriz Cardoso,Desenvolvedor Pleno,2/3 (Sucessos/Total),3,69.3
+264,Carlos Leonardo Pereira,Analista de Sistemas,9/13 (Sucessos/Total),8,75.2
+265,Ana Beatriz Barbosa,Product Owner,13/18 (Sucessos/Total),13,75.9
+266,Vanessa Mendes,Scrum Master,12/16 (Sucessos/Total),8,80.0
+267,Bruno Barbosa,Desenvolvedor Junior,2/4 (Sucessos/Total),2,55.3
+268,Fernanda Vanessa Mendes,Desenvolvedor Junior,4/7 (Sucessos/Total),3,59.2
+269,Maria Débora Monteiro,Desenvolvedor Pleno,14/20 (Sucessos/Total),6,71.8
+270,Pedro Oliveira,Coordenador de TI,27/33 (Sucessos/Total),11,84.0
+271,Paulo Mendes,Desenvolvedor Senior,21/26 (Sucessos/Total),11,81.6
+272,Priscila Oliveira,Tech Lead,30/37 (Sucessos/Total),15,83.3
+273,João Ricardo Barbosa,Desenvolvedor Pleno,7/10 (Sucessos/Total),6,71.3
+274,Juliana Mônica Soares,Desenvolvedor Pleno,9/13 (Sucessos/Total),5,75.5
+275,Priscila Monteiro,Desenvolvedor Pleno,11/14 (Sucessos/Total),7,79.1
+276,Paulo Alves,Gerente de Projeto,24/28 (Sucessos/Total),17,88.7
+277,Rafael Marcelo Rocha,Arquiteto de Software,25/28 (Sucessos/Total),11,91.4
+278,Mônica Alves,Desenvolvedor Pleno,3/5 (Sucessos/Total),4,68.5
+279,Felipe Pereira,Desenvolvedor Pleno,6/10 (Sucessos/Total),4,68.1
+280,Camila Gabriela Rocha,Desenvolvedor Junior,2/4 (Sucessos/Total),3,63.9
+281,Mônica Amanda Ribeiro,Analista de Sistemas,14/19 (Sucessos/Total),6,75.2
+282,Priscila Maria Pereira,Desenvolvedor Junior,2/3 (Sucessos/Total),0,68.7
+283,Débora Ferreira,Designer UX/UI,7/10 (Sucessos/Total),7,75.3
+284,Mônica Souza,Desenvolvedor Pleno,8/14 (Sucessos/Total),4,64.0
+285,Débora Barbosa,Tech Lead,18/21 (Sucessos/Total),7,88.0
+286,Fernando Marcelo Barbosa,Analista de Negócios,10/14 (Sucessos/Total),6,76.2
+287,Juliana Nascimento,Product Owner,15/20 (Sucessos/Total),12,75.2
+288,Felipe Fernando Barbosa,Desenvolvedor Pleno,6/10 (Sucessos/Total),5,65.5
+289,Mônica Almeida,Arquiteto de Software,16/18 (Sucessos/Total),11,91.4
+290,Débora Vieira,Analista de Sistemas,7/10 (Sucessos/Total),7,78.5
+291,Patrícia Mendes,Desenvolvedor Junior,1/2 (Sucessos/Total),1,59.8
+292,Amanda Freitas,Desenvolvedor Pleno,6/10 (Sucessos/Total),6,62.7
+293,Gabriel Almeida,Desenvolvedor Pleno,12/16 (Sucessos/Total),8,79.5
+294,Amanda Mariana Costa,Desenvolvedor Junior,1/2 (Sucessos/Total),0,59.6
+295,Fernanda Lima,Desenvolvedor Pleno,13/17 (Sucessos/Total),8,79.6
+296,Luciana Almeida,Desenvolvedor Senior,9/13 (Sucessos/Total),7,76.1
+297,Paulo Dias,Desenvolvedor Junior,2/5 (Sucessos/Total),3,46.8
+298,Gustavo Freitas,Analista de Qualidade,3/4 (Sucessos/Total),2,76.1
+299,Cristina Lima,Desenvolvedor Pleno,6/10 (Sucessos/Total),6,66.8
+300,Gabriel Diego Dias,Desenvolvedor Pleno,15/21 (Sucessos/Total),8,75.7
+301,Mônica Mendes,Gerente de Projeto,33/36 (Sucessos/Total),18,92.0
+302,Patrícia Carvalho,Desenvolvedor Junior,0/1 (Sucessos/Total),0,49.1
+303,Pedro Rafael Ferreira,Analista de Sistemas,13/21 (Sucessos/Total),7,64.6
+304,Gabriel Carlos Pereira,Gerente de Projeto,11/13 (Sucessos/Total),9,86.7
+305,Amanda Vieira,Product Owner,14/19 (Sucessos/Total),7,74.4
+306,Ricardo Santos,Scrum Master,15/20 (Sucessos/Total),6,75.8
+307,Marcelo Felipe Costa,Analista de Sistemas,28/36 (Sucessos/Total),11,78.0
+308,Mariana Vieira,Desenvolvedor Pleno,9/14 (Sucessos/Total),5,71.1
+309,Juliana Teixeira,Gerente de Projeto,25/32 (Sucessos/Total),12,81.0
+310,Vanessa Barbosa,Analista de Qualidade,11/14 (Sucessos/Total),8,79.8
+311,Maria Freitas,DevOps Engineer,25/35 (Sucessos/Total),11,73.4
+312,Pedro João Mendes,Coordenador de TI,5/7 (Sucessos/Total),5,83.8
+313,Marcelo Bruno Almeida,Desenvolvedor Pleno,17/22 (Sucessos/Total),7,79.3
+314,Leonardo João Gomes,Analista de Sistemas,17/23 (Sucessos/Total),10,74.3
+315,Juliana Ferreira,Designer UX/UI,10/15 (Sucessos/Total),6,71.9
+316,Vanessa Lima,Analista de Sistemas,5/7 (Sucessos/Total),3,80.3
+317,Mônica Fernandes,Gerente de Projeto,15/19 (Sucessos/Total),12,80.6
+318,Carla Juliana Pereira,Coordenador de TI,16/19 (Sucessos/Total),14,84.3
+319,Fernanda Silva,Desenvolvedor Pleno,16/23 (Sucessos/Total),7,70.4
+320,Priscila Larissa Dias,Analista de Qualidade,7/10 (Sucessos/Total),9,73.0
+321,Débora Teixeira,Desenvolvedor Junior,1/3 (Sucessos/Total),3,54.3
+322,Fernanda Ferreira,Arquiteto de Software,29/35 (Sucessos/Total),17,84.6
+323,Matheus Santos,Desenvolvedor Junior,2/4 (Sucessos/Total),2,58.8
+324,Camila Costa,Analista de Sistemas,8/11 (Sucessos/Total),5,81.3
+325,Tatiana Cardoso,Tech Lead,27/31 (Sucessos/Total),12,88.7
+326,Daniel Teixeira,Analista de Sistemas,16/21 (Sucessos/Total),8,78.2
+327,Mônica Dias,Coordenador de TI,10/14 (Sucessos/Total),4,77.8
+328,André Rocha,Desenvolvedor Senior,22/29 (Sucessos/Total),11,78.5
+329,Bruno Soares,Desenvolvedor Junior,1/2 (Sucessos/Total),1,54.5
+330,Luciana Amanda Lopes,Analista de Negócios,3/6 (Sucessos/Total),2,65.8
+331,Maria Alves,Desenvolvedor Pleno,3/5 (Sucessos/Total),3,70.6
+332,Débora Freitas,Desenvolvedor Senior,11/15 (Sucessos/Total),14,78.8
+333,Carlos Lopes,Desenvolvedor Senior,27/35 (Sucessos/Total),12,78.5
+334,Daniel Diego Barbosa,Desenvolvedor Pleno,7/10 (Sucessos/Total),5,79.0
+335,Daniel Daniel Nascimento,Desenvolvedor Junior,1/2 (Sucessos/Total),1,51.3
+336,Matheus Thiago Rocha,Desenvolvedor Senior,15/21 (Sucessos/Total),6,73.5
+337,Paulo Daniel Correia,Desenvolvedor Junior,1/3 (Sucessos/Total),0,41.9
+338,Amanda Luciana Nascimento,Desenvolvedor Pleno,4/7 (Sucessos/Total),4,67.7
+339,Felipe Barbosa,Desenvolvedor Pleno,9/13 (Sucessos/Total),6,75.4
+340,Vanessa Pereira,Desenvolvedor Senior,18/21 (Sucessos/Total),13,88.2
+341,Gabriel Ramos,Product Owner,14/17 (Sucessos/Total),15,86.7
+342,André Nascimento,Desenvolvedor Pleno,14/20 (Sucessos/Total),7,71.9
+343,Rafael Lucas Mendes,Desenvolvedor Pleno,2/4 (Sucessos/Total),3,72.2
+344,Tatiana Fernandes,Desenvolvedor Pleno,3/6 (Sucessos/Total),3,66.5
+345,Patrícia Dias,DevOps Engineer,7/10 (Sucessos/Total),5,75.9
+346,Matheus Freitas,Desenvolvedor Pleno,18/24 (Sucessos/Total),8,79.0
+347,Débora Teixeira,Desenvolvedor Junior,1/3 (Sucessos/Total),0,52.3
+348,Luciana Vieira,Desenvolvedor Pleno,9/14 (Sucessos/Total),6,70.7
+349,André Cardoso,Gerente de Projeto,12/15 (Sucessos/Total),6,85.3
+350,Fernanda Ferreira,Desenvolvedor Junior,1/3 (Sucessos/Total),3,61.9
+351,Daniel Bruno Costa,Desenvolvedor Junior,3/5 (Sucessos/Total),3,65.3
+352,Diego Daniel Mendes,Analista de Qualidade,18/24 (Sucessos/Total),6,75.5
+353,Vanessa Luciana Correia,Analista de Sistemas,17/24 (Sucessos/Total),7,74.1
+354,André Barbosa,Desenvolvedor Senior,10/13 (Sucessos/Total),6,82.1
+355,Fernando Mendes,Desenvolvedor Pleno,7/12 (Sucessos/Total),8,66.0
+356,Gabriela Pereira,Desenvolvedor Junior,0/1 (Sucessos/Total),0,58.0
+357,Felipe Monteiro,Analista de Qualidade,10/13 (Sucessos/Total),8,84.6
+358,Paulo Oliveira,Desenvolvedor Pleno,4/6 (Sucessos/Total),3,70.9
+359,Beatriz Teixeira,Desenvolvedor Senior,27/37 (Sucessos/Total),13,73.7
+360,Ricardo Lima,Desenvolvedor Junior,1/3 (Sucessos/Total),0,38.8
+361,Bruno Bruno Costa,Gerente de Projeto,24/27 (Sucessos/Total),16,91.4
+362,Beatriz Oliveira,Tech Lead,15/17 (Sucessos/Total),10,91.0
+363,Gustavo Fernandes,Desenvolvedor Pleno,12/16 (Sucessos/Total),8,76.1
+364,Paulo Matheus Dias,Desenvolvedor Senior,23/28 (Sucessos/Total),15,84.9
+365,Renata Gomes,Desenvolvedor Senior,11/14 (Sucessos/Total),8,79.5
+366,Bruno Nascimento,Desenvolvedor Senior,12/17 (Sucessos/Total),8,75.4
+367,Luciana Ribeiro,Analista de Qualidade,12/17 (Sucessos/Total),9,75.7
+368,Vanessa Renata Gomes,Analista de Negócios,13/18 (Sucessos/Total),8,76.6
+369,Diego Carlos Costa,Desenvolvedor Senior,20/28 (Sucessos/Total),15,73.0
+370,Juliana Tatiana Vieira,Desenvolvedor Junior,4/7 (Sucessos/Total),2,59.8
+371,Tatiana Freitas,Gerente de Projeto,18/23 (Sucessos/Total),10,81.9
+372,Fernando Lucas Carvalho,Product Owner,11/14 (Sucessos/Total),6,82.4
+373,Mônica Lima,Desenvolvedor Pleno,9/12 (Sucessos/Total),7,79.4
+374,André Monteiro,Analista de Negócios,7/10 (Sucessos/Total),6,71.2
+375,Amanda Costa,Designer UX/UI,8/12 (Sucessos/Total),6,72.5
+376,Pedro Ricardo Carvalho,Desenvolvedor Senior,14/16 (Sucessos/Total),12,89.0
+377,André Daniel Rodrigues,Analista de Sistemas,4/6 (Sucessos/Total),2,69.3
+378,Fernanda Tatiana Carvalho,Gerente de Projeto,14/18 (Sucessos/Total),10,82.1
+379,Matheus Gomes,Desenvolvedor Pleno,6/10 (Sucessos/Total),7,65.8
+380,Renata Maria Dias,Desenvolvedor Junior,0/1 (Sucessos/Total),0,57.6
+381,Daniel Teixeira,Arquiteto de Software,27/31 (Sucessos/Total),23,90.1
+382,Diego Carlos Ferreira,Desenvolvedor Senior,12/16 (Sucessos/Total),13,79.9
+383,Daniel Correia,Tech Lead,21/25 (Sucessos/Total),11,84.6
+384,Daniel Souza,Desenvolvedor Senior,19/23 (Sucessos/Total),15,86.6
+385,Rafael Lucas Mendes,Scrum Master,18/22 (Sucessos/Total),11,84.2
+386,Carla Cardoso,Desenvolvedor Senior,31/37 (Sucessos/Total),14,83.9
+387,Pedro Marcelo Fernandes,Desenvolvedor Junior,1/3 (Sucessos/Total),2,47.0
+388,Gabriela Vieira,Product Owner,8/12 (Sucessos/Total),6,72.3
+389,Thiago Alves,Arquiteto de Software,32/37 (Sucessos/Total),16,87.9
+390,Patrícia Correia,Scrum Master,27/34 (Sucessos/Total),12,81.0
+391,Carla Freitas,Scrum Master,3/5 (Sucessos/Total),3,67.8
+392,Felipe Cardoso,Desenvolvedor Senior,16/21 (Sucessos/Total),14,79.1
+393,Pedro Costa,Analista de Qualidade,1/3 (Sucessos/Total),2,61.0
+394,Lucas Rodrigo Rocha,Desenvolvedor Senior,11/13 (Sucessos/Total),9,86.5
+395,Ana Ribeiro,Analista de Sistemas,14/20 (Sucessos/Total),11,74.1
+396,Carlos Oliveira,Desenvolvedor Junior,1/2 (Sucessos/Total),0,57.6
+397,Marcelo Thiago Monteiro,Designer UX/UI,5/10 (Sucessos/Total),6,58.9
+398,Vanessa Ribeiro,Desenvolvedor Junior,0/1 (Sucessos/Total),0,50.5
+399,Rafael Costa,Desenvolvedor Junior,3/7 (Sucessos/Total),3,52.6
+400,Paulo Gomes,Desenvolvedor Senior,13/16 (Sucessos/Total),13,87.1
+401,Fernanda Lima,Gerente de Projeto,22/25 (Sucessos/Total),18,91.1
+402,Fernanda Freitas,Analista de Sistemas,12/18 (Sucessos/Total),7,71.5
+403,Lucas Lima,Analista de Sistemas,9/14 (Sucessos/Total),10,68.7
+404,Rodrigo Leonardo Souza,Desenvolvedor Senior,16/21 (Sucessos/Total),8,79.1
+405,Beatriz Costa,Analista de Qualidade,16/19 (Sucessos/Total),8,84.8
+406,Ana Maria Souza,Analista de Sistemas,5/7 (Sucessos/Total),3,72.7
+407,Fernanda Ramos,Desenvolvedor Senior,11/15 (Sucessos/Total),15,79.5
+408,Carla Correia,Desenvolvedor Pleno,1/3 (Sucessos/Total),3,64.8
+409,Bruno Silva,Desenvolvedor Junior,0/1 (Sucessos/Total),0,62.6
+410,Ricardo Pereira,Desenvolvedor Pleno,10/14 (Sucessos/Total),4,78.3
+411,Matheus Costa,Arquiteto de Software,27/34 (Sucessos/Total),12,80.9
+412,Paulo Gustavo Ribeiro,DevOps Engineer,13/17 (Sucessos/Total),10,77.5
+413,Patrícia Nascimento,Gerente de Projeto,15/19 (Sucessos/Total),19,82.6
+414,Mariana Freitas,Product Owner,7/10 (Sucessos/Total),4,75.0
+415,Gabriel Costa,Desenvolvedor Junior,1/3 (Sucessos/Total),0,48.0
+416,Mariana Débora Santos,Desenvolvedor Senior,26/32 (Sucessos/Total),11,81.7
+417,Fernando Mendes,Scrum Master,8/11 (Sucessos/Total),9,80.2
+418,Gustavo Gomes,Desenvolvedor Pleno,6/9 (Sucessos/Total),4,68.3
+419,André Dias,Desenvolvedor Pleno,16/22 (Sucessos/Total),6,75.8
+420,Renata Patrícia Correia,Desenvolvedor Pleno,7/11 (Sucessos/Total),7,68.3
+421,Carlos Gomes,Desenvolvedor Pleno,3/5 (Sucessos/Total),3,69.9
+422,Paulo Rodrigues,Analista de Sistemas,18/22 (Sucessos/Total),11,82.6
+423,Cristina Nascimento,Desenvolvedor Junior,2/5 (Sucessos/Total),2,42.9
+424,Gabriel Ribeiro,Desenvolvedor Junior,0/1 (Sucessos/Total),1,45.0
+425,Marcelo Correia,Tech Lead,21/23 (Sucessos/Total),7,92.9
+426,Priscila Dias,Product Owner,4/5 (Sucessos/Total),5,82.5
+427,Diego Freitas,Product Owner,19/24 (Sucessos/Total),6,79.6
+428,Mônica Dias,Desenvolvedor Pleno,6/8 (Sucessos/Total),4,80.9
+429,Diego Pereira,Desenvolvedor Junior,0/1 (Sucessos/Total),1,60.8
+430,Felipe Mendes,Desenvolvedor Junior,1/3 (Sucessos/Total),1,49.5
+431,Juliana Teixeira,Desenvolvedor Junior,2/5 (Sucessos/Total),2,54.8
+432,Camila Ana Dias,Tech Lead,19/21 (Sucessos/Total),10,92.7
+433,Felipe Martins,Arquiteto de Software,24/28 (Sucessos/Total),24,87.8
+434,Diego Vieira,Tech Lead,26/31 (Sucessos/Total),11,86.1
+435,Vanessa Teixeira,Analista de Qualidade,3/5 (Sucessos/Total),3,65.7
+436,Carlos Teixeira,Desenvolvedor Pleno,8/12 (Sucessos/Total),8,74.9
+437,Leonardo Felipe Lima,Gerente de Projeto,13/16 (Sucessos/Total),11,82.1
+438,Leonardo Carvalho,Desenvolvedor Junior,4/6 (Sucessos/Total),2,69.8
+439,Larissa Rodrigues,Desenvolvedor Pleno,10/15 (Sucessos/Total),7,72.0
+440,Thiago Freitas,Desenvolvedor Senior,5/6 (Sucessos/Total),5,84.7
+441,Marcelo Leonardo Ramos,Analista de Sistemas,17/23 (Sucessos/Total),11,77.0
+442,Maria Martins,Scrum Master,9/13 (Sucessos/Total),9,72.7
+443,João Silva,Desenvolvedor Pleno,5/9 (Sucessos/Total),4,62.3
+444,Gabriel Thiago Barbosa,Analista de Sistemas,11/15 (Sucessos/Total),10,79.6
+445,Ana Almeida,Desenvolvedor Junior,1/3 (Sucessos/Total),1,51.4
+446,Amanda Mendes,Desenvolvedor Senior,26/32 (Sucessos/Total),13,83.6
+447,Beatriz Souza,Analista de Qualidade,8/12 (Sucessos/Total),4,74.6
+448,João Felipe Cardoso,Product Owner,17/21 (Sucessos/Total),6,81.3
+449,Débora Correia,Desenvolvedor Junior,1/2 (Sucessos/Total),1,58.4
+450,Amanda Cardoso,Desenvolvedor Senior,15/19 (Sucessos/Total),12,83.8
+451,Fernanda Fernanda Vieira,Analista de Sistemas,7/11 (Sucessos/Total),8,70.5
+452,Camila Soares,Analista de Sistemas,8/12 (Sucessos/Total),8,72.5
+453,André Carvalho,Analista de Sistemas,3/5 (Sucessos/Total),2,78.5
+454,Felipe Soares,Gerente de Projeto,26/32 (Sucessos/Total),18,81.5
+455,Luciana Maria Ribeiro,Tech Lead,14/16 (Sucessos/Total),11,91.7
+456,Patrícia Mônica Martins,Arquiteto de Software,18/21 (Sucessos/Total),23,87.6
+457,André Costa,Desenvolvedor Senior,8/11 (Sucessos/Total),7,79.6
+458,Rodrigo Felipe Dias,Scrum Master,9/13 (Sucessos/Total),6,76.7
+459,João Santos,Analista de Sistemas,3/5 (Sucessos/Total),2,71.1
+460,Renata Costa,Analista de Sistemas,22/30 (Sucessos/Total),12,76.1
+461,Felipe Martins,Desenvolvedor Pleno,8/13 (Sucessos/Total),4,67.7
+462,Gustavo Martins,Desenvolvedor Pleno,6/9 (Sucessos/Total),5,76.1
+463,Débora Souza,Desenvolvedor Pleno,2/4 (Sucessos/Total),3,67.9
+464,Beatriz Ferreira,Analista de Qualidade,16/20 (Sucessos/Total),6,82.1
+465,Beatriz Priscila Silva,Tech Lead,14/16 (Sucessos/Total),6,88.7
+466,Bruno Oliveira,Desenvolvedor Senior,10/12 (Sucessos/Total),5,85.0
+467,Amanda Patrícia Souza,Desenvolvedor Senior,8/10 (Sucessos/Total),7,80.4
+468,Mônica Teixeira,Desenvolvedor Pleno,7/12 (Sucessos/Total),7,66.3
+469,Leonardo Felipe Oliveira,Desenvolvedor Senior,21/24 (Sucessos/Total),10,87.6
+470,Matheus Daniel Lopes,Tech Lead,25/29 (Sucessos/Total),13,89.5
+471,Matheus Silva,Desenvolvedor Pleno,13/21 (Sucessos/Total),6,64.5
+472,Paulo Mendes,Product Owner,10/16 (Sucessos/Total),10,68.3
+473,Rodrigo Gabriel Gomes,Desenvolvedor Junior,1/3 (Sucessos/Total),2,60.1
+474,Matheus Lima,Desenvolvedor Pleno,8/12 (Sucessos/Total),5,74.4
+475,Amanda Carla Barbosa,Desenvolvedor Senior,26/33 (Sucessos/Total),14,79.0
+476,Patrícia Ferreira,Desenvolvedor Pleno,12/18 (Sucessos/Total),6,71.1
+477,Renata Cristina Vieira,Desenvolvedor Senior,23/27 (Sucessos/Total),11,86.8
+478,Camila Renata Rodrigues,Analista de Negócios,12/17 (Sucessos/Total),7,71.5
+479,Carla Gabriela Ribeiro,Desenvolvedor Pleno,7/12 (Sucessos/Total),6,63.5
+480,Gabriel Carvalho,Desenvolvedor Pleno,17/24 (Sucessos/Total),6,71.0
+481,Mariana Souza,Designer UX/UI,5/10 (Sucessos/Total),7,57.8
+482,Pedro Dias,Tech Lead,18/22 (Sucessos/Total),6,84.1
+483,Thiago Paulo Correia,Desenvolvedor Pleno,10/14 (Sucessos/Total),6,73.0
+484,Rodrigo Ricardo Pereira,DevOps Engineer,16/20 (Sucessos/Total),8,83.3
+485,Vanessa Freitas,Desenvolvedor Pleno,8/13 (Sucessos/Total),5,62.5
+486,Daniel Thiago Rocha,Desenvolvedor Pleno,4/6 (Sucessos/Total),3,76.9
+487,Camila Silva,Desenvolvedor Pleno,3/5 (Sucessos/Total),4,68.2
+488,Thiago Lopes,Gerente de Projeto,9/11 (Sucessos/Total),5,85.9
+489,Gabriela Martins,Desenvolvedor Pleno,9/14 (Sucessos/Total),7,67.5
+490,Mariana Carvalho,Desenvolvedor Senior,16/23 (Sucessos/Total),6,71.7
+491,Carlos Carlos Barbosa,Desenvolvedor Junior,1/3 (Sucessos/Total),0,58.7
+492,Felipe Freitas,Desenvolvedor Pleno,3/6 (Sucessos/Total),4,61.5
+493,Thiago Mendes,Analista de Sistemas,14/21 (Sucessos/Total),6,70.7
+494,Marcelo Dias,Desenvolvedor Pleno,11/17 (Sucessos/Total),6,67.8
+495,Maria Almeida,Gerente de Projeto,26/28 (Sucessos/Total),12,95.0
+496,Fernando Alves,Desenvolvedor Pleno,7/10 (Sucessos/Total),8,79.6
+497,Débora Larissa Rocha,Tech Lead,31/39 (Sucessos/Total),13,82.0
+498,Carlos Ricardo Costa,Desenvolvedor Pleno,7/10 (Sucessos/Total),6,75.2
+499,João Lopes,Desenvolvedor Pleno,9/13 (Sucessos/Total),5,74.0
+500,Gabriela Martins,Desenvolvedor Pleno,17/24 (Sucessos/Total),6,71.2
+501,Gabriela Amanda Costa,Desenvolvedor Senior,9/13 (Sucessos/Total),7,75.3
+502,Tatiana Renata Fernandes,Scrum Master,12/17 (Sucessos/Total),8,76.3
+503,Juliana Freitas,DevOps Engineer,11/14 (Sucessos/Total),5,81.1
+504,Rafael Freitas,Desenvolvedor Junior,1/3 (Sucessos/Total),0,48.6
+505,Cristina Lima,Gerente de Projeto,22/28 (Sucessos/Total),18,81.5
+506,Paulo Rodrigues,Desenvolvedor Pleno,15/19 (Sucessos/Total),6,82.4
+507,Larissa Luciana Teixeira,Desenvolvedor Senior,15/19 (Sucessos/Total),6,81.5
+508,Beatriz Nascimento,Tech Lead,13/16 (Sucessos/Total),7,83.8
+509,Diego André Cardoso,Desenvolvedor Pleno,8/12 (Sucessos/Total),6,70.1
+510,Pedro Pereira,Product Owner,10/14 (Sucessos/Total),4,77.5
+511,Pedro Carlos Cardoso,Desenvolvedor Junior,1/2 (Sucessos/Total),1,53.4
+512,Gabriela Carvalho,Gerente de Projeto,16/19 (Sucessos/Total),10,87.1
+513,Bruno Santos,Tech Lead,8/10 (Sucessos/Total),7,83.7
+514,Tatiana Alves,Desenvolvedor Junior,2/5 (Sucessos/Total),2,58.2
+515,Amanda Ribeiro,Analista de Sistemas,10/14 (Sucessos/Total),5,74.2
+516,Gabriel Ribeiro,Desenvolvedor Pleno,7/11 (Sucessos/Total),4,69.0
+517,Felipe Martins,Desenvolvedor Junior,1/3 (Sucessos/Total),1,52.3
+518,Daniel Thiago Rocha,Tech Lead,10/12 (Sucessos/Total),9,87.1
+519,Renata Mendes,Desenvolvedor Pleno,1/3 (Sucessos/Total),3,64.2
+520,Ana Lopes,Scrum Master,13/18 (Sucessos/Total),10,74.9
+521,Fernando Fernandes,Analista de Sistemas,10/15 (Sucessos/Total),7,73.0
+522,Mariana Dias,Desenvolvedor Senior,8/11 (Sucessos/Total),6,74.7
+523,Beatriz Fernandes,Desenvolvedor Pleno,6/10 (Sucessos/Total),4,67.9
+524,João Dias,Analista de Qualidade,7/10 (Sucessos/Total),8,76.3
+525,Felipe Teixeira,Gerente de Projeto,19/23 (Sucessos/Total),8,85.3
+526,Daniel Pedro Carvalho,Product Owner,9/14 (Sucessos/Total),4,71.4
+527,Gustavo Dias,Tech Lead,16/18 (Sucessos/Total),9,89.5
+528,Renata Lima,DevOps Engineer,10/15 (Sucessos/Total),6,73.3
+529,Priscila Ribeiro,Analista de Sistemas,2/4 (Sucessos/Total),3,62.7
+530,Luciana Barbosa,Tech Lead,12/14 (Sucessos/Total),6,90.2
+531,Renata Ribeiro,Arquiteto de Software,20/24 (Sucessos/Total),22,83.4
+532,Fernando Santos,Desenvolvedor Pleno,13/24 (Sucessos/Total),6,57.7
+533,Gabriela Almeida,Desenvolvedor Pleno,3/5 (Sucessos/Total),3,62.7
+534,Diego Mendes,Analista de Sistemas,27/35 (Sucessos/Total),11,79.5
+535,Leonardo Matheus Ramos,Analista de Sistemas,5/8 (Sucessos/Total),4,67.7
+536,Débora Teixeira,Designer UX/UI,0/1 (Sucessos/Total),1,59.2
+537,Juliana Teixeira,Analista de Sistemas,11/16 (Sucessos/Total),11,69.8
+538,Maria Cardoso,Analista de Sistemas,25/37 (Sucessos/Total),11,70.1
+539,Carla Ramos,Desenvolvedor Junior,1/3 (Sucessos/Total),3,63.1
+540,Leonardo Daniel Rocha,Desenvolvedor Junior,3/7 (Sucessos/Total),2,55.0
+541,Matheus Cardoso,Desenvolvedor Pleno,2/4 (Sucessos/Total),3,58.7
+542,Gabriel Silva,Desenvolvedor Pleno,3/6 (Sucessos/Total),4,63.9
+543,Débora Lopes,Arquiteto de Software,17/21 (Sucessos/Total),16,81.5
+544,André Correia,Desenvolvedor Pleno,11/14 (Sucessos/Total),8,79.1
+545,Carla Ramos,Desenvolvedor Senior,14/18 (Sucessos/Total),15,78.2
+546,Gustavo Paulo Freitas,Analista de Negócios,2/4 (Sucessos/Total),3,59.8
+547,Paulo Leonardo Oliveira,Designer UX/UI,15/19 (Sucessos/Total),7,80.3
+548,André Freitas,Desenvolvedor Senior,3/5 (Sucessos/Total),5,77.8
+549,Juliana Cardoso,Desenvolvedor Pleno,4/7 (Sucessos/Total),3,70.3
+550,Cristina Lima,Analista de Sistemas,24/31 (Sucessos/Total),12,77.7
+551,Paulo Pereira,Desenvolvedor Senior,16/20 (Sucessos/Total),9,80.9
+552,Amanda Silva,Analista de Sistemas,22/30 (Sucessos/Total),11,74.5
+553,Beatriz Renata Monteiro,DevOps Engineer,8/10 (Sucessos/Total),5,80.1
+554,Mônica Oliveira,Desenvolvedor Senior,3/5 (Sucessos/Total),5,73.8
+555,André Nascimento,Scrum Master,14/17 (Sucessos/Total),6,83.7
+556,Maria Monteiro,Analista de Sistemas,3/4 (Sucessos/Total),3,75.2
+557,Bruno Lucas Rodrigues,Gerente de Projeto,13/17 (Sucessos/Total),16,79.4
+558,Felipe Alves,Gerente de Projeto,10/11 (Sucessos/Total),6,92.0
+559,Pedro Cardoso,Analista de Sistemas,21/24 (Sucessos/Total),10,87.9
+560,Camila Rodrigues,Analista de Sistemas,14/23 (Sucessos/Total),7,63.8
+561,Rodrigo Nascimento,Desenvolvedor Pleno,7/11 (Sucessos/Total),6,64.1
+562,Fernando Dias,Arquiteto de Software,18/21 (Sucessos/Total),20,85.8
+563,Rodrigo Daniel Fernandes,Coordenador de TI,13/17 (Sucessos/Total),6,80.8
+564,Thiago Fernandes,Analista de Sistemas,11/19 (Sucessos/Total),9,63.1
+565,Ana Carvalho,Analista de Sistemas,14/19 (Sucessos/Total),7,75.4
+566,Diego Lucas Alves,Analista de Sistemas,19/24 (Sucessos/Total),12,80.1
+567,Débora Mônica Fernandes,Analista de Sistemas,3/5 (Sucessos/Total),2,74.6
+568,Camila Vieira,Desenvolvedor Senior,6/9 (Sucessos/Total),5,77.2
+569,Rafael Gustavo Vieira,Desenvolvedor Junior,1/2 (Sucessos/Total),0,51.9
+570,Fernando Carlos Oliveira,Desenvolvedor Junior,1/3 (Sucessos/Total),0,59.0
+571,Leonardo Almeida,Tech Lead,20/24 (Sucessos/Total),9,84.7
+572,Leonardo Ricardo Ribeiro,Desenvolvedor Junior,1/3 (Sucessos/Total),0,60.4
+573,Larissa Cristina Cardoso,Scrum Master,28/38 (Sucessos/Total),11,75.1
+574,Paulo Alves,Desenvolvedor Pleno,7/11 (Sucessos/Total),7,71.6
+575,Mônica Santos,Desenvolvedor Junior,1/2 (Sucessos/Total),1,59.2
+576,Tatiana Santos,Analista de Negócios,9/14 (Sucessos/Total),4,68.5
+577,Juliana Carla Dias,Desenvolvedor Junior,3/7 (Sucessos/Total),2,49.7
+578,Leonardo Dias,Gerente de Projeto,26/33 (Sucessos/Total),14,81.0
+579,Priscila Gabriela Teixeira,Gerente de Projeto,13/18 (Sucessos/Total),6,73.7
+580,Amanda Almeida,Desenvolvedor Senior,19/24 (Sucessos/Total),13,82.6
+581,Mariana Cardoso,Product Owner,18/25 (Sucessos/Total),15,72.6
+582,Felipe Rafael Soares,DevOps Engineer,4/6 (Sucessos/Total),3,73.1
+583,Felipe Gomes,Scrum Master,12/15 (Sucessos/Total),12,83.6
+584,Pedro Dias,Gerente de Projeto,19/23 (Sucessos/Total),11,82.7
+585,Thiago Gomes,Desenvolvedor Senior,15/19 (Sucessos/Total),7,83.0
+586,Ricardo Marcelo Alves,Desenvolvedor Pleno,4/7 (Sucessos/Total),3,69.6
+587,Fernando Alves,Desenvolvedor Pleno,15/22 (Sucessos/Total),8,70.7
+588,Juliana Cristina Freitas,Scrum Master,7/10 (Sucessos/Total),10,78.8
+589,Carla Dias,Tech Lead,26/29 (Sucessos/Total),13,93.1
+590,Paulo Bruno Nascimento,Desenvolvedor Senior,17/21 (Sucessos/Total),8,82.0
+591,Pedro Souza,Desenvolvedor Junior,0/2 (Sucessos/Total),0,46.6
+592,Rafael Soares,Desenvolvedor Pleno,17/23 (Sucessos/Total),7,76.3
+593,Débora Cardoso,Desenvolvedor Pleno,3/6 (Sucessos/Total),4,54.4
+594,Débora Silva,Gerente de Projeto,17/21 (Sucessos/Total),6,84.7
+595,Camila Monteiro,Analista de Sistemas,4/6 (Sucessos/Total),4,71.9
+596,Gustavo Cardoso,Desenvolvedor Junior,0/2 (Sucessos/Total),1,47.4
+597,Camila Juliana Dias,Desenvolvedor Junior,0/2 (Sucessos/Total),1,49.9
+598,Amanda Débora Mendes,Arquiteto de Software,20/22 (Sucessos/Total),10,94.0
+599,Débora Martins,Desenvolvedor Senior,13/16 (Sucessos/Total),7,84.7
+600,Fernanda Fernanda Lopes,Product Owner,17/21 (Sucessos/Total),12,83.5
+601,Felipe Souza,Analista de Negócios,9/12 (Sucessos/Total),9,82.0
+602,Carlos Carlos Silva,Desenvolvedor Junior,3/7 (Sucessos/Total),2,57.0
+603,Tatiana Correia,Desenvolvedor Senior,32/39 (Sucessos/Total),11,83.5
+604,Pedro Martins,Desenvolvedor Junior,1/3 (Sucessos/Total),1,65.9
+605,Paulo Almeida,Analista de Negócios,7/9 (Sucessos/Total),4,78.7
+606,Marcelo Cardoso,Desenvolvedor Senior,5/7 (Sucessos/Total),5,72.1
+607,Rodrigo Correia,Analista de Qualidade,6/8 (Sucessos/Total),4,75.1
+608,Daniel Soares,Analista de Sistemas,28/39 (Sucessos/Total),12,73.7
+609,Carlos Oliveira,Gerente de Projeto,25/32 (Sucessos/Total),20,80.6
+610,Gabriela Barbosa,Scrum Master,19/25 (Sucessos/Total),11,77.6
+611,Gustavo Barbosa,Tech Lead,13/15 (Sucessos/Total),18,88.0
+612,Matheus Rocha,Analista de Sistemas,8/13 (Sucessos/Total),4,67.7
+613,Pedro Freitas,Desenvolvedor Junior,2/4 (Sucessos/Total),2,66.7
+614,Diego Silva,Analista de Sistemas,14/17 (Sucessos/Total),10,83.6
+615,Luciana Fernanda Oliveira,Tech Lead,9/11 (Sucessos/Total),8,84.7
+616,Vanessa Soares,Analista de Sistemas,3/5 (Sucessos/Total),2,65.8
+617,Amanda Correia,Analista de Sistemas,8/13 (Sucessos/Total),7,63.8
+618,Paulo Silva,Desenvolvedor Pleno,8/11 (Sucessos/Total),4,73.2
+619,Diego Carlos Almeida,Desenvolvedor Pleno,6/10 (Sucessos/Total),8,67.0
+620,Camila Beatriz Costa,Desenvolvedor Pleno,15/20 (Sucessos/Total),8,79.7
+621,Cristina Vieira,Analista de Sistemas,17/23 (Sucessos/Total),8,75.8
+622,Bruno Teixeira,Desenvolvedor Junior,2/4 (Sucessos/Total),2,53.1
+623,Vanessa Débora Vieira,Designer UX/UI,12/17 (Sucessos/Total),7,73.7
+624,Ricardo Daniel Monteiro,Desenvolvedor Pleno,3/5 (Sucessos/Total),3,65.8
+625,André Correia,Gerente de Projeto,18/20 (Sucessos/Total),12,93.2
+626,Matheus Teixeira,Desenvolvedor Pleno,17/23 (Sucessos/Total),6,76.6
+627,Cristina Vieira,Gerente de Projeto,11/14 (Sucessos/Total),6,83.8
+628,Mariana Ferreira,Analista de Sistemas,3/5 (Sucessos/Total),3,71.7
+629,João Fernandes,Designer UX/UI,6/11 (Sucessos/Total),7,63.5
+630,Renata Alves,Tech Lead,31/35 (Sucessos/Total),17,90.5
+631,Pedro Fernandes,Analista de Sistemas,17/22 (Sucessos/Total),9,77.8
+632,Cristina Carla Ramos,Analista de Sistemas,5/7 (Sucessos/Total),3,75.2
+633,Priscila Larissa Dias,Gerente de Projeto,17/22 (Sucessos/Total),11,81.6
+634,Ricardo Rafael Teixeira,Analista de Sistemas,5/8 (Sucessos/Total),4,73.3
+635,Lucas Oliveira,Gerente de Projeto,5/8 (Sucessos/Total),5,74.6
+636,Marcelo Mendes,Tech Lead,24/28 (Sucessos/Total),13,88.3
+637,Larissa Pereira,Tech Lead,35/38 (Sucessos/Total),18,93.8
+638,Thiago Rodrigues,Tech Lead,29/34 (Sucessos/Total),14,86.1
+639,Gustavo Monteiro,Desenvolvedor Junior,3/6 (Sucessos/Total),2,60.5
+640,Marcelo Cardoso,Analista de Sistemas,8/11 (Sucessos/Total),8,73.4
+641,Renata Larissa Gomes,DevOps Engineer,7/10 (Sucessos/Total),6,78.6
+642,Maria Beatriz Souza,Desenvolvedor Senior,11/16 (Sucessos/Total),8,74.0
+643,Maria Teixeira,Desenvolvedor Pleno,11/14 (Sucessos/Total),5,79.2
+644,Tatiana Alves,Desenvolvedor Senior,21/27 (Sucessos/Total),11,78.2
+645,Luciana Vanessa Souza,Scrum Master,8/12 (Sucessos/Total),5,71.4
+646,João Ramos,Desenvolvedor Pleno,11/14 (Sucessos/Total),8,83.0
+647,Mariana Oliveira,Designer UX/UI,9/13 (Sucessos/Total),8,74.9
+648,Paulo Ribeiro,Desenvolvedor Senior,9/14 (Sucessos/Total),5,67.6
+649,Rodrigo Teixeira,Designer UX/UI,0/1 (Sucessos/Total),1,62.8
+650,Beatriz Silva,Analista de Negócios,13/17 (Sucessos/Total),9,79.5
+651,Priscila Lopes,Gerente de Projeto,22/27 (Sucessos/Total),13,83.9
+652,Pedro Pereira,Desenvolvedor Junior,1/2 (Sucessos/Total),0,65.4
+653,Patrícia Ribeiro,Gerente de Projeto,10/13 (Sucessos/Total),9,84.3
+654,Rafael André Lima,Desenvolvedor Pleno,9/12 (Sucessos/Total),8,76.4
+655,Felipe Gustavo Soares,Desenvolvedor Junior,4/6 (Sucessos/Total),2,67.4
+656,Gabriel Bruno Pereira,Desenvolvedor Junior,0/1 (Sucessos/Total),1,62.2
+657,Paulo Costa,Desenvolvedor Pleno,4/6 (Sucessos/Total),3,73.6
+658,Débora Maria Freitas,Desenvolvedor Pleno,2/3 (Sucessos/Total),3,67.1
+659,Ricardo Rodrigo Barbosa,Scrum Master,14/17 (Sucessos/Total),10,87.4
+660,Thiago André Ribeiro,Desenvolvedor Junior,3/7 (Sucessos/Total),3,49.3
+661,Felipe Nascimento,Product Owner,14/19 (Sucessos/Total),10,78.5
+662,Bruno Souza,Desenvolvedor Pleno,8/12 (Sucessos/Total),8,71.7
+663,João Dias,Desenvolvedor Senior,12/17 (Sucessos/Total),13,75.0
+664,Lucas Thiago Santos,Desenvolvedor Pleno,3/5 (Sucessos/Total),4,70.1
+665,Tatiana Carvalho,Desenvolvedor Senior,21/25 (Sucessos/Total),11,85.1
+666,Débora Pereira,Gerente de Projeto,30/34 (Sucessos/Total),20,90.1
+667,Larissa Pereira,Desenvolvedor Pleno,10/15 (Sucessos/Total),7,73.0
+668,Felipe Rafael Freitas,Desenvolvedor Pleno,5/9 (Sucessos/Total),5,66.4
+669,Thiago Lima,Desenvolvedor Pleno,10/14 (Sucessos/Total),6,73.3
+670,Matheus Soares,Desenvolvedor Senior,11/13 (Sucessos/Total),9,89.8
+671,Lucas Teixeira,Analista de Sistemas,25/36 (Sucessos/Total),11,71.7
+672,Paulo Rafael Barbosa,Analista de Negócios,10/12 (Sucessos/Total),6,89.5
+673,Gabriela Soares,Product Owner,17/22 (Sucessos/Total),9,80.2
+674,Bruno Oliveira,Analista de Sistemas,14/19 (Sucessos/Total),7,74.8
+675,Mariana Nascimento,Desenvolvedor Senior,25/31 (Sucessos/Total),15,82.8
+676,Mônica Freitas,Gerente de Projeto,21/28 (Sucessos/Total),20,77.0
+677,Paulo Dias,Desenvolvedor Pleno,4/8 (Sucessos/Total),4,62.2
+678,Pedro Alves,Desenvolvedor Pleno,9/12 (Sucessos/Total),8,82.5
+679,Tatiana Almeida,Desenvolvedor Junior,3/6 (Sucessos/Total),2,65.5
+680,Marcelo Lima,Desenvolvedor Senior,19/22 (Sucessos/Total),10,89.2
+681,Luciana Freitas,Desenvolvedor Pleno,5/7 (Sucessos/Total),3,76.9
+682,Cristina Martins,Analista de Sistemas,7/11 (Sucessos/Total),5,69.5
+683,Priscila Ramos,Desenvolvedor Junior,1/2 (Sucessos/Total),0,63.2
+684,Luciana Soares,Analista de Sistemas,25/35 (Sucessos/Total),12,72.7
+685,Lucas Correia,Desenvolvedor Pleno,2/3 (Sucessos/Total),3,74.1
+686,Marcelo Ramos,Designer UX/UI,4/6 (Sucessos/Total),4,67.6
+687,Mariana Rodrigues,Desenvolvedor Pleno,3/5 (Sucessos/Total),4,63.1
+688,Amanda Barbosa,Gerente de Projeto,11/14 (Sucessos/Total),6,81.2
+689,Maria Freitas,Desenvolvedor Junior,1/2 (Sucessos/Total),0,73.1
+690,Rafael Rocha,Desenvolvedor Junior,2/4 (Sucessos/Total),2,69.2
+691,Vanessa Beatriz Alves,Desenvolvedor Junior,1/2 (Sucessos/Total),0,62.9
+692,Lucas Rafael Ferreira,Desenvolvedor Senior,18/23 (Sucessos/Total),12,80.6
+693,Mariana Teixeira,Gerente de Projeto,25/29 (Sucessos/Total),11,87.8
+694,Larissa Barbosa,Desenvolvedor Pleno,14/21 (Sucessos/Total),6,68.8
+695,João Leonardo Rodrigues,Analista de Qualidade,9/13 (Sucessos/Total),8,73.2
+696,Paulo Gomes,Tech Lead,14/17 (Sucessos/Total),7,82.8
+697,Leonardo Costa,Analista de Negócios,14/16 (Sucessos/Total),10,89.2
+698,Carla Alves,Analista de Sistemas,8/10 (Sucessos/Total),4,81.8
+699,Larissa Renata Souza,Arquiteto de Software,10/12 (Sucessos/Total),9,89.4
+700,Bruno Dias,Desenvolvedor Junior,0/1 (Sucessos/Total),0,58.0
+701,Lucas Matheus Ribeiro,Desenvolvedor Senior,11/15 (Sucessos/Total),10,79.6
+702,Maria Beatriz Vieira,Product Owner,4/6 (Sucessos/Total),5,78.6
+703,Daniel Lima,Scrum Master,7/10 (Sucessos/Total),7,73.7
+704,Rafael Carlos Rodrigues,Desenvolvedor Pleno,8/14 (Sucessos/Total),5,60.9
+705,Vanessa Monteiro,Desenvolvedor Pleno,16/20 (Sucessos/Total),7,80.6
+706,Lucas Lopes,Gerente de Projeto,33/39 (Sucessos/Total),19,85.6
+707,Leonardo Alves,Designer UX/UI,7/12 (Sucessos/Total),5,63.6
+708,Bruno Mendes,Analista de Sistemas,3/5 (Sucessos/Total),2,66.8
+709,Luciana Lima,Gerente de Projeto,20/23 (Sucessos/Total),19,87.7
+710,Paulo Alves,Desenvolvedor Junior,0/1 (Sucessos/Total),0,55.6
+711,Débora Nascimento,Analista de Negócios,11/15 (Sucessos/Total),7,73.7
+712,Felipe Santos,Desenvolvedor Junior,3/7 (Sucessos/Total),2,53.7
+713,Gabriel Bruno Almeida,Analista de Sistemas,10/15 (Sucessos/Total),10,67.5
+714,Leonardo Martins,Product Owner,5/7 (Sucessos/Total),4,80.0
+715,Gabriel João Monteiro,Desenvolvedor Junior,4/6 (Sucessos/Total),3,69.4
+716,Camila Nascimento,Desenvolvedor Pleno,10/15 (Sucessos/Total),6,69.3
+717,Mônica Silva,Desenvolvedor Pleno,9/12 (Sucessos/Total),4,79.1
+718,Marcelo Almeida,Scrum Master,9/14 (Sucessos/Total),6,71.3
+719,Vanessa Fernandes,Gerente de Projeto,28/38 (Sucessos/Total),11,76.1
+720,Gabriel Almeida,Scrum Master,16/21 (Sucessos/Total),7,79.9
+721,Felipe Paulo Ramos,Gerente de Projeto,33/39 (Sucessos/Total),18,87.1
+722,João Thiago Freitas,Desenvolvedor Pleno,7/11 (Sucessos/Total),4,69.7
+723,Diego Fernando Lopes,Product Owner,12/15 (Sucessos/Total),12,85.9
+724,Daniel Pereira,Analista de Sistemas,2/3 (Sucessos/Total),3,68.7
+725,Vanessa Gomes,Desenvolvedor Junior,1/3 (Sucessos/Total),1,58.0
+726,Renata Juliana Lima,Desenvolvedor Pleno,15/23 (Sucessos/Total),7,68.9
+727,Débora Tatiana Almeida,Gerente de Projeto,20/23 (Sucessos/Total),11,89.2
+728,Amanda Rocha,Analista de Sistemas,17/23 (Sucessos/Total),10,78.0
+729,Vanessa Priscila Rodrigues,Desenvolvedor Pleno,14/19 (Sucessos/Total),6,75.6
+730,Mônica Débora Vieira,Analista de Sistemas,10/13 (Sucessos/Total),5,82.3
+731,Pedro Lima,Desenvolvedor Pleno,7/11 (Sucessos/Total),7,68.3
+732,Thiago Carlos Ferreira,Product Owner,19/23 (Sucessos/Total),6,86.7
+733,Marcelo Alves,Desenvolvedor Senior,7/10 (Sucessos/Total),6,79.5
+734,Ricardo Rodrigues,Desenvolvedor Pleno,8/13 (Sucessos/Total),5,69.0
+735,Beatriz Teixeira,Gerente de Projeto,34/37 (Sucessos/Total),19,92.7
+736,Leonardo Thiago Cardoso,Gerente de Projeto,13/15 (Sucessos/Total),9,86.8
+737,Bruno Silva,Desenvolvedor Senior,24/30 (Sucessos/Total),13,80.3
+738,Débora Soares,Desenvolvedor Junior,4/6 (Sucessos/Total),3,70.1
+739,Juliana Lima,Desenvolvedor Junior,0/1 (Sucessos/Total),1,41.9
+740,Matheus Almeida,Analista de Sistemas,19/24 (Sucessos/Total),6,81.8
+741,Daniel Santos,Desenvolvedor Senior,25/32 (Sucessos/Total),13,78.8
+742,Mariana Camila Silva,Desenvolvedor Pleno,9/12 (Sucessos/Total),8,77.5
+743,Rafael Almeida,Desenvolvedor Junior,3/5 (Sucessos/Total),2,66.3
+744,Matheus João Nascimento,Desenvolvedor Senior,13/18 (Sucessos/Total),13,77.6
+745,Matheus Ribeiro,Desenvolvedor Senior,16/19 (Sucessos/Total),12,88.2
+746,Mônica Dias,Analista de Sistemas,10/14 (Sucessos/Total),9,74.8
+747,Matheus Monteiro,Desenvolvedor Junior,3/6 (Sucessos/Total),3,65.3
+748,André Ferreira,Desenvolvedor Pleno,10/13 (Sucessos/Total),5,79.4
+749,Carlos Teixeira,Desenvolvedor Senior,18/22 (Sucessos/Total),15,82.6
+750,Amanda Mendes,Analista de Sistemas,3/5 (Sucessos/Total),3,75.3
+751,Daniel Felipe Soares,Analista de Sistemas,6/10 (Sucessos/Total),7,67.4
+752,Larissa Mendes,Desenvolvedor Junior,1/2 (Sucessos/Total),1,52.2
+753,Débora Luciana Teixeira,Desenvolvedor Junior,0/1 (Sucessos/Total),0,48.1
+754,Ricardo Vieira,Desenvolvedor Junior,2/5 (Sucessos/Total),2,49.1
+755,Mônica Correia,Desenvolvedor Junior,1/3 (Sucessos/Total),1,58.4
+756,Juliana Oliveira,Desenvolvedor Junior,0/1 (Sucessos/Total),1,56.0
+757,Fernando Gabriel Soares,Desenvolvedor Junior,0/2 (Sucessos/Total),1,48.7
+758,Amanda Ribeiro,Desenvolvedor Junior,2/5 (Sucessos/Total),3,59.0
+759,Gabriel Rocha,Product Owner,20/25 (Sucessos/Total),14,82.0
+760,Cristina Fernanda Santos,Desenvolvedor Senior,28/33 (Sucessos/Total),14,86.2
+761,Lucas Daniel Soares,Desenvolvedor Senior,26/30 (Sucessos/Total),12,88.8
+762,Vanessa Nascimento,Desenvolvedor Junior,0/1 (Sucessos/Total),1,47.0
+763,Beatriz Martins,Desenvolvedor Junior,1/3 (Sucessos/Total),1,40.3
+764,Mônica Beatriz Silva,Arquiteto de Software,19/23 (Sucessos/Total),21,86.8
+765,Ana Mendes,Scrum Master,10/13 (Sucessos/Total),10,82.6
+766,Larissa Teixeira,Desenvolvedor Junior,1/2 (Sucessos/Total),1,53.3
+767,Beatriz Freitas,Analista de Sistemas,4/6 (Sucessos/Total),2,67.6
+768,Juliana Beatriz Cardoso,Gerente de Projeto,10/12 (Sucessos/Total),5,87.5
+769,Rafael Daniel Monteiro,Desenvolvedor Junior,3/5 (Sucessos/Total),2,63.5
+770,João Monteiro,Analista de Sistemas,8/11 (Sucessos/Total),4,73.7
+771,Carla Vieira,Desenvolvedor Senior,4/5 (Sucessos/Total),5,85.7
+772,Paulo Gomes,Tech Lead,29/33 (Sucessos/Total),18,88.8
+773,Carla Mônica Fernandes,Desenvolvedor Junior,1/4 (Sucessos/Total),2,47.2
+774,Vanessa Rodrigues,Desenvolvedor Senior,6/8 (Sucessos/Total),5,86.6
+775,Débora Fernanda Cardoso,Analista de Sistemas,16/21 (Sucessos/Total),6,78.9
+776,Débora Barbosa,Desenvolvedor Pleno,9/15 (Sucessos/Total),8,64.0
+777,Pedro Costa,Analista de Sistemas,5/7 (Sucessos/Total),5,71.5
+778,Rodrigo Barbosa,Tech Lead,16/18 (Sucessos/Total),17,89.2
+779,Lucas Mendes,Gerente de Projeto,7/9 (Sucessos/Total),5,80.7
+780,Juliana Pereira,Product Owner,8/12 (Sucessos/Total),5,71.4
+781,Thiago Rodrigues,Analista de Sistemas,4/6 (Sucessos/Total),2,71.2
+782,Fernanda Ferreira,Desenvolvedor Pleno,14/19 (Sucessos/Total),8,74.0
+783,Fernanda Mônica Freitas,Scrum Master,15/21 (Sucessos/Total),9,72.5
+784,Camila Mônica Gomes,Gerente de Projeto,21/25 (Sucessos/Total),18,85.0
+785,Fernanda Almeida,Desenvolvedor Pleno,9/13 (Sucessos/Total),6,76.7
+786,Débora Amanda Pereira,Desenvolvedor Senior,14/18 (Sucessos/Total),9,83.3
+787,Tatiana Santos,Analista de Sistemas,13/15 (Sucessos/Total),9,92.1
+788,Ana Tatiana Almeida,Analista de Sistemas,7/11 (Sucessos/Total),6,65.3
+789,Amanda Pereira,Analista de Qualidade,4/7 (Sucessos/Total),3,67.3
+790,Carlos Daniel Cardoso,Desenvolvedor Junior,2/3 (Sucessos/Total),2,66.8
+791,Renata Dias,Desenvolvedor Senior,17/22 (Sucessos/Total),12,78.3
+792,Beatriz Cardoso,Scrum Master,16/24 (Sucessos/Total),12,69.4
+793,Matheus Almeida,Desenvolvedor Senior,8/11 (Sucessos/Total),7,75.1
+794,João Rafael Almeida,Product Owner,4/6 (Sucessos/Total),5,76.6
+795,Bruno Alves,Desenvolvedor Junior,4/7 (Sucessos/Total),3,57.7
+796,Mariana Dias,Desenvolvedor Pleno,6/9 (Sucessos/Total),5,76.7
+797,Carla Freitas,Desenvolvedor Junior,4/7 (Sucessos/Total),3,59.5
+798,Patrícia Mônica Souza,Gerente de Projeto,27/35 (Sucessos/Total),14,79.4
+799,Débora Mendes,Desenvolvedor Pleno,9/13 (Sucessos/Total),7,72.8
+800,Mariana Gomes,Desenvolvedor Senior,27/30 (Sucessos/Total),11,90.1
+801,Felipe Gomes,Analista de Negócios,8/12 (Sucessos/Total),9,73.5
+802,Paulo Costa,Gerente de Projeto,21/25 (Sucessos/Total),17,87.6
+803,Luciana Teixeira,Desenvolvedor Junior,3/6 (Sucessos/Total),2,63.3
+804,Leonardo Carlos Fernandes,Desenvolvedor Pleno,4/7 (Sucessos/Total),3,68.9
+805,Felipe Fernandes,Desenvolvedor Pleno,16/22 (Sucessos/Total),7,73.1
+806,Lucas Bruno Silva,Analista de Qualidade,12/17 (Sucessos/Total),6,75.2
+807,Tatiana Freitas,Analista de Sistemas,11/16 (Sucessos/Total),9,69.8
+808,Carlos Freitas,Analista de Qualidade,13/17 (Sucessos/Total),8,78.4
+809,Ana Cardoso,Desenvolvedor Junior,3/7 (Sucessos/Total),3,50.9
+810,Tatiana Ramos,Desenvolvedor Pleno,4/7 (Sucessos/Total),4,64.3
+811,Beatriz Mariana Rodrigues,Desenvolvedor Pleno,15/21 (Sucessos/Total),7,71.5
+812,Thiago Barbosa,Desenvolvedor Pleno,3/5 (Sucessos/Total),5,69.2
+813,Maria Santos,Desenvolvedor Pleno,16/24 (Sucessos/Total),8,69.9
+814,Priscila Rodrigues,Tech Lead,10/13 (Sucessos/Total),6,80.1
+815,Gabriela Cardoso,Analista de Sistemas,15/24 (Sucessos/Total),6,64.4
+816,Thiago Paulo Dias,Gerente de Projeto,15/19 (Sucessos/Total),9,83.1
+817,Fernando Nascimento,Desenvolvedor Pleno,4/6 (Sucessos/Total),3,67.9
+818,João Ferreira,Gerente de Projeto,16/21 (Sucessos/Total),7,79.1
+819,André Carvalho,Analista de Sistemas,16/22 (Sucessos/Total),9,76.1
+820,Matheus Martins,Desenvolvedor Junior,2/5 (Sucessos/Total),3,48.3
+821,Fernanda Carvalho,Desenvolvedor Pleno,10/12 (Sucessos/Total),4,86.6
+822,Cristina Costa,Desenvolvedor Pleno,12/16 (Sucessos/Total),6,77.2
+823,Gustavo Lucas Ferreira,Desenvolvedor Pleno,5/8 (Sucessos/Total),5,64.0
+824,Mônica Nascimento,Gerente de Projeto,12/17 (Sucessos/Total),6,76.4
+825,Carlos Ferreira,Desenvolvedor Pleno,11/19 (Sucessos/Total),6,62.3
+826,Daniel Cardoso,Desenvolvedor Pleno,8/11 (Sucessos/Total),7,80.8
+827,Patrícia Souza,Desenvolvedor Senior,16/19 (Sucessos/Total),14,84.8
+828,João Pedro Dias,Product Owner,17/20 (Sucessos/Total),7,87.9
+829,Mariana Camila Pereira,Gerente de Projeto,15/17 (Sucessos/Total),19,89.6
+830,Paulo João Dias,Desenvolvedor Pleno,6/10 (Sucessos/Total),8,61.6
+831,Carlos Pedro Vieira,Gerente de Projeto,16/20 (Sucessos/Total),10,82.1
+832,Rodrigo Carlos Monteiro,Scrum Master,7/9 (Sucessos/Total),5,84.1
+833,Carla Ribeiro,Desenvolvedor Pleno,9/13 (Sucessos/Total),8,72.7
+834,Maria Tatiana Ramos,Desenvolvedor Pleno,7/11 (Sucessos/Total),4,68.5
+835,Daniel Almeida,Desenvolvedor Junior,3/5 (Sucessos/Total),2,65.3
+836,Luciana Dias,Desenvolvedor Pleno,3/4 (Sucessos/Total),3,75.6
+837,Fernando André Lima,Analista de Sistemas,14/22 (Sucessos/Total),10,67.3
+838,Débora Gomes,Product Owner,27/31 (Sucessos/Total),14,89.8
+839,Rodrigo Pedro Mendes,Desenvolvedor Senior,13/15 (Sucessos/Total),7,87.5
+840,Diego Vieira,Desenvolvedor Senior,17/23 (Sucessos/Total),9,74.8
+841,Carla Débora Vieira,Desenvolvedor Junior,2/4 (Sucessos/Total),2,55.0
+842,Thiago Costa,Desenvolvedor Junior,0/1 (Sucessos/Total),0,60.2
+843,Mariana Mariana Alves,Desenvolvedor Pleno,8/11 (Sucessos/Total),8,73.4
+844,Fernando Pereira,Gerente de Projeto,25/33 (Sucessos/Total),17,77.6
+845,Thiago Nascimento,Arquiteto de Software,13/16 (Sucessos/Total),15,86.3
+846,Amanda Juliana Cardoso,Desenvolvedor Junior,0/2 (Sucessos/Total),0,47.7
+847,Gabriela Cardoso,Scrum Master,8/10 (Sucessos/Total),8,82.9
+848,Diego Correia,Scrum Master,12/16 (Sucessos/Total),9,76.2
+849,Priscila Ribeiro,Desenvolvedor Junior,3/7 (Sucessos/Total),2,49.3
+850,Daniel Lopes,Desenvolvedor Pleno,2/4 (Sucessos/Total),3,61.6
+851,Ana Ana Almeida,Desenvolvedor Pleno,14/18 (Sucessos/Total),8,80.1
+852,Cristina Costa,Gerente de Projeto,17/20 (Sucessos/Total),16,87.1
+853,Gabriela Mônica Lima,Desenvolvedor Senior,15/22 (Sucessos/Total),6,71.5
+854,Fernanda Costa,Desenvolvedor Pleno,11/14 (Sucessos/Total),8,81.2
+855,Rafael Matheus Gomes,Desenvolvedor Pleno,14/22 (Sucessos/Total),8,65.8
+856,Gustavo Gomes,Desenvolvedor Junior,1/2 (Sucessos/Total),1,72.1
+857,Mônica Lopes,Desenvolvedor Senior,17/21 (Sucessos/Total),9,85.2
+858,João Ferreira,Scrum Master,7/11 (Sucessos/Total),4,68.8
+859,Camila Ferreira,Desenvolvedor Pleno,16/22 (Sucessos/Total),7,76.0
+860,Thiago Lucas Ramos,Analista de Negócios,12/15 (Sucessos/Total),8,81.7
+861,Vanessa Costa,Analista de Sistemas,13/20 (Sucessos/Total),8,69.9
+862,Vanessa Souza,Desenvolvedor Pleno,16/24 (Sucessos/Total),6,67.7
+863,André Diego Cardoso,Arquiteto de Software,32/38 (Sucessos/Total),19,86.4
+864,Vanessa Ramos,Analista de Sistemas,24/34 (Sucessos/Total),12,71.8
+865,João Carvalho,Product Owner,9/12 (Sucessos/Total),6,80.7
+866,Carlos Monteiro,Desenvolvedor Pleno,11/15 (Sucessos/Total),8,74.4
+867,Priscila Teixeira,Arquiteto de Software,23/27 (Sucessos/Total),11,85.6
+868,Juliana Rodrigues,Desenvolvedor Senior,13/16 (Sucessos/Total),12,82.6
+869,Rodrigo Barbosa,Analista de Negócios,16/21 (Sucessos/Total),7,80.0
+870,Rodrigo Ribeiro,Desenvolvedor Pleno,16/23 (Sucessos/Total),6,73.6
+871,Mariana Teixeira,Desenvolvedor Senior,20/24 (Sucessos/Total),14,85.2
+872,Pedro Almeida,Desenvolvedor Junior,2/3 (Sucessos/Total),2,70.0
+873,Juliana Ferreira,Analista de Sistemas,3/6 (Sucessos/Total),3,59.4
+874,Fernando Gabriel Pereira,Analista de Negócios,12/18 (Sucessos/Total),8,70.6
+875,Priscila Soares,Desenvolvedor Pleno,6/9 (Sucessos/Total),4,76.0
+876,Gustavo Rodrigues,Desenvolvedor Junior,2/5 (Sucessos/Total),2,57.0
+877,Rafael Ferreira,Analista de Sistemas,8/11 (Sucessos/Total),10,79.7
+878,Patrícia Souza,Desenvolvedor Senior,30/33 (Sucessos/Total),15,92.6
+879,Luciana Costa,Analista de Sistemas,21/26 (Sucessos/Total),11,81.2
+880,Diego Daniel Santos,Desenvolvedor Senior,14/19 (Sucessos/Total),9,78.6
+881,Carlos Santos,Desenvolvedor Senior,27/32 (Sucessos/Total),12,86.3
+882,Rafael Nascimento,Desenvolvedor Junior,3/6 (Sucessos/Total),3,52.9
+883,Luciana Fernandes,Analista de Sistemas,21/26 (Sucessos/Total),11,82.4
+884,Rafael Dias,Desenvolvedor Junior,2/3 (Sucessos/Total),2,77.4
+885,Pedro Correia,Desenvolvedor Senior,22/27 (Sucessos/Total),14,83.2
+886,Mônica Nascimento,Product Owner,26/32 (Sucessos/Total),14,81.8
+887,Gabriela Lima,Desenvolvedor Senior,8/13 (Sucessos/Total),5,66.4
+888,Lucas Silva,Desenvolvedor Senior,8/11 (Sucessos/Total),8,74.9
+889,Thiago Lopes,Analista de Qualidade,17/21 (Sucessos/Total),6,82.4
+890,Débora Rocha,Desenvolvedor Senior,4/5 (Sucessos/Total),5,82.8
+891,Lucas Rodrigo Martins,Analista de Sistemas,12/14 (Sucessos/Total),10,86.8
+892,Cristina Rodrigues,Scrum Master,9/13 (Sucessos/Total),5,73.9
+893,Tatiana Vieira,Desenvolvedor Pleno,19/24 (Sucessos/Total),8,80.9
+894,Paulo Costa,Desenvolvedor Senior,8/11 (Sucessos/Total),8,79.9
+895,Débora Silva,Desenvolvedor Senior,14/18 (Sucessos/Total),9,81.5
+896,Vanessa Gabriela Nascimento,Product Owner,6/9 (Sucessos/Total),4,74.1
+897,Luciana Martins,Desenvolvedor Pleno,11/14 (Sucessos/Total),8,79.6
+898,Débora Soares,Desenvolvedor Senior,11/15 (Sucessos/Total),7,76.0
+899,Maria Gomes,Scrum Master,18/24 (Sucessos/Total),7,75.2
+900,Cristina Larissa Ribeiro,Desenvolvedor Senior,14/18 (Sucessos/Total),8,80.7
+901,Luciana Oliveira,Desenvolvedor Pleno,17/24 (Sucessos/Total),7,73.3
+902,Renata Martins,Desenvolvedor Senior,7/10 (Sucessos/Total),10,74.4
+903,Rafael Monteiro,Analista de Sistemas,3/6 (Sucessos/Total),2,63.4
+904,Rafael Ramos,Desenvolvedor Junior,2/4 (Sucessos/Total),3,58.4
+905,Rodrigo Lima,Desenvolvedor Junior,1/3 (Sucessos/Total),1,55.9
+906,Pedro Gomes,Arquiteto de Software,12/14 (Sucessos/Total),7,89.8
+907,Mariana Rodrigues,Analista de Negócios,8/12 (Sucessos/Total),5,69.9
+908,Carlos Santos,Desenvolvedor Pleno,15/24 (Sucessos/Total),6,64.2
+909,Felipe Nascimento,Desenvolvedor Junior,3/5 (Sucessos/Total),3,62.8
+910,Patrícia Vieira,Desenvolvedor Pleno,7/10 (Sucessos/Total),5,71.8
+911,Carlos Ribeiro,Desenvolvedor Pleno,18/23 (Sucessos/Total),7,80.2
+912,Beatriz Lima,Designer UX/UI,6/10 (Sucessos/Total),4,67.9
+913,Carlos Soares,Analista de Sistemas,12/18 (Sucessos/Total),9,68.2
+914,Amanda Santos,Analista de Sistemas,17/24 (Sucessos/Total),7,74.4
+915,Mônica Cristina Freitas,Analista de Qualidade,16/20 (Sucessos/Total),8,81.3
+916,Larissa Débora Pereira,Designer UX/UI,7/11 (Sucessos/Total),4,64.4
+917,Rodrigo Rodrigues,Desenvolvedor Pleno,3/6 (Sucessos/Total),5,62.4
+918,Ricardo Fernando Cardoso,DevOps Engineer,8/11 (Sucessos/Total),6,78.6
+919,João Freitas,Arquiteto de Software,32/36 (Sucessos/Total),23,89.2
+920,João Ribeiro,Desenvolvedor Pleno,3/5 (Sucessos/Total),3,61.6
+921,Bruno Ribeiro,Analista de Sistemas,4/6 (Sucessos/Total),2,72.6
+922,Camila Camila Rocha,Desenvolvedor Junior,2/5 (Sucessos/Total),2,58.4
+923,Felipe Fernando Soares,Scrum Master,6/10 (Sucessos/Total),7,69.4
+924,João Rodrigues,Desenvolvedor Pleno,4/6 (Sucessos/Total),3,70.3
+925,Renata Fernandes,Desenvolvedor Pleno,4/7 (Sucessos/Total),5,64.8
+926,Pedro Ribeiro,Analista de Negócios,9/11 (Sucessos/Total),6,83.3
+927,Gabriela Beatriz Rodrigues,Analista de Negócios,13/18 (Sucessos/Total),8,73.0
+928,Lucas Teixeira,Desenvolvedor Senior,4/6 (Sucessos/Total),5,75.1
+929,Carla Dias,Desenvolvedor Senior,24/31 (Sucessos/Total),13,79.7
+930,Thiago Ricardo Fernandes,Arquiteto de Software,22/24 (Sucessos/Total),21,95.0
+931,Mariana Larissa Lima,Tech Lead,27/32 (Sucessos/Total),16,84.6
+932,Daniel Alves,Coordenador de TI,19/22 (Sucessos/Total),13,86.9
+933,Gabriela Mariana Mendes,Tech Lead,15/16 (Sucessos/Total),16,95.0
+934,Rodrigo Barbosa,Arquiteto de Software,13/15 (Sucessos/Total),19,90.6
+935,Patrícia Souza,Desenvolvedor Senior,9/12 (Sucessos/Total),7,79.3
+936,Fernanda Carvalho,Desenvolvedor Senior,23/27 (Sucessos/Total),13,88.8
+937,Débora Ramos,Analista de Sistemas,12/18 (Sucessos/Total),8,69.1
+938,Lucas Barbosa,Desenvolvedor Pleno,3/5 (Sucessos/Total),4,66.5
+939,Juliana Pereira,Desenvolvedor Pleno,10/14 (Sucessos/Total),4,72.2
+940,Tatiana Oliveira,Desenvolvedor Senior,8/10 (Sucessos/Total),5,89.8
+941,André Gustavo Rocha,Arquiteto de Software,21/23 (Sucessos/Total),11,94.8
+942,Camila Débora Lima,Analista de Negócios,7/11 (Sucessos/Total),7,67.5
+943,Paulo Lucas Monteiro,Desenvolvedor Pleno,1/3 (Sucessos/Total),3,51.7
+944,Gabriela Correia,Desenvolvedor Pleno,13/17 (Sucessos/Total),7,80.9
+945,Cristina Freitas,Desenvolvedor Pleno,8/11 (Sucessos/Total),5,77.3
+946,Mariana Vieira,Arquiteto de Software,17/20 (Sucessos/Total),17,87.9
+947,Patrícia Carla Dias,Desenvolvedor Senior,16/20 (Sucessos/Total),13,83.9
+948,André Ferreira,Gerente de Projeto,19/24 (Sucessos/Total),17,81.3
+949,André Leonardo Pereira,Analista de Negócios,16/23 (Sucessos/Total),8,71.2
+950,Carlos Lopes,Designer UX/UI,13/20 (Sucessos/Total),8,66.1
+951,Pedro Vieira,Scrum Master,8/12 (Sucessos/Total),8,74.6
+952,João Ricardo Rodrigues,Scrum Master,16/19 (Sucessos/Total),8,84.5
+953,Débora Rocha,Desenvolvedor Junior,3/6 (Sucessos/Total),2,56.5
+954,Carlos Ribeiro,Gerente de Projeto,9/12 (Sucessos/Total),6,82.2
+955,Priscila Fernanda Cardoso,Product Owner,9/12 (Sucessos/Total),4,80.6
+956,Felipe Lima,Desenvolvedor Junior,1/3 (Sucessos/Total),1,61.7
+957,Mariana Luciana Freitas,Analista de Qualidade,8/10 (Sucessos/Total),8,87.4
+958,Fernando Freitas,Desenvolvedor Pleno,14/20 (Sucessos/Total),7,72.2
+959,Débora Silva,Desenvolvedor Pleno,12/18 (Sucessos/Total),6,70.7
+960,Pedro Rafael Rocha,Analista de Sistemas,2/3 (Sucessos/Total),2,78.4
+961,Luciana Ana Rodrigues,Desenvolvedor Junior,1/3 (Sucessos/Total),0,59.2
+962,Fernando Daniel Ramos,DevOps Engineer,16/22 (Sucessos/Total),7,74.1
+963,Matheus Teixeira,Desenvolvedor Senior,16/20 (Sucessos/Total),8,84.4
+964,Juliana Carvalho,Desenvolvedor Pleno,8/11 (Sucessos/Total),8,77.8
+965,Luciana Carvalho,DevOps Engineer,5/8 (Sucessos/Total),5,72.8
+966,André Rodrigues,Gerente de Projeto,32/36 (Sucessos/Total),19,91.4
+967,Mônica Nascimento,Desenvolvedor Junior,1/2 (Sucessos/Total),0,55.9
+968,Amanda Cristina Pereira,Analista de Sistemas,7/10 (Sucessos/Total),4,70.6
+969,Paulo Dias,Desenvolvedor Senior,10/14 (Sucessos/Total),5,75.3
+970,Daniel Barbosa,Arquiteto de Software,20/23 (Sucessos/Total),8,87.2
+971,Patrícia Alves,Designer UX/UI,0/1 (Sucessos/Total),1,62.1
+972,Renata Nascimento,Desenvolvedor Pleno,11/16 (Sucessos/Total),6,72.2
+973,Cristina Priscila Ferreira,Desenvolvedor Junior,4/7 (Sucessos/Total),2,62.7
+974,Mônica Alves,Analista de Sistemas,8/11 (Sucessos/Total),8,77.3
+975,Débora Correia,Desenvolvedor Pleno,7/10 (Sucessos/Total),6,71.0
+976,Maria Pereira,Desenvolvedor Senior,14/18 (Sucessos/Total),7,78.0
+977,Matheus Gustavo Freitas,Desenvolvedor Senior,23/30 (Sucessos/Total),13,79.3
+978,Beatriz Pereira,Scrum Master,16/21 (Sucessos/Total),6,79.3
+979,Vanessa Fernandes,Analista de Sistemas,15/19 (Sucessos/Total),8,80.8
+980,Bruno Lima,Desenvolvedor Pleno,9/13 (Sucessos/Total),8,72.2
+981,Gabriela Barbosa,Gerente de Projeto,8/11 (Sucessos/Total),5,74.9
+982,Camila Alves,Desenvolvedor Junior,2/3 (Sucessos/Total),3,73.2
+983,Luciana Cardoso,Desenvolvedor Pleno,12/17 (Sucessos/Total),8,71.6
+984,Luciana Souza,Scrum Master,12/15 (Sucessos/Total),9,82.6
+985,Beatriz Soares,Desenvolvedor Senior,4/6 (Sucessos/Total),5,75.2
+986,Paulo Gabriel Alves,Arquiteto de Software,16/19 (Sucessos/Total),7,88.0
+987,Débora Gabriela Ribeiro,Desenvolvedor Pleno,3/5 (Sucessos/Total),4,62.0
+988,Bruno Correia,Scrum Master,13/18 (Sucessos/Total),7,73.5
+989,Matheus Teixeira,Desenvolvedor Junior,0/1 (Sucessos/Total),1,65.6
+990,Lucas Gomes,Designer UX/UI,4/7 (Sucessos/Total),2,62.5
+991,Luciana Costa,Product Owner,10/15 (Sucessos/Total),6,71.9
+992,Lucas Rocha,Analista de Sistemas,11/15 (Sucessos/Total),7,74.8
+993,Larissa Amanda Santos,Desenvolvedor Senior,27/30 (Sucessos/Total),12,92.0
+994,Tatiana Carla Ramos,Desenvolvedor Pleno,2/4 (Sucessos/Total),3,71.3
+995,Lucas Monteiro,Tech Lead,23/29 (Sucessos/Total),15,82.0
+996,Beatriz Carla Dias,Gerente de Projeto,9/13 (Sucessos/Total),8,75.0
+997,Bruno Daniel Freitas,Desenvolvedor Senior,17/20 (Sucessos/Total),12,87.4
+998,Marcelo Paulo Barbosa,Desenvolvedor Senior,16/22 (Sucessos/Total),7,74.4
+999,Gabriela Costa,Desenvolvedor Pleno,16/22 (Sucessos/Total),6,75.5
+1000,Lucas Soares,Desenvolvedor Junior,1/2 (Sucessos/Total),1,50.4
