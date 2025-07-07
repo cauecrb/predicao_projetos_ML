@@ -61,5 +61,3 @@ Todos os arquivos necessários para executar a API e o chatbot acompanham o proj
 
 ### Observação final
 Apesar de o processo de treinamento e os dados utilizados terem sido testados repetidamente, eles ainda necessitam de refinamento adicional e validação por especialistas na área. Esta ferramenta é apenas uma demonstração e suas análises devem sempre passar pela aprovação de um ser humano.
-
-Os scripts de treinamento estão localizados no diretório ml_model. Para o modelo, foi escolhida a abordagem Random Forest, sendo o resultado salvo no arquivo trained_model.joblib.
