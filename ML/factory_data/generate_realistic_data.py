@@ -67,10 +67,5 @@ def generate_realistic_projects(n_projects=1000):
 if __name__ == '__main__':
     df = generate_realistic_projects(1000)
     
-    sucessos = len(df[df['sucesso'] == 1])
-    total = len(df)
-    print(f"Sucessos: {sucessos} ({sucessos/total*100:.1f}%)")
-    print(f"Falhas: {total-sucessos} ({(total-sucessos)/total*100:.1f}%)")
-    
     df.to_csv('../datas/projetos_dataset.csv', index=False)
     print("Dataset salvo!")

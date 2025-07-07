@@ -6,8 +6,8 @@ import uuid
 import pandas as pd
 import joblib
 
-sys.path.append('../ml_model')
-sys.path.append('../datas')
+sys.path.append('../../ML/ml_model')
+sys.path.append('../../ML/datas')
 
 from model_forest import HybridProjectSuccessModel
 
@@ -22,8 +22,8 @@ def initialize_model():
     try:
         model = HybridProjectSuccessModel()
         
-        users_path = '../datas/usuarios_dataset.csv'
-        projects_path = '../datas/projetos_dataset.csv'
+        users_path = '../../ML/datas/usuarios_dataset.csv'
+        projects_path = '../../ML/datas/projetos_dataset.csv'
         
         if not os.path.exists(users_path) or not os.path.exists(projects_path):
             print(f"Dados não encontrados")
@@ -33,7 +33,7 @@ def initialize_model():
             print("Erro ao carregar dados")
             return False
         
-        model_path = '../ml_model/trained_model.joblib'
+        model_path = '../../ML/ml_model/trained_model.joblib'
         if os.path.exists(model_path):
             if not model.load_model(model_path):
                 print(f"Erro ao carregar modelo")

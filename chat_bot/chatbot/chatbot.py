@@ -11,8 +11,8 @@ import time
 import platform
 import subprocess
 
-sys.path.append('../factory_data')
-sys.path.append('../ml_model')
+sys.path.append('../../ML/factory_data')
+sys.path.append('../../ML/ml_model')
 
 from model_forest import HybridProjectSuccessModel
 
@@ -61,20 +61,20 @@ class EnhancedProjectChatbot:
     #inicializar o modelo
     def initialize_system(self):
         try:
-            model_loaded = self.hybrid_model.load_model('../ml_model/trained_model.joblib')
+            model_loaded = self.hybrid_model.load_model('../../ML/ml_model/trained_model.joblib')
             
             if not model_loaded:
                 print("Modelo não encontrado. Tentando treinar...")
                 success = self.hybrid_model.run_full_pipeline(
-                    '../datas/projetos_fake_dataset.csv',
-                    '../datas/usuarios_dataset.csv'
+                    '../../ML/datas/projetos_fake_dataset.csv',
+                    '../../ML/datas/usuarios_dataset.csv'
                 )
                 if not success:
                     print("Erro: Não foi possível inicializar o modelo")
                     return False
             
             # Carregar dados de usuários
-            self.users_df = pd.read_csv('../datas/usuarios_dataset.csv')
+            self.users_df = pd.read_csv('../../ML/datas/usuarios_dataset.csv')
             print(f"Sistema inicializado: {len(self.users_df)} usuários")
             return True
             

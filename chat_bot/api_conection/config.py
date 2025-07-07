@@ -7,7 +7,7 @@ class Config:
     HOST = '0.0.0.0'
     PORT = 5000
     
-    MODEL_PATH = os.path.join('..', 'ml_model', 'trained_model.joblib')
+    MODEL_PATH = os.path.join('..', '..', 'ML', 'ml_model', 'trained_model.joblib')
     
     # Configurações do modelo
     REQUIRED_FEATURES = [

@@ -6,8 +6,8 @@ from datetime import datetime
 import pandas as pd
 import joblib
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'ml_model'))
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'datas'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'ML', 'ml_model'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'ML', 'datas'))
 
 from model_forest import HybridProjectSuccessModel
 
@@ -23,7 +23,7 @@ def load_models():
     try:
         # Modelo híbrido
         model = HybridProjectSuccessModel()
-        model_path = os.path.join('..', 'ml_model', 'trained_model.joblib')
+        model_path = os.path.join('..', '..', 'ML', 'ml_model', 'trained_model.joblib')
         if os.path.exists(model_path):
             model.model = joblib.load(model_path)
             model.is_trained = True
@@ -33,7 +33,7 @@ def load_models():
             return False
         
         # Dados de usuários
-        users_path = os.path.join('..', 'datas', 'usuarios_dataset.csv')
+        users_path = os.path.join('..', '..', 'ML', 'datas', 'usuarios_dataset.csv')
         if os.path.exists(users_path):
             users_df = pd.read_csv(users_path)
             print(f"✅ Dados de usuários carregados: {len(users_df)} usuários")
