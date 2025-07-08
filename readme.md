@@ -1,5 +1,40 @@
 # Execução do chatbot e treinamento do modelo
 
+## EXECUÇÃO RÁPIDA - SCRIPTS AUTOMATIZADOS
+
+### Para Windows:
+```bash
+# Executar frontend + backend
+start_servers.bat
+
+# Parar todos os servidores
+stop_servers.bat
+
+# Modo desenvolvimento (escolher o que executar)
+python dev.py
+```
+
+### Para Linux:
+```bash
+# Executar frontend + backend
+./start_servers.sh
+
+# Parar todos os servidores
+./stop_servers.sh
+
+# Modo desenvolvimento (escolher o que executar)
+python3 dev.py
+```
+
+## multiplataforma (Python):
+```bash
+# Executar frontend + backend
+python run.py
+
+# Modo desenvolvimento
+python dev.py
+```
+
 ## 1. PRÉ-REQUISITOS
    - Python 3.8 ou superior
    - Instalar dependências: pip install -r requirements.txt
