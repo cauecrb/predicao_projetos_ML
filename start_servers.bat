@@ -2,6 +2,15 @@
 echo Iniciando servidores...
 
 echo.
+echo Ativando ambiente virtual...
+if exist venv\Scripts\activate.bat (
+    call venv\Scripts\activate.bat
+    echo Ambiente virtual ativado.
+) else (
+    echo AVISO: Ambiente virtual nao encontrado em venv/
+)
+
+echo.
 echo [1/2] Iniciando API backend (porta 5000)...
 start "API Backend" cmd /k "cd backend\api && python app.py"
 

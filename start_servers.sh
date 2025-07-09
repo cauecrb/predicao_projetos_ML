@@ -3,6 +3,15 @@
 echo "Iniciando servidores..."
 
 echo
+echo "Ativando ambiente virtual..."
+if [ -f venv/bin/activate ]; then
+    source venv/bin/activate
+    echo "Ambiente virtual ativado."
+else
+    echo "AVISO: Ambiente virtual não encontrado em venv/"
+fi
+
+echo
 echo "[1/2] Iniciando API backend (porta 5000)..."
 cd backend/api
 python3 app.py &

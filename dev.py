@@ -1,22 +1,39 @@
 import os
 import sys
+import platform
+
+def get_python_cmd():
+    if platform.system() == "Windows":
+        if os.path.exists("venv\\Scripts\\python.exe"):
+            return "venv\\Scripts\\python.exe"
+    else:
+        if os.path.exists("venv/bin/python"):
+            return "venv/bin/python"
+    return sys.executable
 
 def main():
-    choice = input("Escolha uma opção:\n1 - Só backend\n2 - Só frontend\n3 - Ambos\n> ")
+    python_cmd = get_python_cmd()
+    
+    if "venv" in python_cmd:
+        print("Usando ambiente virtual.")
+    else:
+        print("AVISO: Ambiente virtual não encontrado, usando Python do sistema.")
+    
+    choice = input("\nEscolha uma opção:\n1 - Só backend\n2 - Só frontend\n3 - Ambos\n> ")
     
     if choice == "1":
         print("Iniciando backend...")
         os.chdir("backend/api")
-        os.system(f"{sys.executable} app.py")
+        os.system(f"{python_cmd} app.py")
     
     elif choice == "2":
         print("Iniciando frontend...")
         os.chdir("frontend")
-        os.system(f"{sys.executable} app.py")
+        os.system(f"{python_cmd} app.py")
     
     elif choice == "3":
         print("Iniciando ambos...")
-        os.system(f"{sys.executable} run.py")
+        os.system(f"{python_cmd} run.py")
     
     else:
         print("Opção inválida.")
