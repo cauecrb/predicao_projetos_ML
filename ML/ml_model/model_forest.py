@@ -154,8 +154,12 @@ class HybridProjectSuccessModel:
         try:
             processed_data = self._preprocess_input(project_data, user_cargo)
             
-            prediction = self.model.predict([processed_data])[0]
-            probability = self.model.predict_proba([processed_data])[0]
+            # Criar DataFrame com nomes de features para evitar warnings
+            import pandas as pd
+            input_df = pd.DataFrame([processed_data], columns=self.features)
+            
+            prediction = self.model.predict(input_df)[0]
+            probability = self.model.predict_proba(input_df)[0]
             
             success_percentage = round(probability[1] * 100, 2)
             
@@ -175,8 +179,10 @@ class HybridProjectSuccessModel:
             return {'error': f'Erro: {str(e)}', 'success_probability': 0}
     
     def _preprocess_input(self, project_data, user_cargo=None):
-        processed = []
+        # Criar um dicionário para armazenar os valores processados
+        processed_dict = {}
         
+        # Features numéricas do projeto
         project_features = ['Duracao_meses', 'Orcamento_R$', 'Tamanho_da_Equipe']
         project_values = []
         for feature in project_features:
@@ -186,26 +192,40 @@ class HybridProjectSuccessModel:
             except (ValueError, TypeError):
                 project_values.append(0.0)
         
+        # Features do usuário
         cargo = user_cargo or project_data.get('cargoFuncionario', 'Desenvolvedor Senior')
         user_values = self._get_user_features(cargo)
         
+        # Normalizar features numéricas
         all_numeric = project_values + user_values
-        normalized = self.scaler.transform([all_numeric])[0]
-        processed.extend(normalized)
+        numeric_features = ['Duracao_meses', 'Orcamento_R$', 'Tamanho_da_Equipe', 
+                           'Experiencia_Media_Cargo', 'Projetos_Medios_Cargo', 
+                           'Taxa_Sucesso_Cargo', 'Sucesso_Medio_Cargo']
         
+        # Aplicar normalização apenas nas features numéricas
+        import pandas as pd
+        temp_df = pd.DataFrame([all_numeric], columns=numeric_features)
+        normalized_values = self.scaler.transform(temp_df)[0]
+        
+        # Adicionar features numéricas normalizadas
+        for i, feature in enumerate(numeric_features):
+            processed_dict[feature] = normalized_values[i]
+        
+        # Features categóricas
         categorical_features = ['RecursosDisponiveis', 'cargoFuncionario']
         for feature in categorical_features:
             if feature in self.encoders:
                 try:
                     value = project_data.get(feature) if feature != 'cargoFuncionario' else cargo
                     encoded_value = self.encoders[feature].transform([str(value)])[0]
-                    processed.append(encoded_value)
+                    processed_dict[f'{feature}_encoded'] = encoded_value
                 except (ValueError, KeyError):
-                    processed.append(0)
+                    processed_dict[f'{feature}_encoded'] = 0
             else:
-                processed.append(0)
+                processed_dict[f'{feature}_encoded'] = 0
         
-        return processed
+        # Retornar valores na ordem correta das features
+        return [processed_dict[feature] for feature in self.features]
     
     def _get_user_features(self, cargo):
         if cargo in self.user_data:

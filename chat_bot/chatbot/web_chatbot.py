@@ -1,344 +1,252 @@
 from flask import Flask, render_template, request, jsonify, session
 import sys
 import os
-from datetime import datetime
-import uuid
 import pandas as pd
 import joblib
+from datetime import datetime
+import uuid
 
 sys.path.append('../../ML/ml_model')
-sys.path.append('../../ML/datas')
-
 from model_forest import HybridProjectSuccessModel
 
 app = Flask(__name__)
-app.secret_key = 'chatbot_secret_key_2024'
+app.secret_key = 'web_key'
 
 model = None
-users_df = None
+users = None
 
-def initialize_model():
-    global model, users_df
+def init():
+    global model, users
     try:
         model = HybridProjectSuccessModel()
         
-        users_path = '../../ML/datas/usuarios_dataset.csv'
-        projects_path = '../../ML/datas/projetos_dataset.csv'
-        
-        if not os.path.exists(users_path) or not os.path.exists(projects_path):
-            print(f"Dados não encontrados")
+        if not model.load_data('../../ML/datas/projetos_dataset.csv', '../../ML/datas/usuarios_dataset.csv'):
             return False
         
-        if not model.load_data(projects_path, users_path):
-            print("Erro ao carregar dados")
+        if not model.load_model('../../ML/ml_model/trained_model.joblib'):
             return False
         
-        model_path = '../../ML/ml_model/trained_model.joblib'
-        if os.path.exists(model_path):
-            if not model.load_model(model_path):
-                print(f"Erro ao carregar modelo")
-                return False
-        else:
-            print(f"Modelo não encontrado")
-            return False
-        
-        users_df = pd.read_csv(users_path)
-        print(f"Sistema inicializado: {len(users_df)} usuários")
-            
+        users = pd.read_csv('../../ML/datas/usuarios_dataset.csv')
         return True
-    except Exception as e:
-        print(f"Erro na inicialização: {e}")
+    except:
         return False
 
 @app.route('/')
 def index():
     if 'session_id' not in session:
         session['session_id'] = str(uuid.uuid4())
-        session['conversation_history'] = []
-    
+        session['history'] = []
     return render_template('chatbot.html')
 
 @app.route('/api/predict', methods=['POST'])
-def predict_project():
-    try:
-        data = request.get_json()
-        
-        required_fields = ['duracao', 'orcamento', 'tamanho_equipe', 'recursos', 'user_id']
-        for field in required_fields:
-            if field not in data:
-                return jsonify({'erro': f'Campo ausente: {field}'}), 400
-        
-        user_id = int(data['user_id'])
-        user = users_df[users_df['Usuario_ID'] == user_id]
-        if user.empty:
-            return jsonify({'erro': f'Usuário {user_id} não encontrado'}), 404
-        
-        user_data = user.iloc[0]
-        
-        project_data = {
-            'Duracao_meses': float(data['duracao']),
-            'Orcamento_R$': float(data['orcamento']),
-            'Tamanho_da_Equipe': int(data['tamanho_equipe']),
-            'RecursosDisponiveis': data['recursos'].lower()
+def predict():
+    data = request.json
+    
+    required = ['duracao', 'orcamento', 'tamanho_equipe', 'recursos', 'user_id']
+    for field in required:
+        if field not in data:
+            return {'sucesso': False, 'erro': f'Campo obrigatório: {field}'}, 400
+    
+    user_id = int(data['user_id'])
+    user = users[users['Usuario_ID'] == user_id]
+    if user.empty:
+        return {'sucesso': False, 'erro': 'Usuário não encontrado'}, 404
+    
+    user_data = user.iloc[0]
+    
+    project = {
+        'Duracao_meses': float(data['duracao']),
+        'Orcamento_R$': float(data['orcamento']),
+        'Tamanho_da_Equipe': int(data['tamanho_equipe']),
+        'RecursosDisponiveis': data['recursos'].lower()
+    }
+    
+    result = model.predict_single_project(project, user_data['Cargo'])
+    
+    if 'error' in result:
+        return {'sucesso': False, 'erro': result['error']}, 500
+    
+    response = {
+        'usuario': {
+            'id': int(user_data['Usuario_ID']),
+            'nome': str(user_data['Nome']),
+            'cargo': str(user_data['Cargo']),
+            'experiencia': int(user_data['Experiencia(anos)']),
+            'sucesso_historico': float(user_data['Sucesso_Medio(percentual)'])
+        },
+        'predicao_base': {
+            'probabilidade_sucesso': result['success_probability']
+        },
+        'predicao_ajustada': {
+            'probabilidade_sucesso': result['success_probability'],
+            'ajuste_usuario': 0
         }
-        
-        result = model.predict_single_project(project_data, user_data['Cargo'])
-        
-        if 'error' not in result:
-            response_data = {
-                'usuario': {
-                    'id': int(user_data['Usuario_ID']),
-                    'nome': str(user_data['Nome']),
-                    'cargo': str(user_data['Cargo']),
-                    'experiencia': int(user_data['Experiencia(anos)']),
-                    'sucesso_historico': float(user_data['Sucesso_Medio(percentual)'])
-                },
-                'predicao_base': {
-                    'resultado': result['prediction'],
-                    'probabilidade_sucesso': result['success_probability']
-                },
-                'predicao_ajustada': {
-                    'resultado': result['prediction'],
-                    'probabilidade_sucesso': result['success_probability'],
-                    'ajuste_usuario': 0
-                }
-            }
-            
-            if result['success_probability'] < 60:
-                response_data['sugestoes_melhoria'] = generate_suggestions(
-                    project_data, user_data, result['success_probability']
-                )
-            
-            if 'conversation_history' not in session:
-                session['conversation_history'] = []
-            
-            session['conversation_history'].append({
-                'timestamp': datetime.now().isoformat(),
-                'projeto': {
-                    'Duração(meses)': int(data['duracao']),
-                    'Orçamento(R$)': float(data['orcamento']),
-                    'Tamanho daEquipe': int(data['tamanho_equipe']),
-                    'RecursosDisponíveis': data['recursos']
-                },
-                'resultado': response_data
-            })
-            
-            return jsonify({
-                'sucesso': True,
-                'resultado': response_data
-            })
-        else:
-            return jsonify({
-                'sucesso': False,
-                'erro': result['error']
-            }), 500
-            
-    except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': f'Erro interno: {str(e)}'
-        }), 500
+    }
+    
+    if result['success_probability'] < 60:
+        response['sugestoes_melhoria'] = get_suggestions(project, user_data)
+    
+    if 'history' not in session:
+        session['history'] = []
+    
+    session['history'].append({
+        'timestamp': datetime.now().isoformat(),
+        'projeto': project,
+        'resultado': response
+    })
+    
+    return {'sucesso': True, 'resultado': response}
 
-def generate_suggestions(project_data, user_data, probability):
+def get_suggestions(project, user):
     suggestions = []
     
-    duracao = project_data['Duracao_meses']
-    if duracao > 12:
+    # Análise de duração
+    if project['Duracao_meses'] > 18:
         suggestions.append({
-            'categoria': 'Duração',
-            'problema': 'Projeto muito longo ( maior que 12 meses)',
-            'sugestao': 'Dividir em fases menores',
+            'categoria': 'Duração do Projeto',
+            'problema': f'Projeto muito longo ({project["Duracao_meses"]} meses). Projetos longos têm maior risco de falha.',
+            'sugestao': 'Divida o projeto em fases menores de 6-12 meses cada. Implemente entregas incrementais.',
+            'impacto': 'Crítico'
+        })
+    elif project['Duracao_meses'] > 12:
+        suggestions.append({
+            'categoria': 'Duração do Projeto',
+            'problema': f'Projeto longo ({project["Duracao_meses"]} meses). Risco moderado de mudanças de escopo.',
+            'sugestao': 'Considere marcos intermediários a cada 3-4 meses para validação e ajustes.',
             'impacto': 'Alto'
         })
-    elif duracao < 2:
-        suggestions.append({
-            'categoria': 'Duração',
-            'problema': 'Projeto muito curto (meonr que 2 meses)',
-            'sugestao': 'Verificar escopo e viabilidade',
-            'impacto': 'Médio'
-        })
     
-    orcamento = project_data['Orcamento_R$']
-    if orcamento < 50000:
+    # Análise de orçamento
+    if project['Orcamento_R$'] < 30000:
         suggestions.append({
             'categoria': 'Orçamento',
-            'problema': 'Orçamento limitado',
-            'sugestao': 'Reavaliar escopo ou buscar recursos',
+            'problema': f'Orçamento muito baixo (R$ {project["Orcamento_R$"]:,.2f}). Pode comprometer a qualidade.',
+            'sugestao': 'Reavalie o escopo do projeto ou aumente o orçamento em pelo menos 50%. Considere terceirização de partes não críticas.',
+            'impacto': 'Crítico'
+        })
+    elif project['Orcamento_R$'] < 50000:
+        suggestions.append({
+            'categoria': 'Orçamento',
+            'problema': f'Orçamento limitado (R$ {project["Orcamento_R$"]:,.2f}). Pode gerar restrições técnicas.',
+            'sugestao': 'Priorize funcionalidades essenciais. Considere desenvolvimento em fases com orçamento adicional.',
             'impacto': 'Alto'
         })
-    
-    tamanho_equipe = project_data['Tamanho_da_Equipe']
-    if tamanho_equipe < 3:
+    elif project['Orcamento_R$'] < 100000:
         suggestions.append({
-            'categoria': 'Equipe',
-            'problema': 'Equipe pequena (menor que 3)',
-            'sugestao': 'Aumentar equipe ou reduzir escopo',
-            'impacto': 'Alto'
-        })
-    elif tamanho_equipe > 10:
-        suggestions.append({
-            'categoria': 'Equipe',
-            'problema': 'Equipe grande (maior que 10)',
-            'sugestao': 'Dividir em sub-equipes',
+            'categoria': 'Orçamento',
+            'problema': f'Orçamento moderado (R$ {project["Orcamento_R$"]:,.2f}). Planejamento cuidadoso necessário.',
+            'sugestao': 'Mantenha reserva de contingência de 15-20% para imprevistos.',
             'impacto': 'Médio'
         })
     
-    recursos = project_data['RecursosDisponiveis']
-    if recursos == 'limitado':
+    # Análise de equipe
+    if project['Tamanho_da_Equipe'] == 1:
         suggestions.append({
-            'categoria': 'Recursos',
-            'problema': 'Recursos limitados',
-            'sugestao': 'Priorizar funcionalidades essenciais',
-            'impacto': 'Alto'
-        })
-    
-    experiencia = int(user_data['Experiencia(anos)'])
-    if experiencia < 2:
-        suggestions.append({
-            'categoria': 'Liderança',
-            'problema': 'Pouca experiência',
-            'sugestao': 'Considerar mentoria',
-            'impacto': 'Alto'
-        })
-    
-    sucesso_historico = float(user_data['Sucesso_Medio(percentual)'])
-    if sucesso_historico < 70:
-        suggestions.append({
-            'categoria': 'Liderança',
-            'problema': 'Baixa taxa de sucesso',
-            'sugestao': 'Implementar revisões frequentes',
-            'impacto': 'Alto'
-        })
-    
-    if probability < 40:
-        suggestions.append({
-            'categoria': 'Geral',
-            'problema': 'Probabilidade muito baixa',
-            'sugestao': 'Reavaliar projeto completamente',
+            'categoria': 'Tamanho da Equipe',
+            'problema': 'Equipe de apenas 1 pessoa. Alto risco de dependência única e sobrecarga.',
+            'sugestao': 'Adicione pelo menos mais 1-2 membros. Considere mentoria ou suporte técnico externo.',
             'impacto': 'Crítico'
+        })
+    elif project['Tamanho_da_Equipe'] == 2:
+        suggestions.append({
+            'categoria': 'Tamanho da Equipe',
+            'problema': 'Equipe pequena (2 pessoas). Risco de gargalos e falta de especialização.',
+            'sugestao': 'Considere adicionar um terceiro membro com habilidades complementares.',
+            'impacto': 'Alto'
+        })
+    elif project['Tamanho_da_Equipe'] > 10:
+        suggestions.append({
+            'categoria': 'Tamanho da Equipe',
+            'problema': f'Equipe muito grande ({project["Tamanho_da_Equipe"]} pessoas). Pode gerar problemas de comunicação.',
+            'sugestao': 'Divida em sub-equipes de 3-5 pessoas cada. Implemente estrutura de liderança clara.',
+            'impacto': 'Alto'
+        })
+    
+    # Análise de recursos
+    if project['RecursosDisponiveis'] == 'baixo':
+        suggestions.append({
+            'categoria': 'Recursos Disponíveis',
+            'problema': 'Recursos limitados podem impactar qualidade e prazos.',
+            'sugestao': 'Negocie acesso a ferramentas essenciais. Considere parcerias ou aluguel de recursos temporários.',
+            'impacto': 'Alto'
+        })
+    elif project['RecursosDisponiveis'] == 'médio':
+        suggestions.append({
+            'categoria': 'Recursos Disponíveis',
+            'problema': 'Recursos moderados requerem planejamento cuidadoso.',
+            'sugestao': 'Otimize o uso de recursos existentes. Planeje aquisições com antecedência.',
+            'impacto': 'Médio'
+        })
+    
+    # Análise baseada na experiência do usuário
+    if user['Experiencia(anos)'] < 2:
+        suggestions.append({
+            'categoria': 'Experiência da Equipe',
+            'problema': f'Líder com pouca experiência ({user["Experiencia(anos)"]} anos). Risco de decisões inadequadas.',
+            'sugestao': 'Considere mentoria de profissional sênior. Implemente revisões técnicas regulares.',
+            'impacto': 'Alto'
+        })
+    elif user['Experiencia(anos)'] < 5:
+        suggestions.append({
+            'categoria': 'Experiência da Equipe',
+            'problema': f'Experiência moderada ({user["Experiencia(anos)"]} anos). Pode precisar de suporte em decisões complexas.',
+            'sugestao': 'Mantenha canal de comunicação com especialistas sêniores para consultas.',
+            'impacto': 'Médio'
+        })
+    
+    # Análise do histórico de sucesso
+    if user['Sucesso_Medio(percentual)'] < 60:
+        suggestions.append({
+            'categoria': 'Histórico de Performance',
+            'problema': f'Histórico de sucesso baixo ({user["Sucesso_Medio(percentual)"]}%). Risco elevado.',
+            'sugestao': 'Implemente acompanhamento semanal rigoroso. Considere co-liderança ou supervisão adicional.',
+            'impacto': 'Crítico'
+        })
+    elif user['Sucesso_Medio(percentual)'] < 75:
+        suggestions.append({
+            'categoria': 'Histórico de Performance',
+            'problema': f'Histórico de sucesso moderado ({user["Sucesso_Medio(percentual)"]}%). Margem para melhoria.',
+            'sugestao': 'Analise projetos anteriores para identificar padrões de falha. Implemente lições aprendidas.',
+            'impacto': 'Médio'
+        })
+    
+    # Sugestões gerais baseadas na combinação de fatores
+    risk_factors = 0
+    if project['Duracao_meses'] > 12: risk_factors += 1
+    if project['Orcamento_R$'] < 50000: risk_factors += 1
+    if project['Tamanho_da_Equipe'] < 3: risk_factors += 1
+    if project['RecursosDisponiveis'] == 'baixo': risk_factors += 1
+    if user['Experiencia(anos)'] < 3: risk_factors += 1
+    
+    if risk_factors >= 3:
+        suggestions.append({
+            'categoria': 'Risco Geral do Projeto',
+            'problema': f'Múltiplos fatores de risco identificados ({risk_factors} fatores). Probabilidade de falha elevada.',
+            'sugestao': 'Considere reavaliar o projeto completamente. Implemente metodologia ágil com entregas frequentes.',
+            'impacto': 'Crítico'
+        })
+    elif risk_factors >= 2:
+        suggestions.append({
+            'categoria': 'Risco Geral do Projeto',
+            'problema': f'Alguns fatores de risco presentes ({risk_factors} fatores). Monitoramento necessário.',
+            'sugestao': 'Implemente reuniões de status semanais e marcos de validação mensais.',
+            'impacto': 'Alto'
         })
     
     return suggestions
 
 @app.route('/api/users')
 def get_users():
-    try:
-        if users_df is not None:
-            users = []
-            for _, user in users_df.iterrows():
-                users.append({
-                    'Usuario_ID': int(user['Usuario_ID']),
-                    'Nome': str(user['Nome']),
-                    'Cargo': str(user['Cargo']),
-                    'Experiencia(anos)': int(user['Experiencia(anos)']),
-                    'Sucesso_Medio(percentual)': float(user['Sucesso_Medio(percentual)']),
-                    'Historico_de_Projetos': str(user['Historico_de_Projetos'])
-                })
-            
-            return jsonify({
-                'sucesso': True,
-                'usuarios': users
-            })
-        else:
-            return jsonify({
-                'sucesso': False,
-                'erro': 'Base de usuários indisponível'
-            }), 500
-    except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': str(e)
-        }), 500
-
-@app.route('/api/users/cargo/<cargo>')
-def get_users_by_cargo(cargo):
-    try:
-        if users_df is not None:
-            users_filtered = users_df[users_df['Cargo'] == cargo]
-            users = []
-            for _, user in users_filtered.iterrows():
-                users.append({
-                    'Usuario_ID': int(user['Usuario_ID']),
-                    'Nome': str(user['Nome']),
-                    'Cargo': str(user['Cargo']),
-                    'Experiencia(anos)': int(user['Experiencia(anos)']),
-                    'Sucesso_Medio(percentual)': float(user['Sucesso_Medio(percentual)']),
-                    'Historico_de_Projetos': str(user['Historico_de_Projetos'])
-                })
-            
-            return jsonify({
-                'sucesso': True,
-                'usuarios': users
-            })
-        else:
-            return jsonify({
-                'sucesso': False,
-                'erro': 'Base de usuários indisponível'
-            }), 500
-    except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': str(e)
-        }), 500
-
-@app.route('/api/recommend', methods=['POST'])
-def recommend_users():
-    try:
-        data = request.get_json()
-        
-        project_data = {
-            'Duracao_meses': float(data['duracao']),
-            'Orcamento_R$': float(data['orcamento']),
-            'Tamanho_da_Equipe': int(data['tamanho_equipe']),
-            'RecursosDisponiveis': data['recursos'].lower()
-        }
-        
-        recommendations = []
-        
-        for _, user in users_df.iterrows():
-            result = model.predict_single_project(project_data, user['Cargo'])
-            
-            if 'error' not in result:
-                recommendations.append({
-                    'usuario_id': int(user['Usuario_ID']),
-                    'nome': str(user['Nome']),
-                    'cargo': str(user['Cargo']),
-                    'experiencia': int(user['Experiencia(anos)']),
-                    'sucesso_historico': float(user['Sucesso_Medio(percentual)']),
-                    'probabilidade_sucesso_projeto': float(result['success_probability'])
-                })
-        
-        recommendations.sort(key=lambda x: x['probabilidade_sucesso_projeto'], reverse=True)
-        
-        return jsonify({
-            'sucesso': True,
-            'recomendacoes': recommendations[:10]
-        })
-        
-    except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': str(e)
-        }), 500
+    return {'sucesso': True, 'usuarios': users.to_dict('records')}
 
 @app.route('/api/history')
 def get_history():
-    try:
-        history = session.get('conversation_history', [])
-        return jsonify({
-            'sucesso': True,
-            'historico': history
-        })
-    except Exception as e:
-        return jsonify({
-            'sucesso': False,
-            'erro': str(e)
-        }), 500
+    history = session.get('history', [])
+    return {'sucesso': True, 'historico': history}
 
 if __name__ == '__main__':
-    if initialize_model():
-        print("Sistema iniciado com sucesso!")
-        print("Acesse: http://localhost:5001")
-        app.run(debug=True, host='0.0.0.0', port=5001)
+    if init():
+        print("Server started: http://localhost:5001")
+        app.run(debug=True, port=5001)
     else:
-        print("Erro ao inicializar sistema.")
+        print("Failed to start")

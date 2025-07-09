@@ -19,7 +19,7 @@ def main():
     else:
         print("AVISO: Ambiente virtual não encontrado, usando Python do sistema.")
     
-    choice = input("\nEscolha uma opção:\n1 - Só backend\n2 - Só frontend\n3 - Ambos\n> ")
+    choice = input("\nEscolha uma opção:\n1 - Só backend\n2 - Só web chatbot\n3 - Ambos\n> ")
     
     if choice == "1":
         print("Iniciando backend...")
@@ -27,9 +27,9 @@ def main():
         os.system(f"{python_cmd} app.py")
     
     elif choice == "2":
-        print("Iniciando frontend...")
-        os.chdir("frontend")
-        os.system(f"{python_cmd} app.py")
+        print("Iniciando web chatbot...")
+        os.chdir("chat_bot/chatbot")
+        os.system(f"{python_cmd} web_chatbot.py")
     
     elif choice == "3":
         print("Iniciando ambos...")

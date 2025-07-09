@@ -4,18 +4,53 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.metrics import roc_auc_score
 import numpy as np
+import os
 
-project_data_path = '../datas/projetos_dataset.csv'
-user_data_path = '../datas/usuarios_dataset.csv'
+# Detectar o diretório base do projeto
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(os.path.dirname(script_dir))
 
-# CRiar e treinar modelo
+# Caminhos absolutos para os arquivos de dados
+project_data_path = os.path.join(project_root, 'ML', 'datas', 'projetos_dataset.csv')
+user_data_path = os.path.join(project_root, 'ML', 'datas', 'usuarios_dataset.csv')
+
+# Verificar se os arquivos existem
+if not os.path.exists(project_data_path):
+    print(f"Arquivo não encontrado: {project_data_path}")
+    print(f"Diretório atual: {os.getcwd()}")
+    print(f"Diretório do script: {script_dir}")
+    print(f"Raiz do projeto: {project_root}")
+    
+    # Listar arquivos disponíveis
+    datas_dir = os.path.join(project_root, 'ML', 'datas')
+    print(f"Arquivos disponíveis em {datas_dir}:")
+    if os.path.exists(datas_dir):
+        for file in os.listdir(datas_dir):
+            print(f"  - {file}")
+    else:
+        print(f"  Diretório {datas_dir} não existe")
+    exit(1)
+
+if not os.path.exists(user_data_path):
+    print(f"Arquivo não encontrado: {user_data_path}")
+    exit(1)
+
+print(f"Arquivos encontrados:")
+print(f"  - Projetos: {project_data_path}")
+print(f"  - Usuários: {user_data_path}")
+
+# Criar e treinar modelo
+print("Iniciando treinamento do modelo...")
 model = HybridProjectSuccessModel()
 
 if not model.load_data(project_data_path, user_data_path):
     print("Erro ao carregar dados. Verifique os caminhos dos arquivos.")
     exit(1)
 
+print("Dados carregados com sucesso")
+
 X, y = model.prepare_features()
+print(f"Features preparadas: {len(model.features)} features, {len(X)} registros")
 
 class_weights = compute_class_weight('balanced', classes=np.unique(y), y=y)
 weight_dict = {0: class_weights[0], 1: class_weights[1]}
@@ -23,6 +58,7 @@ weight_dict = {0: class_weights[0], 1: class_weights[1]}
 print(f"Pesos das classes: {weight_dict}")
 print(f"Sucessos: {np.mean(y)*100:.1f}%")
 
+print("Iniciando treinamento com Grid Search...")
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.25, random_state=42, stratify=y
 )
@@ -35,7 +71,7 @@ param_grid = {
     'min_samples_leaf': [1, 2]
 }
 
-grid_search = GridSearchCV(rf_clf, param_grid, cv=5, scoring='roc_auc', n_jobs=-1)
+grid_search = GridSearchCV(rf_clf, param_grid, cv=5, scoring='roc_auc', n_jobs=-1, verbose=1)
 grid_search.fit(X_train, y_train)
 
 model.model = grid_search.best_estimator_
@@ -49,9 +85,13 @@ auc_score = roc_auc_score(y_test, probas)
 print(f"\nAUC score: {auc_score:.4f}")
 print(f"Melhores parametros: {grid_search.best_params_}")
 
-# Salvar modelo
-model.save_model('trained_model.joblib')
-print("\nModelo salvo")
+# Salvar modelo no mesmo diretório do script
+model_path = os.path.join(script_dir, 'trained_model.joblib')
+print(f"Salvando modelo em: {model_path}")
+model.save_model(model_path)
+print(f"Modelo salvo: {model_path}")
+
+print()
 
 # Teste de predição
 test_project = {

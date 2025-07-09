@@ -18,6 +18,16 @@ echo.
 echo [2/2] Aguardando 3 segundos...
 timeout /t 3 /nobreak >nul
 
+echo Iniciando web chatbot (porta 5001)...
+start "Web Chatbot" cmd /k "cd chat_bot\chatbot && python web_chatbot.py"
+
+echo.
+echo Servidores iniciados!
+echo Backend API: http://localhost:5000
+echo Web Chatbot: http://localhost:5001
+echo.
+echo Pressione qualquer tecla para fechar este terminal...
+pause >nul
 echo Iniciando frontend (porta 3000)...
 start "Frontend" cmd /k "cd frontend && python app.py"
 

@@ -629,20 +629,20 @@
                         <div class="suggestions-list">`;
                     
                     result.sugestoes_melhoria.forEach((sugestao, index) => {
-                        const impactColor = sugestao.impacto.includes('Crítico') ? '#e74c3c' : 
-                                           sugestao.impacto.includes('Alto') ? '#e67e22' : 
-                                           sugestao.impacto.includes('Médio') ? '#f39c12' : '#27ae60';
+                        const impactColor = sugestao.impacto && sugestao.impacto.includes('Crítico') ? '#e74c3c' : 
+                                           sugestao.impacto && sugestao.impacto.includes('Alto') ? '#e67e22' : 
+                                           sugestao.impacto && sugestao.impacto.includes('Médio') ? '#f39c12' : '#27ae60';
                         
                         html += `
                             <div class="suggestion-item" style="margin-bottom: 15px; padding: 15px; background-color: white; border-left: 4px solid ${impactColor}; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                                 <div style="display: flex; justify-content: between; align-items: flex-start; margin-bottom: 8px;">
-                                    <strong style="color: #2c3e50; font-size: 14px;">${sugestao.categoria}</strong>
+                                    <strong style="color: #2c3e50; font-size: 14px;">${sugestao.categoria || 'Categoria não definida'}</strong>
                                     <span style="background-color: ${impactColor}; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: bold; margin-left: auto;">
-                                        ${sugestao.impacto}
+                                        ${sugestao.impacto || 'Baixo'}
                                     </span>
                                 </div>
-                                <p style="margin: 5px 0; color: #7f8c8d; font-size: 13px;"><strong>Problema:</strong> ${sugestao.problema}</p>
-                                <p style="margin: 5px 0; color: #2c3e50; font-size: 13px;"><strong>Sugestão:</strong> ${sugestao.sugestao}</p>
+                                <p style="margin: 5px 0; color: #7f8c8d; font-size: 13px;"><strong>Problema:</strong> ${sugestao.problema || 'Não especificado'}</p>
+                                <p style="margin: 5px 0; color: #2c3e50; font-size: 13px;"><strong>Sugestão:</strong> ${sugestao.sugestao || 'Não especificado'}</p>
                             </div>`;
                     });
                     

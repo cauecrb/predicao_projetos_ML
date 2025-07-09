@@ -66,15 +66,15 @@ if __name__ == "__main__":
     print("\n[2/2] Aguardando 3 segundos...")
     time.sleep(3)
     
-    # Frontend
-    print("Iniciando frontend (porta 3000)...")
-    frontend_cmd = [python_cmd, "app.py"]
-    frontend = subprocess.Popen(frontend_cmd, cwd="frontend")
-    processes.append(frontend)
+    # Web Chatbot
+    print("Iniciando web chatbot (porta 5001)...")
+    chatbot_cmd = [python_cmd, "web_chatbot.py"]
+    chatbot = subprocess.Popen(chatbot_cmd, cwd="chat_bot/chatbot")
+    processes.append(chatbot)
     
     print("\nServidores iniciados!")
-    print("Backend: http://localhost:5000")
-    print("Frontend: http://localhost:3000")
+    print("Backend API: http://localhost:5000")
+    print("Web Chatbot: http://localhost:5001")
     print("\nPressione Ctrl+C para parar os servidores...")
     
     try:
